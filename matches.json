@@ -1,7 +1,32 @@
 {
-  "published_unix": 1795045811.121752,
-  "content_signature": "c5e6fe81e2a7631020e395e13f3da230d682ed455b4c5cd52c8d85a067d6eb1d",
+  "published_unix": 1795046305.1733425,
+  "content_signature": "e59eb06e72b19217476da09af29a75abff49d9b87519707975c08717e7780be5",
   "matches": [
+    {
+      "key": "84a12b3036be37d0b5602e15",
+      "airbnb": "1630780219770090884",
+      "address": "UNIT 1531857P",
+      "airbnb_url": "https://www.airbnb.com/rooms/1630780219770090884",
+      "realtor_url": "https://www.realtor.com/rentals/details/7-Catfish-Ct-1531857P_Pooler_GA_31322_M97190-97466",
+      "verified": true,
+      "methods": [
+        "Earlier direct-photo matching",
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 31.22450723724469,
+      "inliers": 197,
+      "discovered_unix": 1795046282.7317545,
+      "photos": [
+        [
+          "assets/cbd863615470a01943cbb56a97ce370f.jpg",
+          "assets/7279c3cccd56a3e3b860c5b284f3182f.jpg"
+        ],
+        [
+          "assets/5758aa280c0ce426f7d317731ed4e760.jpg",
+          "assets/0084ec8a245b9f0401a7e76ab14e5707.jpg"
+        ]
+      ]
+    },
     {
       "key": "d2c33d06ffb0cecffa4c0677",
       "airbnb": "1599336895559554286",
@@ -591,30 +616,6 @@
         [
           "assets/3f7df135dab75851ca592c288876ee1c.jpg",
           "assets/859f37c6863336f2551607eb91ccc93a.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "84a12b3036be37d0b5602e15",
-      "airbnb": "1630780219770090884",
-      "address": "UNIT 1531857P",
-      "airbnb_url": "https://www.airbnb.com/rooms/1630780219770090884",
-      "realtor_url": "https://www.realtor.com/rentals/details/7-Catfish-Ct-1531857P_Pooler_GA_31322_M97190-97466",
-      "verified": true,
-      "methods": [
-        "Earlier direct-photo matching"
-      ],
-      "score": null,
-      "inliers": null,
-      "discovered_unix": 0,
-      "photos": [
-        [
-          "assets/5758aa280c0ce426f7d317731ed4e760.jpg",
-          "assets/0084ec8a245b9f0401a7e76ab14e5707.jpg"
-        ],
-        [
-          "assets/376cff4dc6f7160c6a35a11fa970dd78.jpg",
-          "assets/9e217af56f176dfe4573969eb021abac.jpg"
         ]
       ]
     },
@@ -1540,10 +1541,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 510,
+    "airbnb_checked": 522,
     "total_airbnb": 3631,
-    "airbnb_remaining": 3121,
-    "eta_seconds": 91454.34163060966,
-    "updated_unix": 1795045802.1654875
+    "airbnb_remaining": 3109,
+    "eta_seconds": 99790.06933183572,
+    "updated_unix": 1795046299.3871872
   }
 }
