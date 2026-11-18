@@ -1,27 +1,7 @@
 {
-  "published_unix": 1795045286.8095806,
-  "content_signature": "2735f9b273b6433d92263a617fa9d9669241f6ca39ac301bffb3f310d199dfe1",
+  "published_unix": 1795045811.121752,
+  "content_signature": "c5e6fe81e2a7631020e395e13f3da230d682ed455b4c5cd52c8d85a067d6eb1d",
   "matches": [
-    {
-      "key": "26d058b6a50d77695889697b",
-      "airbnb": "1299231801509783824",
-      "address": "906 BETZ CREEK RD_SAVANNAH_31410",
-      "airbnb_url": "https://www.airbnb.com/rooms/1299231801509783824",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/906-Betz-Creek-Rd_Savannah_GA_31410_M99505-07781",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 9.304976717406516,
-      "inliers": 54,
-      "discovered_unix": 1795043299.5941274,
-      "photos": [
-        [
-          "assets/a637654a1339ea5e3a503f17c15743b3.jpg",
-          "assets/a8c6d97f2aa168dd034209d9b5232d30.jpg"
-        ]
-      ]
-    },
     {
       "key": "d2c33d06ffb0cecffa4c0677",
       "airbnb": "1599336895559554286",
@@ -1560,10 +1540,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 493,
+    "airbnb_checked": 510,
     "total_airbnb": 3631,
-    "airbnb_remaining": 3138,
-    "eta_seconds": 86417.99790243227,
-    "updated_unix": 1795045279.7662761
+    "airbnb_remaining": 3121,
+    "eta_seconds": 91454.34163060966,
+    "updated_unix": 1795045802.1654875
   }
 }
