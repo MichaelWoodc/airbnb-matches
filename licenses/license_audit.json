@@ -1,5 +1,5 @@
 {
-  "generated_unix": 1795061729.2402887,
+  "generated_unix": 1795061995.7182043,
   "source_manifest": {
     "0": {
       "url": "https://services5.arcgis.com/CEpuXecVrKGiDoOH/ArcGIS/rest/services/STR_Map_and_Parcel_WFL1/FeatureServer/0",
@@ -99,7 +99,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -108,7 +108,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "110 E 38TH ST",
@@ -222,7 +222,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -231,7 +231,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "212 CASSIDY WAY",
@@ -263,7 +263,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -272,7 +272,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "315 DOGWOOD CIR",
@@ -304,7 +304,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -313,7 +313,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "315 DOGWOOD CIR",
@@ -345,7 +345,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -386,7 +386,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -427,7 +427,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -436,7 +436,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "1212 E 59TH ST",
@@ -673,7 +673,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -682,7 +682,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "545 GOVERNOR TREUTLEN CIR",
@@ -714,7 +714,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -723,7 +723,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "125 BIRCH CIR",
@@ -755,7 +755,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -764,7 +764,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "303 W 36TH ST",
@@ -1247,7 +1247,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -1256,7 +1256,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "408 SYMONS ST",
@@ -1288,7 +1288,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -1297,7 +1297,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "509 W 37TH ST",
@@ -1411,7 +1411,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -1420,7 +1420,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "14 10TH TER",
@@ -1944,7 +1944,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -1953,7 +1953,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "175 RICE MILL DR",
@@ -2190,7 +2190,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -2199,7 +2199,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "5 LONGLEAF CIR",
@@ -2231,7 +2231,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -2240,7 +2240,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "1415 BUTLER AVE",
@@ -2313,7 +2313,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -2322,7 +2322,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "421 E MELL ST",
@@ -2354,7 +2354,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -2363,7 +2363,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "313 MANDEN RD",
@@ -2395,7 +2395,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -2404,7 +2404,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "127 RAINDANCE RD",
@@ -2436,7 +2436,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -2445,7 +2445,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "411 CONGRESS ST W",
@@ -2518,7 +2518,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -2527,7 +2527,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "321 DOGWOOD CIR",
@@ -2559,7 +2559,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -2568,7 +2568,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "1704 INLET AVE",
@@ -2723,7 +2723,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -2732,7 +2732,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "47 KING HENRY CT",
@@ -3010,7 +3010,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -3019,7 +3019,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "302 WENDY HILL RD",
@@ -3215,7 +3215,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -3224,7 +3224,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
       "normalized_address": "710 PENN WALLER RD",
