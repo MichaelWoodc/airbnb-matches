@@ -1,27 +1,7 @@
 {
-  "published_unix": 1795063658.324395,
-  "content_signature": "88f5b7d394625881643facd2352a0adb69592a1fc1aa3f957a67cc5c5f88a183",
+  "published_unix": 1795063738.2277136,
+  "content_signature": "c517ba6657d74221efa10b7c5ffb3c830312f2c091730187f3d21e9e4f449df5",
   "matches": [
-    {
-      "key": "101ba2e79afc1e5b7c1609e8",
-      "airbnb": "1540106278465916942",
-      "address": "501 E CHARLTON ST_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/1540106278465916942",
-      "realtor_url": "https://www.realtor.com/rentals/details/501-E-Charlton-St_Savannah_GA_31401_M68668-88110",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 9.243120127509963,
-      "inliers": 55,
-      "discovered_unix": 1795063619.104404,
-      "photos": [
-        [
-          "assets/bc250a0baeef0fd612283b6e47675924.jpg",
-          "assets/8a78ce0d7eb9ba83991f46085a411582.jpg"
-        ]
-      ]
-    },
     {
       "key": "793cb8385f80cd986e8a6a49",
       "airbnb": "1517626017322149420",
@@ -2159,10 +2139,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1496,
+    "airbnb_checked": 1505,
     "total_airbnb": 2725,
-    "airbnb_remaining": 1229,
-    "eta_seconds": 14035.816579278635,
-    "updated_unix": 1795063655.7553747
+    "airbnb_remaining": 1220,
+    "eta_seconds": 12967.510265038938,
+    "updated_unix": 1795063727.0678377
   }
 }
