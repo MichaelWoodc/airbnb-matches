@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795072416.0756674,
-  "content_signature": "5df9205515f6c9dc7c27bd8720c2a92b828e2d3848b8e28c0c6b6c27c269bac6",
+  "published_unix": 1795072578.7766707,
+  "content_signature": "ee632a6886c8adc0e0b51e0feb3b0ad3a41427c09b70d4572d5e21dd0ff36525",
   "matches": [
     {
       "key": "7d764e820a312671526701a9",
@@ -2738,6 +2738,26 @@
       ]
     },
     {
+      "key": "32ecb7b1525152c31474b811",
+      "airbnb": "671795538517213675",
+      "address": "113 LAKE HOUSE RD_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/671795538517213675",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/113-Lake-House-Rd_Pooler_GA_31322_M54404-90049",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 35.510962137225114,
+      "inliers": 126,
+      "discovered_unix": 1795072563.1449978,
+      "photos": [
+        [
+          "assets/8b5fc7521638d1b47e5ee9806305a880.jpg",
+          "assets/c04d72ca3b7a0903d67b6131b7b0bf46.jpg"
+        ]
+      ]
+    },
+    {
       "key": "2bca7b3f489553b4c54cc333",
       "airbnb": "1751482998448630040",
       "address": "UNIT 301",
@@ -2819,10 +2839,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1971,
+    "airbnb_checked": 1972,
     "total_airbnb": 2691,
-    "airbnb_remaining": 720,
-    "eta_seconds": 25183.25296129499,
-    "updated_unix": 1795072404.7340572
+    "airbnb_remaining": 719,
+    "eta_seconds": 30048.815119295705,
+    "updated_unix": 1795072566.1209168
   }
 }
