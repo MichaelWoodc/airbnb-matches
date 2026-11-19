@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795065580.867972,
-  "content_signature": "88d1837f9ab26f8ba92d9c14512de7855ff30d7bc9757aeb6ca5c12ecd2a8926",
+  "published_unix": 1795065659.2739575,
+  "content_signature": "72c311beceef68348fa2d768b063c92e39d418bc147d7c969659243dbfb61839",
   "matches": [
     {
       "key": "4aef33f87a156cd084a95260",
@@ -2098,6 +2098,26 @@
       ]
     },
     {
+      "key": "31165fb8c22663660e8cccd2",
+      "airbnb": "7734023",
+      "address": "7 13th St_Tybee Island_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/7734023",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/7-13th-St_Tybee-Island_GA_31328_M56334-06905",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 7.870434055711292,
+      "inliers": 44,
+      "discovered_unix": 1795065576.7442706,
+      "photos": [
+        [
+          "assets/8c2ee402b950016f254af1b7b26b9935.jpg",
+          "assets/8ac273a1c01e669eb9db90f41957e5b6.jpg"
+        ]
+      ]
+    },
+    {
       "key": "393b6e563e71606ceabee676",
       "airbnb": "1552277049261402015",
       "address": "33 HAMILTON GROVE DR_POOLER_31322",
@@ -2339,10 +2359,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1629,
+    "airbnb_checked": 1636,
     "total_airbnb": 2723,
-    "airbnb_remaining": 1094,
-    "eta_seconds": 15267.273781396903,
-    "updated_unix": 1795065576.4326382
+    "airbnb_remaining": 1087,
+    "eta_seconds": 15497.192807606289,
+    "updated_unix": 1795065647.5055103
   }
 }
