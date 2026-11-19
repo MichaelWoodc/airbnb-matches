@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795062677.3625195,
-  "content_signature": "554dc08c50b201d509a9f4ed8077a0aa72a7f69cb5b81d697b249cb7190c7f0e",
+  "published_unix": 1795062938.7026532,
+  "content_signature": "bc44369b3feb887ff4515730dc1ceb96daf1d8c266290dfa535273c3356c7a2a",
   "matches": [
     {
       "key": "9ebcb6c6081af98dc1462805",
@@ -8,7 +8,7 @@
       "address": "709 2ND AVE_TYBEE ISLAND_31328",
       "airbnb_url": "https://www.airbnb.com/rooms/700694531535398394",
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/709-2nd-Ave_Tybee-Island_GA_31328_M59055-23888",
-      "verified": false,
+      "verified": true,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
@@ -2059,10 +2059,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1424,
-    "total_airbnb": 2728,
-    "airbnb_remaining": 1304,
-    "eta_seconds": 12650.367114125467,
-    "updated_unix": 1795062669.1410878
+    "airbnb_checked": 1437,
+    "total_airbnb": 2727,
+    "airbnb_remaining": 1290,
+    "eta_seconds": 14041.09404481187,
+    "updated_unix": 1795062926.7045307
   }
 }
