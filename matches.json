@@ -1,7 +1,47 @@
 {
-  "published_unix": 1795055078.610866,
-  "content_signature": "cdb6afcb706b1ac18df5e4d336158693c499ae84dfd246a09edbe0a00015ec5e",
+  "published_unix": 1795055213.234366,
+  "content_signature": "c0d95cd76ee7e6c1e38eeffe83690c336e25ce6aa94613a7a7e4f536a576c5a6",
   "matches": [
+    {
+      "key": "cf756b4ea5230a403d8621d6",
+      "airbnb": "1527908669890523241",
+      "address": "13 TARA MANOR DR_SAVANNAH_31406",
+      "airbnb_url": "https://www.airbnb.com/rooms/1527908669890523241",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/13-Tara-Manor-Dr_Savannah_GA_31406_M67679-85829",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 32.42325519334493,
+      "inliers": 125,
+      "discovered_unix": 1795055180.6667993,
+      "photos": [
+        [
+          "assets/ac2376b7ab35ce387459eaf907620c61.jpg",
+          "assets/c95ad81d1154eeaba0eeaccad350b45b.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "c069a6b350f364d6fcc5fe74",
+      "airbnb": "42621247",
+      "address": "302 WENDY HILL RD_SAVANNAH_31410",
+      "airbnb_url": "https://www.airbnb.com/rooms/42621247",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/302-Wendy-Hill-Rd_Savannah_GA_31410_M60115-24463",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 67.02857399930431,
+      "inliers": 181,
+      "discovered_unix": 1795055169.9143934,
+      "photos": [
+        [
+          "assets/83efa307e613c608d2885a56ddfd294e.jpg",
+          "assets/0a3f0083961e80c9c8f55bf03cca2dd4.jpg"
+        ]
+      ]
+    },
     {
       "key": "183faee1a0dfc17ec212b3c9",
       "airbnb": "1166610158380549574",
@@ -1681,10 +1721,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 690,
+    "airbnb_checked": 703,
     "total_airbnb": 2744,
-    "airbnb_remaining": 2054,
-    "eta_seconds": 13134.029436296345,
-    "updated_unix": 1795055062.3522286
+    "airbnb_remaining": 2041,
+    "eta_seconds": 15251.317141790778,
+    "updated_unix": 1795055205.2089436
   }
 }
