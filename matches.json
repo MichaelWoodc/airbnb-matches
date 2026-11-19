@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795066529.1230588,
-  "content_signature": "061944a438d23d2b432e7b8971c6006244b4ceb7c819d6ad64f1c5b0b086346a",
+  "published_unix": 1795066618.7989962,
+  "content_signature": "4fcda147c90238f2337128e23b84b579ce7e988e20b97fc6dba7e74276c93328",
   "matches": [
     {
       "key": "cdc101745762eff2acade876",
@@ -2298,46 +2298,6 @@
       ]
     },
     {
-      "key": "45066dfd556a79781ef1f2aa",
-      "airbnb": "1394859714803404557",
-      "address": "104 Butler Ave_Tybee Island_31328 -- 104-Butler-Ave_Tybee-Island_GA_31328_M62277-64572-efabbdf09c59",
-      "airbnb_url": "https://www.airbnb.com/rooms/1394859714803404557",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/104-Butler-Ave_Tybee-Island_GA_31328_M62277-64572",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 8.825090307464919,
-      "inliers": 48,
-      "discovered_unix": 1795066292.4097278,
-      "photos": [
-        [
-          "assets/1d3bf2bd7463c0abd9a8f15d88789159.jpg",
-          "assets/0d97463570f3a4066ae877502c2f376d.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "fdfb4645f54fc67b5a29fda8",
-      "airbnb": "10267190",
-      "address": "7 14th St_Tybee Island_31328 -- 7-14th-St_Tybee-Island_GA_31328_M52204-50737-566a8dc3b93c",
-      "airbnb_url": "https://www.airbnb.com/rooms/10267190",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/7-14th-St_Tybee-Island_GA_31328_M52204-50737",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 12.578454812979922,
-      "inliers": 55,
-      "discovered_unix": 1795064497.8382115,
-      "photos": [
-        [
-          "assets/a4110960f023f3b98e8d16caf756a9da.jpg",
-          "assets/46587c56ab37e6d622d9b110253e35aa.jpg"
-        ]
-      ]
-    },
-    {
       "key": "2bca7b3f489553b4c54cc333",
       "airbnb": "1751482998448630040",
       "address": "UNIT 301",
@@ -2419,10 +2379,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1681,
+    "airbnb_checked": 1688,
     "total_airbnb": 2715,
-    "airbnb_remaining": 1034,
-    "eta_seconds": 18238.888552704637,
-    "updated_unix": 1795066518.1002507
+    "airbnb_remaining": 1027,
+    "eta_seconds": 15167.143894278272,
+    "updated_unix": 1795066607.9481313
   }
 }
