@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795074547.300521,
-  "content_signature": "2168ca2f7187bf4f8f8d6a14c6dfec994c54110bdc25bf1f864042302a5d14e8",
+  "published_unix": 1795074764.6936955,
+  "content_signature": "42d6387cb9d327d60c49c82f721f44f5ecffbd3d87db8e7c56dd201a38df3e24",
   "matches": [
     {
       "key": "7d6013ca091827c75d4872c4",
@@ -2838,6 +2838,26 @@
       ]
     },
     {
+      "key": "807c9d16556b83b6a4f179df",
+      "airbnb": "1691980679527172170",
+      "address": "1258 HOMER CITY WAY_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1691980679527172170",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1258-Homer-City-Way_Pooler_GA_31322_M65839-50738",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 30.070989423154565,
+      "inliers": 173,
+      "discovered_unix": 1795074718.734432,
+      "photos": [
+        [
+          "assets/44e23c96adeae5224a01ad0e5a158b80.jpg",
+          "assets/e0d994127f2193e76652c7170d2099f5.jpg"
+        ]
+      ]
+    },
+    {
       "key": "2ee5c2397f2b18a7bbf11ff0",
       "airbnb": "1624986930457358209",
       "address": "496 FLAT ROCK TRCE_PORT WENTWORTH_31407",
@@ -2939,10 +2959,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2024,
+    "airbnb_checked": 2026,
     "total_airbnb": 2686,
-    "airbnb_remaining": 662,
-    "eta_seconds": 26028.153708847203,
-    "updated_unix": 1795074535.926046
+    "airbnb_remaining": 660,
+    "eta_seconds": 28256.2958581107,
+    "updated_unix": 1795074752.0820858
   }
 }
