@@ -1,5 +1,5 @@
 {
-  "generated_unix": 1795061328.080271,
+  "generated_unix": 1795061729.2402887,
   "source_manifest": {
     "0": {
       "url": "https://services5.arcgis.com/CEpuXecVrKGiDoOH/ArcGIS/rest/services/STR_Map_and_Parcel_WFL1/FeatureServer/0",
@@ -21,9 +21,9 @@
     "boundary_fetched_unix": 1795046372.9213305
   },
   "counts": {
-    "outside_scope": 41,
-    "review": 19,
-    "license_not_shown": 9,
+    "review": 21,
+    "outside_scope": 23,
+    "license_not_shown": 25,
     "license_shown": 14,
     "unlicensed": 4
   },
@@ -49,7 +49,7 @@
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1603-Lovell-Ave_Tybee-Island_GA_31328_M59509-13806",
       "address": "1603 Lovell Ave",
       "unit": "",
-      "category": "outside_scope",
+      "category": "review",
       "jurisdiction": "TYBEE ISLAND",
       "latitude": 31.99237,
       "longitude": -80.850299,
@@ -58,8 +58,8 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4000816008",
@@ -67,7 +67,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "License list coverage remains unresolved for this address and unit."
     },
     {
       "normalized_address": "121 COLD CREEK PASS",
@@ -481,7 +481,7 @@
     },
     {
       "normalized_address": "1415 BUTLER AVE",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -500,7 +500,7 @@
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1415-Butler-Ave-16_Tybee-Island_GA_31328_M69153-33835",
       "address": "1415 Butler Ave Unit 16",
       "unit": "16",
-      "category": "outside_scope",
+      "category": "license_not_shown",
       "jurisdiction": "TYBEE ISLAND",
       "latitude": 31.994144,
       "longitude": -80.848822,
@@ -508,9 +508,9 @@
       "license_display": "not_shown_in_saved_text",
       "displayed_numbers": "",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0011",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4000717021",
@@ -518,11 +518,11 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "10 NAYLOR AVE",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -541,7 +541,7 @@
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/10-Naylor-Ave_Tybee-Island_GA_31328_M58800-71249",
       "address": "10 Naylor Ave",
       "unit": "",
-      "category": "outside_scope",
+      "category": "license_not_shown",
       "jurisdiction": "TYBEE ISLAND",
       "latitude": 32.0177,
       "longitude": -80.848573,
@@ -549,9 +549,9 @@
       "license_display": "not_shown_in_saved_text",
       "displayed_numbers": "",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0008",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4001901010B",
@@ -559,11 +559,11 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "12 NAYLOR AVE",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -582,7 +582,7 @@
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/12-Naylor-Ave_Tybee-Island_GA_31328_M58799-59451",
       "address": "12 Naylor Ave",
       "unit": "",
-      "category": "outside_scope",
+      "category": "license_not_shown",
       "jurisdiction": "TYBEE ISLAND",
       "latitude": 32.017769,
       "longitude": -80.848666,
@@ -590,9 +590,9 @@
       "license_display": "not_shown_in_saved_text",
       "displayed_numbers": "",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0007",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4001901010",
@@ -600,11 +600,11 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "12 NAYLOR AVE",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -623,7 +623,7 @@
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/12-Naylor-Ave_Tybee-Island_GA_31328_M58799-59451",
       "address": "12 Naylor Ave",
       "unit": "",
-      "category": "outside_scope",
+      "category": "license_not_shown",
       "jurisdiction": "TYBEE ISLAND",
       "latitude": 32.017769,
       "longitude": -80.848666,
@@ -631,9 +631,9 @@
       "license_display": "not_shown_in_saved_text",
       "displayed_numbers": "",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0007",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4001901010",
@@ -641,7 +641,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "120 ROMMEL AVE",
@@ -1124,7 +1124,7 @@
       "displayed_numbers": "STR-2026",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "Tybee Island",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -1133,11 +1133,11 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "License list coverage remains unresolved for this address and unit."
     },
     {
       "normalized_address": "14 13TH LN",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1156,7 +1156,7 @@
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/14-13th-Ln_Tybee-Island_GA_31328_M51335-35738",
       "address": "14 13th Ln",
       "unit": "",
-      "category": "outside_scope",
+      "category": "license_not_shown",
       "jurisdiction": "TYBEE ISLAND",
       "latitude": 31.995636,
       "longitude": -80.847238,
@@ -1164,9 +1164,9 @@
       "license_display": "not_shown_in_saved_text",
       "displayed_numbers": "",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0657",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4000705027",
@@ -1174,11 +1174,11 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "8 17TH PL",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1205,9 +1205,9 @@
       "license_display": "shown",
       "displayed_numbers": "STVR-2026-0369",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0369",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "",
@@ -1215,7 +1215,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "27 CEDAR CREEK LN",
@@ -1342,7 +1342,7 @@
     },
     {
       "normalized_address": "5 17TH PL",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1369,9 +1369,9 @@
       "license_display": "shown",
       "displayed_numbers": "STR-2021",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0977",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "",
@@ -1379,7 +1379,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "103 CHERRY ST",
@@ -1452,7 +1452,7 @@
       "displayed_numbers": "STR-2026-1432",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "Tybee Island",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -1461,7 +1461,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "License list coverage remains unresolved for this address and unit."
     },
     {
       "normalized_address": "8522 LABERTA BLVD",
@@ -1506,7 +1506,7 @@
     },
     {
       "normalized_address": "12 18TH TER",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1525,7 +1525,7 @@
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/12-18th-Ter_Tybee-Island_GA_31328_M61685-57855",
       "address": "12 18th Ter",
       "unit": "",
-      "category": "outside_scope",
+      "category": "license_not_shown",
       "jurisdiction": "TYBEE ISLAND",
       "latitude": 31.989004,
       "longitude": -80.849809,
@@ -1533,9 +1533,9 @@
       "license_display": "not_shown_in_saved_text",
       "displayed_numbers": "",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0244",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4000906013",
@@ -1543,11 +1543,11 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "1415 BUTLER AVE",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1574,9 +1574,9 @@
       "license_display": "shown",
       "displayed_numbers": "STR-2025-1085",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0595",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4000717024",
@@ -1584,7 +1584,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "311 E HUNTINGDON ST",
@@ -1752,7 +1752,7 @@
     },
     {
       "normalized_address": "1404 SOLOMON AVE",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1779,9 +1779,9 @@
       "license_display": "shown",
       "displayed_numbers": "STVR-2026-0299",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0299",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4002601007",
@@ -1789,7 +1789,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "206 W DUFFY ST",
@@ -1998,7 +1998,7 @@
     },
     {
       "normalized_address": "1511 JONES AVE",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2025,9 +2025,9 @@
       "license_display": "shown",
       "displayed_numbers": "STVR-2026-0327",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0327",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4000810021",
@@ -2035,7 +2035,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "211 SEA ISLAND DR",
@@ -2080,7 +2080,7 @@
     },
     {
       "normalized_address": "1214 BAY ST",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2107,9 +2107,9 @@
       "license_display": "shown",
       "displayed_numbers": "STR-2021",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0650",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4002115020",
@@ -2117,7 +2117,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "413 E JONES ST",
@@ -2244,7 +2244,7 @@
     },
     {
       "normalized_address": "1415 BUTLER AVE",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2263,7 +2263,7 @@
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1415-Butler-Ave-19_Tybee-Island_GA_31328_M69151-10239",
       "address": "1415 Butler Ave Unit 19",
       "unit": "19",
-      "category": "outside_scope",
+      "category": "license_not_shown",
       "jurisdiction": "TYBEE ISLAND",
       "latitude": 31.994266,
       "longitude": -80.848914,
@@ -2271,9 +2271,9 @@
       "license_display": "not_shown_in_saved_text",
       "displayed_numbers": "",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0595",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4000717024",
@@ -2281,7 +2281,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "217 HOLLY AVE",
@@ -2572,7 +2572,7 @@
     },
     {
       "normalized_address": "1704 INLET AVE",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2599,9 +2599,9 @@
       "license_display": "shown",
       "displayed_numbers": "STR-2026-0959",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0959",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4000901010",
@@ -2609,7 +2609,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "1603 LOVELL AVE",
@@ -2641,8 +2641,8 @@
       "displayed_numbers": "STVR-2026-1127",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4000816008",
@@ -2650,11 +2650,11 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "License list coverage remains unresolved for this address and unit."
     },
     {
       "normalized_address": "10 LOVELL AVE",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2673,7 +2673,7 @@
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/10-Lovell-Ave_Tybee-Island_GA_31328_M98099-06090",
       "address": "10 Lovell Ave",
       "unit": "",
-      "category": "outside_scope",
+      "category": "license_not_shown",
       "jurisdiction": "TYBEE ISLAND",
       "latitude": 32.012935,
       "longitude": -80.841375,
@@ -2681,9 +2681,9 @@
       "license_display": "not_shown_in_saved_text",
       "displayed_numbers": "",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-1250",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4000318004",
@@ -2691,7 +2691,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "35 MOONLIGHT TRL",
@@ -2777,7 +2777,7 @@
     },
     {
       "normalized_address": "29 TAYLOR ST",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2796,7 +2796,7 @@
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/29-Taylor-St_Tybee-Island_GA_31328_M54910-51006",
       "address": "29 Taylor St",
       "unit": "",
-      "category": "outside_scope",
+      "category": "license_not_shown",
       "jurisdiction": "TYBEE ISLAND",
       "latitude": 32.0231,
       "longitude": -80.845501,
@@ -2804,9 +2804,9 @@
       "license_display": "not_shown_in_saved_text",
       "displayed_numbers": "",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0205",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4000107006",
@@ -2814,11 +2814,11 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "17 N CAMPBELL AVE",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2837,7 +2837,7 @@
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/17-N-Campbell-Ave_Tybee-Island_GA_31328_M51243-24935",
       "address": "17 N Campbell Ave",
       "unit": "",
-      "category": "outside_scope",
+      "category": "license_not_shown",
       "jurisdiction": "TYBEE ISLAND",
       "latitude": 32.017247,
       "longitude": -80.846817,
@@ -2845,9 +2845,9 @@
       "license_display": "not_shown_in_saved_text",
       "displayed_numbers": "",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0225",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4000216020",
@@ -2855,7 +2855,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "40 REESE WAY",
@@ -2900,7 +2900,7 @@
     },
     {
       "normalized_address": "1608 JONES AVE",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2927,9 +2927,9 @@
       "license_display": "shown",
       "displayed_numbers": "STVR-2025-0809",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0809",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4000814025",
@@ -2937,11 +2937,11 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "301 10TH ST",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2968,9 +2968,9 @@
       "license_display": "shown",
       "displayed_numbers": "STR-2021",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0903",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "",
@@ -2978,7 +2978,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "103 SKINNER RD",
@@ -3064,7 +3064,7 @@
     },
     {
       "normalized_address": "149 S CAMPBELL AVE",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3083,7 +3083,7 @@
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/149-S-Campbell-Ave-Apt-B_Tybee-Island_GA_31328_M52787-15503",
       "address": "149 S Campbell Ave Apt B",
       "unit": "B",
-      "category": "outside_scope",
+      "category": "license_not_shown",
       "jurisdiction": "TYBEE ISLAND",
       "latitude": 32.011049,
       "longitude": -80.852943,
@@ -3091,9 +3091,9 @@
       "license_display": "not_shown_in_saved_text",
       "displayed_numbers": "",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0064",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4001601028",
@@ -3101,7 +3101,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "13 TARA MANOR DR",
@@ -3165,7 +3165,7 @@
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3325-Bannon-Dr_Savannah_GA_31404_M63145-17975",
       "address": "3325 Bannon Ave",
       "unit": "",
-      "category": "outside_scope",
+      "category": "review",
       "jurisdiction": "THUNDERBOLT",
       "latitude": 32.028055,
       "longitude": -81.051638,
@@ -3174,7 +3174,7 @@
       "displayed_numbers": "",
       "numeric_license_matches": "",
       "matched_permits": "",
-      "agency": "Chatham County",
+      "agency": "Thunderbolt",
       "source_status": "",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
@@ -3183,7 +3183,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "License list coverage remains unresolved for this address and unit."
     },
     {
       "normalized_address": "203 FOXBURY SQ",
@@ -3269,7 +3269,7 @@
     },
     {
       "normalized_address": "1111 BAY ST",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3288,7 +3288,7 @@
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1111-Bay-St-Unit-B_Tybee-Island_GA_31328_M52756-75685",
       "address": "1111 Bay St Unit B",
       "unit": "B",
-      "category": "outside_scope",
+      "category": "license_not_shown",
       "jurisdiction": "TYBEE ISLAND",
       "latitude": 32.022855,
       "longitude": -80.856543,
@@ -3296,9 +3296,9 @@
       "license_display": "not_shown_in_saved_text",
       "displayed_numbers": "",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-1254",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4002116088",
@@ -3306,11 +3306,11 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "12 SEA BREEZE LN",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3329,7 +3329,7 @@
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/12-Sea-Breeze-Ln_Tybee-Island_GA_31328_M58868-16385",
       "address": "12 Sea Breeze Ln",
       "unit": "",
-      "category": "outside_scope",
+      "category": "license_not_shown",
       "jurisdiction": "TYBEE ISLAND",
       "latitude": 32.02452,
       "longitude": -80.851417,
@@ -3337,9 +3337,9 @@
       "license_display": "not_shown_in_saved_text",
       "displayed_numbers": "",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-1203",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4002116073",
@@ -3347,11 +3347,11 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "101 19TH ST",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3370,7 +3370,7 @@
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/101-19th-St_Tybee-Island_GA_31328_M52168-83541",
       "address": "101 19th St",
       "unit": "",
-      "category": "outside_scope",
+      "category": "license_not_shown",
       "jurisdiction": "TYBEE ISLAND",
       "latitude": 31.987973,
       "longitude": -80.851237,
@@ -3378,9 +3378,9 @@
       "license_display": "not_shown_in_saved_text",
       "displayed_numbers": "",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-1011",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4000909001",
@@ -3388,11 +3388,11 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "7 6TH TER",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3411,7 +3411,7 @@
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/7-6th-Ter_Tybee-Island_GA_31328_M61630-42495",
       "address": "7 6th Ter",
       "unit": "",
-      "category": "outside_scope",
+      "category": "license_not_shown",
       "jurisdiction": "TYBEE ISLAND",
       "latitude": 32.005953,
       "longitude": -80.843135,
@@ -3419,9 +3419,9 @@
       "license_display": "not_shown_in_saved_text",
       "displayed_numbers": "",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-0228",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4000508007",
@@ -3429,7 +3429,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
       "normalized_address": "411 W CONGRESS ST",
@@ -3556,7 +3556,7 @@
     },
     {
       "normalized_address": "11 9TH ST",
-      "licensed_exact_unit": false,
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3575,7 +3575,7 @@
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/11-9th-St_Tybee-Island_GA_31328_M55908-60083",
       "address": "11 9th St",
       "unit": "",
-      "category": "outside_scope",
+      "category": "license_not_shown",
       "jurisdiction": "TYBEE ISLAND",
       "latitude": 32.002058,
       "longitude": -80.845133,
@@ -3583,9 +3583,9 @@
       "license_display": "not_shown_in_saved_text",
       "displayed_numbers": "",
       "numeric_license_matches": "",
-      "matched_permits": "",
-      "agency": "Chatham County",
-      "source_status": "",
+      "matched_permits": "2025-1038",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
       "license_match_basis": "normalized street; unit checked where present",
       "permit_scope": "address association; exact rental-unit coverage may require review",
       "assessor_pin": "4000604005",
@@ -3593,7 +3593,7 @@
       "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
-      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+      "classification_note": "Address and unit matched the Tybee Island license list."
     }
   ],
   "note": "Only explicitly user-confirmed property matches are categorized. Unlicensed means no matching record in the referenced sources; it is a review flag, not a legal finding. Other municipalities remain outside this report scope."
