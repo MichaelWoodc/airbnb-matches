@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795070426.1885607,
-  "content_signature": "c8cc71bdfb2ff50bc87f4ac13668ba898171a0a42f877e953698d793b57d1adc",
+  "published_unix": 1795070518.5920758,
+  "content_signature": "5e310b31faea608a99646cbb0e8ad9f4cfddf24ead965f09b78a661a1cb60fed",
   "matches": [
     {
       "key": "7dc40effeae808d9bf77dea0",
@@ -39,6 +39,26 @@
         [
           "assets/987ceadb225cf52436af59a2dee732e1.jpg",
           "assets/6d0b737e3d58b4a565a99677849609fc.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "1bf43d1830ef2aa71dbf0cc8",
+      "airbnb": "1124594519201402540",
+      "address": "2 VILLAGE PL #B_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1124594519201402540",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/2-Village-Pl-B_Tybee-Island_GA_31328_M60581-65188",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 35.58977295747246,
+      "inliers": 146,
+      "discovered_unix": 1795069276.508309,
+      "photos": [
+        [
+          "assets/fcd5926732d96b46427b8f69b58cbf78.jpg",
+          "assets/86a5d5dbfb64b2d18b4329ac16da04b5.jpg"
         ]
       ]
     },
@@ -2638,82 +2658,22 @@
       ]
     },
     {
-      "key": "e1e8b8d2b408e031c1def968",
-      "airbnb": "52564120",
-      "address": "302 E Waldburg St_Savannah_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/52564120",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/302-E-Waldburg-St_Savannah_GA_31401_M69101-53869",
+      "key": "9f77121335901492fec65856",
+      "airbnb": "43532239",
+      "address": "14 11TH PL_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/43532239",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/14-11th-Pl_Tybee-Island_GA_31328_M64594-45224",
       "verified": false,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
-      "score": 12.859109147990537,
-      "inliers": 63,
-      "discovered_unix": 1795069822.2298706,
+      "score": 54.53390410023437,
+      "inliers": 137,
+      "discovered_unix": 1795070494.847875,
       "photos": [
         [
-          "assets/ada4e0e58e91ba05e4791629e6f770c7.jpg",
-          "assets/7b4e530d480b2f72b3b34cc264ffafac.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "09bcacfd223443a1020b3946",
-      "airbnb": "802206418102098290",
-      "address": "1411 CHATHAM AVE_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/802206418102098290",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1411-Chatham-Ave_Tybee-Island_GA_31328_M65673-85064",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 11.93016179908268,
-      "inliers": 69,
-      "discovered_unix": 1795069543.176306,
-      "photos": [
-        [
-          "assets/1d9aa77c1888bdd6c9b1c98a5630bb37.jpg",
-          "assets/1a623c0f73e195415ef974740120a1b9.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "76cd9d2e3e756e396cc4af55",
-      "airbnb": "1217341593775082484",
-      "address": "1411 CHATHAM AVE_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/1217341593775082484",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1411-Chatham-Ave_Tybee-Island_GA_31328_M65673-85064",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 9.194583205333545,
-      "inliers": 52,
-      "discovered_unix": 1795069534.7701247,
-      "photos": [
-        [
-          "assets/b63bf6c9bf867864285696787fc2d241.jpg",
-          "assets/1a623c0f73e195415ef974740120a1b9.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "1bf43d1830ef2aa71dbf0cc8",
-      "airbnb": "1124594519201402540",
-      "address": "2 VILLAGE PL #B_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/1124594519201402540",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/2-Village-Pl-B_Tybee-Island_GA_31328_M60581-65188",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 35.58977295747246,
-      "inliers": 146,
-      "discovered_unix": 1795069276.508309,
-      "photos": [
-        [
-          "assets/fcd5926732d96b46427b8f69b58cbf78.jpg",
-          "assets/86a5d5dbfb64b2d18b4329ac16da04b5.jpg"
+          "assets/60b0460b8da2538e92b495a8774807ea.jpg",
+          "assets/cccc14e1c8872d4635d6cae19e4c8d9e.jpg"
         ]
       ]
     },
@@ -2799,10 +2759,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1913,
-    "total_airbnb": 2696,
-    "airbnb_remaining": 783,
-    "eta_seconds": 9207.943794863566,
-    "updated_unix": 1795070412.6244318
+    "airbnb_checked": 1923,
+    "total_airbnb": 2695,
+    "airbnb_remaining": 772,
+    "eta_seconds": 9062.302056059545,
+    "updated_unix": 1795070505.5730815
   }
 }

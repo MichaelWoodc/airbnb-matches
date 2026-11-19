@@ -1,5 +1,5 @@
 {
-  "generated_unix": 1795070430.1641207,
+  "generated_unix": 1795070522.4692855,
   "source_manifest": {
     "0": {
       "url": "https://services5.arcgis.com/CEpuXecVrKGiDoOH/ArcGIS/rest/services/STR_Map_and_Parcel_WFL1/FeatureServer/0",
@@ -23,7 +23,7 @@
   "counts": {
     "review": 24,
     "outside_scope": 29,
-    "license_not_shown": 48,
+    "license_not_shown": 49,
     "unlicensed": 6,
     "license_shown": 14
   },
@@ -4988,6 +4988,47 @@
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
+    },
+    {
+      "normalized_address": "2 VILLAGE PL",
+      "licensed_exact_unit": true,
+      "rental_term_note": "",
+      "rental_term_source": "",
+      "address_proof_url": "",
+      "address_correction_note": "",
+      "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/1bf43d1830ef2aa71dbf0cc8.html",
+      "listing_title": "Sea Breeze Terrace HOT TUB & Elevator & Game Room",
+      "rental_type": "Entire townhouse",
+      "host_name": "Miranda",
+      "advertised_capacity": 8,
+      "bedrooms": 3,
+      "legal_limit": "",
+      "legal_limit_source": "Not established from matched license records",
+      "airbnb": "1124594519201402540",
+      "airbnb_url": "https://www.airbnb.com/rooms/1124594519201402540",
+      "realtor_property": "TYBEE ISLAND/VILLAGE PL/2 VILLAGE PL #B_TYBEE ISLAND_31328",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/2-Village-Pl-B_Tybee-Island_GA_31328_M60581-65188",
+      "address": "2 Village Pl Unit B",
+      "unit": "B",
+      "category": "license_not_shown",
+      "jurisdiction": "TYBEE ISLAND",
+      "latitude": 32.012018,
+      "longitude": -80.844757,
+      "coordinate_basis": "Realtor saved property coordinates",
+      "license_display": "not_shown_in_saved_text",
+      "displayed_numbers": "",
+      "numeric_license_matches": "",
+      "matched_permits": "2025-0055",
+      "agency": "Tybee Island",
+      "source_status": "source_listed",
+      "license_match_basis": "normalized street; unit checked where present",
+      "permit_scope": "address association; exact rental-unit coverage may require review",
+      "assessor_pin": "4000312026",
+      "verified_unix": 1795070498.3501914,
+      "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
+      "county_snapshot_fetched_unix": 1795046366.71445,
+      "conflicting_property_matches": false,
+      "classification_note": "Address and unit matched the Tybee Island license list."
     }
   ],
   "note": "Only explicitly user-confirmed property matches are categorized. Unlicensed means no matching record in the referenced sources; it is a review flag, not a legal finding. The audit checks Savannah, Tybee Island, Thunderbolt, and unincorporated Chatham County sources."
