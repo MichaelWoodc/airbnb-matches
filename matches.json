@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795054213.127614,
-  "content_signature": "bad8d49031ebce7e5efa19905d35c2d7bd4bffea21d1ea43195fd1552a6a977c",
+  "published_unix": 1795054370.3689036,
+  "content_signature": "fdae87850839248ee56156a5bdcc1760450d120833ce4fbcde5181a1e4a6a614",
   "matches": [
+    {
+      "key": "a1d11782da95cdde53b5ac23",
+      "airbnb": "565084108255035813",
+      "address": "301 10th St_Tybee Island_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/565084108255035813",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/301-10th-St_Tybee-Island_GA_31328_M66045-85921",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 26.371282747270822,
+      "inliers": 107,
+      "discovered_unix": 1795054320.1977093,
+      "photos": [
+        [
+          "assets/2e1b5ed5d5c2e046eb8d5d14fcfe9e14.jpg",
+          "assets/d8d017ca402a06cdac5dd7a67ac2d166.jpg"
+        ]
+      ]
+    },
     {
       "key": "451bbbee033dad6a8a8e768d",
       "airbnb": "1008583598206861190",
@@ -1582,9 +1602,9 @@
   ],
   "progress": {
     "airbnb_checked": 662,
-    "total_airbnb": 3105,
-    "airbnb_remaining": 2443,
-    "eta_seconds": 13935.468604530608,
-    "updated_unix": 1795054199.1351447
+    "total_airbnb": 3004,
+    "airbnb_remaining": 2342,
+    "eta_seconds": 13556.150940680991,
+    "updated_unix": 1795054358.3048115
   }
 }
