@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795060114.2346303,
-  "content_signature": "6ebee42e184691ba765c9bd546c1f6f3a11319298bd756d0acceff070e7816b2",
+  "published_unix": 1795060186.839325,
+  "content_signature": "3aae76160c6215e5134f7eb3c6e2c181c03a6045c14fcf1251f2ffdfed0058b7",
   "matches": [
+    {
+      "key": "43246a16af8610ea9396e61c",
+      "airbnb": "649295630343075780",
+      "address": "7 6TH TER_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/649295630343075780",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/7-6th-Ter_Tybee-Island_GA_31328_M61630-42495",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 27.55396757078102,
+      "inliers": 141,
+      "discovered_unix": 1795060127.4991338,
+      "photos": [
+        [
+          "assets/5bd4e14443543b077a553ee837d7aef1.jpg",
+          "assets/c22681127e50e91c7a5657d290ca9613.jpg"
+        ]
+      ]
+    },
     {
       "key": "5d33a90d866a9c9b4aaabd76",
       "airbnb": "1095471167424152872",
@@ -1865,10 +1885,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1170,
+    "airbnb_checked": 1174,
     "total_airbnb": 2735,
-    "airbnb_remaining": 1565,
-    "eta_seconds": 17380.855824971684,
-    "updated_unix": 1795060107.6987374
+    "airbnb_remaining": 1561,
+    "eta_seconds": 17762.35342468534,
+    "updated_unix": 1795060175.233508
   }
 }
