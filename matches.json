@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795072234.523564,
-  "content_signature": "606b773bf393e1ff35582203eb987aee31f060a6a66592f7a151a9288b243ff4",
+  "published_unix": 1795072327.2486207,
+  "content_signature": "96100ff9d53c75c3b821b4b9ba8ae713b34cea893e87b8029d3e86b7528352c4",
   "matches": [
     {
       "key": "9f77121335901492fec65856",
@@ -2678,26 +2678,6 @@
       ]
     },
     {
-      "key": "be721419b90557c144c777cf",
-      "airbnb": "1497224771923616042",
-      "address": "302 E Waldburg St_Savannah_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/1497224771923616042",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/302-E-Waldburg-St_Savannah_GA_31401_M69101-53869",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 11.637412860731224,
-      "inliers": 79,
-      "discovered_unix": 1795072194.8416255,
-      "photos": [
-        [
-          "assets/69c5587f94afe967464ba471eca9c107.jpg",
-          "assets/7b4e530d480b2f72b3b34cc264ffafac.jpg"
-        ]
-      ]
-    },
-    {
       "key": "7d764e820a312671526701a9",
       "airbnb": "1577097349989679997",
       "address": "147 CROSS CREEK DR_POOLER_31322",
@@ -2843,6 +2823,6 @@
     "total_airbnb": 2694,
     "airbnb_remaining": 720,
     "eta_seconds": 21289.024464354225,
-    "updated_unix": 1795072221.7098107
+    "updated_unix": 1795072312.5974832
   }
 }
