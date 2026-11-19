@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795074271.6406388,
-  "content_signature": "27cc9aaa23698eeae4c1a7e6a5c00770bd23425b5c19079cd29ecf752fa1934e",
+  "published_unix": 1795074362.0600624,
+  "content_signature": "6c471e5004ff6e256cd8005dab4c97231967e38ab1795621718bacbaf979a898",
   "matches": [
+    {
+      "key": "7d6013ca091827c75d4872c4",
+      "airbnb": "39951523",
+      "address": "504 E 38TH ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/39951523",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/504-E-38th-St_Savannah_GA_31401_M60212-96241",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 8.779738762376038,
+      "inliers": 48,
+      "discovered_unix": 1795074009.7659748,
+      "photos": [
+        [
+          "assets/d988df4af98ccc790aa262fe06e2d141.jpg",
+          "assets/e718bd78a54e84eb68621897a37b9445.jpg"
+        ]
+      ]
+    },
     {
       "key": "4c1ba4fdecd94e5f0ba82493",
       "airbnb": "1660291145432196952",
@@ -2858,26 +2878,6 @@
       ]
     },
     {
-      "key": "7d6013ca091827c75d4872c4",
-      "airbnb": "39951523",
-      "address": "504 E 38TH ST_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/39951523",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/504-E-38th-St_Savannah_GA_31401_M60212-96241",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 8.779738762376038,
-      "inliers": 48,
-      "discovered_unix": 1795074009.7659748,
-      "photos": [
-        [
-          "assets/d988df4af98ccc790aa262fe06e2d141.jpg",
-          "assets/e718bd78a54e84eb68621897a37b9445.jpg"
-        ]
-      ]
-    },
-    {
       "key": "f327bfcb75d9247b49f531dd",
       "airbnb": "1170939982231878458",
       "address": "302 E Waldburg St_Savannah_31401",
@@ -2999,10 +2999,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2019,
-    "total_airbnb": 2687,
+    "airbnb_checked": 2018,
+    "total_airbnb": 2686,
     "airbnb_remaining": 668,
-    "eta_seconds": 27717.388674911188,
-    "updated_unix": 1795074256.3112147
+    "eta_seconds": 27871.982855446484,
+    "updated_unix": 1795074350.9044404
   }
 }
