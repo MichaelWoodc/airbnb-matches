@@ -1,5 +1,5 @@
 {
-  "generated_unix": 1795076381.4906516,
+  "generated_unix": 1795076473.2988293,
   "source_manifest": {
     "0": {
       "url": "https://services5.arcgis.com/CEpuXecVrKGiDoOH/ArcGIS/rest/services/STR_Map_and_Parcel_WFL1/FeatureServer/0",
@@ -22,7 +22,7 @@
   },
   "counts": {
     "review": 25,
-    "outside_scope": 38,
+    "outside_scope": 39,
     "license_not_shown": 52,
     "unlicensed": 6,
     "license_shown": 14
@@ -5562,6 +5562,47 @@
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+    },
+    {
+      "normalized_address": "325 DOGWOOD CIR",
+      "licensed_exact_unit": false,
+      "rental_term_note": "",
+      "rental_term_source": "",
+      "address_proof_url": "",
+      "address_correction_note": "",
+      "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/613962a99d4fca15a5651182.html",
+      "listing_title": "3 KINGS, Family Friendly, and *Free Amenities*",
+      "rental_type": "Entire townhouse",
+      "host_name": "Shay",
+      "advertised_capacity": 8,
+      "bedrooms": 4,
+      "legal_limit": "",
+      "legal_limit_source": "Not established from matched license records",
+      "airbnb": "833294669754989711",
+      "airbnb_url": "https://www.airbnb.com/rooms/833294669754989711",
+      "realtor_property": "PORT WENTWORTH/DOGWOOD CIR/325 DOGWOOD CIR_PORT WENTWORTH_31407",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/325-Dogwood-Cir_Port-Wentworth_GA_31407_M98667-65875",
+      "address": "325 Dogwood Cir",
+      "unit": "",
+      "category": "outside_scope",
+      "jurisdiction": "PORT WENTWORTH",
+      "latitude": 32.213959,
+      "longitude": -81.194176,
+      "coordinate_basis": "Realtor saved property coordinates",
+      "license_display": "not_shown_in_saved_text",
+      "displayed_numbers": "",
+      "numeric_license_matches": "",
+      "matched_permits": "",
+      "agency": "",
+      "source_status": "",
+      "license_match_basis": "normalized street; unit checked where present",
+      "permit_scope": "address association; exact rental-unit coverage may require review",
+      "assessor_pin": "70906B03023",
+      "verified_unix": 1795076469.4305694,
+      "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
+      "county_snapshot_fetched_unix": 1795046366.71445,
+      "conflicting_property_matches": false,
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     }
   ],
   "note": "Only explicitly user-confirmed property matches are categorized. Unlicensed means no matching record in the referenced sources; it is a review flag, not a legal finding. The audit checks Savannah, Tybee Island, Thunderbolt, and unincorporated Chatham County sources."

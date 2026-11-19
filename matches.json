@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795076375.7771175,
-  "content_signature": "6e7ebdaa4d5cf4cc46e9dd85412d2d532ad8291e0c178e0a05f2d9ad92ffc0d0",
+  "published_unix": 1795076469.1352928,
+  "content_signature": "268d364448f486405bc5d37f15f832c6783cffdd478a727dfd7e98e48ac9ad98",
   "matches": [
     {
       "key": "e26eedf1c7a2c63082ec4b41",
@@ -2918,6 +2918,66 @@
       ]
     },
     {
+      "key": "4f12e62b54d062a50ee89dee",
+      "airbnb": "832855278333484719",
+      "address": "222 E GORDON ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/832855278333484719",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/222-E-Gordon-St_Savannah_GA_31401_M50097-72945",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 88.20831901958881,
+      "inliers": 274,
+      "discovered_unix": 1795076446.6329892,
+      "photos": [
+        [
+          "assets/2a0cb1ee66c054c055b3c1e9a98edcb6.jpg",
+          "assets/ce7ec3075c4585b0a89c79afb378b15d.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "e2a6e4a731b8bd3d9d8337ff",
+      "airbnb": "12603732",
+      "address": "318 HABERSHAM ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/12603732",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/318-Habersham-St_Savannah_GA_31401_M57704-96448",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 10.417104167360758,
+      "inliers": 75,
+      "discovered_unix": 1795076434.4505937,
+      "photos": [
+        [
+          "assets/0d5d3448883df0e8e7ac37dd9987243b.jpg",
+          "assets/d2c81e8d8d592f26091ca45384ac95b6.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "613962a99d4fca15a5651182",
+      "airbnb": "833294669754989711",
+      "address": "325 DOGWOOD CIR_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/833294669754989711",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/325-Dogwood-Cir_Port-Wentworth_GA_31407_M98667-65875",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 15.961545218211699,
+      "inliers": 85,
+      "discovered_unix": 1795076413.7390156,
+      "photos": [
+        [
+          "assets/1fec6e5f4c9d4662035cae997f23baad.jpg",
+          "assets/46532d27e6dfd83d3b7f24ed03444c85.jpg"
+        ]
+      ]
+    },
+    {
       "key": "7e550bb04aaaf57c63fee519",
       "airbnb": "1018006992979043354",
       "address": "1225 WESTON WAY_POOLER_31322",
@@ -3059,10 +3119,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2066,
+    "airbnb_checked": 2070,
     "total_airbnb": 2682,
-    "airbnb_remaining": 616,
-    "eta_seconds": 25922.21790122986,
-    "updated_unix": 1795076362.2447073
+    "airbnb_remaining": 612,
+    "eta_seconds": 25014.977586785142,
+    "updated_unix": 1795076455.906636
   }
 }
