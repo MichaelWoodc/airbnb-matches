@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795117948.2731202,
-  "content_signature": "62cec679a550188b6ce795fdd780946c1b3556dc54e59c53040cb5bbf36b65eb",
+  "published_unix": 1795118030.030509,
+  "content_signature": "9fa154eb7a3bde9e8bffab9c8d82ffa77aacb4e691409dfd0a4ae3489b6acc80",
   "matches": [
     {
       "key": "b73d5a1b688a6a52b6db5259",
@@ -3238,6 +3238,46 @@
       ]
     },
     {
+      "key": "9f454f1f75590eb5488a79c3",
+      "airbnb": "50360801",
+      "address": "53 SPRINGWATER DR_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/50360801",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/53-Springwater-Dr_Port-Wentworth_GA_31407_M54466-38929",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue follow-up"
+      ],
+      "score": 9.237540902995425,
+      "inliers": 55,
+      "discovered_unix": 1795117960.7180054,
+      "photos": [
+        [
+          "assets/ec05ab949bafe38af1e98236807c802d.jpg",
+          "assets/68093ad9e52a689330df6fb81f5a5d9d.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "0c096e5d2078482d6228ce7d",
+      "airbnb": "843386924411680906",
+      "address": "9 NAYLOR AVE_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/843386924411680906",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/9-Naylor-Ave_Tybee-Island_GA_31328_M94713-29085",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue follow-up"
+      ],
+      "score": 12.186829040091684,
+      "inliers": 97,
+      "discovered_unix": 1795117954.595153,
+      "photos": [
+        [
+          "assets/ef5b64ff0256c4dae1d9b8c292a81991.jpg",
+          "assets/ab56ad355ed8acb381791136217dd2f1.jpg"
+        ]
+      ]
+    },
+    {
       "key": "b7183012569c63868be42bd9",
       "airbnb": "724554925831356219",
       "address": "1323 WHITFIELD PARK DR_SAVANNAH_31406",
@@ -3519,10 +3559,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 744,
+    "airbnb_checked": 794,
     "total_airbnb": 2032,
-    "airbnb_remaining": 1288,
-    "eta_seconds": 2511.9123148236954,
-    "updated_unix": 1795117931.4816072
+    "airbnb_remaining": 1238,
+    "eta_seconds": 2044.0677912770486,
+    "updated_unix": 1795118016.3515117
   }
 }
