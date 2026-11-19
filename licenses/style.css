@@ -7,3 +7,5 @@ body{font:16px system-ui;max-width:1450px;margin:28px auto;padding:18px;backgrou
 .map-legend .mid-term-legend{background:#7939a8;border:0;border-radius:0;width:14px;height:13px;clip-path:polygon(50% 0,100% 100%,0 100%)}
 
 .map-legend .reported-legend{position:relative;background:#fff}.map-legend .reported-legend::after{content:"";position:absolute;left:-1px;top:4px;width:13px;height:2px;background:#c81724;transform:rotate(45deg)}
+
+.map-legend .removed-legend{position:relative;background:#ffd54d}.map-legend .removed-legend::before,.map-legend .removed-legend::after{content:"";position:absolute;left:-1px;top:4px;width:12px;height:2px;background:#c81724;transform:rotate(45deg)}.map-legend .removed-legend::after{transform:rotate(-45deg)}

@@ -1,5 +1,5 @@
 {
-  "generated_unix": 1795123785.4858897,
+  "generated_unix": 1795124090.6753345,
   "source_manifest": {
     "0": {
       "url": "https://services5.arcgis.com/CEpuXecVrKGiDoOH/ArcGIS/rest/services/STR_Map_and_Parcel_WFL1/FeatureServer/0",
@@ -29,6 +29,7 @@
   },
   "records": [
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1603 LOVELL AVE",
       "licensed_exact_unit": false,
@@ -71,6 +72,7 @@
       "classification_note": "License list coverage remains unresolved for this address and unit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "121 COLD CREEK PASS",
       "licensed_exact_unit": false,
@@ -113,6 +115,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "2026-11-19",
       "reported_on": "",
       "normalized_address": "110 E 38TH ST",
       "licensed_exact_unit": false,
@@ -155,6 +158,7 @@
       "classification_note": "Conflicting user-confirmed property addresses; resolve before license classification"
     },
     {
+      "removed_on": "2026-11-19",
       "reported_on": "",
       "normalized_address": "22 E 41ST ST",
       "licensed_exact_unit": true,
@@ -197,6 +201,7 @@
       "classification_note": "Conflicting user-confirmed property addresses; resolve before license classification"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "104 LAKE SHORE BLVD",
       "licensed_exact_unit": false,
@@ -239,6 +244,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "212 CASSIDY WAY",
       "licensed_exact_unit": false,
@@ -281,6 +287,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "315 DOGWOOD CIR",
       "licensed_exact_unit": false,
@@ -323,6 +330,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "315 DOGWOOD CIR",
       "licensed_exact_unit": false,
@@ -365,6 +373,7 @@
       "classification_note": "Conflicting user-confirmed property addresses; resolve before license classification"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "321 DOGWOOD CIR",
       "licensed_exact_unit": false,
@@ -407,6 +416,7 @@
       "classification_note": "Conflicting user-confirmed property addresses; resolve before license classification"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "216 PINECREST PL",
       "licensed_exact_unit": false,
@@ -449,6 +459,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1212 E 59TH ST",
       "licensed_exact_unit": false,
@@ -491,6 +502,7 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1415 BUTLER AVE",
       "licensed_exact_unit": true,
@@ -533,6 +545,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "10 NAYLOR AVE",
       "licensed_exact_unit": true,
@@ -575,6 +588,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "12 NAYLOR AVE",
       "licensed_exact_unit": true,
@@ -617,6 +631,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "12 NAYLOR AVE",
       "licensed_exact_unit": true,
@@ -659,6 +674,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "120 ROMMEL AVE",
       "licensed_exact_unit": false,
@@ -701,6 +717,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "545 GOVERNOR TREUTLEN CIR",
       "licensed_exact_unit": false,
@@ -743,6 +760,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "125 BIRCH CIR",
       "licensed_exact_unit": false,
@@ -785,6 +803,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "303 W 36TH ST",
       "licensed_exact_unit": false,
@@ -827,6 +846,7 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "211 W GWINNETT ST",
       "licensed_exact_unit": false,
@@ -869,6 +889,7 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "removed_on": "",
       "reported_on": "2026-11-19",
       "normalized_address": "4640 SYLVAN DR",
       "licensed_exact_unit": false,
@@ -911,6 +932,7 @@
       "classification_note": "No Savannah STVR certificate was found for this address or parcel in the saved sources. The closest mapped Savannah license-list point was about 2 km away when checked on November 19, 2026. The listing\u2019s current minimum stay and current city certificate status remain unverified."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "121 W 36TH ST",
       "licensed_exact_unit": false,
@@ -953,6 +975,7 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "308 HOLLY HILL RD",
       "licensed_exact_unit": true,
@@ -995,6 +1018,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "214 E POINT DR",
       "licensed_exact_unit": false,
@@ -1037,6 +1061,7 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "153 BERWICK LAKES BLVD",
       "licensed_exact_unit": false,
@@ -1079,6 +1104,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "33 PENROSE DR",
       "licensed_exact_unit": true,
@@ -1121,6 +1147,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "4 PALMWOOD CT",
       "licensed_exact_unit": false,
@@ -1163,6 +1190,7 @@
       "classification_note": "License list coverage remains unresolved for this address and unit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "14 13TH LN",
       "licensed_exact_unit": true,
@@ -1205,6 +1233,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "8 17TH PL",
       "licensed_exact_unit": true,
@@ -1247,6 +1276,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "27 CEDAR CREEK LN",
       "licensed_exact_unit": false,
@@ -1289,6 +1319,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "408 SYMONS ST",
       "licensed_exact_unit": false,
@@ -1331,6 +1362,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "509 W 37TH ST",
       "licensed_exact_unit": false,
@@ -1373,6 +1405,7 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "5 17TH PL",
       "licensed_exact_unit": true,
@@ -1415,6 +1448,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "103 CHERRY ST",
       "licensed_exact_unit": false,
@@ -1457,6 +1491,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "14 10TH TER",
       "licensed_exact_unit": false,
@@ -1499,6 +1534,7 @@
       "classification_note": "License list coverage remains unresolved for this address and unit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "8522 LABERTA BLVD",
       "licensed_exact_unit": false,
@@ -1541,6 +1577,7 @@
       "classification_note": "No matching active license record in the supplied source snapshot; not an agency determination"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "12 18TH TER",
       "licensed_exact_unit": true,
@@ -1583,6 +1620,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1415 BUTLER AVE",
       "licensed_exact_unit": true,
@@ -1625,6 +1663,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "311 E HUNTINGDON ST",
       "licensed_exact_unit": false,
@@ -1667,6 +1706,7 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "311 E HUNTINGDON ST",
       "licensed_exact_unit": false,
@@ -1709,6 +1749,7 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "311 E HUNTINGDON ST",
       "licensed_exact_unit": false,
@@ -1751,6 +1792,7 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "519 TATTNALL ST",
       "licensed_exact_unit": true,
@@ -1793,6 +1835,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1404 SOLOMON AVE",
       "licensed_exact_unit": true,
@@ -1835,6 +1878,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "206 W DUFFY ST",
       "licensed_exact_unit": true,
@@ -1877,6 +1921,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "2026-11-19",
       "normalized_address": "225 W HALL ST",
       "licensed_exact_unit": false,
@@ -1919,6 +1964,7 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "224 E STATE ST",
       "licensed_exact_unit": true,
@@ -1961,6 +2007,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "5 SALT CREEK RD",
       "licensed_exact_unit": false,
@@ -2003,6 +2050,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "175 RICE MILL DR",
       "licensed_exact_unit": false,
@@ -2045,6 +2093,7 @@
       "classification_note": "No matching active license record in the supplied source snapshot; not an agency determination"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1511 JONES AVE",
       "licensed_exact_unit": true,
@@ -2087,6 +2136,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "211 SEA ISLAND DR",
       "licensed_exact_unit": false,
@@ -2129,6 +2179,7 @@
       "classification_note": "No matching active license record in the supplied source snapshot; not an agency determination"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1214 BAY ST",
       "licensed_exact_unit": true,
@@ -2171,6 +2222,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "413 E JONES ST",
       "licensed_exact_unit": true,
@@ -2213,6 +2265,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "402 SYMONS ST",
       "licensed_exact_unit": false,
@@ -2255,6 +2308,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "5 LONGLEAF CIR",
       "licensed_exact_unit": false,
@@ -2297,6 +2351,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1415 BUTLER AVE",
       "licensed_exact_unit": true,
@@ -2339,6 +2394,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "217 HOLLY AVE",
       "licensed_exact_unit": false,
@@ -2381,6 +2437,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "421 E MELL ST",
       "licensed_exact_unit": false,
@@ -2423,6 +2480,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "313 MANDEN RD",
       "licensed_exact_unit": false,
@@ -2465,6 +2523,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "127 RAINDANCE RD",
       "licensed_exact_unit": false,
@@ -2507,6 +2566,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "411 CONGRESS ST W",
       "licensed_exact_unit": false,
@@ -2549,6 +2609,7 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "233 SONOMA DR",
       "licensed_exact_unit": false,
@@ -2591,6 +2652,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "321 DOGWOOD CIR",
       "licensed_exact_unit": false,
@@ -2633,6 +2695,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1704 INLET AVE",
       "licensed_exact_unit": true,
@@ -2675,6 +2738,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1603 LOVELL AVE",
       "licensed_exact_unit": false,
@@ -2717,6 +2781,7 @@
       "classification_note": "License list coverage remains unresolved for this address and unit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "10 LOVELL AVE",
       "licensed_exact_unit": true,
@@ -2759,6 +2824,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "35 MOONLIGHT TRL",
       "licensed_exact_unit": false,
@@ -2801,6 +2867,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "47 KING HENRY CT",
       "licensed_exact_unit": false,
@@ -2843,6 +2910,7 @@
       "classification_note": "No matching active license record in the supplied source snapshot; not an agency determination"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "29 TAYLOR ST",
       "licensed_exact_unit": true,
@@ -2885,6 +2953,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "17 N CAMPBELL AVE",
       "licensed_exact_unit": true,
@@ -2927,6 +2996,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "40 REESE WAY",
       "licensed_exact_unit": true,
@@ -2969,6 +3039,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1608 JONES AVE",
       "licensed_exact_unit": true,
@@ -3011,6 +3082,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "301 10TH ST",
       "licensed_exact_unit": true,
@@ -3053,6 +3125,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "103 SKINNER RD",
       "licensed_exact_unit": false,
@@ -3095,6 +3168,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "302 WENDY HILL RD",
       "licensed_exact_unit": true,
@@ -3137,6 +3211,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "149 S CAMPBELL AVE",
       "licensed_exact_unit": true,
@@ -3179,6 +3254,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "13 TARA MANOR DR",
       "licensed_exact_unit": true,
@@ -3221,6 +3297,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "3325 BANNON AVE",
       "licensed_exact_unit": false,
@@ -3263,6 +3340,7 @@
       "classification_note": "License list coverage remains unresolved for this address and unit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "203 FOXBURY SQ",
       "licensed_exact_unit": false,
@@ -3305,6 +3383,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "710 PENN WALLER RD",
       "licensed_exact_unit": true,
@@ -3347,6 +3426,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1111 BAY ST",
       "licensed_exact_unit": true,
@@ -3389,6 +3469,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "12 SEA BREEZE LN",
       "licensed_exact_unit": true,
@@ -3431,6 +3512,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "101 19TH ST",
       "licensed_exact_unit": true,
@@ -3473,6 +3555,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "7 6TH TER",
       "licensed_exact_unit": true,
@@ -3515,6 +3598,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "411 W CONGRESS ST",
       "licensed_exact_unit": true,
@@ -3557,6 +3641,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "2026-11-19",
       "reported_on": "",
       "normalized_address": "2199 DOWNING AVE",
       "licensed_exact_unit": false,
@@ -3599,6 +3684,7 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "505 PORT ST",
       "licensed_exact_unit": false,
@@ -3641,6 +3727,7 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "11 9TH ST",
       "licensed_exact_unit": true,
@@ -3683,6 +3770,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "14 E 41ST ST",
       "licensed_exact_unit": true,
@@ -3725,6 +3813,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "102 E LIBERTY ST",
       "licensed_exact_unit": false,
@@ -3767,6 +3856,7 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "709 2ND AVE",
       "licensed_exact_unit": true,
@@ -3809,6 +3899,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "8 18TH TER",
       "licensed_exact_unit": true,
@@ -3851,6 +3942,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "6 13TH PL",
       "licensed_exact_unit": true,
@@ -3893,6 +3985,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "13 CHERRY ST",
       "licensed_exact_unit": false,
@@ -3935,6 +4028,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "10 ANDERSON CT",
       "licensed_exact_unit": true,
@@ -3977,6 +4071,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "5 DRIIFTWOOD CT",
       "licensed_exact_unit": false,
@@ -4019,6 +4114,7 @@
       "classification_note": "License list coverage remains unresolved for this address and unit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "8623 E CREIGHTON PL",
       "licensed_exact_unit": true,
@@ -4061,6 +4157,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "17 E 37TH ST",
       "licensed_exact_unit": false,
@@ -4103,6 +4200,7 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "324 E BRYAN ST",
       "licensed_exact_unit": true,
@@ -4145,6 +4243,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "16 13TH LN",
       "licensed_exact_unit": true,
@@ -4187,6 +4286,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "13 WALTHOUR CV",
       "licensed_exact_unit": true,
@@ -4229,6 +4329,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1017 LOVELL AVE",
       "licensed_exact_unit": true,
@@ -4271,6 +4372,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1615 STRAND AVE",
       "licensed_exact_unit": false,
@@ -4313,6 +4415,7 @@
       "classification_note": "License list coverage remains unresolved for this address and unit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1714 CHATHAM AVE",
       "licensed_exact_unit": true,
@@ -4355,6 +4458,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "17 LIGHTHOUSE LN",
       "licensed_exact_unit": true,
@@ -4397,6 +4501,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1116 PLANTATION DR",
       "licensed_exact_unit": false,
@@ -4439,6 +4544,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "109 S CAMPBELL AVE",
       "licensed_exact_unit": true,
@@ -4481,6 +4587,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1 CEDAR CV",
       "licensed_exact_unit": true,
@@ -4523,6 +4630,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "2 7TH ST",
       "licensed_exact_unit": true,
@@ -4565,6 +4673,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "116 BREVARD CT",
       "licensed_exact_unit": true,
@@ -4607,6 +4716,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "12 COTTINGHAM WAY",
       "licensed_exact_unit": false,
@@ -4649,6 +4759,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "418 PHILLIPS AVE",
       "licensed_exact_unit": false,
@@ -4691,6 +4802,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "606 MILLER AVE",
       "licensed_exact_unit": true,
@@ -4733,6 +4845,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "111 2ND AVE",
       "licensed_exact_unit": true,
@@ -4775,6 +4888,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "3 15TH ST",
       "licensed_exact_unit": true,
@@ -4817,6 +4931,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "7 CEDAR CV",
       "licensed_exact_unit": true,
@@ -4859,6 +4974,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "141 AQUINNAH DR",
       "licensed_exact_unit": false,
@@ -4901,6 +5017,7 @@
       "classification_note": "No matching active license record in the supplied source snapshot; not an agency determination"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "14 10TH ST",
       "licensed_exact_unit": true,
@@ -4943,6 +5060,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "505 LAKESIDE BLVD",
       "licensed_exact_unit": false,
@@ -4985,6 +5103,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1508 BUTLER AVE",
       "licensed_exact_unit": true,
@@ -5027,6 +5146,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1214 LOVELL AVE",
       "licensed_exact_unit": true,
@@ -5069,6 +5189,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "2 VENICE PL",
       "licensed_exact_unit": false,
@@ -5111,6 +5232,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "2 VILLAGE PL",
       "licensed_exact_unit": true,
@@ -5153,6 +5275,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "14 11TH PL",
       "licensed_exact_unit": true,
@@ -5195,6 +5318,7 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "147 CROSS CREEK DR",
       "licensed_exact_unit": false,
@@ -5237,6 +5361,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "18 SHEFTALL CV",
       "licensed_exact_unit": true,
@@ -5279,6 +5404,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "12 HAYDENS CT",
       "licensed_exact_unit": false,
@@ -5321,6 +5447,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "113 LAKE HOUSE RD",
       "licensed_exact_unit": false,
@@ -5363,6 +5490,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "4 HORNE PL",
       "licensed_exact_unit": false,
@@ -5405,6 +5533,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "221 SOMERSBY BLVD",
       "licensed_exact_unit": false,
@@ -5447,6 +5576,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "239 CHATHAM AVE",
       "licensed_exact_unit": false,
@@ -5489,6 +5619,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "2026-11-19",
       "normalized_address": "504 E 38TH ST",
       "licensed_exact_unit": false,
@@ -5531,6 +5662,7 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1258 HOMER CITY WAY",
       "licensed_exact_unit": false,
@@ -5573,6 +5705,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "2479 QUACCO RD",
       "licensed_exact_unit": false,
@@ -5615,6 +5748,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1230 WESTON WAY",
       "licensed_exact_unit": false,
@@ -5657,6 +5791,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "443 TATTNALL ST",
       "licensed_exact_unit": true,
@@ -5699,6 +5834,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "325 DOGWOOD CIR",
       "licensed_exact_unit": false,
@@ -5741,6 +5877,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1225 WESTON WAY",
       "licensed_exact_unit": false,
@@ -5783,6 +5920,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "222 E GORDON ST",
       "licensed_exact_unit": true,
@@ -5825,6 +5963,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "413 GARDEN ACRES WAY",
       "licensed_exact_unit": false,
@@ -5867,6 +6006,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "303 LAKESIDE BLVD",
       "licensed_exact_unit": false,
@@ -5909,6 +6049,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "2026-11-19",
       "normalized_address": "415 WHITAKER ST",
       "licensed_exact_unit": false,
@@ -5951,6 +6092,7 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "601 S SKINNER AVE",
       "licensed_exact_unit": false,
@@ -5993,6 +6135,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "402 E MCDONOUGH ST",
       "licensed_exact_unit": true,
@@ -6035,6 +6178,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "16 SANDY SHOALS PASS",
       "licensed_exact_unit": false,
@@ -6077,6 +6221,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "114 SILVERTON RD",
       "licensed_exact_unit": false,
@@ -6119,6 +6264,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "806 ROBIN DR",
       "licensed_exact_unit": false,
@@ -6161,6 +6307,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "2026-11-19",
       "normalized_address": "501 E 34TH ST",
       "licensed_exact_unit": false,
@@ -6203,6 +6350,7 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "117 OBERLIN RD",
       "licensed_exact_unit": false,
@@ -6245,6 +6393,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "411 E PARK AVE",
       "licensed_exact_unit": false,
@@ -6287,6 +6436,7 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "121 CHATHAM VILLA DR",
       "licensed_exact_unit": false,
@@ -6329,6 +6479,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "309 E 41ST ST",
       "licensed_exact_unit": true,
@@ -6371,6 +6522,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "3119 GILBERT ST",
       "licensed_exact_unit": true,
@@ -6413,6 +6565,7 @@
       "classification_note": "Address and unit matched the Thunderbolt license list."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "1325 E 69TH ST",
       "licensed_exact_unit": false,
@@ -6455,6 +6608,7 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "121 LEGENDS RD",
       "licensed_exact_unit": false,
@@ -6497,6 +6651,7 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "removed_on": "",
       "reported_on": "",
       "normalized_address": "216 E DUFFY ST",
       "licensed_exact_unit": true,
