@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795124820.9121642,
-  "content_signature": "8f1a0400d62b83eb43d48c856f73f10a5b95c57a8f015e3ac9fe42e94c6e31cc",
+  "published_unix": 1795125403.950333,
+  "content_signature": "cc1478a5bff5c19cd7f0b9df1dff51a1cfc835f63efda9ec73c564ed0e8dc746",
   "matches": [
     {
       "key": "d99c8a7cb438d17a742cc23b",
@@ -2844,23 +2844,6 @@
       ]
     },
     {
-      "key": "32381f08c53ed1c5d1f3e939",
-      "airbnb": "36305329",
-      "address": "220 W 38th St_Savannah_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/36305329",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/220-W-38th-St_Savannah_GA_31401_M92150-47330",
-      "verified": false,
-      "score": 7.900700763116785,
-      "inliers": 63,
-      "discovered_unix": 1795124416.588891,
-      "photos": [
-        [
-          "assets/1f7c0845768d1e931709e974e10ee86e.jpg",
-          "assets/19037c246afad8cb3f4926212fa7d59a.jpg"
-        ]
-      ]
-    },
-    {
       "key": "45172c01ffb4950130a418ba",
       "airbnb": "44196068",
       "address": "158 AQUINNAH DR_POOLER_31322",
@@ -3066,10 +3049,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1918,
+    "airbnb_checked": 1944,
     "total_airbnb": 2028,
-    "airbnb_remaining": 110,
-    "eta_seconds": 2195.943130230417,
-    "updated_unix": 1795124817.6466143
+    "airbnb_remaining": 84,
+    "eta_seconds": 1810.6229741232735,
+    "updated_unix": 1795125389.4177852
   }
 }
