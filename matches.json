@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795123338.9302087,
-  "content_signature": "ce1d972119f9f9fbe00dec5cf780e9d7483b602af39dd1c74ef4d214f99301b1",
+  "published_unix": 1795123425.189667,
+  "content_signature": "6964b235c71106756e8b660daf0dc0da50c27a15a7e0dd2693a24e4ab24e5e70",
   "matches": [
     {
       "key": "f97126371a201e63275e9525",
@@ -2810,6 +2810,40 @@
       ]
     },
     {
+      "key": "d99c8a7cb438d17a742cc23b",
+      "airbnb": "1706923303195424455",
+      "address": "121 LEGENDS RD_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1706923303195424455",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/121-Legends-Rd_Pooler_GA_31322_M60705-12811",
+      "verified": false,
+      "score": 111.49998834598998,
+      "inliers": 249,
+      "discovered_unix": 1795123380.3348835,
+      "photos": [
+        [
+          "assets/ffff8f865a342fcfb65540217e16ae4d.jpg",
+          "assets/8ccc0f2e84076b20f0b7142a84d2c02b.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "0aa883ccbc5ac600b1cc0a56",
+      "airbnb": "1213023680560422571",
+      "address": "UNIT B",
+      "airbnb_url": "https://www.airbnb.com/rooms/1213023680560422571",
+      "realtor_url": "https://www.realtor.com/rentals/details/201-E-Duffy-St-Apt-B_Savannah_GA_31401_M69972-93902",
+      "verified": false,
+      "score": 19.850308342881082,
+      "inliers": 108,
+      "discovered_unix": 1795123338.6506243,
+      "photos": [
+        [
+          "assets/9ca9f9e6c95d8603231fa52e9d764826.jpg",
+          "assets/81e033151ad93bb3a8fe208505e2b7d1.jpg"
+        ]
+      ]
+    },
+    {
       "key": "90689671838f3a4c9d0406e3",
       "airbnb": "1512654358078763391",
       "address": "513 E PERRY ST_SAVANNAH_31401",
@@ -3083,10 +3117,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1841,
+    "airbnb_checked": 1846,
     "total_airbnb": 2030,
-    "airbnb_remaining": 189,
-    "eta_seconds": 2218.9466019017354,
-    "updated_unix": 1795123325.4306056
+    "airbnb_remaining": 184,
+    "eta_seconds": 2296.552373224375,
+    "updated_unix": 1795123413.8859591
   }
 }
