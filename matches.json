@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795069570.4922574,
-  "content_signature": "f3d0ae4c239fe9dc17c0018db134fbb39796cf7e2ff3a640922045f988fe782f",
+  "published_unix": 1795069870.4083338,
+  "content_signature": "a6573d31a93c5f3db5342c10a0aa65ec001e914df547a255baeb6470e97486ec",
   "matches": [
     {
       "key": "bed21bd4aaa30c90046350c8",
@@ -2598,6 +2598,46 @@
       ]
     },
     {
+      "key": "28eec80bdabe8c060997c373",
+      "airbnb": "52585003",
+      "address": "302 E Waldburg St_Savannah_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/52585003",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/302-E-Waldburg-St_Savannah_GA_31401_M69101-53869",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 16.630506042069342,
+      "inliers": 79,
+      "discovered_unix": 1795069830.690315,
+      "photos": [
+        [
+          "assets/ff6bbe0d40efc7a4004a08ab3819a2e0.jpg",
+          "assets/7b4e530d480b2f72b3b34cc264ffafac.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "e1e8b8d2b408e031c1def968",
+      "airbnb": "52564120",
+      "address": "302 E Waldburg St_Savannah_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/52564120",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/302-E-Waldburg-St_Savannah_GA_31401_M69101-53869",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 12.859109147990537,
+      "inliers": 63,
+      "discovered_unix": 1795069822.2298706,
+      "photos": [
+        [
+          "assets/ada4e0e58e91ba05e4791629e6f770c7.jpg",
+          "assets/7b4e530d480b2f72b3b34cc264ffafac.jpg"
+        ]
+      ]
+    },
+    {
       "key": "09bcacfd223443a1020b3946",
       "airbnb": "802206418102098290",
       "address": "1411 CHATHAM AVE_TYBEE ISLAND_31328",
@@ -2739,10 +2779,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1839,
+    "airbnb_checked": 1867,
     "total_airbnb": 2698,
-    "airbnb_remaining": 859,
-    "eta_seconds": 16424.033896577603,
-    "updated_unix": 1795069558.2898269
+    "airbnb_remaining": 831,
+    "eta_seconds": 8167.941990137101,
+    "updated_unix": 1795069858.588734
   }
 }
