@@ -1,27 +1,7 @@
 {
-  "published_unix": 1795063738.2277136,
-  "content_signature": "c517ba6657d74221efa10b7c5ffb3c830312f2c091730187f3d21e9e4f449df5",
+  "published_unix": 1795063810.5310102,
+  "content_signature": "44a581c2742d9c86012e6da5e310212bbc5740fd4832792746d4342e94db4549",
   "matches": [
-    {
-      "key": "793cb8385f80cd986e8a6a49",
-      "airbnb": "1517626017322149420",
-      "address": "302 E Waldburg St_Savannah_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/1517626017322149420",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/302-E-Waldburg-St_Savannah_GA_31401_M69101-53869",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 8.667433998795731,
-      "inliers": 60,
-      "discovered_unix": 1795063365.0071816,
-      "photos": [
-        [
-          "assets/dec4243eddbb3196992da08298a83636.jpg",
-          "assets/7b4e530d480b2f72b3b34cc264ffafac.jpg"
-        ]
-      ]
-    },
     {
       "key": "075023d963b1826ddeda8be1",
       "airbnb": "53724619",
@@ -2139,10 +2119,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1505,
+    "airbnb_checked": 1509,
     "total_airbnb": 2725,
-    "airbnb_remaining": 1220,
-    "eta_seconds": 12967.510265038938,
-    "updated_unix": 1795063727.0678377
+    "airbnb_remaining": 1216,
+    "eta_seconds": 14118.807088112346,
+    "updated_unix": 1795063796.672409
   }
 }
