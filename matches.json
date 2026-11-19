@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795068149.3063462,
-  "content_signature": "450abe10ef477274bbfeeedebc2954d80268b8722dac4a2c6a4cca7526074a0b",
+  "published_unix": 1795068239.35016,
+  "content_signature": "3e7b3a059e473a6cb87dc9be5b72fac4bd4473d4607c30d215a6bfac6e85f718",
   "matches": [
     {
       "key": "9bfe6966bba9579cd24041dc",
@@ -19,6 +19,66 @@
         [
           "assets/5e6c22ba385c2d4ab633a27a8e49d7f5.jpg",
           "assets/588c44fd0b8dc6cf5bb39bf7dba7180b.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "18c8971de1432387c778a1bf",
+      "airbnb": "1571929995471443704",
+      "address": "1 CEDAR CV_SAVANNAH_31410",
+      "airbnb_url": "https://www.airbnb.com/rooms/1571929995471443704",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1-Cedar-Cv_Savannah_GA_31410_M52816-70979",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 94.27375857800008,
+      "inliers": 317,
+      "discovered_unix": 1795067973.4740617,
+      "photos": [
+        [
+          "assets/d3c22d55d666bf615853c88ab4cbd502.jpg",
+          "assets/64e364de5cd4789f936fec9a716b985e.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "0deac588930d5f7e63264566",
+      "airbnb": "747851490508201464",
+      "address": "2 7TH ST ##A_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/747851490508201464",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/2-7th-St-A_Tybee-Island_GA_31328_M91099-97619",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 17.074377413840335,
+      "inliers": 84,
+      "discovered_unix": 1795067947.1233742,
+      "photos": [
+        [
+          "assets/a9a113c5c23cdb68ebac6179e39d90b6.jpg",
+          "assets/3ee8fdff16284a311100a6756bdee623.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "6482fb82a50a2e5f3d3e1a64",
+      "airbnb": "1510281895888945906",
+      "address": "116 BREVARD CT_SAVANNAH_31410",
+      "airbnb_url": "https://www.airbnb.com/rooms/1510281895888945906",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/116-Brevard-Ct_Savannah_GA_31410_M55361-60100",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 63.51745763125838,
+      "inliers": 208,
+      "discovered_unix": 1795067926.059191,
+      "photos": [
+        [
+          "assets/6310de579d27bbafa04874a07deed846.jpg",
+          "assets/54c8f6ca08b310e503138748bf2c46a0.jpg"
         ]
       ]
     },
@@ -2358,86 +2418,6 @@
       ]
     },
     {
-      "key": "bbc58d0fc1172249a92bcf10",
-      "airbnb": "1668516306551157707",
-      "address": "1411 CHATHAM AVE_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/1668516306551157707",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1411-Chatham-Ave_Tybee-Island_GA_31328_M65673-85064",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 11.29421459650117,
-      "inliers": 77,
-      "discovered_unix": 1795068008.994198,
-      "photos": [
-        [
-          "assets/f21eb4241fabb0f77bcbe42165232974.jpg",
-          "assets/8890b0ce2016b2f863fd9619fcc5de6f.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "18c8971de1432387c778a1bf",
-      "airbnb": "1571929995471443704",
-      "address": "1 CEDAR CV_SAVANNAH_31410",
-      "airbnb_url": "https://www.airbnb.com/rooms/1571929995471443704",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1-Cedar-Cv_Savannah_GA_31410_M52816-70979",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 94.27375857800008,
-      "inliers": 317,
-      "discovered_unix": 1795067973.4740617,
-      "photos": [
-        [
-          "assets/d3c22d55d666bf615853c88ab4cbd502.jpg",
-          "assets/64e364de5cd4789f936fec9a716b985e.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "0deac588930d5f7e63264566",
-      "airbnb": "747851490508201464",
-      "address": "2 7TH ST ##A_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/747851490508201464",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/2-7th-St-A_Tybee-Island_GA_31328_M91099-97619",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 17.074377413840335,
-      "inliers": 84,
-      "discovered_unix": 1795067947.1233742,
-      "photos": [
-        [
-          "assets/a9a113c5c23cdb68ebac6179e39d90b6.jpg",
-          "assets/3ee8fdff16284a311100a6756bdee623.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "6482fb82a50a2e5f3d3e1a64",
-      "airbnb": "1510281895888945906",
-      "address": "116 BREVARD CT_SAVANNAH_31410",
-      "airbnb_url": "https://www.airbnb.com/rooms/1510281895888945906",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/116-Brevard-Ct_Savannah_GA_31410_M55361-60100",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 63.51745763125838,
-      "inliers": 208,
-      "discovered_unix": 1795067926.059191,
-      "photos": [
-        [
-          "assets/6310de579d27bbafa04874a07deed846.jpg",
-          "assets/54c8f6ca08b310e503138748bf2c46a0.jpg"
-        ]
-      ]
-    },
-    {
       "key": "2bca7b3f489553b4c54cc333",
       "airbnb": "1751482998448630040",
       "address": "UNIT 301",
@@ -2519,10 +2499,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1769,
-    "total_airbnb": 2711,
-    "airbnb_remaining": 942,
-    "eta_seconds": 20677.376116772088,
-    "updated_unix": 1795068137.4556863
+    "airbnb_checked": 1774,
+    "total_airbnb": 2708,
+    "airbnb_remaining": 934,
+    "eta_seconds": 16971.69033554622,
+    "updated_unix": 1795068227.9572725
   }
 }
