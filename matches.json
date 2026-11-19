@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795056700.8352845,
-  "content_signature": "e4cec3346f3b99073e2f2da61a662985a4e51183c0dbec4cef8585e3a0196dd9",
+  "published_unix": 1795056842.8415167,
+  "content_signature": "751261f59bef155ae4c89f7047c5e7f136e0952c5b3c425d23b864b9077053e7",
   "matches": [
+    {
+      "key": "eade73d047124562534f6dde",
+      "airbnb": "29033490",
+      "address": "115 CEDARWOOD DR_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/29033490",
+      "realtor_url": "https://www.realtor.com/rentals/details/115-Cedarwood-Dr_Tybee-Island_GA_31328_M91855-91212",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 11.845089810730993,
+      "inliers": 87,
+      "discovered_unix": 1795056807.7902882,
+      "photos": [
+        [
+          "assets/f1498d361141656a081b653248517715.jpg",
+          "assets/07246a1e19e18295645feeb4becaaf07.jpg"
+        ]
+      ]
+    },
     {
       "key": "599e5105a55a42ed06147ff3",
       "airbnb": "1637843440634199955",
@@ -1861,10 +1881,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 870,
+    "airbnb_checked": 885,
     "total_airbnb": 2741,
-    "airbnb_remaining": 1871,
-    "eta_seconds": 15820.068120328748,
-    "updated_unix": 1795056694.8151782
+    "airbnb_remaining": 1856,
+    "eta_seconds": 14690.534330406968,
+    "updated_unix": 1795056840.8098757
   }
 }
