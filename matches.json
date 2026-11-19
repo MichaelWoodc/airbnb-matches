@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795068239.35016,
-  "content_signature": "3e7b3a059e473a6cb87dc9be5b72fac4bd4473d4607c30d215a6bfac6e85f718",
+  "published_unix": 1795068311.9789128,
+  "content_signature": "5e5192611c986a59b9fd1cc509a6751c10965cc5844c2caee79e0d6ac87ec7c1",
   "matches": [
+    {
+      "key": "939ed2cb08035aa00035a96e",
+      "airbnb": "616887263750949740",
+      "address": "12 COTTINGHAM WAY_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/616887263750949740",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/12-Cottingham-Way_Pooler_GA_31322_M68153-03976",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 18.46004901305336,
+      "inliers": 119,
+      "discovered_unix": 1795068076.2952285,
+      "photos": [
+        [
+          "assets/03f9595cb9a18bde4264dc16fd5d0d02.jpg",
+          "assets/2245d201bc2fe649e400b5699d5c9005.jpg"
+        ]
+      ]
+    },
     {
       "key": "9bfe6966bba9579cd24041dc",
       "airbnb": "1311723611678831938",
@@ -2398,26 +2418,6 @@
       ]
     },
     {
-      "key": "939ed2cb08035aa00035a96e",
-      "airbnb": "616887263750949740",
-      "address": "12 COTTINGHAM WAY_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/616887263750949740",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/12-Cottingham-Way_Pooler_GA_31322_M68153-03976",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 18.46004901305336,
-      "inliers": 119,
-      "discovered_unix": 1795068076.2952285,
-      "photos": [
-        [
-          "assets/03f9595cb9a18bde4264dc16fd5d0d02.jpg",
-          "assets/2245d201bc2fe649e400b5699d5c9005.jpg"
-        ]
-      ]
-    },
-    {
       "key": "2bca7b3f489553b4c54cc333",
       "airbnb": "1751482998448630040",
       "address": "UNIT 301",
@@ -2499,10 +2499,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1774,
-    "total_airbnb": 2708,
-    "airbnb_remaining": 934,
-    "eta_seconds": 16971.69033554622,
-    "updated_unix": 1795068227.9572725
+    "airbnb_checked": 1781,
+    "total_airbnb": 2707,
+    "airbnb_remaining": 926,
+    "eta_seconds": 16306.520503170637,
+    "updated_unix": 1795068300.2044942
   }
 }
