@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795119349.1463556,
-  "content_signature": "4f73b905011ee98a7d67e76f89b675dac86f645d780af8c9a33bb9c176f63195",
+  "published_unix": 1795119435.048418,
+  "content_signature": "b70bc998455da325c6ed7c48d140e27d1da7a57668ac4e3608749de8ad66f77f",
   "matches": [
     {
       "key": "f97126371a201e63275e9525",
@@ -3278,26 +3278,6 @@
       ]
     },
     {
-      "key": "4153512bab09999f1388fa3a",
-      "airbnb": "9942864",
-      "address": "UNIT 2C",
-      "airbnb_url": "https://www.airbnb.com/rooms/9942864",
-      "realtor_url": "https://www.realtor.com/rentals/details/218-W-38th-St-2C_Savannah_GA_31401_M97169-04364",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue follow-up"
-      ],
-      "score": 8.640351760493706,
-      "inliers": 58,
-      "discovered_unix": 1795119316.035308,
-      "photos": [
-        [
-          "assets/e2a41b1c4f6f0026afcdff38610baa46.jpg",
-          "assets/04f2b48cd636271c3da9ace91eb01774.jpg"
-        ]
-      ]
-    },
-    {
       "key": "d002eb2457deb92fc7b8a81d",
       "airbnb": "1737118661541412284",
       "address": "UNIT 301",
@@ -3520,10 +3500,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1252,
+    "airbnb_checked": 1275,
     "total_airbnb": 2030,
-    "airbnb_remaining": 778,
-    "eta_seconds": 2325.495140348162,
-    "updated_unix": 1795119335.4297314
+    "airbnb_remaining": 755,
+    "eta_seconds": 2592.191955921601,
+    "updated_unix": 1795119422.4288905
   }
 }
