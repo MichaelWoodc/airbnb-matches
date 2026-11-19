@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795081542.284753,
-  "content_signature": "b0c473e41011226c4a7c13a225c6e11dc2993d25d216eb48f80107ffba063aee",
+  "published_unix": 1795081783.259904,
+  "content_signature": "f5deb3bf0bac1a99a936268776fc5bad6aa7fc142597f638aeeb59d1eb054d50",
   "matches": [
     {
       "key": "46bbd7f09dbd7a3e3e0ccf06",
@@ -2998,6 +2998,26 @@
       ]
     },
     {
+      "key": "9191aa43d15ea7c2accd66c9",
+      "airbnb": "47314445",
+      "address": "1 BARRINGTON CT_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/47314445",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1-Barrington-Ct_Pooler_GA_31322_M68706-46530",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 33.017489790748726,
+      "inliers": 129,
+      "discovered_unix": 1795081741.867243,
+      "photos": [
+        [
+          "assets/a4be5877ef96f9f735c28cec926db165.jpg",
+          "assets/01fa3bbf0e4c78752434ebebda7085de.jpg"
+        ]
+      ]
+    },
+    {
       "key": "503a6bf8d82e1fbc432e0c21",
       "airbnb": "1737117846901687324",
       "address": "5 SANDY SHOALS PASS_PORT WENTWORTH_31407",
@@ -3559,10 +3579,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2225,
+    "airbnb_checked": 2286,
     "total_airbnb": 2678,
-    "airbnb_remaining": 453,
-    "eta_seconds": 4764.596149454311,
-    "updated_unix": 1795081532.0602524
+    "airbnb_remaining": 392,
+    "eta_seconds": 0.4845924377441406,
+    "updated_unix": 1795081772.4061742
   }
 }
