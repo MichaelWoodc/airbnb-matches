@@ -1,27 +1,7 @@
 {
-  "published_unix": 1795053786.6097188,
-  "content_signature": "0a6da4db85a482dccfce1335580f0e9163da76620dfaa3f9a0f536cc54fd0d8d",
+  "published_unix": 1795054132.616167,
+  "content_signature": "fcdc4174b2f9906be8a0e218de5587f43cd4ffe6182e0cb6dcb5644fcd8a2a44",
   "matches": [
-    {
-      "key": "cb6b3ffd52c092a45c4996cf",
-      "airbnb": "1292872019593246959",
-      "address": "1608 JONES AVE #9_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/1292872019593246959",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1608-Jones-Ave-9_Tybee-Island_GA_31328_M68996-44873",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 8.242498251321315,
-      "inliers": 66,
-      "discovered_unix": 1795053739.5410132,
-      "photos": [
-        [
-          "assets/ebc2b4a3dafd18bc6fd7e4cc6212592e.jpg",
-          "assets/53f64a559379b6be6efdbcd660a45cf0.jpg"
-        ]
-      ]
-    },
     {
       "key": "37011092b61ad505537d95b9",
       "airbnb": "52492275",
@@ -1581,10 +1561,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 654,
-    "total_airbnb": 3278,
-    "airbnb_remaining": 2624,
-    "eta_seconds": 87667.4595094019,
-    "updated_unix": 1795053783.569592
+    "airbnb_checked": 666,
+    "total_airbnb": 3161,
+    "airbnb_remaining": 2495,
+    "eta_seconds": 19268.48039211059,
+    "updated_unix": 1795054118.8337321
   }
 }
