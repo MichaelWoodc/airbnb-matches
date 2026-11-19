@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795066278.317174,
-  "content_signature": "648f4e2c2bde133bcd963cfaba9f0d1064c22204022cef441ceef82af67c1c07",
+  "published_unix": 1795066360.4986072,
+  "content_signature": "06f423fd276edbc60550060cab09f98b62915fd89f5519cdb7818c6dd50f2085",
   "matches": [
     {
       "key": "cdc101745762eff2acade876",
@@ -59,6 +59,46 @@
         [
           "assets/326a8c76d1c9e2caf9b73db242aff2ed.jpg",
           "assets/6fbbb8df41ed93e69b947577eb9978f6.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "470b71d27daf66c9f301c57c",
+      "airbnb": "1159501632699043017",
+      "address": "324 E BRYAN ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1159501632699043017",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/324-E-Bryan-St_Savannah_GA_31401_M57334-91367",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 35.55655121649228,
+      "inliers": 147,
+      "discovered_unix": 1795065432.744316,
+      "photos": [
+        [
+          "assets/74e3d23680086c8d8570db7e41d3c0b3.jpg",
+          "assets/eb57f5c7061f55f962c4d435f64c4367.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "75dd3a4fd9e0a711d794b2d0",
+      "airbnb": "1507962551505561571",
+      "address": "16 13TH LN_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1507962551505561571",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/16-13th-Ln_Tybee-Island_GA_31328_M50625-82607",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 30.375986717782933,
+      "inliers": 164,
+      "discovered_unix": 1795065050.964704,
+      "photos": [
+        [
+          "assets/0d26931319b8923831fd58da595d79dd.jpg",
+          "assets/2faafdbbf6ec855a958e52532d666629.jpg"
         ]
       ]
     },
@@ -2158,82 +2198,22 @@
       ]
     },
     {
-      "key": "31165fb8c22663660e8cccd2",
-      "airbnb": "7734023",
-      "address": "7 13th St_Tybee Island_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/7734023",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/7-13th-St_Tybee-Island_GA_31328_M56334-06905",
+      "key": "45066dfd556a79781ef1f2aa",
+      "airbnb": "1394859714803404557",
+      "address": "104 Butler Ave_Tybee Island_31328 -- 104-Butler-Ave_Tybee-Island_GA_31328_M62277-64572-efabbdf09c59",
+      "airbnb_url": "https://www.airbnb.com/rooms/1394859714803404557",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/104-Butler-Ave_Tybee-Island_GA_31328_M62277-64572",
       "verified": false,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
-      "score": 7.870434055711292,
-      "inliers": 44,
-      "discovered_unix": 1795065576.7442706,
+      "score": 8.825090307464919,
+      "inliers": 48,
+      "discovered_unix": 1795066292.4097278,
       "photos": [
         [
-          "assets/8c2ee402b950016f254af1b7b26b9935.jpg",
-          "assets/8ac273a1c01e669eb9db90f41957e5b6.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "393b6e563e71606ceabee676",
-      "airbnb": "1552277049261402015",
-      "address": "33 HAMILTON GROVE DR_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/1552277049261402015",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/33-Hamilton-Grove-Dr_Pooler_GA_31322_M62428-76172",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 25.258647665483952,
-      "inliers": 110,
-      "discovered_unix": 1795065530.8356595,
-      "photos": [
-        [
-          "assets/0d6670b69ab7fc5064e6694bd3eb53c7.jpg",
-          "assets/d3a7a603fa69acce898a0cdd6188284d.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "470b71d27daf66c9f301c57c",
-      "airbnb": "1159501632699043017",
-      "address": "324 E BRYAN ST_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/1159501632699043017",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/324-E-Bryan-St_Savannah_GA_31401_M57334-91367",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 35.55655121649228,
-      "inliers": 147,
-      "discovered_unix": 1795065432.744316,
-      "photos": [
-        [
-          "assets/74e3d23680086c8d8570db7e41d3c0b3.jpg",
-          "assets/eb57f5c7061f55f962c4d435f64c4367.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "75dd3a4fd9e0a711d794b2d0",
-      "airbnb": "1507962551505561571",
-      "address": "16 13TH LN_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/1507962551505561571",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/16-13th-Ln_Tybee-Island_GA_31328_M50625-82607",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 30.375986717782933,
-      "inliers": 164,
-      "discovered_unix": 1795065050.964704,
-      "photos": [
-        [
-          "assets/0d26931319b8923831fd58da595d79dd.jpg",
-          "assets/2faafdbbf6ec855a958e52532d666629.jpg"
+          "assets/1d3bf2bd7463c0abd9a8f15d88789159.jpg",
+          "assets/0d97463570f3a4066ae877502c2f376d.jpg"
         ]
       ]
     },
@@ -2419,10 +2399,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1671,
-    "total_airbnb": 2720,
-    "airbnb_remaining": 1049,
-    "eta_seconds": 16716.009380812546,
-    "updated_unix": 1795066266.5921779
+    "airbnb_checked": 1673,
+    "total_airbnb": 2718,
+    "airbnb_remaining": 1045,
+    "eta_seconds": 16726.523091184852,
+    "updated_unix": 1795066357.7725365
   }
 }
