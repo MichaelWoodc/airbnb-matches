@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795124563.2007005,
-  "content_signature": "75b0a755aaa476a08fe22b74dfc7aedf40621546e99c430a4f72925e9fab1eb5",
+  "published_unix": 1795124651.2205966,
+  "content_signature": "7e17e1bdf12c6a7a530c11a0308461a7211dd5befcda6acbabf272478fff8cae",
   "matches": [
     {
       "key": "d99c8a7cb438d17a742cc23b",
@@ -2844,6 +2844,23 @@
       ]
     },
     {
+      "key": "3051e21702c6129f95d1e203",
+      "airbnb": "1742805177432785403",
+      "address": "220 W 38th St_Savannah_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1742805177432785403",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/220-W-38th-St_Savannah_GA_31401_M92150-47330",
+      "verified": false,
+      "score": 9.19197067526488,
+      "inliers": 76,
+      "discovered_unix": 1795124587.589687,
+      "photos": [
+        [
+          "assets/76ae2a6938a907587d8620c8f059bd7d.jpg",
+          "assets/19037c246afad8cb3f4926212fa7d59a.jpg"
+        ]
+      ]
+    },
+    {
       "key": "a5e3767f6d7f961db562df36",
       "airbnb": "724625801390917080",
       "address": "1406 E 34th St_Savannah_31404",
@@ -3083,10 +3100,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1906,
+    "airbnb_checked": 1910,
     "total_airbnb": 2028,
-    "airbnb_remaining": 122,
-    "eta_seconds": 2279.2231635852736,
-    "updated_unix": 1795124549.4155216
+    "airbnb_remaining": 118,
+    "eta_seconds": 2326.3639543980967,
+    "updated_unix": 1795124637.978594
   }
 }
