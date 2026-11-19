@@ -1,7 +1,67 @@
 {
-  "published_unix": 1795073417.874045,
-  "content_signature": "b91e43acf7fa8ed3b2707bd9d32713638a5e3c292e658d7de5986ce81949b44d",
+  "published_unix": 1795073941.177957,
+  "content_signature": "f4eb0890b91c4f87639bb6951f5b2c0751f724c2884b72798ea524695ee8073c",
   "matches": [
+    {
+      "key": "4c1ba4fdecd94e5f0ba82493",
+      "airbnb": "1660291145432196952",
+      "address": "4 Horne Pl_Port Wentworth_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1660291145432196952",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/4-Horne-Pl_Port-Wentworth_GA_31407_M56440-35435",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 29.44478037990475,
+      "inliers": 145,
+      "discovered_unix": 1795073344.6486433,
+      "photos": [
+        [
+          "assets/4c883593722c9a89e6150cde45c4936b.jpg",
+          "assets/8be86d20c23161c4be0f844e3f855486.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "6971d9214ac1c2505a92726a",
+      "airbnb": "1586492262628500178",
+      "address": "221 SOMERSBY BLVD_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1586492262628500178",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/221-Somersby-Blvd_Pooler_GA_31322_M69174-69580",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 63.923425850306934,
+      "inliers": 205,
+      "discovered_unix": 1795073335.7340927,
+      "photos": [
+        [
+          "assets/7d9950561e7869b86358244812292217.jpg",
+          "assets/5a096a10755bfb4b83a23bb38cf80864.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "bfccc70bb79ede4a2869dc26",
+      "airbnb": "1623273875495311901",
+      "address": "239 CHATHAM AVE_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1623273875495311901",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/239-Chatham-Ave_Pooler_GA_31322_M65893-91566",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 70.18558953968508,
+      "inliers": 202,
+      "discovered_unix": 1795072832.712409,
+      "photos": [
+        [
+          "assets/5d689c48908a7a6639d21b45ae321a51.jpg",
+          "assets/a364dd1fca502ffa24a690ae1237deea.jpg"
+        ]
+      ]
+    },
     {
       "key": "32ecb7b1525152c31474b811",
       "airbnb": "671795538517213675",
@@ -2778,66 +2838,6 @@
       ]
     },
     {
-      "key": "4c1ba4fdecd94e5f0ba82493",
-      "airbnb": "1660291145432196952",
-      "address": "4 Horne Pl_Port Wentworth_31407",
-      "airbnb_url": "https://www.airbnb.com/rooms/1660291145432196952",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/4-Horne-Pl_Port-Wentworth_GA_31407_M56440-35435",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 29.44478037990475,
-      "inliers": 145,
-      "discovered_unix": 1795073344.6486433,
-      "photos": [
-        [
-          "assets/4c883593722c9a89e6150cde45c4936b.jpg",
-          "assets/8be86d20c23161c4be0f844e3f855486.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "6971d9214ac1c2505a92726a",
-      "airbnb": "1586492262628500178",
-      "address": "221 SOMERSBY BLVD_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/1586492262628500178",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/221-Somersby-Blvd_Pooler_GA_31322_M69174-69580",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 63.923425850306934,
-      "inliers": 205,
-      "discovered_unix": 1795073335.7340927,
-      "photos": [
-        [
-          "assets/7d9950561e7869b86358244812292217.jpg",
-          "assets/5a096a10755bfb4b83a23bb38cf80864.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "bfccc70bb79ede4a2869dc26",
-      "airbnb": "1623273875495311901",
-      "address": "239 CHATHAM AVE_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/1623273875495311901",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/239-Chatham-Ave_Pooler_GA_31322_M65893-91566",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 70.18558953968508,
-      "inliers": 202,
-      "discovered_unix": 1795072832.712409,
-      "photos": [
-        [
-          "assets/5d689c48908a7a6639d21b45ae321a51.jpg",
-          "assets/a364dd1fca502ffa24a690ae1237deea.jpg"
-        ]
-      ]
-    },
-    {
       "key": "2bca7b3f489553b4c54cc333",
       "airbnb": "1751482998448630040",
       "address": "UNIT 301",
@@ -2919,10 +2919,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1995,
-    "total_airbnb": 2690,
-    "airbnb_remaining": 695,
-    "eta_seconds": 30924.108582516106,
-    "updated_unix": 1795073406.1972864
+    "airbnb_checked": 2010,
+    "total_airbnb": 2687,
+    "airbnb_remaining": 677,
+    "eta_seconds": 24611.393792006435,
+    "updated_unix": 1795073927.052003
   }
 }
