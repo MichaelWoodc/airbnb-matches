@@ -110,7 +110,7 @@ async function renderMap(listings){
  map.createPane('jurisdiction-boundaries');
  map.getPane('jurisdiction-boundaries').style.zIndex=350;
  map.getPane('jurisdiction-boundaries').style.pointerEvents='none';
- const outlines=L.geoJSON(boundaries,{pane:'jurisdiction-boundaries',interactive:false,
+ const outlines=L.geoJSON(boundaries,{pane:'jurisdiction-boundaries',renderer:L.svg({pane:'jurisdiction-boundaries'}),interactive:false,
   style:feature=>({color:palette[feature.properties.NAME]||'#687280',weight:2,opacity:.8,fillOpacity:.09})}).addTo(map);
  overlays['Jurisdiction boundaries (SAGIS)']=outlines;
  L.control.layers(null,overlays,{collapsed:true}).addTo(map);
