@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795079124.8261461,
-  "content_signature": "ac62e73b56ccb1029c86e771590cfabf7b227b2d11e5548c85bb5333de7c9ae1",
+  "published_unix": 1795079289.6176913,
+  "content_signature": "d584642599ddd23f0c6ea4167c8ff7b5d34ac875a0ee7932a26a5b29d9a3173d",
   "matches": [
     {
       "key": "46bbd7f09dbd7a3e3e0ccf06",
@@ -2998,6 +2998,26 @@
       ]
     },
     {
+      "key": "33d29a43430d0ab54af67695",
+      "airbnb": "32810756",
+      "address": "415 E HULL ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/32810756",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/415-E-Hull-St_Savannah_GA_31401_M61555-62069",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 31.67806587541183,
+      "inliers": 127,
+      "discovered_unix": 1795079246.5633633,
+      "photos": [
+        [
+          "assets/0a31e12476503e5b4bef78698c7fa4ff.jpg",
+          "assets/6ac170b3a25f76441a211bddc5c12594.jpg"
+        ]
+      ]
+    },
+    {
       "key": "260678f5a7e568f870f935f2",
       "airbnb": "1024557334155049664",
       "address": "501 E 34TH ST_SAVANNAH_31401",
@@ -3339,10 +3359,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2133,
+    "airbnb_checked": 2137,
     "total_airbnb": 2678,
-    "airbnb_remaining": 545,
-    "eta_seconds": 17150.423494407107,
-    "updated_unix": 1795079110.3758214
+    "airbnb_remaining": 541,
+    "eta_seconds": 17469.667558178608,
+    "updated_unix": 1795079276.7433662
   }
 }
