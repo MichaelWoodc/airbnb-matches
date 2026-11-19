@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795117595.7300189,
-  "content_signature": "cdd7cc3deaa3775d0ed4812c16f9517e6b38d32c1337ecbbed9974de65a92f5f",
+  "published_unix": 1795117862.8643599,
+  "content_signature": "cbc408623e86ec2b665f83d137e07deca7d5a5c405b1d99fd10df33d630bd966",
   "matches": [
     {
       "key": "b73d5a1b688a6a52b6db5259",
@@ -3238,6 +3238,26 @@
       ]
     },
     {
+      "key": "3e67a827abd7f574454ca7ab",
+      "airbnb": "52634400",
+      "address": "3119 GILBERT ST_SAVANNAH_31404",
+      "airbnb_url": "https://www.airbnb.com/rooms/52634400",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3119-Gilbert-St_Savannah_GA_31404_M54881-17880",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue follow-up"
+      ],
+      "score": 12.369436785423737,
+      "inliers": 65,
+      "discovered_unix": 1795117799.2611268,
+      "photos": [
+        [
+          "assets/eeced770fc84e961ae9234a379f1c38e.jpg",
+          "assets/0b01fba04c0cb81a278a1389f48e6582.jpg"
+        ]
+      ]
+    },
+    {
       "key": "584a43ee61265c2fb1e95fa6",
       "airbnb": "1263713354495392521",
       "address": "2123 HART AVE_SAVANNAH_31405",
@@ -3479,10 +3499,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 508,
+    "airbnb_checked": 705,
     "total_airbnb": 2032,
-    "airbnb_remaining": 1524,
-    "eta_seconds": 1758.0051236249963,
-    "updated_unix": 1795117593.137013
+    "airbnb_remaining": 1327,
+    "eta_seconds": 2173.9329697647872,
+    "updated_unix": 1795117846.6950004
   }
 }
