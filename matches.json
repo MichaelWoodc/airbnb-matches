@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795077882.8697517,
-  "content_signature": "9e194a4c0590b6245029d3434e8bf1ee578e9896f186d215ff2b92a82e735da0",
+  "published_unix": 1795077962.3385816,
+  "content_signature": "1090cace87792e7b3c2b497b61ae4fea6b052ee0bdc2a34c309a91cb061a1cc8",
   "matches": [
     {
       "key": "46bbd7f09dbd7a3e3e0ccf06",
@@ -2998,6 +2998,46 @@
       ]
     },
     {
+      "key": "9a6efc104e0ef707e9771953",
+      "airbnb": "1445002813066764840",
+      "address": "121 CHATHAM VILLA DR_GARDEN CITY_31408",
+      "airbnb_url": "https://www.airbnb.com/rooms/1445002813066764840",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/121-Chatham-Villa-Dr_Garden-City_GA_31408_M54225-36119",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 67.68913352761662,
+      "inliers": 202,
+      "discovered_unix": 1795077933.6605322,
+      "photos": [
+        [
+          "assets/28e899f8c052141b548897796f326dee.jpg",
+          "assets/e868785e7d80c9cacfa7ecbe2551de96.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "aeda86ef6b8bf9e815970ad7",
+      "airbnb": "923114381677429536",
+      "address": "309 E 41ST ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/923114381677429536",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/309-E-41st-St_Savannah_GA_31401_M50415-98396",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 66.9352849541737,
+      "inliers": 181,
+      "discovered_unix": 1795077895.7355704,
+      "photos": [
+        [
+          "assets/9dcea37965654125364d34347703a674.jpg",
+          "assets/8ad75293e3ca84634bb9f0ac959d8086.jpg"
+        ]
+      ]
+    },
+    {
       "key": "9378d82ba4a81b51ee17eb82",
       "airbnb": "1394237111785684659",
       "address": "231 DURHAM PARK WAY_POOLER_31322",
@@ -3219,10 +3259,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2090,
+    "airbnb_checked": 2094,
     "total_airbnb": 2678,
-    "airbnb_remaining": 588,
-    "eta_seconds": 30716.832664489746,
-    "updated_unix": 1795077874.1752002
+    "airbnb_remaining": 584,
+    "eta_seconds": 29455.606549983124,
+    "updated_unix": 1795077948.2280576
   }
 }
