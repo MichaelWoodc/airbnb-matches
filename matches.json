@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795068490.2569838,
-  "content_signature": "70036d2568e0c4dffd94a375fb1e940c4e1e179dcfef4d3e091d6cec751c05c5",
+  "published_unix": 1795068565.712263,
+  "content_signature": "99d41568e4e306584d5d19c86a5f64b6fbd94498359d0081caadef0fa85d502e",
   "matches": [
     {
       "key": "939ed2cb08035aa00035a96e",
@@ -2418,6 +2418,26 @@
       ]
     },
     {
+      "key": "eec542aa430b48cc70a44f0e",
+      "airbnb": "1439942573704952163",
+      "address": "418 PHILLIPS AVE_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1439942573704952163",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/418-Phillips-Ave_Port-Wentworth_GA_31407_M64957-62001",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 325.8286773605756,
+      "inliers": 416,
+      "discovered_unix": 1795068542.4580579,
+      "photos": [
+        [
+          "assets/e7d0d5b09bb7e14a4a6ef747e3415d77.jpg",
+          "assets/ad3a22577144c896dd4967a7a5af9865.jpg"
+        ]
+      ]
+    },
+    {
       "key": "a2e5236a9ce9d00d9b402336",
       "airbnb": "1400800132285833467",
       "address": "606 MILLER AVE_TYBEE ISLAND_31328",
@@ -2559,10 +2579,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1788,
+    "airbnb_checked": 1789,
     "total_airbnb": 2707,
-    "airbnb_remaining": 919,
-    "eta_seconds": 17248.22732414518,
-    "updated_unix": 1795068481.020127
+    "airbnb_remaining": 918,
+    "eta_seconds": 18440.82359796641,
+    "updated_unix": 1795068553.4579835
   }
 }
