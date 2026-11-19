@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795081063.2579231,
-  "content_signature": "ba89c81078e4d286ba73cf821146eb81b0f47647a276d8cd0b8e4150b69412cd",
+  "published_unix": 1795081155.8096375,
+  "content_signature": "e4ce4c1e4148b50ff626e1167cc63067f0084f2cdef2c054ef19396972024c65",
   "matches": [
     {
       "key": "46bbd7f09dbd7a3e3e0ccf06",
@@ -2998,6 +2998,26 @@
       ]
     },
     {
+      "key": "72e9f1a7497ef582cef76dc6",
+      "airbnb": "1545083020263311731",
+      "address": "415 WHITAKER ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1545083020263311731",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/415-Whitaker-St_Savannah_GA_31401_M69950-42723",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 16.443033157143027,
+      "inliers": 108,
+      "discovered_unix": 1795081067.140464,
+      "photos": [
+        [
+          "assets/04523feeb8a99768fae4c01a69f2644b.jpg",
+          "assets/42c11ce7140d010c7d11e26ac2b15f2a.jpg"
+        ]
+      ]
+    },
+    {
       "key": "2eb431b193710ead46b88b25",
       "airbnb": "1262593944733924618",
       "address": "417 FLAT ROCK TRCE_PORT WENTWORTH_31407",
@@ -3499,10 +3519,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2181,
+    "airbnb_checked": 2186,
     "total_airbnb": 2678,
-    "airbnb_remaining": 497,
-    "eta_seconds": 19957.84867463793,
-    "updated_unix": 1795081050.0417006
+    "airbnb_remaining": 492,
+    "eta_seconds": 18646.565294616077,
+    "updated_unix": 1795081142.8180547
   }
 }
