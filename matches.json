@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795069091.2833974,
-  "content_signature": "478efb6e9ccfbc8f1183b315a3c41b164a83f7db736a9d8ec57a02f4dc6bcdcb",
+  "published_unix": 1795069249.2855544,
+  "content_signature": "fda3cc60cf749b885644cc09563b6c6a3fedb5579310d80da3abe426f613efac",
   "matches": [
     {
       "key": "8dd103277cc71a1f12bc5205",
@@ -2558,6 +2558,46 @@
       ]
     },
     {
+      "key": "bed21bd4aaa30c90046350c8",
+      "airbnb": "1640636606436326247",
+      "address": "1508 BUTLER AVE #315_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1640636606436326247",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1508-Butler-Ave-315_Tybee-Island_GA_31328_M69171-97132",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 25.45891501750653,
+      "inliers": 111,
+      "discovered_unix": 1795069223.5620592,
+      "photos": [
+        [
+          "assets/d9cd3797f6ffc6a99caa274d501a1336.jpg",
+          "assets/5bd25b0587ec05f7349d1ff520a2c9b2.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "3b42db5bc3c3d7b8e413842d",
+      "airbnb": "1587156845042685471",
+      "address": "505 LAKESIDE BLVD_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1587156845042685471",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/505-Lakeside-Blvd_Port-Wentworth_GA_31407_M69478-12741",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 8.685596690709524,
+      "inliers": 65,
+      "discovered_unix": 1795069217.557512,
+      "photos": [
+        [
+          "assets/8219d7f373268392189cbc152b5c687e.jpg",
+          "assets/5fd7110fd1c075e492cab6210f92d228.jpg"
+        ]
+      ]
+    },
+    {
       "key": "2bca7b3f489553b4c54cc333",
       "airbnb": "1751482998448630040",
       "address": "UNIT 301",
@@ -2639,10 +2679,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1801,
+    "airbnb_checked": 1804,
     "total_airbnb": 2700,
-    "airbnb_remaining": 899,
-    "eta_seconds": 23486.423086142055,
-    "updated_unix": 1795069080.2993002
+    "airbnb_remaining": 896,
+    "eta_seconds": 26353.06511143276,
+    "updated_unix": 1795069238.3116515
   }
 }
