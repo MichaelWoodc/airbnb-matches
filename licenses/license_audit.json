@@ -1,5 +1,5 @@
 {
-  "generated_unix": 1795058747.5781674,
+  "generated_unix": 1795058855.1641386,
   "source_manifest": {
     "0": {
       "url": "https://services5.arcgis.com/CEpuXecVrKGiDoOH/ArcGIS/rest/services/STR_Map_and_Parcel_WFL1/FeatureServer/0",
@@ -1238,8 +1238,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
-      "rental_term_note": "",
-      "rental_term_source": "",
+      "rental_term_note": "User reports the listing currently requires stays of 30 days or longer. Savannah\u2019s short-term vacation rental certificate rule covers stays of 30 consecutive days or less. Stays longer than 30 consecutive days fall outside that rule. Confirm whether stays of exactly 30 days can be booked.",
+      "rental_term_source": "https://www.savannahga.gov/2327/STVR-Regulations",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/9bbbc0797bb12b1e08e207b7.html",
