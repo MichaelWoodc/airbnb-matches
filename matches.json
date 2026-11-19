@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795120826.8490596,
-  "content_signature": "53d4fada2080936b59fcf9609beddf29f0726662cc5ef0bd88ba80c82c1528d9",
+  "published_unix": 1795121401.8678083,
+  "content_signature": "0e8621a7e7529c97f5bf8bd30ef2e2815e6fb4189312d8e406c0912012e0f895",
   "matches": [
     {
       "key": "f97126371a201e63275e9525",
@@ -3278,6 +3278,26 @@
       ]
     },
     {
+      "key": "ae37822c90f9de377e3d9b39",
+      "airbnb": "1597709203186615840",
+      "address": "607 6TH ST ##A_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1597709203186615840",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/607-6th-St-A_Tybee-Island_GA_31328_M56368-35372",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue follow-up"
+      ],
+      "score": 8.890494358192086,
+      "inliers": 85,
+      "discovered_unix": 1795121371.4831216,
+      "photos": [
+        [
+          "assets/b26d3909316dc4a01ee200f073b15eb9.jpg",
+          "assets/7ffa412710d703812b20f7ca51fbbab4.jpg"
+        ]
+      ]
+    },
+    {
       "key": "b9b90d3cd6eebdfe158885cd",
       "airbnb": "1552277049261402015",
       "address": "173 AQUINNAH DR_POOLER_31322",
@@ -3560,10 +3580,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1576,
+    "airbnb_checked": 1661,
     "total_airbnb": 2030,
-    "airbnb_remaining": 454,
-    "eta_seconds": 2713.1436022349767,
-    "updated_unix": 1795120812.990513
+    "airbnb_remaining": 369,
+    "eta_seconds": 2450.812491854843,
+    "updated_unix": 1795121387.8690994
   }
 }
