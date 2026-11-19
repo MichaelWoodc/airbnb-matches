@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795068642.531378,
-  "content_signature": "ed8d8d7145e452d730bdeaf18be21c4e834a60b5e90e054976c07f40994a9d37",
+  "published_unix": 1795068732.2720125,
+  "content_signature": "0720029ce5eb02bb64a94c81a3642912afe813690f7b495bbb419b6695d4dd5e",
   "matches": [
     {
       "key": "eec542aa430b48cc70a44f0e",
@@ -2478,6 +2478,66 @@
       ]
     },
     {
+      "key": "b0ae69390821b39bffd3299a",
+      "airbnb": "1655335896944843984",
+      "address": "7 CEDAR CV_SAVANNAH_31410",
+      "airbnb_url": "https://www.airbnb.com/rooms/1655335896944843984",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/7-Cedar-Cv_Savannah_GA_31410_M57190-98612",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 16.509301664819745,
+      "inliers": 83,
+      "discovered_unix": 1795068696.2418828,
+      "photos": [
+        [
+          "assets/31164a4393dfa53aeed7b208cb4f7e23.jpg",
+          "assets/d831eff3c68d99a346438e2de1a9be7f.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "676a89f2a928762bdd0b850d",
+      "airbnb": "895577613821653123",
+      "address": "141 AQUINNAH DR_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/895577613821653123",
+      "realtor_url": "https://www.realtor.com/rentals/details/141-Aquinnah-Dr_Pooler_GA_31322_M51192-96816",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 17.606272243512162,
+      "inliers": 93,
+      "discovered_unix": 1795068672.7629006,
+      "photos": [
+        [
+          "assets/f5e18e7570edc411e3b6c4e8a1f02591.jpg",
+          "assets/d4cb67135b077cfb7193bb3feeae03ca.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "b707fff13eebb8496ccee075",
+      "airbnb": "929118044034442797",
+      "address": "104 Butler Ave_Tybee Island_31328 -- 104-Butler-Ave_Tybee-Island_GA_31328_M62277-64572-efabbdf09c59",
+      "airbnb_url": "https://www.airbnb.com/rooms/929118044034442797",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/104-Butler-Ave_Tybee-Island_GA_31328_M62277-64572",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 10.2537980152658,
+      "inliers": 52,
+      "discovered_unix": 1795068613.134602,
+      "photos": [
+        [
+          "assets/a2f0fb019e513e725c9ea186cede761c.jpg",
+          "assets/0d97463570f3a4066ae877502c2f376d.jpg"
+        ]
+      ]
+    },
+    {
       "key": "1fab73175d620e419f560726",
       "airbnb": "862546695010142428",
       "address": "3 15TH ST #112_TYBEE ISLAND_31328",
@@ -2579,10 +2639,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1792,
+    "airbnb_checked": 1799,
     "total_airbnb": 2704,
-    "airbnb_remaining": 912,
-    "eta_seconds": 19350.927313356984,
-    "updated_unix": 1795068627.1624844
+    "airbnb_remaining": 905,
+    "eta_seconds": 18658.105738649563,
+    "updated_unix": 1795068719.5732973
   }
 }
