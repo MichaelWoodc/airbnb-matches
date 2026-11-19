@@ -1,31 +1,7 @@
 {
-  "published_unix": 1795048275.043996,
-  "content_signature": "6585a9ef57c2188edffc6189a7f2769597a41c5ab7a199a49b706b878e02bd42",
+  "published_unix": 1795048981.19483,
+  "content_signature": "fcdc4174b2f9906be8a0e218de5587f43cd4ffe6182e0cb6dcb5644fcd8a2a44",
   "matches": [
-    {
-      "key": "40ce05e9d1fe0e5b90710692",
-      "airbnb": "812402910015645334",
-      "address": "40 Reese Way",
-      "airbnb_url": "https://www.airbnb.com/rooms/812402910015645334",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/40-Reese-Way_Savannah_GA_31419_M61575-77059",
-      "verified": true,
-      "methods": [
-        "User-corrected research address"
-      ],
-      "score": null,
-      "inliers": null,
-      "discovered_unix": 1795048197.1476843,
-      "photos": [
-        [
-          "assets/48828d11ceb647fe176ccd9f8cba5ef7.jpg",
-          "assets/196841355c83a1e0081a8cd69a30a22c.jpg"
-        ],
-        [
-          "assets/5c681e88ad47186876acca2032d98494.jpg",
-          "assets/7005432d7aff4dfea263f6f16b16e0e8.jpg"
-        ]
-      ]
-    },
     {
       "key": "37011092b61ad505537d95b9",
       "airbnb": "52492275",
@@ -1585,10 +1561,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 551,
-    "total_airbnb": 3579,
-    "airbnb_remaining": 3028,
-    "eta_seconds": 131339.93280527543,
-    "updated_unix": 1795048263.283599
+    "airbnb_checked": 537,
+    "total_airbnb": 3399,
+    "airbnb_remaining": 2862,
+    "eta_seconds": 137930.50715814318,
+    "updated_unix": 1795048977.5870605
   }
 }

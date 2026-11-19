@@ -1,5 +1,5 @@
 {
-  "generated_unix": 1795048566.193454,
+  "generated_unix": 1795048987.1435263,
   "source_manifest": {
     "0": {
       "url": "https://services5.arcgis.com/CEpuXecVrKGiDoOH/ArcGIS/rest/services/STR_Map_and_Parcel_WFL1/FeatureServer/0",
@@ -2584,7 +2584,7 @@
     {
       "address_proof_url": "https://www.zillow.com/homedetails/40-Reese-Way-Savannah-GA-31419/80796415_zpid/",
       "address_correction_note": "User corrected research address to 40 Reese Way using Zillow. Side-by-side photos are for manual review; automatic fit has not been recomputed for this correction.",
-      "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/40ce05e9d1fe0e5b90710692.html",
+      "photo_match_evidence": "",
       "listing_title": "Savannah Celebration Spot \u2013 Pool & Relaxation",
       "rental_type": "Entire house",
       "host_name": "Raquel",
