@@ -40,7 +40,7 @@ async function renderMap(listings){
    const neighbors=markers.filter(other=>other!==entry&&map.hasLayer(other.layer)&&
     center.distanceTo(map.latLngToLayerPoint(other.marker.getLatLng()))<=radius+other.radius);
    const nearby=neighbors.map(other=>'<details><summary>'+esc(other.content.title)+'</summary>'+other.content.html+'</details>').join('');
-   L.popup({maxWidth:460,maxHeight:560}).setLatLng(marker.getLatLng())
+   L.popup({maxWidth:460,maxHeight:300}).setLatLng(marker.getLatLng())
     .setContent(content.html+(nearby?'<hr><h4>Other markers here</h4>'+nearby:'')).openOn(map);
   });
  }
@@ -55,10 +55,19 @@ async function renderMap(listings){
  }
  const arcByAddress=new Map(sources.county_arcgis.map(row=>[key(row.street,row.unit),row]));
  const flags=new Map(sources.county_likely_unlicensed.map(row=>[row.airbnb,row]));
- const registryInfo=rows=>rows.length?'<h4>License lists</h4><ul>'+rows.map(row=>
-  '<li>'+esc(row.jurisdiction)+' · '+esc(licensed(row)?'Listed as licensed':row.license_state==='expired_in_source'?'Expired in source':'Source status requires review')+
-  ' · '+esc(row.permit||'permit number not supplied')+(row.expiration?' · expires '+esc(row.expiration):'')+
-  '<br>'+esc(row.status)+' · '+esc(row.source_file)+'</li>').join('')+'</ul>':'';
+ function registryInfo(rows){
+  if(!rows.length)return '';
+  const entries=new Map();
+  for(const row of rows){
+   const key=JSON.stringify([row.jurisdiction,row.permit,row.expiration,row.status,row.license_state,row.source_file]);
+   if(!entries.has(key))entries.set(key,{row,count:0});
+   entries.get(key).count++;
+  }
+  return '<h4>License lists</h4><ul>'+Array.from(entries.values(),({row,count})=>
+   '<li>'+esc(row.jurisdiction)+' · '+esc(licensed(row)?'Listed as licensed':row.license_state==='expired_in_source'?'Expired in source':'Source status requires review')+
+   ' · '+esc(row.permit||'permit number not supplied')+(row.expiration?' · expires '+esc(row.expiration):'')+
+   '<br>'+esc(row.source_file)+(count>1?' · '+count+' source rows with the same listed details':'')+'</li>').join('')+'</ul>';
+ }
  const arcInfo=row=>row?'<h4>Chatham County ArcGIS</h4><ul>'+row.records.map(r=>
   '<li>'+esc(r.status||'Status not supplied')+(r.permit?' · '+esc(r.permit):'')+' · '+link(r.source_url,'Layer '+r.layer)+'</li>').join('')+'</ul>':'';
  const flagInfo=row=>row?'<p><b>Chatham County likely-unlicensed listings:</b> This Airbnb appears on the '+link(row.source_url,'source list')+'.</p>':'';

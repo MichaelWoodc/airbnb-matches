@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795061399.3084803,
-  "content_signature": "fe3c125bf5c92702c57d66f4bdd9b566c903735fc971431456464c102142e28a",
+  "published_unix": 1795061536.9615257,
+  "content_signature": "cc5e6410cf879cd786acd9704de9aceec2efb07a2bd1129bbb6951039889905a",
   "matches": [
+    {
+      "key": "9fcd5f3babfbe943f67c6043",
+      "airbnb": "1353258569799949770",
+      "address": "213 DOGWOOD CIR_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1353258569799949770",
+      "realtor_url": "https://www.realtor.com/rentals/details/213-Dogwood-Cir_Port-Wentworth_GA_31407_M63142-05815",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 10.84035538085183,
+      "inliers": 57,
+      "discovered_unix": 1795061476.0889854,
+      "photos": [
+        [
+          "assets/a3c179e4165ddafd91a15ea74fe316ec.jpg",
+          "assets/a561417cd30ad99437b92a477c759533.jpg"
+        ]
+      ]
+    },
     {
       "key": "0c44d0b4430d0cb57246a06c",
       "airbnb": "1570698024804705654",
@@ -1999,10 +2019,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1286,
+    "airbnb_checked": 1303,
     "total_airbnb": 2730,
-    "airbnb_remaining": 1444,
-    "eta_seconds": 14353.153692420648,
-    "updated_unix": 1795061385.9730704
+    "airbnb_remaining": 1427,
+    "eta_seconds": 14960.790677138737,
+    "updated_unix": 1795061523.400961
   }
 }
