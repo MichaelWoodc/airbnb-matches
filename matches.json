@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795048981.19483,
-  "content_signature": "fcdc4174b2f9906be8a0e218de5587f43cd4ffe6182e0cb6dcb5644fcd8a2a44",
+  "published_unix": 1795051405.2633958,
+  "content_signature": "f29e323fd41712cddfc8536815ef55e1c587c76a1c92dc48abb0ef842dab7406",
   "matches": [
+    {
+      "key": "f67516d2e34555fec2cd8560",
+      "airbnb": "1517761403746160077",
+      "address": "9 Ossabaw Rd_Savannah_31410",
+      "airbnb_url": "https://www.airbnb.com/rooms/1517761403746160077",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/9-Ossabaw-Rd_Savannah_GA_31410_M58692-05829",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 8.765986772133243,
+      "inliers": 65,
+      "discovered_unix": 1795051335.510427,
+      "photos": [
+        [
+          "assets/fe7c99416db7efe352a63241ecb78d10.jpg",
+          "assets/8a02a910a36f1b972f3c9fa08f2306fd.jpg"
+        ]
+      ]
+    },
     {
       "key": "37011092b61ad505537d95b9",
       "airbnb": "52492275",
@@ -1561,10 +1581,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 537,
-    "total_airbnb": 3399,
-    "airbnb_remaining": 2862,
-    "eta_seconds": 137930.50715814318,
-    "updated_unix": 1795048977.5870605
+    "airbnb_checked": 588,
+    "total_airbnb": 3344,
+    "airbnb_remaining": 2756,
+    "eta_seconds": 106071.93856587702,
+    "updated_unix": 1795051393.4021504
   }
 }
