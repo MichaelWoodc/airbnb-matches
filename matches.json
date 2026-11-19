@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795059117.2446907,
-  "content_signature": "d94240cd97c65c2a4a6b4c120e704e2ae9d7d646e78e82552e002f4f9ed9dc5e",
+  "published_unix": 1795059191.4105077,
+  "content_signature": "787f9127cc505343c0e708b815e8ae23b150fe57cde55688805a0ffacd7efed1",
   "matches": [
     {
       "key": "782081c268631ebd86930249",
@@ -23,32 +23,12 @@
       ]
     },
     {
-      "key": "f3e40f7af8d4ca7acaa77fae",
-      "airbnb": "886938599572707129",
-      "address": "102 E LIBERTY ST #602_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/886938599572707129",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/102-E-Liberty-St-Apt-602_Savannah_GA_31401_M62046-73506",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 7.1470788609857765,
-      "inliers": 56,
-      "discovered_unix": 1795058252.3561637,
-      "photos": [
-        [
-          "assets/5a32189a9469e1d9518e8a38e64e402f.jpg",
-          "assets/bc0ce57700983b0a1d5ec9205f0a123a.jpg"
-        ]
-      ]
-    },
-    {
       "key": "2e5d40be62dc78ec7b2570df",
       "airbnb": "1161603644234608003",
       "address": "101 19TH ST_TYBEE ISLAND_31328",
       "airbnb_url": "https://www.airbnb.com/rooms/1161603644234608003",
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/101-19th-St_Tybee-Island_GA_31328_M52168-83541",
-      "verified": false,
+      "verified": true,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
@@ -1865,10 +1845,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1068,
-    "total_airbnb": 2736,
-    "airbnb_remaining": 1668,
-    "eta_seconds": 15645.48147343616,
-    "updated_unix": 1795059104.1502397
+    "airbnb_checked": 1073,
+    "total_airbnb": 2735,
+    "airbnb_remaining": 1662,
+    "eta_seconds": 18534.82129134937,
+    "updated_unix": 1795059187.461416
   }
 }
