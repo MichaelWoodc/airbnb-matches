@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795123110.2932312,
-  "content_signature": "9197e837fe85c9863eeebc3fcdf8f06f47ba9b9d63f636e30462a7898c7ecdab",
+  "published_unix": 1795123338.9302087,
+  "content_signature": "ce1d972119f9f9fbe00dec5cf780e9d7483b602af39dd1c74ef4d214f99301b1",
   "matches": [
     {
       "key": "f97126371a201e63275e9525",
@@ -2810,6 +2810,23 @@
       ]
     },
     {
+      "key": "90689671838f3a4c9d0406e3",
+      "airbnb": "1512654358078763391",
+      "address": "513 E PERRY ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1512654358078763391",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/513-E-Perry-St_Savannah_GA_31401_M66000-23732",
+      "verified": false,
+      "score": 12.628976354991893,
+      "inliers": 74,
+      "discovered_unix": 1795123306.7289562,
+      "photos": [
+        [
+          "assets/7e80032bbf3c29de6ffe33dd8e213936.jpg",
+          "assets/4af0e3dc4e2bc21597694a2a23df8cde.jpg"
+        ]
+      ]
+    },
+    {
       "key": "65a7143b7b1f77f6508a2ba5",
       "airbnb": "1735615341624795779",
       "address": "216 E DUFFY ST_SAVANNAH_31401",
@@ -3066,10 +3083,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1824,
+    "airbnb_checked": 1841,
     "total_airbnb": 2030,
-    "airbnb_remaining": 206,
-    "eta_seconds": 2163.2814856646014,
-    "updated_unix": 1795123096.4379692
+    "airbnb_remaining": 189,
+    "eta_seconds": 2218.9466019017354,
+    "updated_unix": 1795123325.4306056
   }
 }
