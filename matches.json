@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795055626.9081967,
-  "content_signature": "cd0072e8e22e53be73dc85bc8d1016ec83b741b256079558fb2c35a8bd9ce57e",
+  "published_unix": 1795055699.5932286,
+  "content_signature": "36b22efca9a709d804c1e654c32c3424f32345d099934b7419baaa22b944122d",
   "matches": [
+    {
+      "key": "f14393a255f696a365478bfc",
+      "airbnb": "1244298198640116422",
+      "address": "520 FLAT ROCK TRCE_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1244298198640116422",
+      "realtor_url": "https://www.realtor.com/rentals/details/520-Flat-Rock-Trce_Port-Wentworth_GA_31407_M63510-76353",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 7.503751459837617,
+      "inliers": 50,
+      "discovered_unix": 1795055652.8002908,
+      "photos": [
+        [
+          "assets/6622653b9e58b7d1c60e6190119dbc24.jpg",
+          "assets/0044ea058e994361e8a02039be4c3860.jpg"
+        ]
+      ]
+    },
     {
       "key": "14e184a7313dc87b4e72d348",
       "airbnb": "550772505969020234",
@@ -1781,10 +1801,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 746,
+    "airbnb_checked": 754,
     "total_airbnb": 2740,
-    "airbnb_remaining": 1994,
-    "eta_seconds": 18791.16927251037,
-    "updated_unix": 1795055623.1867013
+    "airbnb_remaining": 1986,
+    "eta_seconds": 16756.96340908323,
+    "updated_unix": 1795055686.9673622
   }
 }
