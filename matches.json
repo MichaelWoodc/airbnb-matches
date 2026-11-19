@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795119098.9997478,
-  "content_signature": "42f88a82f6476049953485bff8b45929f240a07d5f9382c0044c3623002fc98a",
+  "published_unix": 1795119193.5517626,
+  "content_signature": "c676ba253e20861a06e828ed02ba8dcb5979d44b82e01506a284f29bc930ec4a",
   "matches": [
     {
       "key": "f97126371a201e63275e9525",
@@ -3278,26 +3278,6 @@
       ]
     },
     {
-      "key": "429ad7a437d78ae72afcfb8a",
-      "airbnb": "25895744",
-      "address": "10 Waterside Way_Tybee Island_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/25895744",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/10-Waterside-Walk_Tybee-Island_GA_31328_M96886-76041",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue follow-up"
-      ],
-      "score": 7.137302214342967,
-      "inliers": 57,
-      "discovered_unix": 1795119051.3603532,
-      "photos": [
-        [
-          "assets/a12e7f2cc974ed1220852ab85a5f923d.jpg",
-          "assets/fee389769b8fb18aad02c3a92b578296.jpg"
-        ]
-      ]
-    },
-    {
       "key": "9191aa43d15ea7c2accd66c9",
       "airbnb": "47314445",
       "address": "1 BARRINGTON CT_POOLER_31322",
@@ -3519,10 +3499,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1174,
+    "airbnb_checked": 1200,
     "total_airbnb": 2030,
-    "airbnb_remaining": 856,
-    "eta_seconds": 2589.1228116483107,
-    "updated_unix": 1795119092.0423071
+    "airbnb_remaining": 830,
+    "eta_seconds": 2389.7054536002024,
+    "updated_unix": 1795119179.9526248
   }
 }
