@@ -1,24 +1,24 @@
 {
-  "published_unix": 1795051405.2633958,
-  "content_signature": "f29e323fd41712cddfc8536815ef55e1c587c76a1c92dc48abb0ef842dab7406",
+  "published_unix": 1795053786.6097188,
+  "content_signature": "0a6da4db85a482dccfce1335580f0e9163da76620dfaa3f9a0f536cc54fd0d8d",
   "matches": [
     {
-      "key": "f67516d2e34555fec2cd8560",
-      "airbnb": "1517761403746160077",
-      "address": "9 Ossabaw Rd_Savannah_31410",
-      "airbnb_url": "https://www.airbnb.com/rooms/1517761403746160077",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/9-Ossabaw-Rd_Savannah_GA_31410_M58692-05829",
+      "key": "cb6b3ffd52c092a45c4996cf",
+      "airbnb": "1292872019593246959",
+      "address": "1608 JONES AVE #9_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1292872019593246959",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1608-Jones-Ave-9_Tybee-Island_GA_31328_M68996-44873",
       "verified": false,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
-      "score": 8.765986772133243,
-      "inliers": 65,
-      "discovered_unix": 1795051335.510427,
+      "score": 8.242498251321315,
+      "inliers": 66,
+      "discovered_unix": 1795053739.5410132,
       "photos": [
         [
-          "assets/fe7c99416db7efe352a63241ecb78d10.jpg",
-          "assets/8a02a910a36f1b972f3c9fa08f2306fd.jpg"
+          "assets/ebc2b4a3dafd18bc6fd7e4cc6212592e.jpg",
+          "assets/53f64a559379b6be6efdbcd660a45cf0.jpg"
         ]
       ]
     },
@@ -1581,10 +1581,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 588,
-    "total_airbnb": 3344,
-    "airbnb_remaining": 2756,
-    "eta_seconds": 106071.93856587702,
-    "updated_unix": 1795051393.4021504
+    "airbnb_checked": 654,
+    "total_airbnb": 3278,
+    "airbnb_remaining": 2624,
+    "eta_seconds": 87667.4595094019,
+    "updated_unix": 1795053783.569592
   }
 }
