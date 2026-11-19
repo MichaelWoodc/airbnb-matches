@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795115967.9179838,
-  "content_signature": "85415001cef6d174fd83fb33700fab2047150fa00558263c32cea76f16020ddd",
+  "published_unix": 1795116048.1191397,
+  "content_signature": "5b4130260ba4f6053beadae1a3c1c779d436b9725ce1af66e50778e81f8b3611",
   "matches": [
     {
       "key": "b73d5a1b688a6a52b6db5259",
@@ -3078,46 +3078,6 @@
       ]
     },
     {
-      "key": "2eb431b193710ead46b88b25",
-      "airbnb": "1262593944733924618",
-      "address": "417 FLAT ROCK TRCE_PORT WENTWORTH_31407",
-      "airbnb_url": "https://www.airbnb.com/rooms/1262593944733924618",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/417-Flat-Rock-Trce_Port-Wentworth_GA_31407_M95374-93836",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 22.0081738603335,
-      "inliers": 95,
-      "discovered_unix": 1795081008.7062542,
-      "photos": [
-        [
-          "assets/d5a681037dafbe5e09ae5c004243abe3.jpg",
-          "assets/5faabf7a49a25f5afee875fb9effa62d.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "3213aac7e7c95f3ed5f05c66",
-      "airbnb": "1625492340891223953",
-      "address": "46 Cypress Loop_Port Wentworth_31407",
-      "airbnb_url": "https://www.airbnb.com/rooms/1625492340891223953",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/46-Cypress-Loop_Port-Wentworth_GA_31407_M97255-67566",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 14.676573005268049,
-      "inliers": 84,
-      "discovered_unix": 1795080191.5995867,
-      "photos": [
-        [
-          "assets/2b3b0c62741d86f7a26c9986925f0915.jpg",
-          "assets/8229eed3fca067f9a8cfbcaa95f91813.jpg"
-        ]
-      ]
-    },
-    {
       "key": "5f9ac1e507899c507ffa89e1",
       "airbnb": "937094147509988486",
       "address": "601 S SKINNER AVE_POOLER_31322",
@@ -3583,6 +3543,6 @@
     "total_airbnb": 2676,
     "airbnb_remaining": 0,
     "eta_seconds": null,
-    "updated_unix": 1795115954.7172568
+    "updated_unix": 1795116033.4559417
   }
 }
