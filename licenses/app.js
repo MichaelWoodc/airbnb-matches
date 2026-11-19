@@ -142,7 +142,9 @@ async function renderMap(listings){
  zoningPane.style.pointerEvents='none';
  overlays['Savannah outside the STVR overlay']=L.geoJSON(outsideOverlay,{
   pane:'savannah-stvr-zoning',renderer:L.svg({pane:'savannah-stvr-zoning'}),interactive:false,
-  style:{stroke:false,fillColor:'#efc42b',fillOpacity:.23}
+  style:feature=>feature.properties.role==='boundary'
+   ?{color:palette.SAVANNAH,weight:2,opacity:.9,fill:false}
+   :{stroke:false,fillColor:'#efc42b',fillOpacity:.23}
  }).addTo(map);
  map.createPane('licensed-parcels');
  map.getPane('licensed-parcels').style.zIndex=370;
