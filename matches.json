@@ -1,7 +1,67 @@
 {
-  "published_unix": 1795072327.2486207,
-  "content_signature": "96100ff9d53c75c3b821b4b9ba8ae713b34cea893e87b8029d3e86b7528352c4",
+  "published_unix": 1795072416.0756674,
+  "content_signature": "5df9205515f6c9dc7c27bd8720c2a92b828e2d3848b8e28c0c6b6c27c269bac6",
   "matches": [
+    {
+      "key": "7d764e820a312671526701a9",
+      "airbnb": "1577097349989679997",
+      "address": "147 CROSS CREEK DR_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1577097349989679997",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/147-Cross-Creek-Dr_Pooler_GA_31322_M92604-55521",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 15.64157325936486,
+      "inliers": 101,
+      "discovered_unix": 1795071914.5809877,
+      "photos": [
+        [
+          "assets/ab056fed5af70b4692103b035e06e51a.jpg",
+          "assets/d6ee5f8173cc012c8ab8de5d5ff3beac.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "677f227567e87cd40dc81e27",
+      "airbnb": "1770515490004764705",
+      "address": "18 SHEFTALL CV_SAVANNAH_31410",
+      "airbnb_url": "https://www.airbnb.com/rooms/1770515490004764705",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/18-Sheftall-Cv_Savannah_GA_31410_M56855-96530",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 51.57442860434603,
+      "inliers": 211,
+      "discovered_unix": 1795071074.714886,
+      "photos": [
+        [
+          "assets/9636183c6ec58f7a8210ab153fa2b38b.jpg",
+          "assets/e126a87b574f7826e9be941209f1211e.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "3c71312c156c6edd8b96d515",
+      "airbnb": "1421146420496557487",
+      "address": "12 HAYDENS CT_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1421146420496557487",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/12-Haydens-Ct_Pooler_GA_31322_M67645-96432",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 130.44267466417463,
+      "inliers": 287,
+      "discovered_unix": 1795071020.1076918,
+      "photos": [
+        [
+          "assets/2ef98a07b35b140de916f5504884de68.jpg",
+          "assets/2e9899e26f1c5ad12ba744c738137472.jpg"
+        ]
+      ]
+    },
     {
       "key": "9f77121335901492fec65856",
       "airbnb": "43532239",
@@ -2678,66 +2738,6 @@
       ]
     },
     {
-      "key": "7d764e820a312671526701a9",
-      "airbnb": "1577097349989679997",
-      "address": "147 CROSS CREEK DR_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/1577097349989679997",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/147-Cross-Creek-Dr_Pooler_GA_31322_M92604-55521",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 15.64157325936486,
-      "inliers": 101,
-      "discovered_unix": 1795071914.5809877,
-      "photos": [
-        [
-          "assets/ab056fed5af70b4692103b035e06e51a.jpg",
-          "assets/d6ee5f8173cc012c8ab8de5d5ff3beac.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "677f227567e87cd40dc81e27",
-      "airbnb": "1770515490004764705",
-      "address": "18 SHEFTALL CV_SAVANNAH_31410",
-      "airbnb_url": "https://www.airbnb.com/rooms/1770515490004764705",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/18-Sheftall-Cv_Savannah_GA_31410_M56855-96530",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 51.57442860434603,
-      "inliers": 211,
-      "discovered_unix": 1795071074.714886,
-      "photos": [
-        [
-          "assets/9636183c6ec58f7a8210ab153fa2b38b.jpg",
-          "assets/e126a87b574f7826e9be941209f1211e.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "3c71312c156c6edd8b96d515",
-      "airbnb": "1421146420496557487",
-      "address": "12 HAYDENS CT_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/1421146420496557487",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/12-Haydens-Ct_Pooler_GA_31322_M67645-96432",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 130.44267466417463,
-      "inliers": 287,
-      "discovered_unix": 1795071020.1076918,
-      "photos": [
-        [
-          "assets/2ef98a07b35b140de916f5504884de68.jpg",
-          "assets/2e9899e26f1c5ad12ba744c738137472.jpg"
-        ]
-      ]
-    },
-    {
       "key": "2bca7b3f489553b4c54cc333",
       "airbnb": "1751482998448630040",
       "address": "UNIT 301",
@@ -2819,10 +2819,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1974,
-    "total_airbnb": 2694,
+    "airbnb_checked": 1971,
+    "total_airbnb": 2691,
     "airbnb_remaining": 720,
-    "eta_seconds": 21289.024464354225,
-    "updated_unix": 1795072312.5974832
+    "eta_seconds": 25183.25296129499,
+    "updated_unix": 1795072404.7340572
   }
 }
