@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795059593.1131566,
-  "content_signature": "c0eb5db6e8b03dedf0fbbac26109442407c7b00e8bf8d95a420595e91c8f5d7f",
+  "published_unix": 1795060040.8690014,
+  "content_signature": "67da45f2a7a84db61bfc51dca48634090ad4996dca70631c89a44ab554ba48b2",
   "matches": [
+    {
+      "key": "d366adb891487a5750c4924d",
+      "airbnb": "1721978963600351913",
+      "address": "2199 DOWNING AVE_SAVANNAH_31404",
+      "airbnb_url": "https://www.airbnb.com/rooms/1721978963600351913",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/2199-Downing-Ave_Savannah_GA_31404_M55681-83068",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 32.116840673530604,
+      "inliers": 109,
+      "discovered_unix": 1795059970.7853043,
+      "photos": [
+        [
+          "assets/705085118d56f9a88a1bdec64575bd49.jpg",
+          "assets/185ba21980849a93d03760fe954eaa34.jpg"
+        ]
+      ]
+    },
     {
       "key": "782081c268631ebd86930249",
       "airbnb": "1357289872054839941",
@@ -1825,10 +1845,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1125,
+    "airbnb_checked": 1157,
     "total_airbnb": 2735,
-    "airbnb_remaining": 1610,
-    "eta_seconds": 12356.021305833545,
-    "updated_unix": 1795059588.4623494
+    "airbnb_remaining": 1578,
+    "eta_seconds": 17374.035694774317,
+    "updated_unix": 1795060024.3334882
   }
 }
