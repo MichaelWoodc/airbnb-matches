@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795118426.4241276,
-  "content_signature": "1e67c75f43739f32be7bcc433adff415f7662924cd0a9eba5920171f3c727811",
+  "published_unix": 1795118513.5721772,
+  "content_signature": "d1a8d1e8f6ace41e2ec329bb57a3b63b630d243211f9887200622a2aef750aff",
   "matches": [
     {
       "key": "b73d5a1b688a6a52b6db5259",
@@ -3238,6 +3238,46 @@
       ]
     },
     {
+      "key": "a9bf06a9add773799b0816a3",
+      "airbnb": "1244458403795084365",
+      "address": "169 AQUINNAH DR_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1244458403795084365",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/169-Aquinnah-Dr_Pooler_GA_31322_M66098-56835",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue follow-up"
+      ],
+      "score": 9.532851622945994,
+      "inliers": 37,
+      "discovered_unix": 1795118461.442779,
+      "photos": [
+        [
+          "assets/ee9b6b5f728c4a4bffe01b8c9769c5e0.jpg",
+          "assets/bc4bc83b9808ae01b6c77b19e43b3e92.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "b9fb4dad5cb86500c136856b",
+      "airbnb": "53459098",
+      "address": "UNIT H",
+      "airbnb_url": "https://www.airbnb.com/rooms/53459098",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/501-E-Charlton-St-Apt-H_Savannah_GA_31401_M55154-73466",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue follow-up"
+      ],
+      "score": 7.147930194092594,
+      "inliers": 58,
+      "discovered_unix": 1795118421.6844041,
+      "photos": [
+        [
+          "assets/d186aa74431083d1e27458787a8fd7b9.jpg",
+          "assets/027a7400dade5d30c9ae9a24fb1855c0.jpg"
+        ]
+      ]
+    },
+    {
       "key": "31d066e34696824a417b6c46",
       "airbnb": "1445002592648041413",
       "address": "110 BERWICK LAKES BLVD_POOLER_31322",
@@ -3599,10 +3639,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 956,
+    "airbnb_checked": 987,
     "total_airbnb": 2032,
-    "airbnb_remaining": 1076,
-    "eta_seconds": 3093.6144108869594,
-    "updated_unix": 1795118408.577174
+    "airbnb_remaining": 1045,
+    "eta_seconds": 2920.7435498675522,
+    "updated_unix": 1795118495.3949327
   }
 }
