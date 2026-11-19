@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795058464.939846,
-  "content_signature": "e2ccfe0b58d0bbd27b939bd5687c8f6ddfa9fa899a966b5bd25e5a21136986e8",
+  "published_unix": 1795059117.2446907,
+  "content_signature": "d94240cd97c65c2a4a6b4c120e704e2ae9d7d646e78e82552e002f4f9ed9dc5e",
   "matches": [
     {
       "key": "782081c268631ebd86930249",
@@ -8,7 +8,7 @@
       "address": "12 SEA BREEZE LN_TYBEE ISLAND_31328",
       "airbnb_url": "https://www.airbnb.com/rooms/1357289872054839941",
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/12-Sea-Breeze-Ln_Tybee-Island_GA_31328_M58868-16385",
-      "verified": false,
+      "verified": true,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
@@ -19,26 +19,6 @@
         [
           "assets/87fecce84f16c00048c37dea3cd1b981.jpg",
           "assets/23f6638867fcd858d667e8c327487076.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "21f18eb4d6009632dc5bc3d3",
-      "airbnb": "1227633060121500069",
-      "address": "UNIT A",
-      "airbnb_url": "https://www.airbnb.com/rooms/1227633060121500069",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/8-6th-St-A_Tybee-Island_GA_31328_M66043-09345",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 8.168654175258716,
-      "inliers": 44,
-      "discovered_unix": 1795058348.7626445,
-      "photos": [
-        [
-          "assets/1ba5e1828e3f480fd17addd2af192893.jpg",
-          "assets/8deacd6743d2058170c8eea68ac49b78.jpg"
         ]
       ]
     },
@@ -1885,10 +1865,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1010,
-    "total_airbnb": 2737,
-    "airbnb_remaining": 1727,
-    "eta_seconds": 16587.113884176528,
-    "updated_unix": 1795058455.397129
+    "airbnb_checked": 1068,
+    "total_airbnb": 2736,
+    "airbnb_remaining": 1668,
+    "eta_seconds": 15645.48147343616,
+    "updated_unix": 1795059104.1502397
   }
 }
