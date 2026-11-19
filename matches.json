@@ -1,7 +1,24 @@
 {
-  "published_unix": 1795128103.1035373,
-  "content_signature": "c4b7cc9517a9e8d1d0914775609d307748763ac9767a771161ef4c2a175b1edb",
+  "published_unix": 1795128190.1899536,
+  "content_signature": "3a6e5dad5ca56883ae9f0eed8b3a82035d7b5564ab6276e053f89cbe3d35c856",
   "matches": [
+    {
+      "key": "8de114dd9e5ed14c5c020ed1",
+      "airbnb": "1407198241484860464",
+      "address": "407 E HUNTINGDON ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1407198241484860464",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/407-E-Huntingdon-St_Savannah_GA_31401_M62464-50768",
+      "verified": true,
+      "score": 94.35224867702703,
+      "inliers": 225,
+      "discovered_unix": 1795128053.815053,
+      "photos": [
+        [
+          "assets/9cee349b7bb43990619b3f45daee281d.jpg",
+          "assets/6130d6e54d6a3356d2f088eb2744fa8a.jpg"
+        ]
+      ]
+    },
     {
       "key": "d99c8a7cb438d17a742cc23b",
       "airbnb": "1706923303195424455",
@@ -2844,23 +2861,6 @@
       ]
     },
     {
-      "key": "8de114dd9e5ed14c5c020ed1",
-      "airbnb": "1407198241484860464",
-      "address": "407 E HUNTINGDON ST_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/1407198241484860464",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/407-E-Huntingdon-St_Savannah_GA_31401_M62464-50768",
-      "verified": false,
-      "score": 94.35224867702703,
-      "inliers": 225,
-      "discovered_unix": 1795128053.815053,
-      "photos": [
-        [
-          "assets/9cee349b7bb43990619b3f45daee281d.jpg",
-          "assets/6130d6e54d6a3356d2f088eb2744fa8a.jpg"
-        ]
-      ]
-    },
-    {
       "key": "45172c01ffb4950130a418ba",
       "airbnb": "44196068",
       "address": "158 AQUINNAH DR_POOLER_31322",
@@ -3066,10 +3066,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2025,
-    "total_airbnb": 2028,
-    "airbnb_remaining": 3,
-    "eta_seconds": 102.9596297497652,
-    "updated_unix": 1795128098.2073488
+    "airbnb_checked": 2026,
+    "total_airbnb": 2027,
+    "airbnb_remaining": 1,
+    "eta_seconds": 35.55204155493756,
+    "updated_unix": 1795128172.0037158
   }
 }
