@@ -1,5 +1,5 @@
 {
-  "generated_unix": 1795124487.1929357,
+  "generated_unix": 1795126959.4908798,
   "source_manifest": {
     "0": {
       "url": "https://services5.arcgis.com/CEpuXecVrKGiDoOH/ArcGIS/rest/services/STR_Map_and_Parcel_WFL1/FeatureServer/0",
@@ -4449,7 +4449,7 @@
       "license_unit_evidence": "",
       "license_unit_source": "",
       "removed_on": "",
-      "reported_on": "",
+      "reported_on": "2026-11-19",
       "normalized_address": "17 E 37TH ST",
       "licensed_exact_unit": false,
       "rental_term_note": "",
