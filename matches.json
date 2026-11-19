@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795068401.6638288,
-  "content_signature": "f86ad5048970ed4e2a873b45872f6760851706429b982b34b7a4f5a36f0afe45",
+  "published_unix": 1795068490.2569838,
+  "content_signature": "70036d2568e0c4dffd94a375fb1e940c4e1e179dcfef4d3e091d6cec751c05c5",
   "matches": [
     {
       "key": "939ed2cb08035aa00035a96e",
@@ -2418,6 +2418,46 @@
       ]
     },
     {
+      "key": "a2e5236a9ce9d00d9b402336",
+      "airbnb": "1400800132285833467",
+      "address": "606 MILLER AVE_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1400800132285833467",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/606-Miller-Ave_Tybee-Island_GA_31328_M63081-33240",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 33.45058337143087,
+      "inliers": 145,
+      "discovered_unix": 1795068469.8357573,
+      "photos": [
+        [
+          "assets/c14af97793695cfad604ceeb73e88233.jpg",
+          "assets/869a022536a96df485b128ecfa520e6d.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "2eaabb195d583581edca49e9",
+      "airbnb": "694173636620700887",
+      "address": "111 2ND AVE_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/694173636620700887",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/111-2nd-Ave_Tybee-Island_GA_31328_M54107-53049",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 34.11545806464026,
+      "inliers": 106,
+      "discovered_unix": 1795068426.4938288,
+      "photos": [
+        [
+          "assets/909451ee37432424b378a693ff5c2ce2.jpg",
+          "assets/4d8f81bda8ebb91f615e66d62e3fc40f.jpg"
+        ]
+      ]
+    },
+    {
       "key": "1fab73175d620e419f560726",
       "airbnb": "862546695010142428",
       "address": "3 15TH ST #112_TYBEE ISLAND_31328",
@@ -2519,10 +2559,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1781,
+    "airbnb_checked": 1788,
     "total_airbnb": 2707,
-    "airbnb_remaining": 926,
-    "eta_seconds": 16306.520503170637,
-    "updated_unix": 1795068390.6973321
+    "airbnb_remaining": 919,
+    "eta_seconds": 17248.22732414518,
+    "updated_unix": 1795068481.020127
   }
 }
