@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795046305.1733425,
-  "content_signature": "e59eb06e72b19217476da09af29a75abff49d9b87519707975c08717e7780be5",
+  "published_unix": 1795046654.3149245,
+  "content_signature": "182e7f9654e087defc3faec17df20164bb7ea552e965d43fb47dc2c8391d8a0d",
   "matches": [
+    {
+      "key": "b044c600a80ec85c25453cff",
+      "airbnb": "30556637",
+      "address": "17 N CAMPBELL AVE_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/30556637",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/17-N-Campbell-Ave_Tybee-Island_GA_31328_M51243-24935",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 14.771286112696172,
+      "inliers": 90,
+      "discovered_unix": 1795046636.8545337,
+      "photos": [
+        [
+          "assets/6374b3b729d49ca21305c4faa23769b5.jpg",
+          "assets/40036b73abdcb528b764b1aef9458eab.jpg"
+        ]
+      ]
+    },
     {
       "key": "84a12b3036be37d0b5602e15",
       "airbnb": "1630780219770090884",
@@ -1541,10 +1561,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 522,
+    "airbnb_checked": 531,
     "total_airbnb": 3631,
-    "airbnb_remaining": 3109,
-    "eta_seconds": 99790.06933183572,
-    "updated_unix": 1795046299.3871872
+    "airbnb_remaining": 3100,
+    "eta_seconds": 106495.63631427531,
+    "updated_unix": 1795046639.097089
   }
 }
