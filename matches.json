@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795124456.2225385,
-  "content_signature": "8f1a0400d62b83eb43d48c856f73f10a5b95c57a8f015e3ac9fe42e94c6e31cc",
+  "published_unix": 1795124563.2007005,
+  "content_signature": "75b0a755aaa476a08fe22b74dfc7aedf40621546e99c430a4f72925e9fab1eb5",
   "matches": [
     {
       "key": "d99c8a7cb438d17a742cc23b",
@@ -2844,6 +2844,23 @@
       ]
     },
     {
+      "key": "a5e3767f6d7f961db562df36",
+      "airbnb": "724625801390917080",
+      "address": "1406 E 34th St_Savannah_31404",
+      "airbnb_url": "https://www.airbnb.com/rooms/724625801390917080",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1406-E-34th-St_Savannah_GA_31404_M56598-51755",
+      "verified": false,
+      "score": 9.651355540788757,
+      "inliers": 57,
+      "discovered_unix": 1795124503.4548047,
+      "photos": [
+        [
+          "assets/33822ae0e11d8291990a41cf96b7c026.jpg",
+          "assets/24d3f114001aa9e8f21c63a4e33a0458.jpg"
+        ]
+      ]
+    },
+    {
       "key": "32381f08c53ed1c5d1f3e939",
       "airbnb": "36305329",
       "address": "220 W 38th St_Savannah_31401",
@@ -3066,10 +3083,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1902,
+    "airbnb_checked": 1906,
     "total_airbnb": 2028,
-    "airbnb_remaining": 126,
-    "eta_seconds": 2325.8385041100637,
-    "updated_unix": 1795124442.677945
+    "airbnb_remaining": 122,
+    "eta_seconds": 2279.2231635852736,
+    "updated_unix": 1795124549.4155216
   }
 }
