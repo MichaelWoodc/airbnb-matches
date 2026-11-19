@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795123673.7944145,
-  "content_signature": "ccea026380b9ee67b0bdd061283e11051f6efc7a97e186166e0f3e6d4a76e7a3",
+  "published_unix": 1795123779.938227,
+  "content_signature": "a1a7e22cc1a49617f29cce62f8e7972576faed4f9e8a2b2fffa220d7c8fecea8",
   "matches": [
     {
       "key": "d99c8a7cb438d17a742cc23b",
@@ -16,6 +16,23 @@
         [
           "assets/ffff8f865a342fcfb65540217e16ae4d.jpg",
           "assets/8ccc0f2e84076b20f0b7142a84d2c02b.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "65a7143b7b1f77f6508a2ba5",
+      "airbnb": "1735615341624795779",
+      "address": "216 E DUFFY ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1735615341624795779",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/216-E-Duffy-St_Savannah_GA_31401_M62533-07701",
+      "verified": true,
+      "score": 28.389392733872416,
+      "inliers": 102,
+      "discovered_unix": 1795123067.7474165,
+      "photos": [
+        [
+          "assets/40da4a36b0ba32ffcdb81056612f1727.jpg",
+          "assets/b6f60ace912e228984177038ac53893e.jpg"
         ]
       ]
     },
@@ -2827,57 +2844,6 @@
       ]
     },
     {
-      "key": "0aa883ccbc5ac600b1cc0a56",
-      "airbnb": "1213023680560422571",
-      "address": "UNIT B",
-      "airbnb_url": "https://www.airbnb.com/rooms/1213023680560422571",
-      "realtor_url": "https://www.realtor.com/rentals/details/201-E-Duffy-St-Apt-B_Savannah_GA_31401_M69972-93902",
-      "verified": false,
-      "score": 19.850308342881082,
-      "inliers": 108,
-      "discovered_unix": 1795123338.6506243,
-      "photos": [
-        [
-          "assets/9ca9f9e6c95d8603231fa52e9d764826.jpg",
-          "assets/81e033151ad93bb3a8fe208505e2b7d1.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "90689671838f3a4c9d0406e3",
-      "airbnb": "1512654358078763391",
-      "address": "513 E PERRY ST_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/1512654358078763391",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/513-E-Perry-St_Savannah_GA_31401_M66000-23732",
-      "verified": false,
-      "score": 12.628976354991893,
-      "inliers": 74,
-      "discovered_unix": 1795123306.7289562,
-      "photos": [
-        [
-          "assets/7e80032bbf3c29de6ffe33dd8e213936.jpg",
-          "assets/4af0e3dc4e2bc21597694a2a23df8cde.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "65a7143b7b1f77f6508a2ba5",
-      "airbnb": "1735615341624795779",
-      "address": "216 E DUFFY ST_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/1735615341624795779",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/216-E-Duffy-St_Savannah_GA_31401_M62533-07701",
-      "verified": false,
-      "score": 28.389392733872416,
-      "inliers": 102,
-      "discovered_unix": 1795123067.7474165,
-      "photos": [
-        [
-          "assets/40da4a36b0ba32ffcdb81056612f1727.jpg",
-          "assets/b6f60ace912e228984177038ac53893e.jpg"
-        ]
-      ]
-    },
-    {
       "key": "cb3a8135c66d92f6191acce3",
       "airbnb": "1609853086401984308",
       "address": "14 ANGEL OAKS DR_SAVANNAH_31410",
@@ -2891,23 +2857,6 @@
         [
           "assets/514a620c68ef383b05eb7ab353a763f8.jpg",
           "assets/1e27d3921e7e0d1dbed98974e651b187.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "c0465948d57ac3bfc4ccb2a0",
-      "airbnb": "929118044034442797",
-      "address": "11 KINGRY ST_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/929118044034442797",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/11-Kingry-St_Tybee-Island_GA_31328_M54250-39723",
-      "verified": false,
-      "score": 14.408840396044754,
-      "inliers": 77,
-      "discovered_unix": 1795122055.793395,
-      "photos": [
-        [
-          "assets/a2f0fb019e513e725c9ea186cede761c.jpg",
-          "assets/28d7e0f33c6698d783423b9993c55c3d.jpg"
         ]
       ]
     },
@@ -3117,10 +3066,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1863,
-    "total_airbnb": 2029,
-    "airbnb_remaining": 166,
-    "eta_seconds": 2370.2269230862053,
-    "updated_unix": 1795123671.5029466
+    "airbnb_checked": 1865,
+    "total_airbnb": 2028,
+    "airbnb_remaining": 163,
+    "eta_seconds": 2528.548958647008,
+    "updated_unix": 1795123763.2955208
   }
 }

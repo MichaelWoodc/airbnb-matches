@@ -1,5 +1,5 @@
 {
-  "generated_unix": 1795123680.2395551,
+  "generated_unix": 1795123785.4858897,
   "source_manifest": {
     "0": {
       "url": "https://services5.arcgis.com/CEpuXecVrKGiDoOH/ArcGIS/rest/services/STR_Map_and_Parcel_WFL1/FeatureServer/0",
@@ -23,7 +23,7 @@
   "counts": {
     "review": 28,
     "outside_scope": 49,
-    "license_not_shown": 57,
+    "license_not_shown": 58,
     "unlicensed": 6,
     "license_shown": 14
   },
@@ -6495,6 +6495,48 @@
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
+    },
+    {
+      "reported_on": "",
+      "normalized_address": "216 E DUFFY ST",
+      "licensed_exact_unit": true,
+      "rental_term_note": "",
+      "rental_term_source": "",
+      "address_proof_url": "",
+      "address_correction_note": "",
+      "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/65a7143b7b1f77f6508a2ba5.html",
+      "listing_title": "Savannah Home, Walkable to Forsyth, Historic",
+      "rental_type": "Entire home",
+      "host_name": "Laura W/Southern Grace Stays",
+      "advertised_capacity": 8,
+      "bedrooms": 4,
+      "legal_limit": "8",
+      "legal_limit_source": "Savannah license workbook approved occupancy",
+      "airbnb": "1735615341624795779",
+      "airbnb_url": "https://www.airbnb.com/rooms/1735615341624795779",
+      "realtor_property": "SAVANNAH/E DUFFY ST/216 E DUFFY ST_SAVANNAH_31401",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/216-E-Duffy-St_Savannah_GA_31401_M62533-07701",
+      "address": "216 E Duffy St",
+      "unit": "",
+      "category": "license_not_shown",
+      "jurisdiction": "SAVANNAH",
+      "latitude": 32.0635,
+      "longitude": -81.094516,
+      "coordinate_basis": "Realtor saved property coordinates",
+      "license_display": "not_shown_in_saved_text",
+      "displayed_numbers": "",
+      "numeric_license_matches": "",
+      "matched_permits": "SVR-00328",
+      "agency": "Savannah",
+      "source_status": "Savannah workbook license record",
+      "license_match_basis": "normalized street; unit checked where present",
+      "permit_scope": "address association; exact rental-unit coverage may require review",
+      "assessor_pin": "2004434007",
+      "verified_unix": 1795123744.5629544,
+      "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
+      "county_snapshot_fetched_unix": 1795046366.71445,
+      "conflicting_property_matches": false,
+      "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     }
   ],
   "note": "Only explicitly user-confirmed property matches are categorized. Unlicensed means no matching record in the referenced sources; it is a review flag, not a legal finding. The audit checks Savannah, Tybee Island, Thunderbolt, and unincorporated Chatham County sources."
