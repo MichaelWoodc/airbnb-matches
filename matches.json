@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795054459.6458144,
-  "content_signature": "edec7a6064fa6fdd55e914271fef02c87f23ea51a7de759cb66e2ff87eed6a82",
+  "published_unix": 1795054661.042261,
+  "content_signature": "40f35ffbe1fa8fb9bb6116f619799585c5665dbc237b54f1d190e46d1cda3cd4",
   "matches": [
     {
       "key": "a96afec3ec6d231b5af54e6d",
@@ -8,7 +8,7 @@
       "address": "1608 JONES AVE #9_TYBEE ISLAND_31328",
       "airbnb_url": "https://www.airbnb.com/rooms/952842305537284774",
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1608-Jones-Ave-9_Tybee-Island_GA_31328_M68996-44873",
-      "verified": false,
+      "verified": true,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
@@ -28,7 +28,7 @@
       "address": "301 10th St_Tybee Island_31328",
       "airbnb_url": "https://www.airbnb.com/rooms/565084108255035813",
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/301-10th-St_Tybee-Island_GA_31328_M66045-85921",
-      "verified": false,
+      "verified": true,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
@@ -1621,10 +1621,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 641,
-    "total_airbnb": 2904,
-    "airbnb_remaining": 2263,
-    "eta_seconds": 17912.397320455435,
-    "updated_unix": 1795054455.2220843
+    "airbnb_checked": 630,
+    "total_airbnb": 2757,
+    "airbnb_remaining": 2127,
+    "eta_seconds": 16739.789462327957,
+    "updated_unix": 1795054646.1098204
   }
 }
