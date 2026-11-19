@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795070172.2727656,
-  "content_signature": "f0b20f5620666c72856ba9b608847cc22504afa9f26af92be690bd6463141dca",
+  "published_unix": 1795070260.8991177,
+  "content_signature": "79ba1a86d2ffcf8d94981fe2bdb43415d77f4fa79d56c1934c5725ee9e632edf",
   "matches": [
     {
       "key": "bed21bd4aaa30c90046350c8",
@@ -2598,6 +2598,46 @@
       ]
     },
     {
+      "key": "7dc40effeae808d9bf77dea0",
+      "airbnb": "1645105843491632363",
+      "address": "1214 LOVELL AVE_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1645105843491632363",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1214-Lovell-Ave_Tybee-Island_GA_31328_M64640-91208",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 180.89083601045363,
+      "inliers": 312,
+      "discovered_unix": 1795070228.8551831,
+      "photos": [
+        [
+          "assets/d3aef629ef9c00d71f52ba8ef544859c.jpg",
+          "assets/dc47bad3d0a96dde0b22e1fe38a7c0c1.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "b84f96fdd57e6751f160a78f",
+      "airbnb": "1772495772505511514",
+      "address": "2 Venice Pl_Pooler_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1772495772505511514",
+      "realtor_url": "https://www.realtor.com/rentals/details/2-Venice-Pl_Pooler_GA_31322_M99709-59466",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 12.620146796407909,
+      "inliers": 75,
+      "discovered_unix": 1795070170.3071573,
+      "photos": [
+        [
+          "assets/987ceadb225cf52436af59a2dee732e1.jpg",
+          "assets/6d0b737e3d58b4a565a99677849609fc.jpg"
+        ]
+      ]
+    },
+    {
       "key": "ff8ce3b7144724964e457862",
       "airbnb": "1583653128873973556",
       "address": "1411 CHATHAM AVE_TYBEE ISLAND_31328",
@@ -2799,10 +2839,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1901,
+    "airbnb_checked": 1909,
     "total_airbnb": 2698,
-    "airbnb_remaining": 797,
-    "eta_seconds": 6691.050209682815,
-    "updated_unix": 1795070159.8249817
+    "airbnb_remaining": 789,
+    "eta_seconds": 7036.167198263869,
+    "updated_unix": 1795070249.0107942
   }
 }
