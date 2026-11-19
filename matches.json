@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795054661.042261,
-  "content_signature": "40f35ffbe1fa8fb9bb6116f619799585c5665dbc237b54f1d190e46d1cda3cd4",
+  "published_unix": 1795054732.3312492,
+  "content_signature": "498d19fc53e0a79812b533fbdc9059004fd8c4cc5112762b79cca962d9087800",
   "matches": [
+    {
+      "key": "0d2de2f9574bc0701f6526ba",
+      "airbnb": "689886009976821667",
+      "address": "103 SKINNER RD_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/689886009976821667",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/103-Skinner-Rd_Pooler_GA_31322_M56182-07996",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 63.69224954733314,
+      "inliers": 172,
+      "discovered_unix": 1795054659.8608549,
+      "photos": [
+        [
+          "assets/58ba1f71c8f4f42e9dea0233a8fcc260.jpg",
+          "assets/b84c02e25e2f8d1a171684e37ba33df6.jpg"
+        ]
+      ]
+    },
     {
       "key": "a96afec3ec6d231b5af54e6d",
       "airbnb": "952842305537284774",
@@ -39,26 +59,6 @@
         [
           "assets/2e1b5ed5d5c2e046eb8d5d14fcfe9e14.jpg",
           "assets/d8d017ca402a06cdac5dd7a67ac2d166.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "451bbbee033dad6a8a8e768d",
-      "airbnb": "1008583598206861190",
-      "address": "524 POINTE NORTH DR_SAVANNAH_31410",
-      "airbnb_url": "https://www.airbnb.com/rooms/1008583598206861190",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/524-Pointe-North-Dr_Savannah_GA_31410_M56864-90913",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 8.906519640832515,
-      "inliers": 62,
-      "discovered_unix": 1795054128.30781,
-      "photos": [
-        [
-          "assets/ab63c2f8cca6c29ee5d95a10136d7fc0.jpg",
-          "assets/175a05fa2faf85ca512af24f38f61dd1.jpg"
         ]
       ]
     },
@@ -1621,10 +1621,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 630,
-    "total_airbnb": 2757,
-    "airbnb_remaining": 2127,
-    "eta_seconds": 16739.789462327957,
-    "updated_unix": 1795054646.1098204
+    "airbnb_checked": 638,
+    "total_airbnb": 2745,
+    "airbnb_remaining": 2107,
+    "eta_seconds": 14238.78960108757,
+    "updated_unix": 1795054726.129088
   }
 }
