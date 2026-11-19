@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795057562.9735053,
-  "content_signature": "aec3d5d88206dd1e6ef6c696ac9feb6e88dcb755273b5ace6b887cfcbe4d331d",
+  "published_unix": 1795057627.4440773,
+  "content_signature": "6ee2a4ff75dd76c3a2928f45f50db55ae892912acad442abecf89eeb31edf3e6",
   "matches": [
+    {
+      "key": "9509799a34fadc73b0f64a6e",
+      "airbnb": "1371198222718470800",
+      "address": "150 AQUINNAH DR_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1371198222718470800",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/150-Aquinnah-Dr_Pooler_GA_31322_M50014-68907",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 13.973439506158469,
+      "inliers": 64,
+      "discovered_unix": 1795057589.7823253,
+      "photos": [
+        [
+          "assets/904f0534e1ee6447cb63067006459454.jpg",
+          "assets/9fbcc214c84d2487d5443c0891f8aa00.jpg"
+        ]
+      ]
+    },
     {
       "key": "84992d90ed4625a25c901faf",
       "airbnb": "929139271897014504",
@@ -63,26 +83,6 @@
       ]
     },
     {
-      "key": "599e5105a55a42ed06147ff3",
-      "airbnb": "1637843440634199955",
-      "address": "312 SANDY SPRINGS RD_SAVANNAH_31410",
-      "airbnb_url": "https://www.airbnb.com/rooms/1637843440634199955",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/312-Sandy-Springs-Rd_Savannah_GA_31410_M60707-77312",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 10.541249696044524,
-      "inliers": 59,
-      "discovered_unix": 1795056355.7023168,
-      "photos": [
-        [
-          "assets/8025ca65034b8c9a1e4d17d35bfe0a38.jpg",
-          "assets/bcae543ac17479f2d140c9d8dab9a466.jpg"
-        ]
-      ]
-    },
-    {
       "key": "c250dc8c78b98b910bad70ab",
       "airbnb": "963251823602809512",
       "address": "211 HOLIDAY DR_SAVANNAH_31419",
@@ -108,7 +108,7 @@
       "address": "203 FOXBURY SQ_POOLER_31322",
       "airbnb_url": "https://www.airbnb.com/rooms/1171101680461431674",
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/203-Foxbury-Sq_Pooler_GA_31322_M58140-32484",
-      "verified": false,
+      "verified": true,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
@@ -119,26 +119,6 @@
         [
           "assets/d7f57248471a1f7b8a28335c34c7ea19.jpg",
           "assets/57f1153d690976f069caedc2876e202b.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "f14393a255f696a365478bfc",
-      "airbnb": "1244298198640116422",
-      "address": "520 FLAT ROCK TRCE_PORT WENTWORTH_31407",
-      "airbnb_url": "https://www.airbnb.com/rooms/1244298198640116422",
-      "realtor_url": "https://www.realtor.com/rentals/details/520-Flat-Rock-Trce_Port-Wentworth_GA_31407_M63510-76353",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 7.503751459837617,
-      "inliers": 50,
-      "discovered_unix": 1795055652.8002908,
-      "photos": [
-        [
-          "assets/6622653b9e58b7d1c60e6190119dbc24.jpg",
-          "assets/0044ea058e994361e8a02039be4c3860.jpg"
         ]
       ]
     },
@@ -165,9 +145,9 @@
   ],
   "progress": {
     "airbnb_checked": 938,
-    "total_airbnb": 2740,
-    "airbnb_remaining": 1802,
-    "eta_seconds": 21888.824297204308,
-    "updated_unix": 1795057550.8079631
+    "total_airbnb": 2739,
+    "airbnb_remaining": 1801,
+    "eta_seconds": 23888.243541946216,
+    "updated_unix": 1795057617.7928443
   }
 }
