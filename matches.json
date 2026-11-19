@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795116235.6759543,
-  "content_signature": "1b260543d478991055086f89f9d9d35c4d349a9ee171e766ad0287715b7e6581",
+  "published_unix": 1795116695.6370013,
+  "content_signature": "cffb71a594942be322db6f513d784cba1e9a0f8528eb46a8ef539b0f03b7b8ae",
   "matches": [
     {
       "key": "b73d5a1b688a6a52b6db5259",
@@ -119,6 +119,26 @@
         [
           "assets/0daf4db88101633ea576736bc1735e31.jpg",
           "assets/1a0536d81e50b5ec2c925934ccf3881d.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "57bcf19635e7987b0ffe50b8",
+      "airbnb": "1583570111217517171",
+      "address": "806 ROBIN DR_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1583570111217517171",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/806-Robin-Dr_Pooler_GA_31322_M68978-29513",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 70.9115849586717,
+      "inliers": 194,
+      "discovered_unix": 1795079476.9325383,
+      "photos": [
+        [
+          "assets/36f6789d6c6f827dd5ea5b9288b19b16.jpg",
+          "assets/5378cfc0b1f0eef98ef52cc130b68dee.jpg"
         ]
       ]
     },
@@ -3158,26 +3178,6 @@
       ]
     },
     {
-      "key": "57bcf19635e7987b0ffe50b8",
-      "airbnb": "1583570111217517171",
-      "address": "806 ROBIN DR_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/1583570111217517171",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/806-Robin-Dr_Pooler_GA_31322_M68978-29513",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 70.9115849586717,
-      "inliers": 194,
-      "discovered_unix": 1795079476.9325383,
-      "photos": [
-        [
-          "assets/36f6789d6c6f827dd5ea5b9288b19b16.jpg",
-          "assets/5378cfc0b1f0eef98ef52cc130b68dee.jpg"
-        ]
-      ]
-    },
-    {
       "key": "33d29a43430d0ab54af67695",
       "airbnb": "32810756",
       "address": "415 E HULL ST_SAVANNAH_31401",
@@ -3539,10 +3539,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2672,
-    "total_airbnb": 2672,
+    "airbnb_checked": 2671,
+    "total_airbnb": 2671,
     "airbnb_remaining": 0,
     "eta_seconds": null,
-    "updated_unix": 1795116223.7050462
+    "updated_unix": 1795116682.2256317
   }
 }
