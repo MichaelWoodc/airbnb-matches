@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795055903.696165,
-  "content_signature": "e5d021aa62ffd01f8938ec5e96d2b312c89379ab16aa3b079bb05a0571741273",
+  "published_unix": 1795056292.5292258,
+  "content_signature": "e68b75da79b779c0532910e9ace8066f1b906f000e9dfbac3a7a65464d51ca3c",
   "matches": [
+    {
+      "key": "c250dc8c78b98b910bad70ab",
+      "airbnb": "963251823602809512",
+      "address": "211 HOLIDAY DR_SAVANNAH_31419",
+      "airbnb_url": "https://www.airbnb.com/rooms/963251823602809512",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/211-Holiday-Dr_Savannah_GA_31419_M62291-25956",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 14.87117647386255,
+      "inliers": 73,
+      "discovered_unix": 1795056274.023408,
+      "photos": [
+        [
+          "assets/feade38cb26f362599f47f5d9a852ec7.jpg",
+          "assets/96923dfc4c0fdc061b411094b32d1d28.jpg"
+        ]
+      ]
+    },
     {
       "key": "5668ca026c04ec389e688091",
       "airbnb": "1171101680461431674",
@@ -1821,10 +1841,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 767,
+    "airbnb_checked": 820,
     "total_airbnb": 2740,
-    "airbnb_remaining": 1973,
-    "eta_seconds": 20329.209103691333,
-    "updated_unix": 1795055894.495516
+    "airbnb_remaining": 1920,
+    "eta_seconds": 14538.194592534279,
+    "updated_unix": 1795056277.6085815
   }
 }
