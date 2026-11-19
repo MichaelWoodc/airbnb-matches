@@ -1,7 +1,47 @@
 {
-  "published_unix": 1795081783.259904,
-  "content_signature": "f5deb3bf0bac1a99a936268776fc5bad6aa7fc142597f638aeeb59d1eb054d50",
+  "published_unix": 1795115967.9179838,
+  "content_signature": "85415001cef6d174fd83fb33700fab2047150fa00558263c32cea76f16020ddd",
   "matches": [
+    {
+      "key": "b73d5a1b688a6a52b6db5259",
+      "airbnb": "1696783109839497109",
+      "address": "303 LAKESIDE BLVD_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1696783109839497109",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/303-Lakeside-Blvd_Port-Wentworth_GA_31407_M58726-00025",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 32.025293807653654,
+      "inliers": 134,
+      "discovered_unix": 1795081463.3257499,
+      "photos": [
+        [
+          "assets/6e92bc0b5cc9fa86eb662c9c79a5783d.jpg",
+          "assets/847aeb05a2138229666fa4011c8ab2bb.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "72e9f1a7497ef582cef76dc6",
+      "airbnb": "1545083020263311731",
+      "address": "415 WHITAKER ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1545083020263311731",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/415-Whitaker-St_Savannah_GA_31401_M69950-42723",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 16.443033157143027,
+      "inliers": 108,
+      "discovered_unix": 1795081067.140464,
+      "photos": [
+        [
+          "assets/04523feeb8a99768fae4c01a69f2644b.jpg",
+          "assets/42c11ce7140d010c7d11e26ac2b15f2a.jpg"
+        ]
+      ]
+    },
     {
       "key": "46bbd7f09dbd7a3e3e0ccf06",
       "airbnb": "1163100600376479007",
@@ -3038,46 +3078,6 @@
       ]
     },
     {
-      "key": "b73d5a1b688a6a52b6db5259",
-      "airbnb": "1696783109839497109",
-      "address": "303 LAKESIDE BLVD_PORT WENTWORTH_31407",
-      "airbnb_url": "https://www.airbnb.com/rooms/1696783109839497109",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/303-Lakeside-Blvd_Port-Wentworth_GA_31407_M58726-00025",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 32.025293807653654,
-      "inliers": 134,
-      "discovered_unix": 1795081463.3257499,
-      "photos": [
-        [
-          "assets/6e92bc0b5cc9fa86eb662c9c79a5783d.jpg",
-          "assets/847aeb05a2138229666fa4011c8ab2bb.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "72e9f1a7497ef582cef76dc6",
-      "airbnb": "1545083020263311731",
-      "address": "415 WHITAKER ST_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/1545083020263311731",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/415-Whitaker-St_Savannah_GA_31401_M69950-42723",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 16.443033157143027,
-      "inliers": 108,
-      "discovered_unix": 1795081067.140464,
-      "photos": [
-        [
-          "assets/04523feeb8a99768fae4c01a69f2644b.jpg",
-          "assets/42c11ce7140d010c7d11e26ac2b15f2a.jpg"
-        ]
-      ]
-    },
-    {
       "key": "2eb431b193710ead46b88b25",
       "airbnb": "1262593944733924618",
       "address": "417 FLAT ROCK TRCE_PORT WENTWORTH_31407",
@@ -3579,10 +3579,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2286,
-    "total_airbnb": 2678,
-    "airbnb_remaining": 392,
-    "eta_seconds": 0.4845924377441406,
-    "updated_unix": 1795081772.4061742
+    "airbnb_checked": 2676,
+    "total_airbnb": 2676,
+    "airbnb_remaining": 0,
+    "eta_seconds": null,
+    "updated_unix": 1795115954.7172568
   }
 }
