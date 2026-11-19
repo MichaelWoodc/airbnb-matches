@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795063507.6426854,
-  "content_signature": "8f71f049a4ea23d1fef814ff7866c86c2c60815257068018794143db7b2664f6",
+  "published_unix": 1795063584.3072655,
+  "content_signature": "c517ba6657d74221efa10b7c5ffb3c830312f2c091730187f3d21e9e4f449df5",
   "matches": [
     {
       "key": "793cb8385f80cd986e8a6a49",
@@ -59,26 +59,6 @@
         [
           "assets/c0908480ae613cbb8103604324f0a525.jpg",
           "assets/cecb7e4c5e8367b21d32d8ef276af838.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "2f42f77990ae8b1c1541d843",
-      "airbnb": "1556837970166553256",
-      "address": "602 W 35th St_Savannah_31415",
-      "airbnb_url": "https://www.airbnb.com/rooms/1556837970166553256",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/602-W-35th-St_Savannah_GA_31415_M60636-67617",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 9.38111930029743,
-      "inliers": 64,
-      "discovered_unix": 1795063063.0466387,
-      "photos": [
-        [
-          "assets/6f5b94daafdc43bb5c875a3a0148f3c7.jpg",
-          "assets/c4cb1584d1a4907ba28baf279c3077c7.jpg"
         ]
       ]
     },
@@ -2159,10 +2139,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1483,
+    "airbnb_checked": 1485,
     "total_airbnb": 2725,
-    "airbnb_remaining": 1242,
-    "eta_seconds": 17305.192011317427,
-    "updated_unix": 1795063498.847609
+    "airbnb_remaining": 1240,
+    "eta_seconds": 16403.555812057184,
+    "updated_unix": 1795063568.6891067
   }
 }
