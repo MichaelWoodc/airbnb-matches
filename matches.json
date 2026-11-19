@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795071056.64189,
-  "content_signature": "4cb9890dd09965b95be104ac27e5219f40edd2e988048d588e4c2c1250b28757",
+  "published_unix": 1795071146.1731937,
+  "content_signature": "e1457f7952ba931bf482ba24098f67c9f58a319bcf9cbc39a95fd080865fd486",
   "matches": [
     {
       "key": "9f77121335901492fec65856",
@@ -2678,6 +2678,26 @@
       ]
     },
     {
+      "key": "677f227567e87cd40dc81e27",
+      "airbnb": "1770515490004764705",
+      "address": "18 SHEFTALL CV_SAVANNAH_31410",
+      "airbnb_url": "https://www.airbnb.com/rooms/1770515490004764705",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/18-Sheftall-Cv_Savannah_GA_31410_M56855-96530",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 51.57442860434603,
+      "inliers": 211,
+      "discovered_unix": 1795071074.714886,
+      "photos": [
+        [
+          "assets/9636183c6ec58f7a8210ab153fa2b38b.jpg",
+          "assets/e126a87b574f7826e9be941209f1211e.jpg"
+        ]
+      ]
+    },
+    {
       "key": "3c71312c156c6edd8b96d515",
       "airbnb": "1421146420496557487",
       "address": "12 HAYDENS CT_POOLER_31322",
@@ -2779,10 +2799,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1932,
+    "airbnb_checked": 1939,
     "total_airbnb": 2694,
-    "airbnb_remaining": 762,
-    "eta_seconds": 15853.849585620725,
-    "updated_unix": 1795071044.7902887
+    "airbnb_remaining": 755,
+    "eta_seconds": 16325.731936011996,
+    "updated_unix": 1795071133.8908057
   }
 }
