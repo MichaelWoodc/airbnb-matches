@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795059191.4105077,
-  "content_signature": "787f9127cc505343c0e708b815e8ae23b150fe57cde55688805a0ffacd7efed1",
+  "published_unix": 1795059262.8936064,
+  "content_signature": "c0eb5db6e8b03dedf0fbbac26109442407c7b00e8bf8d95a420595e91c8f5d7f",
   "matches": [
     {
       "key": "782081c268631ebd86930249",
@@ -39,26 +39,6 @@
         [
           "assets/18b75125912d5a318c4afc3baa2e2a67.jpg",
           "assets/6cec0e5effee24f95cd18e430f5f2dcb.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "9509799a34fadc73b0f64a6e",
-      "airbnb": "1371198222718470800",
-      "address": "150 AQUINNAH DR_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/1371198222718470800",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/150-Aquinnah-Dr_Pooler_GA_31322_M50014-68907",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 13.973439506158469,
-      "inliers": 64,
-      "discovered_unix": 1795057589.7823253,
-      "photos": [
-        [
-          "assets/904f0534e1ee6447cb63067006459454.jpg",
-          "assets/9fbcc214c84d2487d5443c0891f8aa00.jpg"
         ]
       ]
     },
@@ -1845,10 +1825,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1073,
+    "airbnb_checked": 1080,
     "total_airbnb": 2735,
-    "airbnb_remaining": 1662,
-    "eta_seconds": 18534.82129134937,
-    "updated_unix": 1795059187.461416
+    "airbnb_remaining": 1655,
+    "eta_seconds": 19164.850107990966,
+    "updated_unix": 1795059254.773952
   }
 }
