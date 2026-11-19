@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795060469.649118,
-  "content_signature": "c49c3eb2208d48efa230454695da7c70c8ad7121ee98b465f57136e6b2a2009b",
+  "published_unix": 1795060545.6834886,
+  "content_signature": "067c3478809feb1ec00d3e59ac98c1d9e5ed8ae0106d260180857150615ee2c9",
   "matches": [
     {
       "key": "bde50841b57923f66b3b4668",
@@ -8,7 +8,7 @@
       "address": "505 PORT ST_SAVANNAH_31401",
       "airbnb_url": "https://www.airbnb.com/rooms/1016084392688688419",
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/505-Port-St_Savannah_GA_31401_M92604-06448",
-      "verified": false,
+      "verified": true,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
@@ -1939,10 +1939,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1200,
-    "total_airbnb": 2732,
-    "airbnb_remaining": 1532,
-    "eta_seconds": 17781.253448252777,
-    "updated_unix": 1795060464.0647168
+    "airbnb_checked": 1210,
+    "total_airbnb": 2731,
+    "airbnb_remaining": 1521,
+    "eta_seconds": 14172.73964842485,
+    "updated_unix": 1795060532.2002578
   }
 }
