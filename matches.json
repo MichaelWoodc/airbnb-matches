@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795065499.4093568,
-  "content_signature": "b1d5b774bc83750f671ae2a53d97f8d59e2cebef3ee97b08ce6b17151018ce5b",
+  "published_unix": 1795065580.867972,
+  "content_signature": "88d1837f9ab26f8ba92d9c14512de7855ff30d7bc9757aeb6ca5c12ecd2a8926",
   "matches": [
     {
       "key": "4aef33f87a156cd084a95260",
@@ -2098,6 +2098,26 @@
       ]
     },
     {
+      "key": "393b6e563e71606ceabee676",
+      "airbnb": "1552277049261402015",
+      "address": "33 HAMILTON GROVE DR_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1552277049261402015",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/33-Hamilton-Grove-Dr_Pooler_GA_31322_M62428-76172",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 25.258647665483952,
+      "inliers": 110,
+      "discovered_unix": 1795065530.8356595,
+      "photos": [
+        [
+          "assets/0d6670b69ab7fc5064e6694bd3eb53c7.jpg",
+          "assets/d3a7a603fa69acce898a0cdd6188284d.jpg"
+        ]
+      ]
+    },
+    {
       "key": "470b71d27daf66c9f301c57c",
       "airbnb": "1159501632699043017",
       "address": "324 E BRYAN ST_SAVANNAH_31401",
@@ -2319,10 +2339,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1622,
+    "airbnb_checked": 1629,
     "total_airbnb": 2723,
-    "airbnb_remaining": 1101,
-    "eta_seconds": 16655.822605702342,
-    "updated_unix": 1795065487.3530273
+    "airbnb_remaining": 1094,
+    "eta_seconds": 15267.273781396903,
+    "updated_unix": 1795065576.4326382
   }
 }
