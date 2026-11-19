@@ -1,27 +1,7 @@
 {
-  "published_unix": 1795064430.3751724,
-  "content_signature": "a51cc3eb54a03ac2b32abb3879e8c745e2184da9307e200d953f2ec3085af41b",
+  "published_unix": 1795064509.4998713,
+  "content_signature": "c7bc289d0cf4ce286195045597708831f2fb227975b1807296488fdda91f4d6a",
   "matches": [
-    {
-      "key": "2bca7b3f489553b4c54cc333",
-      "airbnb": "1751482998448630040",
-      "address": "UNIT 301",
-      "airbnb_url": "https://www.airbnb.com/rooms/1751482998448630040",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3-17th-Pl-301_Tybee-Island_GA_31328_M91081-54274",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 7.462940443772082,
-      "inliers": 42,
-      "discovered_unix": 1795064300.0994053,
-      "photos": [
-        [
-          "assets/2ffea8bc4eb131c2fc421eed1079821a.jpg",
-          "assets/a6879b8d714f8a3d11d17beae141f54a.jpg"
-        ]
-      ]
-    },
     {
       "key": "4aef33f87a156cd084a95260",
       "airbnb": "37914293",
@@ -48,7 +28,7 @@
       "address": "10 ANDERSON CT_TYBEE ISLAND_31328",
       "airbnb_url": "https://www.airbnb.com/rooms/1263029328543981466",
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/10-Anderson-Ct_Tybee-Island_GA_31328_M58820-46344",
-      "verified": false,
+      "verified": true,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
@@ -103,26 +83,6 @@
       ]
     },
     {
-      "key": "feabe106d7ab0278aabf17f3",
-      "airbnb": "1494655626852650572",
-      "address": "440 ALTAMAHA ST_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/1494655626852650572",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/440-Altamaha-St_Savannah_GA_31401_M91528-95607",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 7.2238637343034044,
-      "inliers": 62,
-      "discovered_unix": 1795063057.1800036,
-      "photos": [
-        [
-          "assets/c14cbcd40baf92e2ca158c27283d2d73.jpg",
-          "assets/7095f8645b8b5c373003f733f8fc3870.jpg"
-        ]
-      ]
-    },
-    {
       "key": "9ebcb6c6081af98dc1462805",
       "airbnb": "700694531535398394",
       "address": "709 2ND AVE_TYBEE ISLAND_31328",
@@ -163,26 +123,6 @@
       ]
     },
     {
-      "key": "b692c8ebfa9a7f23d2f7f9ca",
-      "airbnb": "961869239670036592",
-      "address": "UNIT 301",
-      "airbnb_url": "https://www.airbnb.com/rooms/961869239670036592",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3-17th-Pl-301_Tybee-Island_GA_31328_M91081-54274",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 12.32911103264441,
-      "inliers": 74,
-      "discovered_unix": 1795061637.9042385,
-      "photos": [
-        [
-          "assets/9a7c5f2add0d34513799394991a2a74c.jpg",
-          "assets/a6879b8d714f8a3d11d17beae141f54a.jpg"
-        ]
-      ]
-    },
-    {
       "key": "0c44d0b4430d0cb57246a06c",
       "airbnb": "1570698024804705654",
       "address": "14 E 41ST ST_SAVANNAH_31401",
@@ -199,26 +139,6 @@
         [
           "assets/2e8506dd9ade240e78bf0d96d992edb3.jpg",
           "assets/bef616eb082d3ee893a3f973f4216a11.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "d002eb2457deb92fc7b8a81d",
-      "airbnb": "1737118661541412284",
-      "address": "UNIT 301",
-      "airbnb_url": "https://www.airbnb.com/rooms/1737118661541412284",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3-17th-Pl-301_Tybee-Island_GA_31328_M91081-54274",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 8.989692874873455,
-      "inliers": 57,
-      "discovered_unix": 1795061152.212796,
-      "photos": [
-        [
-          "assets/642f5e2cdeb9ea07128144e889e20537.jpg",
-          "assets/a6879b8d714f8a3d11d17beae141f54a.jpg"
         ]
       ]
     },
@@ -2176,13 +2096,113 @@
           "assets/3439ee46dc5872c2422ad85c02d942c7.jpg"
         ]
       ]
+    },
+    {
+      "key": "fdfb4645f54fc67b5a29fda8",
+      "airbnb": "10267190",
+      "address": "7 14th St_Tybee Island_31328 -- 7-14th-St_Tybee-Island_GA_31328_M52204-50737-566a8dc3b93c",
+      "airbnb_url": "https://www.airbnb.com/rooms/10267190",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/7-14th-St_Tybee-Island_GA_31328_M52204-50737",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 12.578454812979922,
+      "inliers": 55,
+      "discovered_unix": 1795064497.8382115,
+      "photos": [
+        [
+          "assets/a4110960f023f3b98e8d16caf756a9da.jpg",
+          "assets/46587c56ab37e6d622d9b110253e35aa.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "2bca7b3f489553b4c54cc333",
+      "airbnb": "1751482998448630040",
+      "address": "UNIT 301",
+      "airbnb_url": "https://www.airbnb.com/rooms/1751482998448630040",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3-17th-Pl-301_Tybee-Island_GA_31328_M91081-54274",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 7.462940443772082,
+      "inliers": 42,
+      "discovered_unix": 1795064300.0994053,
+      "photos": [
+        [
+          "assets/2ffea8bc4eb131c2fc421eed1079821a.jpg",
+          "assets/a6879b8d714f8a3d11d17beae141f54a.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "feabe106d7ab0278aabf17f3",
+      "airbnb": "1494655626852650572",
+      "address": "440 ALTAMAHA ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1494655626852650572",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/440-Altamaha-St_Savannah_GA_31401_M91528-95607",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 7.2238637343034044,
+      "inliers": 62,
+      "discovered_unix": 1795063057.1800036,
+      "photos": [
+        [
+          "assets/c14cbcd40baf92e2ca158c27283d2d73.jpg",
+          "assets/7095f8645b8b5c373003f733f8fc3870.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "b692c8ebfa9a7f23d2f7f9ca",
+      "airbnb": "961869239670036592",
+      "address": "UNIT 301",
+      "airbnb_url": "https://www.airbnb.com/rooms/961869239670036592",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3-17th-Pl-301_Tybee-Island_GA_31328_M91081-54274",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 12.32911103264441,
+      "inliers": 74,
+      "discovered_unix": 1795061637.9042385,
+      "photos": [
+        [
+          "assets/9a7c5f2add0d34513799394991a2a74c.jpg",
+          "assets/a6879b8d714f8a3d11d17beae141f54a.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "d002eb2457deb92fc7b8a81d",
+      "airbnb": "1737118661541412284",
+      "address": "UNIT 301",
+      "airbnb_url": "https://www.airbnb.com/rooms/1737118661541412284",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3-17th-Pl-301_Tybee-Island_GA_31328_M91081-54274",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 8.989692874873455,
+      "inliers": 57,
+      "discovered_unix": 1795061152.212796,
+      "photos": [
+        [
+          "assets/642f5e2cdeb9ea07128144e889e20537.jpg",
+          "assets/a6879b8d714f8a3d11d17beae141f54a.jpg"
+        ]
+      ]
     }
   ],
   "progress": {
-    "airbnb_checked": 1549,
-    "total_airbnb": 2725,
-    "airbnb_remaining": 1176,
-    "eta_seconds": 17414.798641204834,
-    "updated_unix": 1795064419.271333
+    "airbnb_checked": 1554,
+    "total_airbnb": 2723,
+    "airbnb_remaining": 1169,
+    "eta_seconds": 18314.706370421816,
+    "updated_unix": 1795064491.8702328
   }
 }
