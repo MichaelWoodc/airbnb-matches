@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795118030.030509,
-  "content_signature": "9fa154eb7a3bde9e8bffab9c8d82ffa77aacb4e691409dfd0a4ae3489b6acc80",
+  "published_unix": 1795118118.1996624,
+  "content_signature": "7b3dc71a0aef18e4d794a1fb5788843d8c9515e2bb2c70a1a77d041b6731dd62",
   "matches": [
     {
       "key": "b73d5a1b688a6a52b6db5259",
@@ -3238,6 +3238,26 @@
       ]
     },
     {
+      "key": "eb299b79689d1966b9282f41",
+      "airbnb": "1213238104231607111",
+      "address": "UNIT 2D",
+      "airbnb_url": "https://www.airbnb.com/rooms/1213238104231607111",
+      "realtor_url": "https://www.realtor.com/rentals/details/218-W-38th-St-2D_Savannah_GA_31401_M96958-29419",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue follow-up"
+      ],
+      "score": 8.134868043240596,
+      "inliers": 48,
+      "discovered_unix": 1795118058.1795332,
+      "photos": [
+        [
+          "assets/9a9c998666c2b0a673d65390ba2f2e9a.jpg",
+          "assets/deddb0a1e13a3fa2277b146a931c87b9.jpg"
+        ]
+      ]
+    },
+    {
       "key": "9f454f1f75590eb5488a79c3",
       "airbnb": "50360801",
       "address": "53 SPRINGWATER DR_PORT WENTWORTH_31407",
@@ -3559,10 +3579,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 794,
+    "airbnb_checked": 842,
     "total_airbnb": 2032,
-    "airbnb_remaining": 1238,
-    "eta_seconds": 2044.0677912770486,
-    "updated_unix": 1795118016.3515117
+    "airbnb_remaining": 1190,
+    "eta_seconds": 2112.5939682551793,
+    "updated_unix": 1795118101.420369
   }
 }
