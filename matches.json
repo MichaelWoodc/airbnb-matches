@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795064348.8936763,
-  "content_signature": "c18a2e48036e3c19adf2036e42915753ec5c5319d8b297a0dd8ab47c4d3036d8",
+  "published_unix": 1795064430.3751724,
+  "content_signature": "a51cc3eb54a03ac2b32abb3879e8c745e2184da9307e200d953f2ec3085af41b",
   "matches": [
     {
       "key": "2bca7b3f489553b4c54cc333",
@@ -28,7 +28,7 @@
       "address": "13 CHERRY ST_BLOOMINGDALE_31302",
       "airbnb_url": "https://www.airbnb.com/rooms/37914293",
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/13-Cherry-St_Bloomingdale_GA_31302_M50319-84119",
-      "verified": false,
+      "verified": true,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
@@ -2179,10 +2179,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1548,
+    "airbnb_checked": 1549,
     "total_airbnb": 2725,
-    "airbnb_remaining": 1177,
-    "eta_seconds": 15838.202334871097,
-    "updated_unix": 1795064345.6853743
+    "airbnb_remaining": 1176,
+    "eta_seconds": 17414.798641204834,
+    "updated_unix": 1795064419.271333
   }
 }
