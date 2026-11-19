@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795074362.0600624,
-  "content_signature": "6c471e5004ff6e256cd8005dab4c97231967e38ab1795621718bacbaf979a898",
+  "published_unix": 1795074456.4621732,
+  "content_signature": "249ca7563f8bb47e5b2d03b49c6c89fc5e9eee9b025ca40217a4f97f50556e5d",
   "matches": [
     {
       "key": "7d6013ca091827c75d4872c4",
@@ -2838,26 +2838,6 @@
       ]
     },
     {
-      "key": "10541fac69c42b730ed29ccd",
-      "airbnb": "1742805177432785403",
-      "address": "509 W 38TH ST_SAVANNAH_31415",
-      "airbnb_url": "https://www.airbnb.com/rooms/1742805177432785403",
-      "realtor_url": "https://www.realtor.com/rentals/details/509-W-38th-St_Savannah_GA_31415_M68162-51216",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 8.326615112192174,
-      "inliers": 49,
-      "discovered_unix": 1795074251.4010332,
-      "photos": [
-        [
-          "assets/a31634681090e77ecc31afe42bdfb5f1.jpg",
-          "assets/b604dd57c8f806485a3ec76b0ba61ee7.jpg"
-        ]
-      ]
-    },
-    {
       "key": "2ee5c2397f2b18a7bbf11ff0",
       "airbnb": "1624986930457358209",
       "address": "496 FLAT ROCK TRCE_PORT WENTWORTH_31407",
@@ -2999,10 +2979,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2018,
+    "airbnb_checked": 2019,
     "total_airbnb": 2686,
-    "airbnb_remaining": 668,
-    "eta_seconds": 27871.982855446484,
-    "updated_unix": 1795074350.9044404
+    "airbnb_remaining": 667,
+    "eta_seconds": 29975.739526257224,
+    "updated_unix": 1795074442.9633298
   }
 }
