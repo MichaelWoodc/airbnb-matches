@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795056974.6053438,
-  "content_signature": "6adb203d2a9a4be271173f8e2df9cf18f1a44aba7ecf001206674e28276fe10c",
+  "published_unix": 1795057038.3500535,
+  "content_signature": "2d12a832db0c016eec252f777f8b4801e6a8a5a65c65f6f7d961981ab91b512b",
   "matches": [
     {
       "key": "9361524adf64a9a4b1298e9b",
@@ -281,180 +281,13 @@
           "assets/592dc4ec63ff9bd08030809d9c0c38a8.jpg"
         ]
       ]
-    },
-    {
-      "key": "0d2de2f9574bc0701f6526ba",
-      "airbnb": "689886009976821667",
-      "address": "103 SKINNER RD_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/689886009976821667",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/103-Skinner-Rd_Pooler_GA_31322_M56182-07996",
-      "verified": true,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 63.69224954733314,
-      "inliers": 172,
-      "discovered_unix": 1795054659.8608549,
-      "photos": [
-        [
-          "assets/58ba1f71c8f4f42e9dea0233a8fcc260.jpg",
-          "assets/b84c02e25e2f8d1a171684e37ba33df6.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "a96afec3ec6d231b5af54e6d",
-      "airbnb": "952842305537284774",
-      "address": "1608 JONES AVE #9_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/952842305537284774",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1608-Jones-Ave-9_Tybee-Island_GA_31328_M68996-44873",
-      "verified": true,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 34.4248195877489,
-      "inliers": 153,
-      "discovered_unix": 1795054379.6453378,
-      "photos": [
-        [
-          "assets/3a2bc3b3f1ce9e4cb34fc7ca1409fb27.jpg",
-          "assets/53f64a559379b6be6efdbcd660a45cf0.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "a1d11782da95cdde53b5ac23",
-      "airbnb": "565084108255035813",
-      "address": "301 10th St_Tybee Island_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/565084108255035813",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/301-10th-St_Tybee-Island_GA_31328_M66045-85921",
-      "verified": true,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 26.371282747270822,
-      "inliers": 107,
-      "discovered_unix": 1795054320.1977093,
-      "photos": [
-        [
-          "assets/2e1b5ed5d5c2e046eb8d5d14fcfe9e14.jpg",
-          "assets/d8d017ca402a06cdac5dd7a67ac2d166.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "37011092b61ad505537d95b9",
-      "airbnb": "52492275",
-      "address": "29 TAYLOR ST_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/52492275",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/29-Taylor-St_Tybee-Island_GA_31328_M54910-51006",
-      "verified": true,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 9.403376717539679,
-      "inliers": 79,
-      "discovered_unix": 1795046715.7702384,
-      "photos": [
-        [
-          "assets/3ff2659602f185e0d6bd6e46ddebef12.jpg",
-          "assets/2977f7c89a9426ac2406d59a5d8bcd9f.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "b044c600a80ec85c25453cff",
-      "airbnb": "30556637",
-      "address": "17 N CAMPBELL AVE_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/30556637",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/17-N-Campbell-Ave_Tybee-Island_GA_31328_M51243-24935",
-      "verified": true,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 14.771286112696172,
-      "inliers": 90,
-      "discovered_unix": 1795046636.8545337,
-      "photos": [
-        [
-          "assets/6374b3b729d49ca21305c4faa23769b5.jpg",
-          "assets/40036b73abdcb528b764b1aef9458eab.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "84a12b3036be37d0b5602e15",
-      "airbnb": "1630780219770090884",
-      "address": "UNIT 1531857P",
-      "airbnb_url": "https://www.airbnb.com/rooms/1630780219770090884",
-      "realtor_url": "https://www.realtor.com/rentals/details/7-Catfish-Ct-1531857P_Pooler_GA_31322_M97190-97466",
-      "verified": true,
-      "methods": [
-        "Earlier direct-photo matching",
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 31.22450723724469,
-      "inliers": 197,
-      "discovered_unix": 1795046282.7317545,
-      "photos": [
-        [
-          "assets/cbd863615470a01943cbb56a97ce370f.jpg",
-          "assets/7279c3cccd56a3e3b860c5b284f3182f.jpg"
-        ],
-        [
-          "assets/5758aa280c0ce426f7d317731ed4e760.jpg",
-          "assets/0084ec8a245b9f0401a7e76ab14e5707.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "d2c33d06ffb0cecffa4c0677",
-      "airbnb": "1599336895559554286",
-      "address": "308 HOLLY HILL RD_SAVANNAH_31410",
-      "airbnb_url": "https://www.airbnb.com/rooms/1599336895559554286",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/308-Holly-Hill-Rd_Savannah_GA_31410_M60923-54292",
-      "verified": true,
-      "methods": [
-        "Earlier direct-photo matching",
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 57.15297744810886,
-      "inliers": 180,
-      "discovered_unix": 1795041682.3961136,
-      "photos": [
-        [
-          "assets/b222d15ab44d39e17d7c7bf10fd0ee11.jpg",
-          "assets/8e2692c649c83436fa8c92849af4f413.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "402829f9fe574b70d24825ce",
-      "airbnb": "962555818770026832",
-      "address": "47 King Henry Ct_Savannah_31419",
-      "airbnb_url": "https://www.airbnb.com/rooms/962555818770026832",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/47-King-Henry-Ct_Savannah_GA_31419_M68962-83939",
-      "verified": true,
-      "methods": [
-        "Earlier direct-photo matching",
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 27.50183263241634,
-      "inliers": 90,
-      "discovered_unix": 1795040960.4784625,
-      "photos": [
-        [
-          "assets/6ee9da119763cfe47cd977764911796a.jpg",
-          "assets/8844d71eac470c29b4921b1a07c5bd43.jpg"
-        ]
-      ]
     }
   ],
   "progress": {
-    "airbnb_checked": 896,
+    "airbnb_checked": 900,
     "total_airbnb": 2741,
-    "airbnb_remaining": 1845,
-    "eta_seconds": 17928.486962732004,
-    "updated_unix": 1795056973.0116217
+    "airbnb_remaining": 1841,
+    "eta_seconds": 18512.9681895801,
+    "updated_unix": 1795057022.8181381
   }
 }
