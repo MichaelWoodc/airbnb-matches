@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795116774.6419687,
-  "content_signature": "e9d59166d161e61c6d4fbde324f0bd5c7ded1f1243a1e27177579693ab5cd5e4",
+  "published_unix": 1795116868.96355,
+  "content_signature": "de47c28d0e7642312cd737442625b784db6b92845928b9f04fcd3f3f5b3a5c62",
   "matches": [
     {
       "key": "b73d5a1b688a6a52b6db5259",
@@ -199,6 +199,46 @@
         [
           "assets/5af57e27052c0265b242a80142330a5d.jpg",
           "assets/537b1472766f9e88497b295e03db5a6a.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "9a6efc104e0ef707e9771953",
+      "airbnb": "1445002813066764840",
+      "address": "121 CHATHAM VILLA DR_GARDEN CITY_31408",
+      "airbnb_url": "https://www.airbnb.com/rooms/1445002813066764840",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/121-Chatham-Villa-Dr_Garden-City_GA_31408_M54225-36119",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 67.68913352761662,
+      "inliers": 202,
+      "discovered_unix": 1795077933.6605322,
+      "photos": [
+        [
+          "assets/28e899f8c052141b548897796f326dee.jpg",
+          "assets/e868785e7d80c9cacfa7ecbe2551de96.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "aeda86ef6b8bf9e815970ad7",
+      "airbnb": "923114381677429536",
+      "address": "309 E 41ST ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/923114381677429536",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/309-E-41st-St_Savannah_GA_31401_M50415-98396",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 66.9352849541737,
+      "inliers": 181,
+      "discovered_unix": 1795077895.7355704,
+      "photos": [
+        [
+          "assets/9dcea37965654125364d34347703a674.jpg",
+          "assets/8ad75293e3ca84634bb9f0ac959d8086.jpg"
         ]
       ]
     },
@@ -3238,66 +3278,6 @@
       ]
     },
     {
-      "key": "be88c373a33d70cb5800ce1a",
-      "airbnb": "1541441702416475464",
-      "address": "216 W HUNTINGDON ST_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/1541441702416475464",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/216-W-Huntingdon-St_Savannah_GA_31401_M50297-84756",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 24.22275205131689,
-      "inliers": 100,
-      "discovered_unix": 1795078845.237551,
-      "photos": [
-        [
-          "assets/459d38fa489cceedbbd54d343ad5f1d1.jpg",
-          "assets/ef22fcf6399ffe2aca999446e8f31048.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "9a6efc104e0ef707e9771953",
-      "airbnb": "1445002813066764840",
-      "address": "121 CHATHAM VILLA DR_GARDEN CITY_31408",
-      "airbnb_url": "https://www.airbnb.com/rooms/1445002813066764840",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/121-Chatham-Villa-Dr_Garden-City_GA_31408_M54225-36119",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 67.68913352761662,
-      "inliers": 202,
-      "discovered_unix": 1795077933.6605322,
-      "photos": [
-        [
-          "assets/28e899f8c052141b548897796f326dee.jpg",
-          "assets/e868785e7d80c9cacfa7ecbe2551de96.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "aeda86ef6b8bf9e815970ad7",
-      "airbnb": "923114381677429536",
-      "address": "309 E 41ST ST_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/923114381677429536",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/309-E-41st-St_Savannah_GA_31401_M50415-98396",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 66.9352849541737,
-      "inliers": 181,
-      "discovered_unix": 1795077895.7355704,
-      "photos": [
-        [
-          "assets/9dcea37965654125364d34347703a674.jpg",
-          "assets/8ad75293e3ca84634bb9f0ac959d8086.jpg"
-        ]
-      ]
-    },
-    {
       "key": "9378d82ba4a81b51ee17eb82",
       "airbnb": "1394237111785684659",
       "address": "231 DURHAM PARK WAY_POOLER_31322",
@@ -3374,6 +3354,26 @@
         [
           "assets/bf10f944d4bcafbec688f760a7e698dd.jpg",
           "assets/68e5ac99edabfe05eb8b775e1ab5412a.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "be88c373a33d70cb5800ce1a",
+      "airbnb": "1541441702416475464",
+      "address": "216 W HUNTINGDON ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1541441702416475464",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/216-W-Huntingdon-St_Savannah_GA_31401_M50297-84756",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 24.22275205131689,
+      "inliers": 100,
+      "discovered_unix": 1795078845.237551,
+      "photos": [
+        [
+          "assets/459d38fa489cceedbbd54d343ad5f1d1.jpg",
+          "assets/ef22fcf6399ffe2aca999446e8f31048.jpg"
         ]
       ]
     },
@@ -3519,10 +3519,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2668,
-    "total_airbnb": 2668,
+    "airbnb_checked": 2666,
+    "total_airbnb": 2666,
     "airbnb_remaining": 0,
     "eta_seconds": null,
-    "updated_unix": 1795116758.4228885
+    "updated_unix": 1795116855.4715652
   }
 }
