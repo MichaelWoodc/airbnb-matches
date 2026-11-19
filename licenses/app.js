@@ -12,7 +12,7 @@ function popupContent(r){
  const button=(url,label,extra='')=>'<a class="popup-action '+extra+'" target="_blank" rel="noopener" href="'+esc(url)+'">'+esc(label)+'</a>';
  const addressLabel=r.conflicting_property_matches?'Conflicting verified address matches':'Photo-verified address';
  const status=listingStatus(r);
- return `<section class="listing-popup"><h3>${esc(r.listing_title||'Airbnb '+r.airbnb)}</h3><div>${value(r.rental_type)}</div><p><b>${addressLabel}:</b> ${esc(r.address)} ${esc(r.unit)}<br><b>Host:</b> ${value(r.host_name)}<br><b>Advertised capacity:</b> ${value(r.advertised_capacity)}<br><b>Bedrooms:</b> ${value(r.bedrooms)}<br><b>Legal limit:</b> ${r.legal_limit?esc(r.legal_limit)+' (license record)':'Not established'}</p><p class="popup-status" style="border-color:${r.rental_term_note?midTermColor:colors[r.category]}">${esc(status)}</p><p><b>Licensing jurisdiction:</b> ${esc(r.jurisdiction)}<br>${esc(r.category==='outside_scope'?'No local license list in this audit':r.matched_permits||(r.licensed_exact_unit?'Listed as licensed · permit number not supplied':'No matching active license record'))}</p>${r.rental_term_note?`<p><b>Rental term:</b> ${esc(r.rental_term_note)} ${button(r.rental_term_source,'Savannah STVR rules')}</p>`:''}<p><b>Address proof:</b><br>${r.address_correction_note?esc(r.address_correction_note):'User-confirmed photo match to the Realtor property. This is the research address, not an exact address disclosed by Airbnb.'}</p><div class="popup-actions">${button(r.realtor_url,'Supporting evidence 1 — Realtor listing')}${r.address_proof_url?button(r.address_proof_url,'Address correction — Zillow'):''}${r.photo_match_evidence?button(r.photo_match_evidence,'Supporting evidence 2 — Photo match'):''}${button(r.airbnb_url,'View listing')}</div><div class="popup-actions secondary-actions">${button(report(),'Report address info','secondary')}${button(report(r.matched_permits||''),'Report license info','secondary')}${button(dead,'Report dead listing','secondary')}${button(complaint,'Submit a complaint','secondary')}</div>${r.rental_term_note?'':`<small>${esc(r.classification_note)}</small>`}</section>`;
+ return `<section class="listing-popup"><h3>${esc(r.listing_title||'Airbnb '+r.airbnb)}</h3><div>${value(r.rental_type)}</div><p><b>${addressLabel}:</b> ${esc(r.address)} ${esc(r.unit)}<br><b>Host:</b> ${value(r.host_name)}<br><b>Advertised capacity:</b> ${value(r.advertised_capacity)}<br><b>Bedrooms:</b> ${value(r.bedrooms)}<br><b>Legal limit:</b> ${r.legal_limit?esc(r.legal_limit)+' (license record)':'Not established'}</p><p class="popup-status" style="border-color:${r.rental_term_note?midTermColor:colors[r.category]}">${esc(status)}${r.reported_on?' · Reported':''}</p>${r.reported_on?`<p><b>Reported:</b> Complaint submitted, per reviewer (${esc(r.reported_on)}).</p>`:''}<p><b>Licensing jurisdiction:</b> ${esc(r.jurisdiction)}<br>${esc(r.category==='outside_scope'?'No local license list in this audit':r.matched_permits||(r.licensed_exact_unit?'Listed as licensed · permit number not supplied':'No matching active license record'))}</p>${r.rental_term_note?`<p><b>Rental term:</b> ${esc(r.rental_term_note)} ${button(r.rental_term_source,'Savannah STVR rules')}</p>`:''}<p><b>Address proof:</b><br>${r.address_correction_note?esc(r.address_correction_note):'User-confirmed photo match to the Realtor property. This is the research address, not an exact address disclosed by Airbnb.'}</p><div class="popup-actions">${button(r.realtor_url,'Supporting evidence 1 — Realtor listing')}${r.address_proof_url?button(r.address_proof_url,'Address correction — Zillow'):''}${r.photo_match_evidence?button(r.photo_match_evidence,'Supporting evidence 2 — Photo match'):''}${button(r.airbnb_url,'View listing')}</div><div class="popup-actions secondary-actions">${button(report(),'Report address info','secondary')}${button(report(r.matched_permits||''),'Report license info','secondary')}${button(dead,'Report dead listing','secondary')}${button(complaint,'Submit a complaint','secondary')}</div>${r.rental_term_note?'':`<small>${esc(r.classification_note)}</small>`}</section>`;
 }
 async function main(){const response=await fetch('license_audit.json'),data=await response.json();const selected=document.body.dataset.category||'all';let records=data.records.filter(r=>selected==='all'||r.category===selected);document.getElementById('summary').textContent=`${records.length} user-confirmed listing/property associations · refreshed ${new Date(data.generated_unix*1000).toLocaleString()}`;
 const links=r=>`<a href="${esc(r.airbnb_url)}" target="_blank" rel="noopener">Airbnb listing</a> · <a href="${esc(r.realtor_url)}" target="_blank" rel="noopener">Realtor listing</a>`;
@@ -35,9 +35,14 @@ async function renderMap(listings){
   if(row.latitude==null||row.longitude==null||row.latitude===''||row.longitude==='')return;
   const coords=[Number(row.latitude),Number(row.longitude)];
   if(!coords.every(Number.isFinite))return;
-  const marker=(triangle?L.marker(coords,{alt:content.title,icon:L.divIcon({
-   className:'mid-term-marker',iconSize:[21,20],iconAnchor:[10,10],
-   html:`<svg viewBox="0 0 21 20" width="21" height="20" aria-hidden="true"><path d="M10.5 2 L19.5 18 H1.5 Z" fill="${midTermColor}" stroke="${ring}" stroke-width="2"/></svg>`
+  const reported=Boolean(row.reported_on);
+  const iconShape=triangle
+   ?`<path d="M11 2 L20 19 H2 Z" fill="${midTermColor}" stroke="${ring}" stroke-width="2"/>`
+   :`<circle cx="11" cy="11" r="8" fill="${fill}" stroke="${ring}" stroke-width="2.5"/>`;
+  const slash=reported?'<path d="M4 4 L18 18" stroke="#fff" stroke-width="5"/><path d="M4 4 L18 18" stroke="#c81724" stroke-width="3.2"/>':'';
+  const marker=(triangle||reported?L.marker(coords,{title:content.title,icon:L.divIcon({
+   className:reported?'reported-marker':'mid-term-marker',iconSize:[22,22],iconAnchor:[11,11],
+   html:`<svg viewBox="0 0 22 22" width="22" height="22" aria-hidden="true">${iconShape}${slash}</svg>`
   })}):L.circleMarker(coords,{radius,color:ring,weight:2.5,fillColor:fill,fillOpacity:.9})).addTo(layer);
   const entry={marker,layer,content,radius};
   markers.push(entry);
@@ -50,9 +55,10 @@ async function renderMap(listings){
     .setContent(content.html+(nearby?'<hr><h4>Other markers here</h4>'+nearby:'')).openOn(map);
   });
  }
- const [registry,sources,boundaries]=await Promise.all(['registry/licensed_locations.json','map_sources.json','municipalities.geojson'].map(async path=>{
+ const [registry,sources,boundaries,parcels]=await Promise.all(['registry/licensed_locations.json','map_sources.json','municipalities.geojson','licensed_parcels.geojson'].map(async path=>{
   const response=await fetch(path);if(!response.ok)throw Error('Map source unavailable: '+path);return response.json();
  }));
+ const registryById=new Map(registry.records.map(row=>[row.source_id,row]));
  const registryByAddress=new Map();
  for(const row of registry.records){
   const k=key(row.normalized_address,row.unit);
@@ -129,11 +135,24 @@ async function renderMap(listings){
  const outlines=L.geoJSON(boundaries,{pane:'jurisdiction-boundaries',renderer:L.svg({pane:'jurisdiction-boundaries'}),interactive:false,
   style:feature=>({color:palette[feature.properties.NAME]||'#687280',weight:2,opacity:.8,fillOpacity:.09})}).addTo(map);
  overlays['Jurisdiction boundaries (SAGIS)']=outlines;
+ map.createPane('licensed-parcels');
+ map.getPane('licensed-parcels').style.zIndex=370;
+ const parcelRenderer=L.canvas({pane:'licensed-parcels'});
+ overlays['Licensed parcels (green fill)']=L.geoJSON(parcels,{pane:'licensed-parcels',renderer:parcelRenderer,
+  style:{color:'#08713b',weight:1.4,opacity:.85,fillColor:'#28a856',fillOpacity:.3},
+  onEachFeature:(feature,layer)=>{
+   const records=feature.properties.license_source_ids.map(id=>registryById.get(id)).filter(Boolean);
+   const addresses=[...new Set(records.map(row=>row.normalized_address))];
+   layer.bindPopup('<h3>'+esc(addresses.join(' / ')||'Licensed parcel')+'</h3><p>SAGIS parcel '+esc(feature.properties.pin)+
+    '</p>'+registryInfo(records),{maxWidth:420,maxHeight:300});
+  }}).addTo(map);
  L.control.layers(null,overlays,{collapsed:true}).addTo(map);
  const legend=L.control({position:'bottomleft'});
  legend.onAdd=()=>{
   const box=L.DomUtil.create('div','map-legend');
-  box.innerHTML='<div><span style="border-color:'+green+'"></span> Listed as licensed</div>'+
+  box.innerHTML='<div><span style="background:#a3dbb1;border-color:#08713b;border-radius:2px"></span> Licensed parcel</div>'+
+   '<div><span class="reported-legend"></span> Complaint reported</div>'+
+   '<div><span style="border-color:'+green+'"></span> Listed as licensed</div>'+
    '<div><span style="background:'+yellow+'"></span> License absent from saved Airbnb text</div>'+
    '<div><span class="mid-term-legend"></span> '+esc(midTermLabel)+'</div>'+
    '<div><span style="background:#e1c9ff"></span> Chatham County likely-unlicensed list</div>'+

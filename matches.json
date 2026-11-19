@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795123520.2928176,
-  "content_signature": "e5ffe2bd131cbfc6129b55e356e1be53e12d6e772e6387ea951db003f45d8b11",
+  "published_unix": 1795123604.0958586,
+  "content_signature": "7cbd17090ecf9b0caeae6be813472e4d50fcac5c4c11f5e4ca95c8a381adede3",
   "matches": [
     {
       "key": "f97126371a201e63275e9525",
@@ -2810,6 +2810,23 @@
       ]
     },
     {
+      "key": "3b041a86fd7009d6b93deeac",
+      "airbnb": "1573249032536055396",
+      "address": "602 W 35th St_Savannah_31415",
+      "airbnb_url": "https://www.airbnb.com/rooms/1573249032536055396",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/602-W-35th-St_Savannah_GA_31415_M60636-67617",
+      "verified": false,
+      "score": 21.062637003836866,
+      "inliers": 93,
+      "discovered_unix": 1795123563.2998729,
+      "photos": [
+        [
+          "assets/1e314bcedbc401718c6dc5ff5f40e933.jpg",
+          "assets/c4cb1584d1a4907ba28baf279c3077c7.jpg"
+        ]
+      ]
+    },
+    {
       "key": "f2d196a0b1416da36f77c824",
       "airbnb": "774660357541973639",
       "address": "5 ANGEL OAKS DR_SAVANNAH_31410",
@@ -3134,10 +3151,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1853,
+    "airbnb_checked": 1860,
     "total_airbnb": 2030,
-    "airbnb_remaining": 177,
-    "eta_seconds": 2300.1198827052604,
-    "updated_unix": 1795123504.172398
+    "airbnb_remaining": 170,
+    "eta_seconds": 2285.0291009338534,
+    "updated_unix": 1795123595.6642947
   }
 }
