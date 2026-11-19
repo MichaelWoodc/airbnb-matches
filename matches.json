@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795066440.3761907,
-  "content_signature": "b685133eca6015ee32930625260f19d898615809c870ce43da2bb4a88cba0da4",
+  "published_unix": 1795066529.1230588,
+  "content_signature": "061944a438d23d2b432e7b8971c6006244b4ceb7c819d6ad64f1c5b0b086346a",
   "matches": [
     {
       "key": "cdc101745762eff2acade876",
@@ -99,6 +99,66 @@
         [
           "assets/0d26931319b8923831fd58da595d79dd.jpg",
           "assets/2faafdbbf6ec855a958e52532d666629.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "50ca0deaa29ac633cb51fd15",
+      "airbnb": "1519665016204832894",
+      "address": "13 WALTHOUR CV_SAVANNAH_31410",
+      "airbnb_url": "https://www.airbnb.com/rooms/1519665016204832894",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/13-Walthour-Cv_Savannah_GA_31410_M57379-17913",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 29.36136428397528,
+      "inliers": 149,
+      "discovered_unix": 1795065003.6889904,
+      "photos": [
+        [
+          "assets/c48bdf36b55c883b8a4d66e0befbaa60.jpg",
+          "assets/e0d25f0c7138c4d7b5680ba2df02f803.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "84c907e0d07d3d9c3c8d3cca",
+      "airbnb": "54003806",
+      "address": "1017 LOVELL AVE_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/54003806",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1017-Lovell-Ave_Tybee-Island_GA_31328_M60117-58084",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 29.855524427711224,
+      "inliers": 140,
+      "discovered_unix": 1795064889.2118142,
+      "photos": [
+        [
+          "assets/f28df71d95847c9e090f2c85bc277837.jpg",
+          "assets/22fa1783478023a01d1789c57dc82921.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "223e6b4dbcc3e8a227b64d96",
+      "airbnb": "1503126807270924185",
+      "address": "UNIT 10",
+      "airbnb_url": "https://www.airbnb.com/rooms/1503126807270924185",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1615-Strand-St-Unit-10_Tybee-Island_GA_31328_M65369-71315",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 87.41213983987286,
+      "inliers": 180,
+      "discovered_unix": 1795064582.5226395,
+      "photos": [
+        [
+          "assets/b33ad349ace3cd96371a4b9aac9f114f.jpg",
+          "assets/6abd802deb6d2612b4f1c605d7dd40d9.jpg"
         ]
       ]
     },
@@ -2198,6 +2258,46 @@
       ]
     },
     {
+      "key": "183289f3a2916df15980b7cc",
+      "airbnb": "1602163090158746442",
+      "address": "117 MARIAN CIR_SAVANNAH_31406",
+      "airbnb_url": "https://www.airbnb.com/rooms/1602163090158746442",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/117-Marian-Cir_Savannah_GA_31406_M66569-33321",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 17.598049810246494,
+      "inliers": 85,
+      "discovered_unix": 1795066506.5840712,
+      "photos": [
+        [
+          "assets/31d2bf5305f15c4b1915c676b1f5a916.jpg",
+          "assets/ac263ba3748edfa0135b544d9a9599e2.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "3e24f5b85eded8529c286cd8",
+      "airbnb": "1317540076889892710",
+      "address": "168 BERWICK LAKES BLVD_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1317540076889892710",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/168-Berwick-Lakes-Blvd_Pooler_GA_31322_M63306-51132",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 8.41463117652335,
+      "inliers": 61,
+      "discovered_unix": 1795066501.4516444,
+      "photos": [
+        [
+          "assets/f9a40e0cf797fdf164e80528ba179f49.jpg",
+          "assets/bd32f217b11037e63c9ebae748d785d1.jpg"
+        ]
+      ]
+    },
+    {
       "key": "45066dfd556a79781ef1f2aa",
       "airbnb": "1394859714803404557",
       "address": "104 Butler Ave_Tybee Island_31328 -- 104-Butler-Ave_Tybee-Island_GA_31328_M62277-64572-efabbdf09c59",
@@ -2214,66 +2314,6 @@
         [
           "assets/1d3bf2bd7463c0abd9a8f15d88789159.jpg",
           "assets/0d97463570f3a4066ae877502c2f376d.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "50ca0deaa29ac633cb51fd15",
-      "airbnb": "1519665016204832894",
-      "address": "13 WALTHOUR CV_SAVANNAH_31410",
-      "airbnb_url": "https://www.airbnb.com/rooms/1519665016204832894",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/13-Walthour-Cv_Savannah_GA_31410_M57379-17913",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 29.36136428397528,
-      "inliers": 149,
-      "discovered_unix": 1795065003.6889904,
-      "photos": [
-        [
-          "assets/c48bdf36b55c883b8a4d66e0befbaa60.jpg",
-          "assets/e0d25f0c7138c4d7b5680ba2df02f803.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "84c907e0d07d3d9c3c8d3cca",
-      "airbnb": "54003806",
-      "address": "1017 LOVELL AVE_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/54003806",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1017-Lovell-Ave_Tybee-Island_GA_31328_M60117-58084",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 29.855524427711224,
-      "inliers": 140,
-      "discovered_unix": 1795064889.2118142,
-      "photos": [
-        [
-          "assets/f28df71d95847c9e090f2c85bc277837.jpg",
-          "assets/22fa1783478023a01d1789c57dc82921.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "223e6b4dbcc3e8a227b64d96",
-      "airbnb": "1503126807270924185",
-      "address": "UNIT 10",
-      "airbnb_url": "https://www.airbnb.com/rooms/1503126807270924185",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1615-Strand-St-Unit-10_Tybee-Island_GA_31328_M65369-71315",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 87.41213983987286,
-      "inliers": 180,
-      "discovered_unix": 1795064582.5226395,
-      "photos": [
-        [
-          "assets/b33ad349ace3cd96371a4b9aac9f114f.jpg",
-          "assets/6abd802deb6d2612b4f1c605d7dd40d9.jpg"
         ]
       ]
     },
@@ -2379,10 +2419,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1675,
-    "total_airbnb": 2718,
-    "airbnb_remaining": 1043,
-    "eta_seconds": 18668.819059610367,
-    "updated_unix": 1795066429.3867989
+    "airbnb_checked": 1681,
+    "total_airbnb": 2715,
+    "airbnb_remaining": 1034,
+    "eta_seconds": 18238.888552704637,
+    "updated_unix": 1795066518.1002507
   }
 }
