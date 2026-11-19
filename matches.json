@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795080253.155119,
-  "content_signature": "edb5a44b049e8ab6f7ce20c1ad3b8fa01052bdff5fad7fe00d96735342ea17e3",
+  "published_unix": 1795081063.2579231,
+  "content_signature": "ba89c81078e4d286ba73cf821146eb81b0f47647a276d8cd0b8e4150b69412cd",
   "matches": [
     {
       "key": "46bbd7f09dbd7a3e3e0ccf06",
@@ -2998,6 +2998,26 @@
       ]
     },
     {
+      "key": "2eb431b193710ead46b88b25",
+      "airbnb": "1262593944733924618",
+      "address": "417 FLAT ROCK TRCE_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1262593944733924618",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/417-Flat-Rock-Trce_Port-Wentworth_GA_31407_M95374-93836",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 22.0081738603335,
+      "inliers": 95,
+      "discovered_unix": 1795081008.7062542,
+      "photos": [
+        [
+          "assets/d5a681037dafbe5e09ae5c004243abe3.jpg",
+          "assets/5faabf7a49a25f5afee875fb9effa62d.jpg"
+        ]
+      ]
+    },
+    {
       "key": "3213aac7e7c95f3ed5f05c66",
       "airbnb": "1625492340891223953",
       "address": "46 Cypress Loop_Port Wentworth_31407",
@@ -3479,10 +3499,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2172,
+    "airbnb_checked": 2181,
     "total_airbnb": 2678,
-    "airbnb_remaining": 506,
-    "eta_seconds": 13364.610304540518,
-    "updated_unix": 1795080238.615904
+    "airbnb_remaining": 497,
+    "eta_seconds": 19957.84867463793,
+    "updated_unix": 1795081050.0417006
   }
 }
