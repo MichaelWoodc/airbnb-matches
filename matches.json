@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795057102.4575796,
-  "content_signature": "75b4cb05556dbc98c418877f55ce9ec97e89e09d0edc2f08cac0092ca03540d9",
+  "published_unix": 1795057230.3565335,
+  "content_signature": "5fcba6d15f5369ab0d5d4e4df4ef6a039d69c19599ac87073e30dad90d5c5006",
   "matches": [
     {
       "key": "9361524adf64a9a4b1298e9b",
@@ -161,53 +161,13 @@
           "assets/2c264684fa3901e8486dda24e6129fb7.jpg"
         ]
       ]
-    },
-    {
-      "key": "fc374a7208905a9f93826db8",
-      "airbnb": "1471099635987066622",
-      "address": "102 E LIBERTY ST #607_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/1471099635987066622",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/102-E-Liberty-St-Apt-607_Savannah_GA_31401_M59327-55999",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 41.10002270392974,
-      "inliers": 165,
-      "discovered_unix": 1795055311.5653741,
-      "photos": [
-        [
-          "assets/a100b099c4825b35ebf21d478dd1a73d.jpg",
-          "assets/2c264684fa3901e8486dda24e6129fb7.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "0fde27b0f953dcc50bd72eb1",
-      "airbnb": "1471096060022681572",
-      "address": "102 E LIBERTY ST #607_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/1471096060022681572",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/102-E-Liberty-St-Apt-607_Savannah_GA_31401_M59327-55999",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 43.69486042222163,
-      "inliers": 171,
-      "discovered_unix": 1795055308.1223948,
-      "photos": [
-        [
-          "assets/f9fc87a9c9042308742888d4dc023667.jpg",
-          "assets/2c264684fa3901e8486dda24e6129fb7.jpg"
-        ]
-      ]
     }
   ],
   "progress": {
-    "airbnb_checked": 904,
+    "airbnb_checked": 914,
     "total_airbnb": 2740,
-    "airbnb_remaining": 1836,
-    "eta_seconds": 18537.918362325552,
-    "updated_unix": 1795057088.818735
+    "airbnb_remaining": 1826,
+    "eta_seconds": 22000.955362962217,
+    "updated_unix": 1795057220.8224366
   }
 }
