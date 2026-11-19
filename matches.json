@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795075961.5093277,
-  "content_signature": "baa7ffbf62a75122a676a8612715256c89861de70658cce7b7ee72620e5a6c00",
+  "published_unix": 1795076117.7946258,
+  "content_signature": "cb35253429308329237229c38b2816fb53916866095f2fab8701a21533bfdf98",
   "matches": [
     {
       "key": "807c9d16556b83b6a4f179df",
@@ -2858,6 +2858,26 @@
       ]
     },
     {
+      "key": "e26eedf1c7a2c63082ec4b41",
+      "airbnb": "963063546089473037",
+      "address": "2479 QUACCO RD_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/963063546089473037",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/2479-Quacco-Rd_Pooler_GA_31322_M52103-93856",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 65.85830933785005,
+      "inliers": 176,
+      "discovered_unix": 1795076105.1062346,
+      "photos": [
+        [
+          "assets/8c19a2b43cedf95f312fb0d822422975.jpg",
+          "assets/b26403c5f6b237632b48b3ecb6dae188.jpg"
+        ]
+      ]
+    },
+    {
       "key": "408c14b90cb80598f7133aec",
       "airbnb": "680421328729132855",
       "address": "1230 WESTON WAY_POOLER_31322",
@@ -3023,6 +3043,6 @@
     "total_airbnb": 2685,
     "airbnb_remaining": 627,
     "eta_seconds": 28018.724085608308,
-    "updated_unix": 1795075943.3101184
+    "updated_unix": 1795076105.4753802
   }
 }
