@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795116945.4394956,
-  "content_signature": "f0511e13cdffc483a65c2489951a9cda495a1aac78c7a3047f1aa2098f691d41",
+  "published_unix": 1795117021.9252758,
+  "content_signature": "634295a43be7dfd03a38c1ff9a2563d7203d5981a5788168fbe33beb5e7afe93",
   "matches": [
     {
       "key": "b73d5a1b688a6a52b6db5259",
@@ -3278,46 +3278,6 @@
       ]
     },
     {
-      "key": "56b4c7113370fd6110081d12",
-      "airbnb": "50024796",
-      "address": "447 PRICE ST_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/50024796",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/447-Price-St_Savannah_GA_31401_M58692-44898",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 9.990074969617023,
-      "inliers": 52,
-      "discovered_unix": 1795077350.6238554,
-      "photos": [
-        [
-          "assets/f9290e575fb90b6aa86856fc630fbd1c.jpg",
-          "assets/59be54b85d437c34623c17013809b052.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "1c01aeb432530ff5707386fa",
-      "airbnb": "1617038716555688975",
-      "address": "277 COLD CREEK LOOP_PORT WENTWORTH_31407",
-      "airbnb_url": "https://www.airbnb.com/rooms/1617038716555688975",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/277-Cold-Creek-Loop_Port-Wentworth_GA_31407_M92029-56577",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 18.960553663287232,
-      "inliers": 95,
-      "discovered_unix": 1795077181.807241,
-      "photos": [
-        [
-          "assets/bf10f944d4bcafbec688f760a7e698dd.jpg",
-          "assets/68e5ac99edabfe05eb8b775e1ab5412a.jpg"
-        ]
-      ]
-    },
-    {
       "key": "be88c373a33d70cb5800ce1a",
       "airbnb": "1541441702416475464",
       "address": "216 W HUNTINGDON ST_SAVANNAH_31401",
@@ -3354,6 +3314,26 @@
         [
           "assets/c12a8b3267dd418f4c99d1360b9531e8.jpg",
           "assets/0596f0deef284a55d8bbb9e4e0542011.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "1c01aeb432530ff5707386fa",
+      "airbnb": "1617038716555688975",
+      "address": "277 COLD CREEK LOOP_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1617038716555688975",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/277-Cold-Creek-Loop_Port-Wentworth_GA_31407_M92029-56577",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 18.960553663287232,
+      "inliers": 95,
+      "discovered_unix": 1795077181.807241,
+      "photos": [
+        [
+          "assets/bf10f944d4bcafbec688f760a7e698dd.jpg",
+          "assets/68e5ac99edabfe05eb8b775e1ab5412a.jpg"
         ]
       ]
     },
@@ -3503,6 +3483,6 @@
     "total_airbnb": 2666,
     "airbnb_remaining": 0,
     "eta_seconds": null,
-    "updated_unix": 1795116931.8269362
+    "updated_unix": 1795117008.635442
   }
 }
