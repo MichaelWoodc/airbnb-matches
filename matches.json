@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795055007.5697043,
-  "content_signature": "be847d4e4e90c82ea3dd12a8663675bc598f8b584cd9757333c23a210f08f144",
+  "published_unix": 1795055078.610866,
+  "content_signature": "cdb6afcb706b1ac18df5e4d336158693c499ae84dfd246a09edbe0a00015ec5e",
   "matches": [
+    {
+      "key": "183faee1a0dfc17ec212b3c9",
+      "airbnb": "1166610158380549574",
+      "address": "514 W 44TH ST_SAVANNAH_31405",
+      "airbnb_url": "https://www.airbnb.com/rooms/1166610158380549574",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/514-W-44th-St_Savannah_GA_31405_M57809-50507",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 8.364656340183487,
+      "inliers": 54,
+      "discovered_unix": 1795055025.2782733,
+      "photos": [
+        [
+          "assets/afe065be9bce0a48330fa76feba77b3a.jpg",
+          "assets/2da4335820b7ce14dcad6e0a4a116911.jpg"
+        ]
+      ]
+    },
     {
       "key": "83d05deb7e7aed7613d96306",
       "airbnb": "1554548018188270041",
@@ -1661,10 +1681,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 677,
+    "airbnb_checked": 690,
     "total_airbnb": 2744,
-    "airbnb_remaining": 2067,
-    "eta_seconds": 13448.930533428582,
-    "updated_unix": 1795054998.875365
+    "airbnb_remaining": 2054,
+    "eta_seconds": 13134.029436296345,
+    "updated_unix": 1795055062.3522286
   }
 }
