@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795132267.3439639,
-  "content_signature": "43a29487a7274675b54b5ced6031511944ab9f997272c4908feeaf29caf3ebf0",
+  "published_unix": 1795132446.1380715,
+  "content_signature": "4afff4b005bfb4dbe21587dbbb16bf1f04ec915efe747392db00d92d2fb9b847",
   "matches": [
     {
       "key": "3f91aea979ffdbd185130ece",
@@ -16,6 +16,48 @@
         [
           "assets/8a0b1b0892bc721c1bc2f2401705d735.jpg",
           "assets/94c9c7f32a3f76bca264f3d088b449ee.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "5439324973e61a90fd5a3ea0",
+      "airbnb": "1480180481985235173",
+      "address": "95 CRYSTAL LAKE DR_SAVANNAH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1480180481985235173",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/95-Crystal-Lake-Dr_Savannah_GA_31407_M67962-18432",
+      "verified": true,
+      "score": 143.02158286034916,
+      "inliers": 572,
+      "discovered_unix": 1795131953.256316,
+      "photos": [
+        [
+          "assets/7614be54e86479fddcba23e0d8e80453.jpg",
+          "assets/4764eff2fecd92067302e3ce3e21888d.jpg"
+        ],
+        [
+          "assets/fad6ca534011ccc788ebaba99a22204c.jpg",
+          "assets/4823f1a258362dfd868f158060b7cd49.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "0db0c34476720650af04aa81",
+      "airbnb": "1625593671984677304",
+      "address": "169 SILVERTON RD_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1625593671984677304",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/169-Silverton-Rd_Pooler_GA_31322_M68423-61680",
+      "verified": true,
+      "score": 15.589564558909155,
+      "inliers": 165,
+      "discovered_unix": 1795131953.256316,
+      "photos": [
+        [
+          "assets/8a70a869ec801a593db875b792766bed.jpg",
+          "assets/cd25120c56b8d4aa08fa6c30d15ebb14.jpg"
+        ],
+        [
+          "assets/b95fe64850972cb595e0cb74d8229e68.jpg",
+          "assets/6f675df1088033c2e8f3b10502d77746.jpg"
         ]
       ]
     },
@@ -3104,10 +3146,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2026,
-    "total_airbnb": 2026,
+    "airbnb_checked": 2023,
+    "total_airbnb": 2023,
     "airbnb_remaining": 0,
     "eta_seconds": null,
-    "updated_unix": 1795132246.7390969
+    "updated_unix": 1795132428.1214783
   }
 }
