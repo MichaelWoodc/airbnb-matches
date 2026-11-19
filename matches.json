@@ -1,7 +1,67 @@
 {
-  "published_unix": 1795076469.1352928,
-  "content_signature": "268d364448f486405bc5d37f15f832c6783cffdd478a727dfd7e98e48ac9ad98",
+  "published_unix": 1795076563.0443773,
+  "content_signature": "1223095b9bb9d9839ddfa077415ef74375665cfbadc75a2c8a3e66477242cee8",
   "matches": [
+    {
+      "key": "4f12e62b54d062a50ee89dee",
+      "airbnb": "832855278333484719",
+      "address": "222 E GORDON ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/832855278333484719",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/222-E-Gordon-St_Savannah_GA_31401_M50097-72945",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 88.20831901958881,
+      "inliers": 274,
+      "discovered_unix": 1795076446.6329892,
+      "photos": [
+        [
+          "assets/2a0cb1ee66c054c055b3c1e9a98edcb6.jpg",
+          "assets/ce7ec3075c4585b0a89c79afb378b15d.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "613962a99d4fca15a5651182",
+      "airbnb": "833294669754989711",
+      "address": "325 DOGWOOD CIR_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/833294669754989711",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/325-Dogwood-Cir_Port-Wentworth_GA_31407_M98667-65875",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 15.961545218211699,
+      "inliers": 85,
+      "discovered_unix": 1795076413.7390156,
+      "photos": [
+        [
+          "assets/1fec6e5f4c9d4662035cae997f23baad.jpg",
+          "assets/46532d27e6dfd83d3b7f24ed03444c85.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "7e550bb04aaaf57c63fee519",
+      "airbnb": "1018006992979043354",
+      "address": "1225 WESTON WAY_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1018006992979043354",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1225-Weston-Way_Pooler_GA_31322_M69409-46209",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 21.501603255139496,
+      "inliers": 125,
+      "discovered_unix": 1795076293.4792292,
+      "photos": [
+        [
+          "assets/ac6a186936b656eb973ed10587aef85f.jpg",
+          "assets/1cb03b2e1f8f5897b18142e2fe4f6569.jpg"
+        ]
+      ]
+    },
     {
       "key": "e26eedf1c7a2c63082ec4b41",
       "airbnb": "963063546089473037",
@@ -2918,22 +2978,22 @@
       ]
     },
     {
-      "key": "4f12e62b54d062a50ee89dee",
-      "airbnb": "832855278333484719",
-      "address": "222 E GORDON ST_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/832855278333484719",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/222-E-Gordon-St_Savannah_GA_31401_M50097-72945",
+      "key": "46bbd7f09dbd7a3e3e0ccf06",
+      "airbnb": "1163100600376479007",
+      "address": "413 Garden Acres Way_Pooler_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1163100600376479007",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/413-Garden-Acres-Way_Pooler_GA_31322_M68055-47331",
       "verified": false,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
-      "score": 88.20831901958881,
-      "inliers": 274,
-      "discovered_unix": 1795076446.6329892,
+      "score": 11.635281212765664,
+      "inliers": 73,
+      "discovered_unix": 1795076504.8139927,
       "photos": [
         [
-          "assets/2a0cb1ee66c054c055b3c1e9a98edcb6.jpg",
-          "assets/ce7ec3075c4585b0a89c79afb378b15d.jpg"
+          "assets/e5373ce6e97cb8fb4057acf6030b783b.jpg",
+          "assets/a7953608e4ac4e879266aff9386d4a0d.jpg"
         ]
       ]
     },
@@ -2954,46 +3014,6 @@
         [
           "assets/0d5d3448883df0e8e7ac37dd9987243b.jpg",
           "assets/d2c81e8d8d592f26091ca45384ac95b6.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "613962a99d4fca15a5651182",
-      "airbnb": "833294669754989711",
-      "address": "325 DOGWOOD CIR_PORT WENTWORTH_31407",
-      "airbnb_url": "https://www.airbnb.com/rooms/833294669754989711",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/325-Dogwood-Cir_Port-Wentworth_GA_31407_M98667-65875",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 15.961545218211699,
-      "inliers": 85,
-      "discovered_unix": 1795076413.7390156,
-      "photos": [
-        [
-          "assets/1fec6e5f4c9d4662035cae997f23baad.jpg",
-          "assets/46532d27e6dfd83d3b7f24ed03444c85.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "7e550bb04aaaf57c63fee519",
-      "airbnb": "1018006992979043354",
-      "address": "1225 WESTON WAY_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/1018006992979043354",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1225-Weston-Way_Pooler_GA_31322_M69409-46209",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 21.501603255139496,
-      "inliers": 125,
-      "discovered_unix": 1795076293.4792292,
-      "photos": [
-        [
-          "assets/ac6a186936b656eb973ed10587aef85f.jpg",
-          "assets/1cb03b2e1f8f5897b18142e2fe4f6569.jpg"
         ]
       ]
     },
@@ -3119,10 +3139,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2070,
-    "total_airbnb": 2682,
-    "airbnb_remaining": 612,
-    "eta_seconds": 25014.977586785142,
-    "updated_unix": 1795076455.906636
+    "airbnb_checked": 2071,
+    "total_airbnb": 2679,
+    "airbnb_remaining": 608,
+    "eta_seconds": 25846.331813734407,
+    "updated_unix": 1795076550.3020766
   }
 }
