@@ -1,27 +1,7 @@
 {
-  "published_unix": 1795059334.0871098,
-  "content_signature": "1c76b7a61f222bc214a2ec7f6db3370435dcf0871113f9c6d7d39d8ebbdfde1c",
+  "published_unix": 1795059593.1131566,
+  "content_signature": "c0eb5db6e8b03dedf0fbbac26109442407c7b00e8bf8d95a420595e91c8f5d7f",
   "matches": [
-    {
-      "key": "4f5a27023b7f8e19425ec229",
-      "airbnb": "1521744364684171380",
-      "address": "UNIT 1",
-      "airbnb_url": "https://www.airbnb.com/rooms/1521744364684171380",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/208-E-Jones-St-Apt-1_Savannah_GA_31401_M53266-23058",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 9.661821983872784,
-      "inliers": 77,
-      "discovered_unix": 1795059274.4821506,
-      "photos": [
-        [
-          "assets/63a24a700b8e114c0aef58cde927832f.jpg",
-          "assets/8c4937262db110269597f71ad029a52c.jpg"
-        ]
-      ]
-    },
     {
       "key": "782081c268631ebd86930249",
       "airbnb": "1357289872054839941",
@@ -1845,10 +1825,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1086,
+    "airbnb_checked": 1125,
     "total_airbnb": 2735,
-    "airbnb_remaining": 1649,
-    "eta_seconds": 19381.97862263115,
-    "updated_unix": 1795059321.2737923
+    "airbnb_remaining": 1610,
+    "eta_seconds": 12356.021305833545,
+    "updated_unix": 1795059588.4623494
   }
 }
