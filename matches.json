@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795067077.7104254,
-  "content_signature": "0d76d40a690a5d43a5ac177994fcd0e43e7f579b86df5fadc7fd755dfddd85b9",
+  "published_unix": 1795067440.3035693,
+  "content_signature": "d9010ddfef9b984608fd929e91414671daf3df0895de0ce0512e809b17c44856",
   "matches": [
     {
       "key": "cdc101745762eff2acade876",
@@ -2258,6 +2258,26 @@
       ]
     },
     {
+      "key": "c6b13ea7185940b9ecd48f2e",
+      "airbnb": "1291594004608644268",
+      "address": "143 AQUINNAH DR_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1291594004608644268",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/143-Aquinnah-Dr_Pooler_GA_31322_M57516-72041",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 13.670495654971113,
+      "inliers": 68,
+      "discovered_unix": 1795067399.359241,
+      "photos": [
+        [
+          "assets/74e23d2de58334946e8a2df3018a555e.jpg",
+          "assets/9ca4f00879f8918c10ab3e0c3f777854.jpg"
+        ]
+      ]
+    },
+    {
       "key": "2490712fd9740db8b025df81",
       "airbnb": "1025430132461051567",
       "address": "1116 PLANTATION DR_POOLER_31322",
@@ -2359,10 +2379,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1721,
+    "airbnb_checked": 1732,
     "total_airbnb": 2715,
-    "airbnb_remaining": 994,
-    "eta_seconds": 12726.688702310834,
-    "updated_unix": 1795067067.1558044
+    "airbnb_remaining": 983,
+    "eta_seconds": 17650.994697984384,
+    "updated_unix": 1795067433.1592388
   }
 }
