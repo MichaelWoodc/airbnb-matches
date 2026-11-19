@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795068732.2720125,
-  "content_signature": "0720029ce5eb02bb64a94c81a3642912afe813690f7b495bbb419b6695d4dd5e",
+  "published_unix": 1795068820.540391,
+  "content_signature": "c96c7728e2a918a529fdc7c2d94c74e9901102e85e8d27845cba90290ad6be93",
   "matches": [
     {
       "key": "eec542aa430b48cc70a44f0e",
@@ -59,6 +59,26 @@
         [
           "assets/909451ee37432424b378a693ff5c2ce2.jpg",
           "assets/4d8f81bda8ebb91f615e66d62e3fc40f.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "1fab73175d620e419f560726",
+      "airbnb": "862546695010142428",
+      "address": "3 15TH ST #112_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/862546695010142428",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3-15th-St-112_Tybee-Island_GA_31328_M68692-26786",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 23.699241624998745,
+      "inliers": 108,
+      "discovered_unix": 1795068298.1481705,
+      "photos": [
+        [
+          "assets/98aab4d11593c6521f658fa3e672adf8.jpg",
+          "assets/252302b697934c9e0d8c4e7af2796a11.jpg"
         ]
       ]
     },
@@ -2478,6 +2498,26 @@
       ]
     },
     {
+      "key": "8dd103277cc71a1f12bc5205",
+      "airbnb": "1608002093314692746",
+      "address": "14 10TH ST_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1608002093314692746",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/14-10th-St_Tybee-Island_GA_31328_M58732-88848",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 13.123352047805527,
+      "inliers": 77,
+      "discovered_unix": 1795068760.7560346,
+      "photos": [
+        [
+          "assets/4ad6f3386fa50b1a78e9e825c2605ca6.jpg",
+          "assets/5c40a1650ab046833bed628265912a6e.jpg"
+        ]
+      ]
+    },
+    {
       "key": "b0ae69390821b39bffd3299a",
       "airbnb": "1655335896944843984",
       "address": "7 CEDAR CV_SAVANNAH_31410",
@@ -2534,26 +2574,6 @@
         [
           "assets/a2f0fb019e513e725c9ea186cede761c.jpg",
           "assets/0d97463570f3a4066ae877502c2f376d.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "1fab73175d620e419f560726",
-      "airbnb": "862546695010142428",
-      "address": "3 15TH ST #112_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/862546695010142428",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3-15th-St-112_Tybee-Island_GA_31328_M68692-26786",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 23.699241624998745,
-      "inliers": 108,
-      "discovered_unix": 1795068298.1481705,
-      "photos": [
-        [
-          "assets/98aab4d11593c6521f658fa3e672adf8.jpg",
-          "assets/252302b697934c9e0d8c4e7af2796a11.jpg"
         ]
       ]
     },
@@ -2639,10 +2659,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1799,
-    "total_airbnb": 2704,
-    "airbnb_remaining": 905,
-    "eta_seconds": 18658.105738649563,
-    "updated_unix": 1795068719.5732973
+    "airbnb_checked": 1801,
+    "total_airbnb": 2703,
+    "airbnb_remaining": 902,
+    "eta_seconds": 19300.539579070344,
+    "updated_unix": 1795068808.7430317
   }
 }
