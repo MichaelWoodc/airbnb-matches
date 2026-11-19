@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795116048.1191397,
-  "content_signature": "5b4130260ba4f6053beadae1a3c1c779d436b9725ce1af66e50778e81f8b3611",
+  "published_unix": 1795116143.9228554,
+  "content_signature": "9f7761e66320b73e26bd7f00f7bd9108d2e6df46fc67780dd3fa6eb7e0845da5",
   "matches": [
     {
       "key": "b73d5a1b688a6a52b6db5259",
@@ -39,6 +39,66 @@
         [
           "assets/04523feeb8a99768fae4c01a69f2644b.jpg",
           "assets/42c11ce7140d010c7d11e26ac2b15f2a.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "5f9ac1e507899c507ffa89e1",
+      "airbnb": "937094147509988486",
+      "address": "601 S SKINNER AVE_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/937094147509988486",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/601-S-Skinner-Ave_Pooler_GA_31322_M67866-57870",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 20.355783587030814,
+      "inliers": 105,
+      "discovered_unix": 1795080175.9759092,
+      "photos": [
+        [
+          "assets/6c00894a73325be2fd5ccbee4cf27875.jpg",
+          "assets/2d848c869dbafc53e0a2259b9012bacd.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "8be2f1433059517916e2bfee",
+      "airbnb": "19245762",
+      "address": "402 E MCDONOUGH ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/19245762",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/402-E-McDonough-St_Savannah_GA_31401_M50284-49449",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 12.87370910791443,
+      "inliers": 77,
+      "discovered_unix": 1795080049.7088575,
+      "photos": [
+        [
+          "assets/57740e181ed4e738756d133256f6dc02.jpg",
+          "assets/ab3ebf6a02c204e65c224653ec29ff78.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "28d44255980865e1255b2373",
+      "airbnb": "1300951385551209633",
+      "address": "16 SANDY SHOALS PASS_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1300951385551209633",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/16-Sandy-Shoals-Pass_Port-Wentworth_GA_31407_M51473-23954",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 61.1990696221537,
+      "inliers": 193,
+      "discovered_unix": 1795079676.5916789,
+      "photos": [
+        [
+          "assets/3727caf9baac08b8adad25ca11b61b4e.jpg",
+          "assets/57cbc1df94697f9fc067f9ac6cd527d2.jpg"
         ]
       ]
     },
@@ -3078,66 +3138,6 @@
       ]
     },
     {
-      "key": "5f9ac1e507899c507ffa89e1",
-      "airbnb": "937094147509988486",
-      "address": "601 S SKINNER AVE_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/937094147509988486",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/601-S-Skinner-Ave_Pooler_GA_31322_M67866-57870",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 20.355783587030814,
-      "inliers": 105,
-      "discovered_unix": 1795080175.9759092,
-      "photos": [
-        [
-          "assets/6c00894a73325be2fd5ccbee4cf27875.jpg",
-          "assets/2d848c869dbafc53e0a2259b9012bacd.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "8be2f1433059517916e2bfee",
-      "airbnb": "19245762",
-      "address": "402 E MCDONOUGH ST_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/19245762",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/402-E-McDonough-St_Savannah_GA_31401_M50284-49449",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 12.87370910791443,
-      "inliers": 77,
-      "discovered_unix": 1795080049.7088575,
-      "photos": [
-        [
-          "assets/57740e181ed4e738756d133256f6dc02.jpg",
-          "assets/ab3ebf6a02c204e65c224653ec29ff78.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "28d44255980865e1255b2373",
-      "airbnb": "1300951385551209633",
-      "address": "16 SANDY SHOALS PASS_PORT WENTWORTH_31407",
-      "airbnb_url": "https://www.airbnb.com/rooms/1300951385551209633",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/16-Sandy-Shoals-Pass_Port-Wentworth_GA_31407_M51473-23954",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 61.1990696221537,
-      "inliers": 193,
-      "discovered_unix": 1795079676.5916789,
-      "photos": [
-        [
-          "assets/3727caf9baac08b8adad25ca11b61b4e.jpg",
-          "assets/57cbc1df94697f9fc067f9ac6cd527d2.jpg"
-        ]
-      ]
-    },
-    {
       "key": "ccdb8e1f89352e0ca6ab93cb",
       "airbnb": "1552964594208412277",
       "address": "114 SILVERTON RD_POOLER_31322",
@@ -3539,10 +3539,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2676,
-    "total_airbnb": 2676,
+    "airbnb_checked": 2673,
+    "total_airbnb": 2673,
     "airbnb_remaining": 0,
     "eta_seconds": null,
-    "updated_unix": 1795116033.4559417
+    "updated_unix": 1795116127.5945413
   }
 }
