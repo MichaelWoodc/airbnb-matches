@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795056367.7995412,
-  "content_signature": "203f5cd90a567a0675e106de12aea749619c93b0688cebf6140c6f76985f31ba",
+  "published_unix": 1795056700.8352845,
+  "content_signature": "e4cec3346f3b99073e2f2da61a662985a4e51183c0dbec4cef8585e3a0196dd9",
   "matches": [
     {
       "key": "599e5105a55a42ed06147ff3",
@@ -128,7 +128,7 @@
       "address": "102 E LIBERTY ST #607_SAVANNAH_31401",
       "airbnb_url": "https://www.airbnb.com/rooms/1471099635987066622",
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/102-E-Liberty-St-Apt-607_Savannah_GA_31401_M59327-55999",
-      "verified": true,
+      "verified": false,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
@@ -1861,10 +1861,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 828,
-    "total_airbnb": 2740,
-    "airbnb_remaining": 1912,
-    "eta_seconds": 15080.257761702247,
-    "updated_unix": 1795056357.7187803
+    "airbnb_checked": 870,
+    "total_airbnb": 2741,
+    "airbnb_remaining": 1871,
+    "eta_seconds": 15820.068120328748,
+    "updated_unix": 1795056694.8151782
   }
 }
