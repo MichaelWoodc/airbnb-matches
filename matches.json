@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795076658.6817603,
-  "content_signature": "6d367ce5d69aa240e014fda6823e6919dea6faedadfe1c48bfb60c6c2378228c",
+  "published_unix": 1795077264.2611482,
+  "content_signature": "1ff571826854a6dfccd53854a65f33e5124ad2cccebac16f9ddca3c144b53904",
   "matches": [
     {
       "key": "46bbd7f09dbd7a3e3e0ccf06",
@@ -2998,6 +2998,26 @@
       ]
     },
     {
+      "key": "1c01aeb432530ff5707386fa",
+      "airbnb": "1617038716555688975",
+      "address": "277 COLD CREEK LOOP_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1617038716555688975",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/277-Cold-Creek-Loop_Port-Wentworth_GA_31407_M92029-56577",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 18.960553663287232,
+      "inliers": 95,
+      "discovered_unix": 1795077181.807241,
+      "photos": [
+        [
+          "assets/bf10f944d4bcafbec688f760a7e698dd.jpg",
+          "assets/68e5ac99edabfe05eb8b775e1ab5412a.jpg"
+        ]
+      ]
+    },
+    {
       "key": "e2a6e4a731b8bd3d9d8337ff",
       "airbnb": "12603732",
       "address": "318 HABERSHAM ST_SAVANNAH_31401",
@@ -3139,10 +3159,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2071,
+    "airbnb_checked": 2074,
     "total_airbnb": 2678,
-    "airbnb_remaining": 607,
-    "eta_seconds": 26938.52253222952,
-    "updated_unix": 1795076643.8296452
+    "airbnb_remaining": 604,
+    "eta_seconds": 30124.16980282141,
+    "updated_unix": 1795077251.4192302
   }
 }
