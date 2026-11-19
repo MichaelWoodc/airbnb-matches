@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795118797.0782707,
-  "content_signature": "a6a8f8d9c2a1a10e12e5de345ad45b8ef0d946b1d21ceeeccda6480824f244a3",
+  "published_unix": 1795118897.8980703,
+  "content_signature": "b6820498bf71bc1d674ee82268503f5e63a21986af4a5560ef56e96aad63df45",
   "matches": [
+    {
+      "key": "3e67a827abd7f574454ca7ab",
+      "airbnb": "52634400",
+      "address": "3119 GILBERT ST_SAVANNAH_31404",
+      "airbnb_url": "https://www.airbnb.com/rooms/52634400",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3119-Gilbert-St_Savannah_GA_31404_M54881-17880",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue follow-up"
+      ],
+      "score": 12.369436785423737,
+      "inliers": 65,
+      "discovered_unix": 1795117799.2611268,
+      "photos": [
+        [
+          "assets/eeced770fc84e961ae9234a379f1c38e.jpg",
+          "assets/0b01fba04c0cb81a278a1389f48e6582.jpg"
+        ]
+      ]
+    },
     {
       "key": "b73d5a1b688a6a52b6db5259",
       "airbnb": "1696783109839497109",
@@ -3298,86 +3318,6 @@
       ]
     },
     {
-      "key": "9f454f1f75590eb5488a79c3",
-      "airbnb": "50360801",
-      "address": "53 SPRINGWATER DR_PORT WENTWORTH_31407",
-      "airbnb_url": "https://www.airbnb.com/rooms/50360801",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/53-Springwater-Dr_Port-Wentworth_GA_31407_M54466-38929",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue follow-up"
-      ],
-      "score": 9.237540902995425,
-      "inliers": 55,
-      "discovered_unix": 1795117960.7180054,
-      "photos": [
-        [
-          "assets/ec05ab949bafe38af1e98236807c802d.jpg",
-          "assets/68093ad9e52a689330df6fb81f5a5d9d.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "0c096e5d2078482d6228ce7d",
-      "airbnb": "843386924411680906",
-      "address": "9 NAYLOR AVE_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/843386924411680906",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/9-Naylor-Ave_Tybee-Island_GA_31328_M94713-29085",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue follow-up"
-      ],
-      "score": 12.186829040091684,
-      "inliers": 97,
-      "discovered_unix": 1795117954.595153,
-      "photos": [
-        [
-          "assets/ef5b64ff0256c4dae1d9b8c292a81991.jpg",
-          "assets/ab56ad355ed8acb381791136217dd2f1.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "3e67a827abd7f574454ca7ab",
-      "airbnb": "52634400",
-      "address": "3119 GILBERT ST_SAVANNAH_31404",
-      "airbnb_url": "https://www.airbnb.com/rooms/52634400",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3119-Gilbert-St_Savannah_GA_31404_M54881-17880",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue follow-up"
-      ],
-      "score": 12.369436785423737,
-      "inliers": 65,
-      "discovered_unix": 1795117799.2611268,
-      "photos": [
-        [
-          "assets/eeced770fc84e961ae9234a379f1c38e.jpg",
-          "assets/0b01fba04c0cb81a278a1389f48e6582.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "584a43ee61265c2fb1e95fa6",
-      "airbnb": "1263713354495392521",
-      "address": "2123 HART AVE_SAVANNAH_31405",
-      "airbnb_url": "https://www.airbnb.com/rooms/1263713354495392521",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/2123-Hart-Ave_Savannah_GA_31405_M53974-07624",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue follow-up"
-      ],
-      "score": 7.829561055615883,
-      "inliers": 36,
-      "discovered_unix": 1795117520.394574,
-      "photos": [
-        [
-          "assets/15bba895eb48d54f6dc281e74281eee6.jpg",
-          "assets/0b3bb1a8e2ef93aca40b262dec6ba8b5.jpg"
-        ]
-      ]
-    },
-    {
       "key": "9191aa43d15ea7c2accd66c9",
       "airbnb": "47314445",
       "address": "1 BARRINGTON CT_POOLER_31322",
@@ -3599,10 +3539,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1087,
+    "airbnb_checked": 1110,
     "total_airbnb": 2031,
-    "airbnb_remaining": 944,
-    "eta_seconds": 2718.3847074703294,
-    "updated_unix": 1795118792.7320998
+    "airbnb_remaining": 921,
+    "eta_seconds": 2820.5405371675683,
+    "updated_unix": 1795118881.91186
   }
 }
