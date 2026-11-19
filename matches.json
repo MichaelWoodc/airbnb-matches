@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795076281.753026,
-  "content_signature": "f3c5d74a9d0580ab783e6c2d0d7055f70c4211f0316dc77464e105a759682734",
+  "published_unix": 1795076375.7771175,
+  "content_signature": "6e7ebdaa4d5cf4cc46e9dd85412d2d532ad8291e0c178e0a05f2d9ad92ffc0d0",
   "matches": [
     {
       "key": "e26eedf1c7a2c63082ec4b41",
@@ -19,6 +19,46 @@
         [
           "assets/8c19a2b43cedf95f312fb0d822422975.jpg",
           "assets/b26403c5f6b237632b48b3ecb6dae188.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "408c14b90cb80598f7133aec",
+      "airbnb": "680421328729132855",
+      "address": "1230 WESTON WAY_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/680421328729132855",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1230-Weston-Way_Pooler_GA_31322_M67672-00676",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 64.5187180849831,
+      "inliers": 161,
+      "discovered_unix": 1795075908.9647636,
+      "photos": [
+        [
+          "assets/19dd2304fd65c486fcba4e275cb77b8c.jpg",
+          "assets/200338644b14d9b62c691ef9979282a9.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "651f190ce4625ff85a775aa5",
+      "airbnb": "19860923",
+      "address": "443 TATTNALL ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/19860923",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/443-Tattnall-St_Savannah_GA_31401_M58181-96854",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 7.712795202301004,
+      "inliers": 47,
+      "discovered_unix": 1795075877.7257168,
+      "photos": [
+        [
+          "assets/d01a2de43e26d7558e3882a20d94ee41.jpg",
+          "assets/1724377ebb82be629e22c0979cfdcd94.jpg"
         ]
       ]
     },
@@ -2878,42 +2918,22 @@
       ]
     },
     {
-      "key": "408c14b90cb80598f7133aec",
-      "airbnb": "680421328729132855",
-      "address": "1230 WESTON WAY_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/680421328729132855",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1230-Weston-Way_Pooler_GA_31322_M67672-00676",
+      "key": "7e550bb04aaaf57c63fee519",
+      "airbnb": "1018006992979043354",
+      "address": "1225 WESTON WAY_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1018006992979043354",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1225-Weston-Way_Pooler_GA_31322_M69409-46209",
       "verified": false,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
-      "score": 64.5187180849831,
-      "inliers": 161,
-      "discovered_unix": 1795075908.9647636,
+      "score": 21.501603255139496,
+      "inliers": 125,
+      "discovered_unix": 1795076293.4792292,
       "photos": [
         [
-          "assets/19dd2304fd65c486fcba4e275cb77b8c.jpg",
-          "assets/200338644b14d9b62c691ef9979282a9.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "651f190ce4625ff85a775aa5",
-      "airbnb": "19860923",
-      "address": "443 TATTNALL ST_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/19860923",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/443-Tattnall-St_Savannah_GA_31401_M58181-96854",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 7.712795202301004,
-      "inliers": 47,
-      "discovered_unix": 1795075877.7257168,
-      "photos": [
-        [
-          "assets/d01a2de43e26d7558e3882a20d94ee41.jpg",
-          "assets/1724377ebb82be629e22c0979cfdcd94.jpg"
+          "assets/ac6a186936b656eb973ed10587aef85f.jpg",
+          "assets/1cb03b2e1f8f5897b18142e2fe4f6569.jpg"
         ]
       ]
     },
@@ -3040,9 +3060,9 @@
   ],
   "progress": {
     "airbnb_checked": 2066,
-    "total_airbnb": 2685,
-    "airbnb_remaining": 619,
-    "eta_seconds": 25642.888744719177,
-    "updated_unix": 1795076269.127842
+    "total_airbnb": 2682,
+    "airbnb_remaining": 616,
+    "eta_seconds": 25922.21790122986,
+    "updated_unix": 1795076362.2447073
   }
 }
