@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795119193.5517626,
-  "content_signature": "c676ba253e20861a06e828ed02ba8dcb5979d44b82e01506a284f29bc930ec4a",
+  "published_unix": 1795119349.1463556,
+  "content_signature": "4f73b905011ee98a7d67e76f89b675dac86f645d780af8c9a33bb9c176f63195",
   "matches": [
     {
       "key": "f97126371a201e63275e9525",
@@ -3278,6 +3278,47 @@
       ]
     },
     {
+      "key": "4153512bab09999f1388fa3a",
+      "airbnb": "9942864",
+      "address": "UNIT 2C",
+      "airbnb_url": "https://www.airbnb.com/rooms/9942864",
+      "realtor_url": "https://www.realtor.com/rentals/details/218-W-38th-St-2C_Savannah_GA_31401_M97169-04364",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue follow-up"
+      ],
+      "score": 8.640351760493706,
+      "inliers": 58,
+      "discovered_unix": 1795119316.035308,
+      "photos": [
+        [
+          "assets/e2a41b1c4f6f0026afcdff38610baa46.jpg",
+          "assets/04f2b48cd636271c3da9ace91eb01774.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "d002eb2457deb92fc7b8a81d",
+      "airbnb": "1737118661541412284",
+      "address": "UNIT 301",
+      "airbnb_url": "https://www.airbnb.com/rooms/1737118661541412284",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3-17th-Pl-301_Tybee-Island_GA_31328_M91081-54274",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue",
+        "DINOv2 / SigLIP2 / LightGlue follow-up"
+      ],
+      "score": 8.989692874873455,
+      "inliers": 57,
+      "discovered_unix": 1795119289.1769974,
+      "photos": [
+        [
+          "assets/642f5e2cdeb9ea07128144e889e20537.jpg",
+          "assets/a6879b8d714f8a3d11d17beae141f54a.jpg"
+        ]
+      ]
+    },
+    {
       "key": "9191aa43d15ea7c2accd66c9",
       "airbnb": "47314445",
       "address": "1 BARRINGTON CT_POOLER_31322",
@@ -3476,33 +3517,13 @@
           "assets/a6879b8d714f8a3d11d17beae141f54a.jpg"
         ]
       ]
-    },
-    {
-      "key": "d002eb2457deb92fc7b8a81d",
-      "airbnb": "1737118661541412284",
-      "address": "UNIT 301",
-      "airbnb_url": "https://www.airbnb.com/rooms/1737118661541412284",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3-17th-Pl-301_Tybee-Island_GA_31328_M91081-54274",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 8.989692874873455,
-      "inliers": 57,
-      "discovered_unix": 1795061152.212796,
-      "photos": [
-        [
-          "assets/642f5e2cdeb9ea07128144e889e20537.jpg",
-          "assets/a6879b8d714f8a3d11d17beae141f54a.jpg"
-        ]
-      ]
     }
   ],
   "progress": {
-    "airbnb_checked": 1200,
+    "airbnb_checked": 1252,
     "total_airbnb": 2030,
-    "airbnb_remaining": 830,
-    "eta_seconds": 2389.7054536002024,
-    "updated_unix": 1795119179.9526248
+    "airbnb_remaining": 778,
+    "eta_seconds": 2325.495140348162,
+    "updated_unix": 1795119335.4297314
   }
 }
