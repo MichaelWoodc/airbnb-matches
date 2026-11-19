@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795125403.950333,
-  "content_signature": "cc1478a5bff5c19cd7f0b9df1dff51a1cfc835f63efda9ec73c564ed0e8dc746",
+  "published_unix": 1795125787.9769034,
+  "content_signature": "05457ff6ce190b3142a5503db63f9618dfe5f5366b8e2af14e71175e51b98193",
   "matches": [
     {
       "key": "d99c8a7cb438d17a742cc23b",
@@ -2844,6 +2844,23 @@
       ]
     },
     {
+      "key": "04317e33a1c345e2d4a75fa4",
+      "airbnb": "47121456",
+      "address": "210 BRIGHTON WOODS DR_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/47121456",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/210-Brighton-Woods-Dr_Pooler_GA_31322_M67086-30323",
+      "verified": false,
+      "score": 12.436415056460977,
+      "inliers": 99,
+      "discovered_unix": 1795125751.4017444,
+      "photos": [
+        [
+          "assets/46e429bfee2fedf92f8f196c6f86eeab.jpg",
+          "assets/2f8ddf5be94bfb39a0267b1c6e6db5cc.jpg"
+        ]
+      ]
+    },
+    {
       "key": "45172c01ffb4950130a418ba",
       "airbnb": "44196068",
       "address": "158 AQUINNAH DR_POOLER_31322",
@@ -3049,10 +3066,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1944,
+    "airbnb_checked": 1956,
     "total_airbnb": 2028,
-    "airbnb_remaining": 84,
-    "eta_seconds": 1810.6229741232735,
-    "updated_unix": 1795125389.4177852
+    "airbnb_remaining": 72,
+    "eta_seconds": 1787.3249303078164,
+    "updated_unix": 1795125784.7092936
   }
 }
