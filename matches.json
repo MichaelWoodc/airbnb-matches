@@ -1,7 +1,47 @@
 {
-  "published_unix": 1795064107.7823546,
-  "content_signature": "f9c17c9bf448812bc061b5a945536cafdafec8b58d24239e45b0f6af3d699365",
+  "published_unix": 1795064348.8936763,
+  "content_signature": "c18a2e48036e3c19adf2036e42915753ec5c5319d8b297a0dd8ab47c4d3036d8",
   "matches": [
+    {
+      "key": "2bca7b3f489553b4c54cc333",
+      "airbnb": "1751482998448630040",
+      "address": "UNIT 301",
+      "airbnb_url": "https://www.airbnb.com/rooms/1751482998448630040",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3-17th-Pl-301_Tybee-Island_GA_31328_M91081-54274",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 7.462940443772082,
+      "inliers": 42,
+      "discovered_unix": 1795064300.0994053,
+      "photos": [
+        [
+          "assets/2ffea8bc4eb131c2fc421eed1079821a.jpg",
+          "assets/a6879b8d714f8a3d11d17beae141f54a.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "4aef33f87a156cd084a95260",
+      "airbnb": "37914293",
+      "address": "13 CHERRY ST_BLOOMINGDALE_31302",
+      "airbnb_url": "https://www.airbnb.com/rooms/37914293",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/13-Cherry-St_Bloomingdale_GA_31302_M50319-84119",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 361.47349037855764,
+      "inliers": 535,
+      "discovered_unix": 1795064276.0738828,
+      "photos": [
+        [
+          "assets/554ba65471bdc0f59b88ba2698fdcc19.jpg",
+          "assets/62aee1dc52673bbb7eb2e59b8670f1b2.jpg"
+        ]
+      ]
+    },
     {
       "key": "2f06b050285f27cd2bb06adb",
       "airbnb": "1263029328543981466",
@@ -2139,10 +2179,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1529,
+    "airbnb_checked": 1548,
     "total_airbnb": 2725,
-    "airbnb_remaining": 1196,
-    "eta_seconds": 15398.050343902742,
-    "updated_unix": 1795064095.7169452
+    "airbnb_remaining": 1177,
+    "eta_seconds": 15838.202334871097,
+    "updated_unix": 1795064345.6853743
   }
 }
