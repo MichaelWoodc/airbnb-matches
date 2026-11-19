@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795123024.186185,
-  "content_signature": "db22cb31305dc9105a893f7adca6737217825500d1246312934b105ec250165e",
+  "published_unix": 1795123110.2932312,
+  "content_signature": "9197e837fe85c9863eeebc3fcdf8f06f47ba9b9d63f636e30462a7898c7ecdab",
   "matches": [
     {
       "key": "f97126371a201e63275e9525",
@@ -2810,6 +2810,23 @@
       ]
     },
     {
+      "key": "65a7143b7b1f77f6508a2ba5",
+      "airbnb": "1735615341624795779",
+      "address": "216 E DUFFY ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1735615341624795779",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/216-E-Duffy-St_Savannah_GA_31401_M62533-07701",
+      "verified": false,
+      "score": 28.389392733872416,
+      "inliers": 102,
+      "discovered_unix": 1795123067.7474165,
+      "photos": [
+        [
+          "assets/40da4a36b0ba32ffcdb81056612f1727.jpg",
+          "assets/b6f60ace912e228984177038ac53893e.jpg"
+        ]
+      ]
+    },
+    {
       "key": "cb3a8135c66d92f6191acce3",
       "airbnb": "1609853086401984308",
       "address": "14 ANGEL OAKS DR_SAVANNAH_31410",
@@ -3049,10 +3066,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1818,
+    "airbnb_checked": 1824,
     "total_airbnb": 2030,
-    "airbnb_remaining": 212,
-    "eta_seconds": 2192.783617175355,
-    "updated_unix": 1795123008.437594
+    "airbnb_remaining": 206,
+    "eta_seconds": 2163.2814856646014,
+    "updated_unix": 1795123096.4379692
   }
 }
