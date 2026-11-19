@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795078882.5366662,
-  "content_signature": "c3d064332c9f4b3ff15f9adf30c86cba574be0600c060be2c5d30f1f939367a0",
+  "published_unix": 1795078962.6230233,
+  "content_signature": "91f02d5fbfc3e296521c939002563a94ca84f4512329dfabbad4d8db930dcc03",
   "matches": [
     {
       "key": "46bbd7f09dbd7a3e3e0ccf06",
@@ -2998,6 +2998,26 @@
       ]
     },
     {
+      "key": "9d625a75aa49d19a5151da62",
+      "airbnb": "1039981723043243595",
+      "address": "117 OBERLIN RD_GARDEN CITY_31408",
+      "airbnb_url": "https://www.airbnb.com/rooms/1039981723043243595",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/117-Oberlin-Rd_Garden-City_GA_31408_M65984-84456",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 33.030542689887305,
+      "inliers": 124,
+      "discovered_unix": 1795078943.0780392,
+      "photos": [
+        [
+          "assets/043caf637c8a0aca8aaad791d2c7e2ff.jpg",
+          "assets/7f8b08fa7b711186a1c493da40e6f8fd.jpg"
+        ]
+      ]
+    },
+    {
       "key": "ef342a4ee71b9ab4b43b3ba7",
       "airbnb": "1142738573948733961",
       "address": "411 E PARK AVE_SAVANNAH_31401",
@@ -3299,10 +3319,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2119,
+    "airbnb_checked": 2123,
     "total_airbnb": 2678,
-    "airbnb_remaining": 559,
-    "eta_seconds": 26562.582265761434,
-    "updated_unix": 1795078868.2437358
+    "airbnb_remaining": 555,
+    "eta_seconds": 19822.095319251624,
+    "updated_unix": 1795078943.353552
   }
 }
