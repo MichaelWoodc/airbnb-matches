@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795126033.6855516,
-  "content_signature": "cc1478a5bff5c19cd7f0b9df1dff51a1cfc835f63efda9ec73c564ed0e8dc746",
+  "published_unix": 1795128103.1035373,
+  "content_signature": "c4b7cc9517a9e8d1d0914775609d307748763ac9767a771161ef4c2a175b1edb",
   "matches": [
     {
       "key": "d99c8a7cb438d17a742cc23b",
@@ -2844,6 +2844,23 @@
       ]
     },
     {
+      "key": "8de114dd9e5ed14c5c020ed1",
+      "airbnb": "1407198241484860464",
+      "address": "407 E HUNTINGDON ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1407198241484860464",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/407-E-Huntingdon-St_Savannah_GA_31401_M62464-50768",
+      "verified": false,
+      "score": 94.35224867702703,
+      "inliers": 225,
+      "discovered_unix": 1795128053.815053,
+      "photos": [
+        [
+          "assets/9cee349b7bb43990619b3f45daee281d.jpg",
+          "assets/6130d6e54d6a3356d2f088eb2744fa8a.jpg"
+        ]
+      ]
+    },
+    {
       "key": "45172c01ffb4950130a418ba",
       "airbnb": "44196068",
       "address": "158 AQUINNAH DR_POOLER_31322",
@@ -3049,10 +3066,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1964,
+    "airbnb_checked": 2025,
     "total_airbnb": 2028,
-    "airbnb_remaining": 64,
-    "eta_seconds": 1647.5715120276625,
-    "updated_unix": 1795126018.5069358
+    "airbnb_remaining": 3,
+    "eta_seconds": 102.9596297497652,
+    "updated_unix": 1795128098.2073488
   }
 }
