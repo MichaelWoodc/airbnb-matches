@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795077264.2611482,
-  "content_signature": "1ff571826854a6dfccd53854a65f33e5124ad2cccebac16f9ddca3c144b53904",
+  "published_unix": 1795077411.4269006,
+  "content_signature": "3784abbbfa199a84df5bfa283cb81b0fa2d721010888dac7598c11eedc3c1cd3",
   "matches": [
     {
       "key": "46bbd7f09dbd7a3e3e0ccf06",
@@ -2998,6 +2998,26 @@
       ]
     },
     {
+      "key": "56b4c7113370fd6110081d12",
+      "airbnb": "50024796",
+      "address": "447 PRICE ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/50024796",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/447-Price-St_Savannah_GA_31401_M58692-44898",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 9.990074969617023,
+      "inliers": 52,
+      "discovered_unix": 1795077350.6238554,
+      "photos": [
+        [
+          "assets/f9290e575fb90b6aa86856fc630fbd1c.jpg",
+          "assets/59be54b85d437c34623c17013809b052.jpg"
+        ]
+      ]
+    },
+    {
       "key": "1c01aeb432530ff5707386fa",
       "airbnb": "1617038716555688975",
       "address": "277 COLD CREEK LOOP_PORT WENTWORTH_31407",
@@ -3159,10 +3179,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2074,
+    "airbnb_checked": 2080,
     "total_airbnb": 2678,
-    "airbnb_remaining": 604,
-    "eta_seconds": 30124.16980282141,
-    "updated_unix": 1795077251.4192302
+    "airbnb_remaining": 598,
+    "eta_seconds": 28218.646868530584,
+    "updated_unix": 1795077398.0331554
   }
 }
