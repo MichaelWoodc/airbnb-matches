@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795057627.4440773,
-  "content_signature": "6ee2a4ff75dd76c3a2928f45f50db55ae892912acad442abecf89eeb31edf3e6",
+  "published_unix": 1795057692.5677586,
+  "content_signature": "0dcc287b92b1ecf9a22bcbf68901170ee33472f14137ea02ec20925f8b629e1f",
   "matches": [
     {
       "key": "9509799a34fadc73b0f64a6e",
@@ -81,73 +81,13 @@
           "assets/07246a1e19e18295645feeb4becaaf07.jpg"
         ]
       ]
-    },
-    {
-      "key": "c250dc8c78b98b910bad70ab",
-      "airbnb": "963251823602809512",
-      "address": "211 HOLIDAY DR_SAVANNAH_31419",
-      "airbnb_url": "https://www.airbnb.com/rooms/963251823602809512",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/211-Holiday-Dr_Savannah_GA_31419_M62291-25956",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 14.87117647386255,
-      "inliers": 73,
-      "discovered_unix": 1795056274.023408,
-      "photos": [
-        [
-          "assets/feade38cb26f362599f47f5d9a852ec7.jpg",
-          "assets/96923dfc4c0fdc061b411094b32d1d28.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "5668ca026c04ec389e688091",
-      "airbnb": "1171101680461431674",
-      "address": "203 FOXBURY SQ_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/1171101680461431674",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/203-Foxbury-Sq_Pooler_GA_31322_M58140-32484",
-      "verified": true,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 14.706787757007907,
-      "inliers": 73,
-      "discovered_unix": 1795055856.8357434,
-      "photos": [
-        [
-          "assets/d7f57248471a1f7b8a28335c34c7ea19.jpg",
-          "assets/57f1153d690976f069caedc2876e202b.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "064ee119fd705731fc18f6e0",
-      "airbnb": "1558411040706460019",
-      "address": "102 E LIBERTY ST #607_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/1558411040706460019",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/102-E-Liberty-St-Apt-607_Savannah_GA_31401_M59327-55999",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 41.523854473155566,
-      "inliers": 167,
-      "discovered_unix": 1795055468.8920133,
-      "photos": [
-        [
-          "assets/c6ae90b46dd90aceb6d7212d69fb39ef.jpg",
-          "assets/2c264684fa3901e8486dda24e6129fb7.jpg"
-        ]
-      ]
     }
   ],
   "progress": {
-    "airbnb_checked": 938,
+    "airbnb_checked": 941,
     "total_airbnb": 2739,
-    "airbnb_remaining": 1801,
-    "eta_seconds": 23888.243541946216,
-    "updated_unix": 1795057617.7928443
+    "airbnb_remaining": 1798,
+    "eta_seconds": 25295.141317922244,
+    "updated_unix": 1795057683.9082985
   }
 }
