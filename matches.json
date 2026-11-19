@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795060545.6834886,
-  "content_signature": "067c3478809feb1ec00d3e59ac98c1d9e5ed8ae0106d260180857150615ee2c9",
+  "published_unix": 1795061128.8729126,
+  "content_signature": "b39336662fb5705af7907b3862bb4dffceac24318624960e932edd9f20020eeb",
   "matches": [
+    {
+      "key": "2d73986d092bd5ee183b1342",
+      "airbnb": "1563129915656301383",
+      "address": "11 9TH ST_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1563129915656301383",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/11-9th-St_Tybee-Island_GA_31328_M55908-60083",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 36.110078107082835,
+      "inliers": 135,
+      "discovered_unix": 1795061115.1149185,
+      "photos": [
+        [
+          "assets/dc93ae5620644946d8b552cc13295444.jpg",
+          "assets/a5886161a36bd67ce1bc8c0d0982dae5.jpg"
+        ]
+      ]
+    },
     {
       "key": "bde50841b57923f66b3b4668",
       "airbnb": "1016084392688688419",
@@ -1939,10 +1959,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1210,
+    "airbnb_checked": 1263,
     "total_airbnb": 2731,
-    "airbnb_remaining": 1521,
-    "eta_seconds": 14172.73964842485,
-    "updated_unix": 1795060532.2002578
+    "airbnb_remaining": 1468,
+    "eta_seconds": 16403.693299546532,
+    "updated_unix": 1795061125.8070598
   }
 }
