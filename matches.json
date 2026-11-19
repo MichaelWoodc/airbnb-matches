@@ -1,7 +1,47 @@
 {
-  "published_unix": 1795062938.7026532,
-  "content_signature": "bc44369b3feb887ff4515730dc1ceb96daf1d8c266290dfa535273c3356c7a2a",
+  "published_unix": 1795063074.8959298,
+  "content_signature": "08616198dd25292e20f0b1f11977602290ce2e895a6a8e2bd18163405dc3568c",
   "matches": [
+    {
+      "key": "2f42f77990ae8b1c1541d843",
+      "airbnb": "1556837970166553256",
+      "address": "602 W 35th St_Savannah_31415",
+      "airbnb_url": "https://www.airbnb.com/rooms/1556837970166553256",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/602-W-35th-St_Savannah_GA_31415_M60636-67617",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 9.38111930029743,
+      "inliers": 64,
+      "discovered_unix": 1795063063.0466387,
+      "photos": [
+        [
+          "assets/6f5b94daafdc43bb5c875a3a0148f3c7.jpg",
+          "assets/c4cb1584d1a4907ba28baf279c3077c7.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "feabe106d7ab0278aabf17f3",
+      "airbnb": "1494655626852650572",
+      "address": "440 ALTAMAHA ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1494655626852650572",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/440-Altamaha-St_Savannah_GA_31401_M91528-95607",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 7.2238637343034044,
+      "inliers": 62,
+      "discovered_unix": 1795063057.1800036,
+      "photos": [
+        [
+          "assets/c14cbcd40baf92e2ca158c27283d2d73.jpg",
+          "assets/7095f8645b8b5c373003f733f8fc3870.jpg"
+        ]
+      ]
+    },
     {
       "key": "9ebcb6c6081af98dc1462805",
       "airbnb": "700694531535398394",
@@ -2059,10 +2099,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1437,
+    "airbnb_checked": 1444,
     "total_airbnb": 2727,
-    "airbnb_remaining": 1290,
-    "eta_seconds": 14041.09404481187,
-    "updated_unix": 1795062926.7045307
+    "airbnb_remaining": 1283,
+    "eta_seconds": 17632.984006390278,
+    "updated_unix": 1795063065.1453714
   }
 }
