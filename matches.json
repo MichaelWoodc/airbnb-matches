@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795061679.8336697,
-  "content_signature": "5112f3f4de01f49f44c1c8dcb78739db18197de8e575591d06617782955f45ca",
+  "published_unix": 1795061951.5140967,
+  "content_signature": "63c5f0c75eaffde4f142321bc06f5a1b9fdee5062b140b8ee4d1213a7ba36dd1",
   "matches": [
+    {
+      "key": "6a7d8b49ea593f1bdf8aac52",
+      "airbnb": "1567565549464390894",
+      "address": "168 BERWICK LAKES BLVD_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1567565549464390894",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/168-Berwick-Lakes-Blvd_Pooler_GA_31322_M63306-51132",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 8.646860824965842,
+      "inliers": 56,
+      "discovered_unix": 1795061882.8289123,
+      "photos": [
+        [
+          "assets/945fd49e607b5eb0ded487ab442ae5ea.jpg",
+          "assets/45cb9261726541c2f74718f2dc288c1c.jpg"
+        ]
+      ]
+    },
     {
       "key": "598c921077077f592b11a75f",
       "airbnb": "1432625123983051251",
@@ -2059,10 +2079,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1321,
+    "airbnb_checked": 1350,
     "total_airbnb": 2730,
-    "airbnb_remaining": 1409,
-    "eta_seconds": 13387.291798401851,
-    "updated_unix": 1795061661.6910763
+    "airbnb_remaining": 1380,
+    "eta_seconds": 12106.33367927707,
+    "updated_unix": 1795061940.2670174
   }
 }
