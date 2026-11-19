@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795063432.5513408,
-  "content_signature": "7dcbe1a0b1a14985c3d77b80966edc4e330f5095220c2c8bda460b701fbb5e63",
+  "published_unix": 1795063507.6426854,
+  "content_signature": "8f71f049a4ea23d1fef814ff7866c86c2c60815257068018794143db7b2664f6",
   "matches": [
     {
       "key": "793cb8385f80cd986e8a6a49",
@@ -28,7 +28,7 @@
       "address": "8 18TH TER #A_TYBEE ISLAND_31328",
       "airbnb_url": "https://www.airbnb.com/rooms/53724619",
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/8-18th-Ter-A_Tybee-Island_GA_31328_M92934-41374",
-      "verified": false,
+      "verified": true,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
@@ -48,7 +48,7 @@
       "address": "6 13TH PL_TYBEE ISLAND_31328",
       "airbnb_url": "https://www.airbnb.com/rooms/17026442",
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/6-13th-Pl_Tybee-Island_GA_31328_M65625-74821",
-      "verified": false,
+      "verified": true,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
@@ -2159,10 +2159,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1480,
-    "total_airbnb": 2727,
-    "airbnb_remaining": 1247,
-    "eta_seconds": 16424.653612097914,
-    "updated_unix": 1795063427.6575954
+    "airbnb_checked": 1483,
+    "total_airbnb": 2725,
+    "airbnb_remaining": 1242,
+    "eta_seconds": 17305.192011317427,
+    "updated_unix": 1795063498.847609
   }
 }
