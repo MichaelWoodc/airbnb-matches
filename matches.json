@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795116143.9228554,
-  "content_signature": "9f7761e66320b73e26bd7f00f7bd9108d2e6df46fc67780dd3fa6eb7e0845da5",
+  "published_unix": 1795116235.6759543,
+  "content_signature": "1b260543d478991055086f89f9d9d35c4d349a9ee171e766ad0287715b7e6581",
   "matches": [
     {
       "key": "b73d5a1b688a6a52b6db5259",
@@ -99,6 +99,26 @@
         [
           "assets/3727caf9baac08b8adad25ca11b61b4e.jpg",
           "assets/57cbc1df94697f9fc067f9ac6cd527d2.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "ccdb8e1f89352e0ca6ab93cb",
+      "airbnb": "1552964594208412277",
+      "address": "114 SILVERTON RD_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1552964594208412277",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/114-Silverton-Rd_Pooler_GA_31322_M52417-33291",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 26.55546095436692,
+      "inliers": 77,
+      "discovered_unix": 1795079663.3459198,
+      "photos": [
+        [
+          "assets/0daf4db88101633ea576736bc1735e31.jpg",
+          "assets/1a0536d81e50b5ec2c925934ccf3881d.jpg"
         ]
       ]
     },
@@ -3138,26 +3158,6 @@
       ]
     },
     {
-      "key": "ccdb8e1f89352e0ca6ab93cb",
-      "airbnb": "1552964594208412277",
-      "address": "114 SILVERTON RD_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/1552964594208412277",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/114-Silverton-Rd_Pooler_GA_31322_M52417-33291",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 26.55546095436692,
-      "inliers": 77,
-      "discovered_unix": 1795079663.3459198,
-      "photos": [
-        [
-          "assets/0daf4db88101633ea576736bc1735e31.jpg",
-          "assets/1a0536d81e50b5ec2c925934ccf3881d.jpg"
-        ]
-      ]
-    },
-    {
       "key": "57bcf19635e7987b0ffe50b8",
       "airbnb": "1583570111217517171",
       "address": "806 ROBIN DR_POOLER_31322",
@@ -3539,10 +3539,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2673,
-    "total_airbnb": 2673,
+    "airbnb_checked": 2672,
+    "total_airbnb": 2672,
     "airbnb_remaining": 0,
     "eta_seconds": null,
-    "updated_unix": 1795116127.5945413
+    "updated_unix": 1795116223.7050462
   }
 }
