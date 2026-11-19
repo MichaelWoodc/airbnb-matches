@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795061951.5140967,
-  "content_signature": "63c5f0c75eaffde4f142321bc06f5a1b9fdee5062b140b8ee4d1213a7ba36dd1",
+  "published_unix": 1795062073.1195855,
+  "content_signature": "d1202da31439fc5448e5c5c64040e79a1c20d7e3857bc2fd540f91b5af122a4b",
   "matches": [
+    {
+      "key": "0796e3e96b01a4d3140bbd41",
+      "airbnb": "1255875828286024532",
+      "address": "609 JONES AVE_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1255875828286024532",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/609-Jones-Ave_Tybee-Island_GA_31328_M64548-79183",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 20.190909368631086,
+      "inliers": 94,
+      "discovered_unix": 1795062016.8620315,
+      "photos": [
+        [
+          "assets/a40ce39a31d757a3b6388dd4a65cd69f.jpg",
+          "assets/4e8ff67564aedcb031022e0a83ccdd66.jpg"
+        ]
+      ]
+    },
     {
       "key": "6a7d8b49ea593f1bdf8aac52",
       "airbnb": "1567565549464390894",
@@ -28,7 +48,7 @@
       "address": "102 E LIBERTY ST #602_SAVANNAH_31401",
       "airbnb_url": "https://www.airbnb.com/rooms/1432625123983051251",
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/102-E-Liberty-St-Apt-602_Savannah_GA_31401_M62046-73506",
-      "verified": false,
+      "verified": true,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
@@ -63,32 +83,12 @@
       ]
     },
     {
-      "key": "9fcd5f3babfbe943f67c6043",
-      "airbnb": "1353258569799949770",
-      "address": "213 DOGWOOD CIR_PORT WENTWORTH_31407",
-      "airbnb_url": "https://www.airbnb.com/rooms/1353258569799949770",
-      "realtor_url": "https://www.realtor.com/rentals/details/213-Dogwood-Cir_Port-Wentworth_GA_31407_M63142-05815",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 10.84035538085183,
-      "inliers": 57,
-      "discovered_unix": 1795061476.0889854,
-      "photos": [
-        [
-          "assets/a3c179e4165ddafd91a15ea74fe316ec.jpg",
-          "assets/a561417cd30ad99437b92a477c759533.jpg"
-        ]
-      ]
-    },
-    {
       "key": "0c44d0b4430d0cb57246a06c",
       "airbnb": "1570698024804705654",
       "address": "14 E 41ST ST_SAVANNAH_31401",
       "airbnb_url": "https://www.airbnb.com/rooms/1570698024804705654",
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/14-E-41st-St_Savannah_GA_31401_M51498-81516",
-      "verified": false,
+      "verified": true,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
@@ -2079,10 +2079,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1350,
-    "total_airbnb": 2730,
-    "airbnb_remaining": 1380,
-    "eta_seconds": 12106.33367927707,
-    "updated_unix": 1795061940.2670174
+    "airbnb_checked": 1361,
+    "total_airbnb": 2728,
+    "airbnb_remaining": 1367,
+    "eta_seconds": 12654.67603825063,
+    "updated_unix": 1795062063.8031557
   }
 }
