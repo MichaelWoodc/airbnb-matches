@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795122003.9230018,
-  "content_signature": "81595a62e631d4a5ddcf85348b70988f717d27b92544a685f65174121c4a46a3",
+  "published_unix": 1795122091.508395,
+  "content_signature": "98b3f8061f6be857a1db037175e77bc967af5e4f0343f2ac591d265fa13da034",
   "matches": [
     {
       "key": "f97126371a201e63275e9525",
@@ -2810,6 +2810,23 @@
       ]
     },
     {
+      "key": "c0465948d57ac3bfc4ccb2a0",
+      "airbnb": "929118044034442797",
+      "address": "11 KINGRY ST_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/929118044034442797",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/11-Kingry-St_Tybee-Island_GA_31328_M54250-39723",
+      "verified": false,
+      "score": 14.408840396044754,
+      "inliers": 77,
+      "discovered_unix": 1795122055.793395,
+      "photos": [
+        [
+          "assets/a2f0fb019e513e725c9ea186cede761c.jpg",
+          "assets/28d7e0f33c6698d783423b9993c55c3d.jpg"
+        ]
+      ]
+    },
+    {
       "key": "45172c01ffb4950130a418ba",
       "airbnb": "44196068",
       "address": "158 AQUINNAH DR_POOLER_31322",
@@ -3015,10 +3032,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1718,
+    "airbnb_checked": 1726,
     "total_airbnb": 2030,
-    "airbnb_remaining": 312,
-    "eta_seconds": 3324.166506981363,
-    "updated_unix": 1795121989.9315364
+    "airbnb_remaining": 304,
+    "eta_seconds": 3386.1496351592396,
+    "updated_unix": 1795122077.7277331
   }
 }
