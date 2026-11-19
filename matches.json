@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795058313.3263273,
-  "content_signature": "393ba7db24fe525ed2a9bd135c062d9e89f5510a408d9958f512c88303289a85",
+  "published_unix": 1795058389.6467128,
+  "content_signature": "75894b4a01d750ec761708a009358d05f55f91519721b6ba3d3948eee0410e23",
   "matches": [
+    {
+      "key": "21f18eb4d6009632dc5bc3d3",
+      "airbnb": "1227633060121500069",
+      "address": "UNIT A",
+      "airbnb_url": "https://www.airbnb.com/rooms/1227633060121500069",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/8-6th-St-A_Tybee-Island_GA_31328_M66043-09345",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 8.168654175258716,
+      "inliers": 44,
+      "discovered_unix": 1795058348.7626445,
+      "photos": [
+        [
+          "assets/1ba5e1828e3f480fd17addd2af192893.jpg",
+          "assets/8deacd6743d2058170c8eea68ac49b78.jpg"
+        ]
+      ]
+    },
     {
       "key": "f3e40f7af8d4ca7acaa77fae",
       "airbnb": "886938599572707129",
@@ -1845,10 +1865,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 998,
+    "airbnb_checked": 1003,
     "total_airbnb": 2737,
-    "airbnb_remaining": 1739,
-    "eta_seconds": 18874.691244689788,
-    "updated_unix": 1795058307.4081879
+    "airbnb_remaining": 1734,
+    "eta_seconds": 16403.907555911006,
+    "updated_unix": 1795058373.1496673
   }
 }
