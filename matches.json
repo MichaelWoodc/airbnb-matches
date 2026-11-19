@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795066618.7989962,
-  "content_signature": "4fcda147c90238f2337128e23b84b579ce7e988e20b97fc6dba7e74276c93328",
+  "published_unix": 1795066709.9243386,
+  "content_signature": "4008c877e018d7c0bcaa002d040ecd974e65d7f7051342beb8291107502a4487",
   "matches": [
     {
       "key": "cdc101745762eff2acade876",
@@ -2258,46 +2258,6 @@
       ]
     },
     {
-      "key": "183289f3a2916df15980b7cc",
-      "airbnb": "1602163090158746442",
-      "address": "117 MARIAN CIR_SAVANNAH_31406",
-      "airbnb_url": "https://www.airbnb.com/rooms/1602163090158746442",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/117-Marian-Cir_Savannah_GA_31406_M66569-33321",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 17.598049810246494,
-      "inliers": 85,
-      "discovered_unix": 1795066506.5840712,
-      "photos": [
-        [
-          "assets/31d2bf5305f15c4b1915c676b1f5a916.jpg",
-          "assets/ac263ba3748edfa0135b544d9a9599e2.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "3e24f5b85eded8529c286cd8",
-      "airbnb": "1317540076889892710",
-      "address": "168 BERWICK LAKES BLVD_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/1317540076889892710",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/168-Berwick-Lakes-Blvd_Pooler_GA_31322_M63306-51132",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 8.41463117652335,
-      "inliers": 61,
-      "discovered_unix": 1795066501.4516444,
-      "photos": [
-        [
-          "assets/f9a40e0cf797fdf164e80528ba179f49.jpg",
-          "assets/bd32f217b11037e63c9ebae748d785d1.jpg"
-        ]
-      ]
-    },
-    {
       "key": "2bca7b3f489553b4c54cc333",
       "airbnb": "1751482998448630040",
       "address": "UNIT 301",
@@ -2379,10 +2339,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1688,
+    "airbnb_checked": 1700,
     "total_airbnb": 2715,
-    "airbnb_remaining": 1027,
-    "eta_seconds": 15167.143894278272,
-    "updated_unix": 1795066607.9481313
+    "airbnb_remaining": 1015,
+    "eta_seconds": 13629.52972497259,
+    "updated_unix": 1795066696.8276114
   }
 }
