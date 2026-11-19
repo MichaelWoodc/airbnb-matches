@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795081155.8096375,
-  "content_signature": "e4ce4c1e4148b50ff626e1167cc63067f0084f2cdef2c054ef19396972024c65",
+  "published_unix": 1795081542.284753,
+  "content_signature": "b0c473e41011226c4a7c13a225c6e11dc2993d25d216eb48f80107ffba063aee",
   "matches": [
     {
       "key": "46bbd7f09dbd7a3e3e0ccf06",
@@ -2998,6 +2998,46 @@
       ]
     },
     {
+      "key": "503a6bf8d82e1fbc432e0c21",
+      "airbnb": "1737117846901687324",
+      "address": "5 SANDY SHOALS PASS_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1737117846901687324",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/5-Sandy-Shoals-Pass_Port-Wentworth_GA_31407_M62670-41653",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 54.77883653211268,
+      "inliers": 147,
+      "discovered_unix": 1795081503.9100468,
+      "photos": [
+        [
+          "assets/e087482c3f964d271042836683c3e44d.jpg",
+          "assets/adb8251677f78e5d42a0c08ec00a4ca7.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "b73d5a1b688a6a52b6db5259",
+      "airbnb": "1696783109839497109",
+      "address": "303 LAKESIDE BLVD_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1696783109839497109",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/303-Lakeside-Blvd_Port-Wentworth_GA_31407_M58726-00025",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 32.025293807653654,
+      "inliers": 134,
+      "discovered_unix": 1795081463.3257499,
+      "photos": [
+        [
+          "assets/6e92bc0b5cc9fa86eb662c9c79a5783d.jpg",
+          "assets/847aeb05a2138229666fa4011c8ab2bb.jpg"
+        ]
+      ]
+    },
+    {
       "key": "72e9f1a7497ef582cef76dc6",
       "airbnb": "1545083020263311731",
       "address": "415 WHITAKER ST_SAVANNAH_31401",
@@ -3519,10 +3559,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2186,
+    "airbnb_checked": 2225,
     "total_airbnb": 2678,
-    "airbnb_remaining": 492,
-    "eta_seconds": 18646.565294616077,
-    "updated_unix": 1795081142.8180547
+    "airbnb_remaining": 453,
+    "eta_seconds": 4764.596149454311,
+    "updated_unix": 1795081532.0602524
   }
 }
