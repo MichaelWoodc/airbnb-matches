@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795119435.048418,
-  "content_signature": "b70bc998455da325c6ed7c48d140e27d1da7a57668ac4e3608749de8ad66f77f",
+  "published_unix": 1795119610.687482,
+  "content_signature": "dfabb8fbc6aab77b222f9be736b6de8f736949c531e6f38e8e795356ce3e06d8",
   "matches": [
     {
       "key": "f97126371a201e63275e9525",
@@ -3278,6 +3278,26 @@
       ]
     },
     {
+      "key": "bae20fb95ed0f72044ba71c1",
+      "airbnb": "1255875828286024532",
+      "address": "703 2ND AVE_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1255875828286024532",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/703-2nd-Ave_Tybee-Island_GA_31328_M64136-42722",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue follow-up"
+      ],
+      "score": 7.814265686032141,
+      "inliers": 49,
+      "discovered_unix": 1795119597.4553974,
+      "photos": [
+        [
+          "assets/55d8685fc5b179c8b4a87d1f46a8b4d9.jpg",
+          "assets/c5be43dbed83c257d27b4b03fcbdff63.jpg"
+        ]
+      ]
+    },
+    {
       "key": "d002eb2457deb92fc7b8a81d",
       "airbnb": "1737118661541412284",
       "address": "UNIT 301",
@@ -3500,10 +3520,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1275,
+    "airbnb_checked": 1323,
     "total_airbnb": 2030,
-    "airbnb_remaining": 755,
-    "eta_seconds": 2592.191955921601,
-    "updated_unix": 1795119422.4288905
+    "airbnb_remaining": 707,
+    "eta_seconds": 2558.4182981082367,
+    "updated_unix": 1795119596.9391813
   }
 }
