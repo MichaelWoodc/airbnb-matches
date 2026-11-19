@@ -140,12 +140,20 @@ async function renderMap(listings){
  const zoningPane=map.getPane('savannah-stvr-zoning');
  zoningPane.style.zIndex=360;
  zoningPane.style.pointerEvents='none';
- overlays['Savannah outside the STVR overlay']=L.geoJSON(outsideOverlay,{
+ const outlinePane=map.createPane('savannah-stvr-outline');
+ outlinePane.style.zIndex=380;
+ outlinePane.style.pointerEvents='none';
+ const zoningFill=L.geoJSON(outsideOverlay,{
+  filter:feature=>feature.properties.role!=='boundary',
   pane:'savannah-stvr-zoning',renderer:L.svg({pane:'savannah-stvr-zoning'}),interactive:false,
-  style:feature=>feature.properties.role==='boundary'
-   ?{color:palette.SAVANNAH,weight:2,opacity:.9,fill:false}
-   :{stroke:false,fillColor:'#efc42b',fillOpacity:.23}
- }).addTo(map);
+  style:{stroke:false,fillColor:'#efc42b',fillOpacity:.23}
+ });
+ const zoningOutline=L.geoJSON(outsideOverlay,{
+  filter:feature=>feature.properties.role==='boundary',
+  pane:'savannah-stvr-outline',renderer:L.svg({pane:'savannah-stvr-outline'}),interactive:false,
+  style:{color:'#59616b',weight:3,opacity:.95,fill:false}
+ });
+ overlays['Savannah outside the STVR overlay']=L.layerGroup([zoningFill,zoningOutline]).addTo(map);
  map.createPane('licensed-parcels');
  map.getPane('licensed-parcels').style.zIndex=370;
  const parcelRenderer=L.canvas({pane:'licensed-parcels'});
