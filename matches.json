@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795080085.4235063,
-  "content_signature": "bcdf0531a2e4a93cfec0d45d8383ae9d3620e9bfb5d56d2cb9b432c0ddc96d99",
+  "published_unix": 1795080253.155119,
+  "content_signature": "edb5a44b049e8ab6f7ce20c1ad3b8fa01052bdff5fad7fe00d96735342ea17e3",
   "matches": [
     {
       "key": "46bbd7f09dbd7a3e3e0ccf06",
@@ -2998,6 +2998,46 @@
       ]
     },
     {
+      "key": "3213aac7e7c95f3ed5f05c66",
+      "airbnb": "1625492340891223953",
+      "address": "46 Cypress Loop_Port Wentworth_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1625492340891223953",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/46-Cypress-Loop_Port-Wentworth_GA_31407_M97255-67566",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 14.676573005268049,
+      "inliers": 84,
+      "discovered_unix": 1795080191.5995867,
+      "photos": [
+        [
+          "assets/2b3b0c62741d86f7a26c9986925f0915.jpg",
+          "assets/8229eed3fca067f9a8cfbcaa95f91813.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "5f9ac1e507899c507ffa89e1",
+      "airbnb": "937094147509988486",
+      "address": "601 S SKINNER AVE_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/937094147509988486",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/601-S-Skinner-Ave_Pooler_GA_31322_M67866-57870",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 20.355783587030814,
+      "inliers": 105,
+      "discovered_unix": 1795080175.9759092,
+      "photos": [
+        [
+          "assets/6c00894a73325be2fd5ccbee4cf27875.jpg",
+          "assets/2d848c869dbafc53e0a2259b9012bacd.jpg"
+        ]
+      ]
+    },
+    {
       "key": "8be2f1433059517916e2bfee",
       "airbnb": "19245762",
       "address": "402 E MCDONOUGH ST_SAVANNAH_31401",
@@ -3439,10 +3479,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2163,
+    "airbnb_checked": 2172,
     "total_airbnb": 2678,
-    "airbnb_remaining": 515,
-    "eta_seconds": 14714.79337998799,
-    "updated_unix": 1795080071.8526783
+    "airbnb_remaining": 506,
+    "eta_seconds": 13364.610304540518,
+    "updated_unix": 1795080238.615904
   }
 }
