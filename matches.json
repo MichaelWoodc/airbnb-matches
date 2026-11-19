@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795057692.5677586,
-  "content_signature": "0dcc287b92b1ecf9a22bcbf68901170ee33472f14137ea02ec20925f8b629e1f",
+  "published_unix": 1795057756.9744158,
+  "content_signature": "e87591b635e1bc496dbd4c8ba8bb6ff5be6a2323b41682b7042c64e589ab312e",
   "matches": [
+    {
+      "key": "2e5d40be62dc78ec7b2570df",
+      "airbnb": "1161603644234608003",
+      "address": "101 19TH ST_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1161603644234608003",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/101-19th-St_Tybee-Island_GA_31328_M52168-83541",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 66.19622543926786,
+      "inliers": 164,
+      "discovered_unix": 1795057702.04822,
+      "photos": [
+        [
+          "assets/18b75125912d5a318c4afc3baa2e2a67.jpg",
+          "assets/6cec0e5effee24f95cd18e430f5f2dcb.jpg"
+        ]
+      ]
+    },
     {
       "key": "9509799a34fadc73b0f64a6e",
       "airbnb": "1371198222718470800",
@@ -61,33 +81,13 @@
           "assets/ac6a34db2926f749f326922b4a56d997.jpg"
         ]
       ]
-    },
-    {
-      "key": "eade73d047124562534f6dde",
-      "airbnb": "29033490",
-      "address": "115 CEDARWOOD DR_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/29033490",
-      "realtor_url": "https://www.realtor.com/rentals/details/115-Cedarwood-Dr_Tybee-Island_GA_31328_M91855-91212",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 11.845089810730993,
-      "inliers": 87,
-      "discovered_unix": 1795056807.7902882,
-      "photos": [
-        [
-          "assets/f1498d361141656a081b653248517715.jpg",
-          "assets/07246a1e19e18295645feeb4becaaf07.jpg"
-        ]
-      ]
     }
   ],
   "progress": {
-    "airbnb_checked": 941,
+    "airbnb_checked": 947,
     "total_airbnb": 2739,
-    "airbnb_remaining": 1798,
-    "eta_seconds": 25295.141317922244,
-    "updated_unix": 1795057683.9082985
+    "airbnb_remaining": 1792,
+    "eta_seconds": 26754.44327218192,
+    "updated_unix": 1795057749.545061
   }
 }
