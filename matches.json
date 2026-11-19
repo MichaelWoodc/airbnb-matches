@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795117862.8643599,
-  "content_signature": "cbc408623e86ec2b665f83d137e07deca7d5a5c405b1d99fd10df33d630bd966",
+  "published_unix": 1795117948.2731202,
+  "content_signature": "62cec679a550188b6ce795fdd780946c1b3556dc54e59c53040cb5bbf36b65eb",
   "matches": [
     {
       "key": "b73d5a1b688a6a52b6db5259",
@@ -3238,6 +3238,26 @@
       ]
     },
     {
+      "key": "b7183012569c63868be42bd9",
+      "airbnb": "724554925831356219",
+      "address": "1323 WHITFIELD PARK DR_SAVANNAH_31406",
+      "airbnb_url": "https://www.airbnb.com/rooms/724554925831356219",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1323-Whitfield-Park-Dr_Savannah_GA_31406_M50662-62459",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue follow-up"
+      ],
+      "score": 7.21756817199224,
+      "inliers": 55,
+      "discovered_unix": 1795117909.78261,
+      "photos": [
+        [
+          "assets/9fa05245ec670b2c0e9ef32b89cd477f.jpg",
+          "assets/4b2d2a92637dbc6c5d175baf3083560c.jpg"
+        ]
+      ]
+    },
+    {
       "key": "3e67a827abd7f574454ca7ab",
       "airbnb": "52634400",
       "address": "3119 GILBERT ST_SAVANNAH_31404",
@@ -3499,10 +3519,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 705,
+    "airbnb_checked": 744,
     "total_airbnb": 2032,
-    "airbnb_remaining": 1327,
-    "eta_seconds": 2173.9329697647872,
-    "updated_unix": 1795117846.6950004
+    "airbnb_remaining": 1288,
+    "eta_seconds": 2511.9123148236954,
+    "updated_unix": 1795117931.4816072
   }
 }
