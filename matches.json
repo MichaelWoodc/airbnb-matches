@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795069870.4083338,
-  "content_signature": "a6573d31a93c5f3db5342c10a0aa65ec001e914df547a255baeb6470e97486ec",
+  "published_unix": 1795070172.2727656,
+  "content_signature": "f0b20f5620666c72856ba9b608847cc22504afa9f26af92be690bd6463141dca",
   "matches": [
     {
       "key": "bed21bd4aaa30c90046350c8",
@@ -2598,6 +2598,26 @@
       ]
     },
     {
+      "key": "ff8ce3b7144724964e457862",
+      "airbnb": "1583653128873973556",
+      "address": "1411 CHATHAM AVE_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1583653128873973556",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1411-Chatham-Ave_Tybee-Island_GA_31328_M65673-85064",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 20.607979689224894,
+      "inliers": 92,
+      "discovered_unix": 1795070146.026371,
+      "photos": [
+        [
+          "assets/228e7dc2991b64543ec4f8cc697b9c61.jpg",
+          "assets/1a623c0f73e195415ef974740120a1b9.jpg"
+        ]
+      ]
+    },
+    {
       "key": "28eec80bdabe8c060997c373",
       "airbnb": "52585003",
       "address": "302 E Waldburg St_Savannah_31401",
@@ -2779,10 +2799,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1867,
+    "airbnb_checked": 1901,
     "total_airbnb": 2698,
-    "airbnb_remaining": 831,
-    "eta_seconds": 8167.941990137101,
-    "updated_unix": 1795069858.588734
+    "airbnb_remaining": 797,
+    "eta_seconds": 6691.050209682815,
+    "updated_unix": 1795070159.8249817
   }
 }
