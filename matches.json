@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795066191.555174,
-  "content_signature": "abb60023d018e3bad2fe00cf1f391c5b3217202380b9c88b17a2d26cc57aff13",
+  "published_unix": 1795066278.317174,
+  "content_signature": "648f4e2c2bde133bcd963cfaba9f0d1064c22204022cef441ceef82af67c1c07",
   "matches": [
     {
       "key": "cdc101745762eff2acade876",
@@ -39,6 +39,26 @@
         [
           "assets/3ee2f02cf7ad16eb8536d988d49c6c59.jpg",
           "assets/4bdc08653cc586633f33b1310108e19a.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "49187e4fbb98a572cd27f6cc",
+      "airbnb": "1653110710424906883",
+      "address": "UNIT 1",
+      "airbnb_url": "https://www.airbnb.com/rooms/1653110710424906883",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/17-E-37th-St-Apt-1_Savannah_GA_31401_M65147-46322",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 9.924862895899368,
+      "inliers": 74,
+      "discovered_unix": 1795065964.843882,
+      "photos": [
+        [
+          "assets/326a8c76d1c9e2caf9b73db242aff2ed.jpg",
+          "assets/6fbbb8df41ed93e69b947577eb9978f6.jpg"
         ]
       ]
     },
@@ -2138,26 +2158,6 @@
       ]
     },
     {
-      "key": "49187e4fbb98a572cd27f6cc",
-      "airbnb": "1653110710424906883",
-      "address": "UNIT 1",
-      "airbnb_url": "https://www.airbnb.com/rooms/1653110710424906883",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/17-E-37th-St-Apt-1_Savannah_GA_31401_M65147-46322",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 9.924862895899368,
-      "inliers": 74,
-      "discovered_unix": 1795065964.843882,
-      "photos": [
-        [
-          "assets/326a8c76d1c9e2caf9b73db242aff2ed.jpg",
-          "assets/6fbbb8df41ed93e69b947577eb9978f6.jpg"
-        ]
-      ]
-    },
-    {
       "key": "31165fb8c22663660e8cccd2",
       "airbnb": "7734023",
       "address": "7 13th St_Tybee Island_31328",
@@ -2419,10 +2419,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1666,
-    "total_airbnb": 2721,
-    "airbnb_remaining": 1055,
-    "eta_seconds": 14775.963357395054,
-    "updated_unix": 1795066177.8153214
+    "airbnb_checked": 1671,
+    "total_airbnb": 2720,
+    "airbnb_remaining": 1049,
+    "eta_seconds": 16716.009380812546,
+    "updated_unix": 1795066266.5921779
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated_unix": 1795066195.5794048,
+  "generated_unix": 1795066280.4834223,
   "source_manifest": {
     "0": {
       "url": "https://services5.arcgis.com/CEpuXecVrKGiDoOH/ArcGIS/rest/services/STR_Map_and_Parcel_WFL1/FeatureServer/0",
@@ -21,7 +21,7 @@
     "boundary_fetched_unix": 1795046372.9213305
   },
   "counts": {
-    "review": 23,
+    "review": 24,
     "outside_scope": 24,
     "license_not_shown": 31,
     "license_shown": 14,
@@ -3963,6 +3963,47 @@
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+    },
+    {
+      "normalized_address": "17 E 37TH ST",
+      "licensed_exact_unit": false,
+      "rental_term_note": "",
+      "rental_term_source": "",
+      "address_proof_url": "",
+      "address_correction_note": "",
+      "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/49187e4fbb98a572cd27f6cc.html",
+      "listing_title": "Stylish Starland Retreat \u2022 Walk to Caf\u00e9s & Bars",
+      "rental_type": "Entire condo",
+      "host_name": "Chris",
+      "advertised_capacity": 4,
+      "bedrooms": 2,
+      "legal_limit": "",
+      "legal_limit_source": "Not established from matched license records",
+      "airbnb": "1653110710424906883",
+      "airbnb_url": "https://www.airbnb.com/rooms/1653110710424906883",
+      "realtor_property": "SAVANNAH/E 37TH ST/17 E 37th St_Savannah_31401/UNIT 1",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/17-E-37th-St-Apt-1_Savannah_GA_31401_M65147-46322",
+      "address": "17 E 37th St Apt 1",
+      "unit": "1",
+      "category": "review",
+      "jurisdiction": "SAVANNAH",
+      "latitude": 32.056759,
+      "longitude": -81.099795,
+      "coordinate_basis": "Realtor saved property coordinates",
+      "license_display": "not_shown_in_saved_text",
+      "displayed_numbers": "",
+      "numeric_license_matches": "",
+      "matched_permits": "",
+      "agency": "Savannah",
+      "source_status": "",
+      "license_match_basis": "normalized street; unit checked where present",
+      "permit_scope": "address association; exact rental-unit coverage may require review",
+      "assessor_pin": "",
+      "verified_unix": 1795066240.3829417,
+      "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
+      "county_snapshot_fetched_unix": 1795046366.71445,
+      "conflicting_property_matches": false,
+      "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     }
   ],
   "note": "Only explicitly user-confirmed property matches are categorized. Unlicensed means no matching record in the referenced sources; it is a review flag, not a legal finding. The audit checks Savannah, Tybee Island, Thunderbolt, and unincorporated Chatham County sources."
