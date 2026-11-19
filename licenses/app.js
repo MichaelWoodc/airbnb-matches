@@ -66,7 +66,7 @@ async function renderMap(listings){
  for(const row of listings){
   const k=key(row.normalized_address,row.unit),arc=arcByAddress.get(k);
   const licenseRows=(registryByAddress.get(k)||[]).filter(r=>r.jurisdiction===row.jurisdiction);
-  const isLicensed=licenseRows.some(licensed)||Boolean(row.matched_permits)||Boolean(row.jurisdiction==='UNINCORPORATED'&&arc?.records.some(arcLicensed));
+  const isLicensed=licenseRows.some(licensed)||Boolean(row.licensed_exact_unit)||Boolean(row.jurisdiction==='UNINCORPORATED'&&arc?.records.some(arcLicensed));
   const fill=row.license_display==='not_shown_in_saved_text'?yellow:colors[row.category];
   point(row,group('Photo-verified Airbnb matches'),{title:'Airbnb '+row.airbnb+' · '+row.address,
    html:popupContent(row)+flagInfo(flags.get(row.airbnb))+arcInfo(arc)+registryInfo(licenseRows)},isLicensed?green:colors[row.category],fill,8);

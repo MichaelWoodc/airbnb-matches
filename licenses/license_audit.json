@@ -1,5 +1,5 @@
 {
-  "generated_unix": 1795061189.1643317,
+  "generated_unix": 1795061257.562021,
   "source_manifest": {
     "0": {
       "url": "https://services5.arcgis.com/CEpuXecVrKGiDoOH/ArcGIS/rest/services/STR_Map_and_Parcel_WFL1/FeatureServer/0",
@@ -30,6 +30,7 @@
   "records": [
     {
       "normalized_address": "1603 LOVELL AVE",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -70,6 +71,7 @@
     },
     {
       "normalized_address": "121 COLD CREEK PASS",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -110,6 +112,7 @@
     },
     {
       "normalized_address": "110 E 38TH ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -150,6 +153,7 @@
     },
     {
       "normalized_address": "22 E 41ST ST",
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -190,6 +194,7 @@
     },
     {
       "normalized_address": "104 LAKE SHORE BLVD",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -230,6 +235,7 @@
     },
     {
       "normalized_address": "212 CASSIDY WAY",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -270,6 +276,7 @@
     },
     {
       "normalized_address": "315 DOGWOOD CIR",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -310,6 +317,7 @@
     },
     {
       "normalized_address": "315 DOGWOOD CIR",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -350,6 +358,7 @@
     },
     {
       "normalized_address": "321 DOGWOOD CIR",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -390,6 +399,7 @@
     },
     {
       "normalized_address": "216 PINECREST PL",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -430,6 +440,7 @@
     },
     {
       "normalized_address": "1212 E 59TH ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "User reports the listing currently requires stays of 30 days or longer. Savannah\u2019s short-term vacation rental certificate rule covers stays of 30 consecutive days or less. Stays longer than 30 consecutive days fall outside that rule. Confirm whether stays of exactly 30 days can be booked.",
       "rental_term_source": "https://www.savannahga.gov/2327/STVR-Regulations",
       "address_proof_url": "",
@@ -470,6 +481,7 @@
     },
     {
       "normalized_address": "1415 BUTLER AVE",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -510,6 +522,7 @@
     },
     {
       "normalized_address": "10 NAYLOR AVE",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -550,6 +563,7 @@
     },
     {
       "normalized_address": "12 NAYLOR AVE",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -590,6 +604,7 @@
     },
     {
       "normalized_address": "12 NAYLOR AVE",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -630,6 +645,7 @@
     },
     {
       "normalized_address": "120 ROMMEL AVE",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -670,6 +686,7 @@
     },
     {
       "normalized_address": "545 GOVERNOR TREUTLEN CIR",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -710,6 +727,7 @@
     },
     {
       "normalized_address": "125 BIRCH CIR",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -750,6 +768,7 @@
     },
     {
       "normalized_address": "303 W 36TH ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -790,6 +809,7 @@
     },
     {
       "normalized_address": "211 W GWINNETT ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -830,6 +850,7 @@
     },
     {
       "normalized_address": "4640 SYLVAN DR",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -870,6 +891,7 @@
     },
     {
       "normalized_address": "121 W 36TH ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -910,6 +932,7 @@
     },
     {
       "normalized_address": "308 HOLLY HILL RD",
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -950,6 +973,7 @@
     },
     {
       "normalized_address": "214 E POINT DR",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -990,6 +1014,7 @@
     },
     {
       "normalized_address": "153 BERWICK LAKES BLVD",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1030,6 +1055,7 @@
     },
     {
       "normalized_address": "33 PENROSE DR",
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1070,6 +1096,7 @@
     },
     {
       "normalized_address": "4 PALMWOOD CT",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1110,6 +1137,7 @@
     },
     {
       "normalized_address": "14 13TH LN",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1150,6 +1178,7 @@
     },
     {
       "normalized_address": "8 17TH PL",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1190,6 +1219,7 @@
     },
     {
       "normalized_address": "27 CEDAR CREEK LN",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1230,6 +1260,7 @@
     },
     {
       "normalized_address": "408 SYMONS ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1270,6 +1301,7 @@
     },
     {
       "normalized_address": "509 W 37TH ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "User reports the listing currently requires stays of 30 days or longer. Savannah\u2019s short-term vacation rental certificate rule covers stays of 30 consecutive days or less. Stays longer than 30 consecutive days fall outside that rule. Confirm whether stays of exactly 30 days can be booked.",
       "rental_term_source": "https://www.savannahga.gov/2327/STVR-Regulations",
       "address_proof_url": "",
@@ -1310,6 +1342,7 @@
     },
     {
       "normalized_address": "5 17TH PL",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1350,6 +1383,7 @@
     },
     {
       "normalized_address": "103 CHERRY ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1390,6 +1424,7 @@
     },
     {
       "normalized_address": "14 10TH TER",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1430,6 +1465,7 @@
     },
     {
       "normalized_address": "8522 LABERTA BLVD",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1470,6 +1506,7 @@
     },
     {
       "normalized_address": "12 18TH TER",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1510,6 +1547,7 @@
     },
     {
       "normalized_address": "1415 BUTLER AVE",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1550,6 +1588,7 @@
     },
     {
       "normalized_address": "311 E HUNTINGDON ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1590,6 +1629,7 @@
     },
     {
       "normalized_address": "311 E HUNTINGDON ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1630,6 +1670,7 @@
     },
     {
       "normalized_address": "311 E HUNTINGDON ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1670,6 +1711,7 @@
     },
     {
       "normalized_address": "519 TATTNALL ST",
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1710,6 +1752,7 @@
     },
     {
       "normalized_address": "1404 SOLOMON AVE",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1750,6 +1793,7 @@
     },
     {
       "normalized_address": "206 W DUFFY ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1790,6 +1834,7 @@
     },
     {
       "normalized_address": "225 W HALL ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1830,6 +1875,7 @@
     },
     {
       "normalized_address": "224 E STATE ST",
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1870,6 +1916,7 @@
     },
     {
       "normalized_address": "5 SALT CREEK RD",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1910,6 +1957,7 @@
     },
     {
       "normalized_address": "175 RICE MILL DR",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1950,6 +1998,7 @@
     },
     {
       "normalized_address": "1511 JONES AVE",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1990,6 +2039,7 @@
     },
     {
       "normalized_address": "211 SEA ISLAND DR",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2030,6 +2080,7 @@
     },
     {
       "normalized_address": "1214 BAY ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2070,6 +2121,7 @@
     },
     {
       "normalized_address": "413 E JONES ST",
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2110,6 +2162,7 @@
     },
     {
       "normalized_address": "402 SYMONS ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2150,6 +2203,7 @@
     },
     {
       "normalized_address": "5 LONGLEAF CIR",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2190,6 +2244,7 @@
     },
     {
       "normalized_address": "1415 BUTLER AVE",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2230,6 +2285,7 @@
     },
     {
       "normalized_address": "217 HOLLY AVE",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2270,6 +2326,7 @@
     },
     {
       "normalized_address": "421 E MELL ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2310,6 +2367,7 @@
     },
     {
       "normalized_address": "313 MANDEN RD",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2350,6 +2408,7 @@
     },
     {
       "normalized_address": "127 RAINDANCE RD",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2390,6 +2449,7 @@
     },
     {
       "normalized_address": "411 CONGRESS ST W",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2430,6 +2490,7 @@
     },
     {
       "normalized_address": "233 SONOMA DR",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2470,6 +2531,7 @@
     },
     {
       "normalized_address": "321 DOGWOOD CIR",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2510,6 +2572,7 @@
     },
     {
       "normalized_address": "1704 INLET AVE",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2550,6 +2613,7 @@
     },
     {
       "normalized_address": "1603 LOVELL AVE",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2590,6 +2654,7 @@
     },
     {
       "normalized_address": "10 LOVELL AVE",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2630,6 +2695,7 @@
     },
     {
       "normalized_address": "35 MOONLIGHT TRL",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2670,6 +2736,7 @@
     },
     {
       "normalized_address": "47 KING HENRY CT",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2710,6 +2777,7 @@
     },
     {
       "normalized_address": "29 TAYLOR ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2750,6 +2818,7 @@
     },
     {
       "normalized_address": "17 N CAMPBELL AVE",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2790,6 +2859,7 @@
     },
     {
       "normalized_address": "40 REESE WAY",
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "https://www.zillow.com/homedetails/40-Reese-Way-Savannah-GA-31419/80796415_zpid/",
@@ -2830,6 +2900,7 @@
     },
     {
       "normalized_address": "1608 JONES AVE",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2870,6 +2941,7 @@
     },
     {
       "normalized_address": "301 10TH ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2910,6 +2982,7 @@
     },
     {
       "normalized_address": "103 SKINNER RD",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2950,6 +3023,7 @@
     },
     {
       "normalized_address": "302 WENDY HILL RD",
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2990,6 +3064,7 @@
     },
     {
       "normalized_address": "149 S CAMPBELL AVE",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3030,6 +3105,7 @@
     },
     {
       "normalized_address": "13 TARA MANOR DR",
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3070,6 +3146,7 @@
     },
     {
       "normalized_address": "3325 BANNON AVE",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3110,6 +3187,7 @@
     },
     {
       "normalized_address": "203 FOXBURY SQ",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3150,6 +3228,7 @@
     },
     {
       "normalized_address": "710 PENN WALLER RD",
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3190,6 +3269,7 @@
     },
     {
       "normalized_address": "1111 BAY ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3230,6 +3310,7 @@
     },
     {
       "normalized_address": "12 SEA BREEZE LN",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3270,6 +3351,7 @@
     },
     {
       "normalized_address": "101 19TH ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3310,6 +3392,7 @@
     },
     {
       "normalized_address": "7 6TH TER",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3350,6 +3433,7 @@
     },
     {
       "normalized_address": "411 W CONGRESS ST",
+      "licensed_exact_unit": true,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3390,6 +3474,7 @@
     },
     {
       "normalized_address": "2199 DOWNING AVE",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3430,6 +3515,7 @@
     },
     {
       "normalized_address": "505 PORT ST",
+      "licensed_exact_unit": false,
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
