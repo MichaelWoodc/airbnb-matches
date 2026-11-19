@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795122091.508395,
-  "content_signature": "98b3f8061f6be857a1db037175e77bc967af5e4f0343f2ac591d265fa13da034",
+  "published_unix": 1795123024.186185,
+  "content_signature": "db22cb31305dc9105a893f7adca6737217825500d1246312934b105ec250165e",
   "matches": [
     {
       "key": "f97126371a201e63275e9525",
@@ -2810,6 +2810,23 @@
       ]
     },
     {
+      "key": "cb3a8135c66d92f6191acce3",
+      "airbnb": "1609853086401984308",
+      "address": "14 ANGEL OAKS DR_SAVANNAH_31410",
+      "airbnb_url": "https://www.airbnb.com/rooms/1609853086401984308",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/14-Angel-Oaks-Dr_Savannah_GA_31410_M58041-76759",
+      "verified": false,
+      "score": 7.21196716454862,
+      "inliers": 54,
+      "discovered_unix": 1795122980.4137046,
+      "photos": [
+        [
+          "assets/514a620c68ef383b05eb7ab353a763f8.jpg",
+          "assets/1e27d3921e7e0d1dbed98974e651b187.jpg"
+        ]
+      ]
+    },
+    {
       "key": "c0465948d57ac3bfc4ccb2a0",
       "airbnb": "929118044034442797",
       "address": "11 KINGRY ST_TYBEE ISLAND_31328",
@@ -3032,10 +3049,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1726,
+    "airbnb_checked": 1818,
     "total_airbnb": 2030,
-    "airbnb_remaining": 304,
-    "eta_seconds": 3386.1496351592396,
-    "updated_unix": 1795122077.7277331
+    "airbnb_remaining": 212,
+    "eta_seconds": 2192.783617175355,
+    "updated_unix": 1795123008.437594
   }
 }
