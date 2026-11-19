@@ -1,5 +1,5 @@
 {
-  "generated_unix": 1795076568.0019336,
+  "generated_unix": 1795076663.6552067,
   "source_manifest": {
     "0": {
       "url": "https://services5.arcgis.com/CEpuXecVrKGiDoOH/ArcGIS/rest/services/STR_Map_and_Parcel_WFL1/FeatureServer/0",
@@ -22,7 +22,7 @@
   },
   "counts": {
     "review": 25,
-    "outside_scope": 40,
+    "outside_scope": 41,
     "license_not_shown": 53,
     "unlicensed": 6,
     "license_shown": 14
@@ -5685,6 +5685,47 @@
       "county_snapshot_fetched_unix": 1795046366.71445,
       "conflicting_property_matches": false,
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
+    },
+    {
+      "normalized_address": "413 GARDEN ACRES WAY",
+      "licensed_exact_unit": false,
+      "rental_term_note": "",
+      "rental_term_source": "",
+      "address_proof_url": "",
+      "address_correction_note": "",
+      "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/46bbd7f09dbd7a3e3e0ccf06.html",
+      "listing_title": "Fully Fenced Oasis \u2022 Pets YES \u2022 Bonfires + Games",
+      "rental_type": "Entire home",
+      "host_name": "Marcel",
+      "advertised_capacity": 6,
+      "bedrooms": 3,
+      "legal_limit": "",
+      "legal_limit_source": "Not established from matched license records",
+      "airbnb": "1163100600376479007",
+      "airbnb_url": "https://www.airbnb.com/rooms/1163100600376479007",
+      "realtor_property": "POOLER/GARDEN ACRES WAY/413 Garden Acres Way_Pooler_31322",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/413-Garden-Acres-Way_Pooler_GA_31322_M68055-47331",
+      "address": "413 Garden Acres Way",
+      "unit": "",
+      "category": "outside_scope",
+      "jurisdiction": "POOLER",
+      "latitude": 32.10333,
+      "longitude": -81.244963,
+      "coordinate_basis": "Realtor saved property coordinates",
+      "license_display": "not_shown_in_saved_text",
+      "displayed_numbers": "",
+      "numeric_license_matches": "",
+      "matched_permits": "",
+      "agency": "",
+      "source_status": "",
+      "license_match_basis": "normalized street; unit checked where present",
+      "permit_scope": "address association; exact rental-unit coverage may require review",
+      "assessor_pin": "51011B02003",
+      "verified_unix": 1795076635.0852551,
+      "source_study_commit": "addd87d05ee8b28f7ce2f551e66e1c76d6798128",
+      "county_snapshot_fetched_unix": 1795046366.71445,
+      "conflicting_property_matches": false,
+      "classification_note": "No license list for this jurisdiction was supplied to the audit."
     }
   ],
   "note": "Only explicitly user-confirmed property matches are categorized. Unlicensed means no matching record in the referenced sources; it is a review flag, not a legal finding. The audit checks Savannah, Tybee Island, Thunderbolt, and unincorporated Chatham County sources."

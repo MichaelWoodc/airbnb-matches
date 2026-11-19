@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795076563.0443773,
-  "content_signature": "1223095b9bb9d9839ddfa077415ef74375665cfbadc75a2c8a3e66477242cee8",
+  "published_unix": 1795076658.6817603,
+  "content_signature": "6d367ce5d69aa240e014fda6823e6919dea6faedadfe1c48bfb60c6c2378228c",
   "matches": [
+    {
+      "key": "46bbd7f09dbd7a3e3e0ccf06",
+      "airbnb": "1163100600376479007",
+      "address": "413 Garden Acres Way_Pooler_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1163100600376479007",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/413-Garden-Acres-Way_Pooler_GA_31322_M68055-47331",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 11.635281212765664,
+      "inliers": 73,
+      "discovered_unix": 1795076504.8139927,
+      "photos": [
+        [
+          "assets/e5373ce6e97cb8fb4057acf6030b783b.jpg",
+          "assets/a7953608e4ac4e879266aff9386d4a0d.jpg"
+        ]
+      ]
+    },
     {
       "key": "4f12e62b54d062a50ee89dee",
       "airbnb": "832855278333484719",
@@ -2978,26 +2998,6 @@
       ]
     },
     {
-      "key": "46bbd7f09dbd7a3e3e0ccf06",
-      "airbnb": "1163100600376479007",
-      "address": "413 Garden Acres Way_Pooler_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/1163100600376479007",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/413-Garden-Acres-Way_Pooler_GA_31322_M68055-47331",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 11.635281212765664,
-      "inliers": 73,
-      "discovered_unix": 1795076504.8139927,
-      "photos": [
-        [
-          "assets/e5373ce6e97cb8fb4057acf6030b783b.jpg",
-          "assets/a7953608e4ac4e879266aff9386d4a0d.jpg"
-        ]
-      ]
-    },
-    {
       "key": "e2a6e4a731b8bd3d9d8337ff",
       "airbnb": "12603732",
       "address": "318 HABERSHAM ST_SAVANNAH_31401",
@@ -3140,9 +3140,9 @@
   ],
   "progress": {
     "airbnb_checked": 2071,
-    "total_airbnb": 2679,
-    "airbnb_remaining": 608,
-    "eta_seconds": 25846.331813734407,
-    "updated_unix": 1795076550.3020766
+    "total_airbnb": 2678,
+    "airbnb_remaining": 607,
+    "eta_seconds": 26938.52253222952,
+    "updated_unix": 1795076643.8296452
   }
 }
