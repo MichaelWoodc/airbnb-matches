@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795046654.3149245,
-  "content_signature": "182e7f9654e087defc3faec17df20164bb7ea552e965d43fb47dc2c8391d8a0d",
+  "published_unix": 1795046756.3845932,
+  "content_signature": "10a9af220bdc6a7f600b39cb4196832bf6588101b3d5b463a7f488b1e66dc7bb",
   "matches": [
+    {
+      "key": "37011092b61ad505537d95b9",
+      "airbnb": "52492275",
+      "address": "29 TAYLOR ST_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/52492275",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/29-Taylor-St_Tybee-Island_GA_31328_M54910-51006",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 9.403376717539679,
+      "inliers": 79,
+      "discovered_unix": 1795046715.7702384,
+      "photos": [
+        [
+          "assets/3ff2659602f185e0d6bd6e46ddebef12.jpg",
+          "assets/2977f7c89a9426ac2406d59a5d8bcd9f.jpg"
+        ]
+      ]
+    },
     {
       "key": "b044c600a80ec85c25453cff",
       "airbnb": "30556637",
@@ -1561,10 +1581,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 531,
+    "airbnb_checked": 534,
     "total_airbnb": 3631,
-    "airbnb_remaining": 3100,
-    "eta_seconds": 106495.63631427531,
-    "updated_unix": 1795046639.097089
+    "airbnb_remaining": 3097,
+    "eta_seconds": 105303.5777853995,
+    "updated_unix": 1795046752.030905
   }
 }
