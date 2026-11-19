@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795071146.1731937,
-  "content_signature": "e1457f7952ba931bf482ba24098f67c9f58a319bcf9cbc39a95fd080865fd486",
+  "published_unix": 1795071941.8842638,
+  "content_signature": "96100ff9d53c75c3b821b4b9ba8ae713b34cea893e87b8029d3e86b7528352c4",
   "matches": [
     {
       "key": "9f77121335901492fec65856",
@@ -2678,6 +2678,26 @@
       ]
     },
     {
+      "key": "7d764e820a312671526701a9",
+      "airbnb": "1577097349989679997",
+      "address": "147 CROSS CREEK DR_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1577097349989679997",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/147-Cross-Creek-Dr_Pooler_GA_31322_M92604-55521",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 15.64157325936486,
+      "inliers": 101,
+      "discovered_unix": 1795071914.5809877,
+      "photos": [
+        [
+          "assets/ab056fed5af70b4692103b035e06e51a.jpg",
+          "assets/d6ee5f8173cc012c8ab8de5d5ff3beac.jpg"
+        ]
+      ]
+    },
+    {
       "key": "677f227567e87cd40dc81e27",
       "airbnb": "1770515490004764705",
       "address": "18 SHEFTALL CV_SAVANNAH_31410",
@@ -2799,10 +2819,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1939,
+    "airbnb_checked": 1961,
     "total_airbnb": 2694,
-    "airbnb_remaining": 755,
-    "eta_seconds": 16325.731936011996,
-    "updated_unix": 1795071133.8908057
+    "airbnb_remaining": 733,
+    "eta_seconds": 22731.501807096054,
+    "updated_unix": 1795071936.0258043
   }
 }
