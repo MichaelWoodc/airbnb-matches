@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795069339.2605264,
-  "content_signature": "2993b2586815199385f8cb1d575af0ac703e2620fcde63ff98cb526c662db8d5",
+  "published_unix": 1795069570.4922574,
+  "content_signature": "f3d0ae4c239fe9dc17c0018db134fbb39796cf7e2ff3a640922045f988fe782f",
   "matches": [
     {
       "key": "bed21bd4aaa30c90046350c8",
@@ -2598,6 +2598,46 @@
       ]
     },
     {
+      "key": "09bcacfd223443a1020b3946",
+      "airbnb": "802206418102098290",
+      "address": "1411 CHATHAM AVE_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/802206418102098290",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1411-Chatham-Ave_Tybee-Island_GA_31328_M65673-85064",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 11.93016179908268,
+      "inliers": 69,
+      "discovered_unix": 1795069543.176306,
+      "photos": [
+        [
+          "assets/1d9aa77c1888bdd6c9b1c98a5630bb37.jpg",
+          "assets/1a623c0f73e195415ef974740120a1b9.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "76cd9d2e3e756e396cc4af55",
+      "airbnb": "1217341593775082484",
+      "address": "1411 CHATHAM AVE_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1217341593775082484",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1411-Chatham-Ave_Tybee-Island_GA_31328_M65673-85064",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 9.194583205333545,
+      "inliers": 52,
+      "discovered_unix": 1795069534.7701247,
+      "photos": [
+        [
+          "assets/b63bf6c9bf867864285696787fc2d241.jpg",
+          "assets/1a623c0f73e195415ef974740120a1b9.jpg"
+        ]
+      ]
+    },
+    {
       "key": "1bf43d1830ef2aa71dbf0cc8",
       "airbnb": "1124594519201402540",
       "address": "2 VILLAGE PL #B_TYBEE ISLAND_31328",
@@ -2699,10 +2739,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1811,
+    "airbnb_checked": 1839,
     "total_airbnb": 2698,
-    "airbnb_remaining": 887,
-    "eta_seconds": 23579.804082972663,
-    "updated_unix": 1795069327.6626685
+    "airbnb_remaining": 859,
+    "eta_seconds": 16424.033896577603,
+    "updated_unix": 1795069558.2898269
   }
 }
