@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795075503.6876376,
-  "content_signature": "ab873da255b3c4b9a58dfef1e3d970df20159d9971a41bc0b20e586a8e8f8621",
+  "published_unix": 1795075883.7123516,
+  "content_signature": "77076bda20e0320cd0207d9bd7e396d508f9092708f43c22139aed93bd1c4fb5",
   "matches": [
     {
       "key": "807c9d16556b83b6a4f179df",
@@ -2858,6 +2858,26 @@
       ]
     },
     {
+      "key": "a23a16283db4478c4e614e6c",
+      "airbnb": "723302262223122340",
+      "address": "85 TILLER WAY_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/723302262223122340",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/85-Tiller-Way_Port-Wentworth_GA_31407_M59890-49094",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 29.42849617819421,
+      "inliers": 113,
+      "discovered_unix": 1795075825.7954476,
+      "photos": [
+        [
+          "assets/aa3b0b6aa4425d1bf93d4aff4c3db538.jpg",
+          "assets/4e7e98a2350823b6f20cae87be834c52.jpg"
+        ]
+      ]
+    },
+    {
       "key": "2ee5c2397f2b18a7bbf11ff0",
       "airbnb": "1624986930457358209",
       "address": "496 FLAT ROCK TRCE_PORT WENTWORTH_31407",
@@ -2959,10 +2979,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2046,
+    "airbnb_checked": 2055,
     "total_airbnb": 2685,
-    "airbnb_remaining": 639,
-    "eta_seconds": 25413.95998495452,
-    "updated_unix": 1795075491.6170328
+    "airbnb_remaining": 630,
+    "eta_seconds": 28883.15079689026,
+    "updated_unix": 1795075870.6695309
   }
 }
