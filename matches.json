@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795068910.5678866,
-  "content_signature": "b83bd6d3e2f03860bf938550e7a75be2f16b10a970aa4098dbb3725170290b35",
+  "published_unix": 1795069002.4090457,
+  "content_signature": "68782d496162f29bfb95df5f4ebc9042b9345ba5dfd9da3b1ec348d5d6cebfd4",
   "matches": [
     {
       "key": "b0ae69390821b39bffd3299a",
@@ -2558,26 +2558,6 @@
       ]
     },
     {
-      "key": "b707fff13eebb8496ccee075",
-      "airbnb": "929118044034442797",
-      "address": "104 Butler Ave_Tybee Island_31328 -- 104-Butler-Ave_Tybee-Island_GA_31328_M62277-64572-efabbdf09c59",
-      "airbnb_url": "https://www.airbnb.com/rooms/929118044034442797",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/104-Butler-Ave_Tybee-Island_GA_31328_M62277-64572",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 10.2537980152658,
-      "inliers": 52,
-      "discovered_unix": 1795068613.134602,
-      "photos": [
-        [
-          "assets/a2f0fb019e513e725c9ea186cede761c.jpg",
-          "assets/0d97463570f3a4066ae877502c2f376d.jpg"
-        ]
-      ]
-    },
-    {
       "key": "2bca7b3f489553b4c54cc333",
       "airbnb": "1751482998448630040",
       "address": "UNIT 301",
@@ -2659,10 +2639,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1800,
+    "airbnb_checked": 1801,
     "total_airbnb": 2701,
-    "airbnb_remaining": 901,
-    "eta_seconds": 20335.77973533163,
-    "updated_unix": 1795068897.997981
+    "airbnb_remaining": 900,
+    "eta_seconds": 23261.52458142261,
+    "updated_unix": 1795068987.715934
   }
 }
