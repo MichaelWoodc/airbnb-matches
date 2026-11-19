@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795077411.4269006,
-  "content_signature": "3784abbbfa199a84df5bfa283cb81b0fa2d721010888dac7598c11eedc3c1cd3",
+  "published_unix": 1795077730.523175,
+  "content_signature": "5fd5fc047f3ed10450634af743754f471b99102bcdd6f89e4eaa78b9db64645e",
   "matches": [
     {
       "key": "46bbd7f09dbd7a3e3e0ccf06",
@@ -2998,6 +2998,26 @@
       ]
     },
     {
+      "key": "8f40d10705a5a66fb85231dd",
+      "airbnb": "47121456",
+      "address": "208 BRIGHTON WOODS DR_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/47121456",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/208-Brighton-Woods-Dr_Pooler_GA_31322_M67228-58576",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 11.063087877153874,
+      "inliers": 75,
+      "discovered_unix": 1795077648.225674,
+      "photos": [
+        [
+          "assets/46e429bfee2fedf92f8f196c6f86eeab.jpg",
+          "assets/673129f6eee028f98c3e44e9cf5a4fe5.jpg"
+        ]
+      ]
+    },
+    {
       "key": "56b4c7113370fd6110081d12",
       "airbnb": "50024796",
       "address": "447 PRICE ST_SAVANNAH_31401",
@@ -3179,10 +3199,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2080,
+    "airbnb_checked": 2089,
     "total_airbnb": 2678,
-    "airbnb_remaining": 598,
-    "eta_seconds": 28218.646868530584,
-    "updated_unix": 1795077398.0331554
+    "airbnb_remaining": 589,
+    "eta_seconds": 28869.411093687526,
+    "updated_unix": 1795077727.945341
   }
 }
