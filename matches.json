@@ -1,7 +1,47 @@
 {
-  "published_unix": 1795069249.2855544,
-  "content_signature": "fda3cc60cf749b885644cc09563b6c6a3fedb5579310d80da3abe426f613efac",
+  "published_unix": 1795069339.2605264,
+  "content_signature": "2993b2586815199385f8cb1d575af0ac703e2620fcde63ff98cb526c662db8d5",
   "matches": [
+    {
+      "key": "bed21bd4aaa30c90046350c8",
+      "airbnb": "1640636606436326247",
+      "address": "1508 BUTLER AVE #315_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1640636606436326247",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1508-Butler-Ave-315_Tybee-Island_GA_31328_M69171-97132",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 25.45891501750653,
+      "inliers": 111,
+      "discovered_unix": 1795069223.5620592,
+      "photos": [
+        [
+          "assets/d9cd3797f6ffc6a99caa274d501a1336.jpg",
+          "assets/5bd25b0587ec05f7349d1ff520a2c9b2.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "3b42db5bc3c3d7b8e413842d",
+      "airbnb": "1587156845042685471",
+      "address": "505 LAKESIDE BLVD_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1587156845042685471",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/505-Lakeside-Blvd_Port-Wentworth_GA_31407_M69478-12741",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 8.685596690709524,
+      "inliers": 65,
+      "discovered_unix": 1795069217.557512,
+      "photos": [
+        [
+          "assets/8219d7f373268392189cbc152b5c687e.jpg",
+          "assets/5fd7110fd1c075e492cab6210f92d228.jpg"
+        ]
+      ]
+    },
     {
       "key": "8dd103277cc71a1f12bc5205",
       "airbnb": "1608002093314692746",
@@ -2558,42 +2598,22 @@
       ]
     },
     {
-      "key": "bed21bd4aaa30c90046350c8",
-      "airbnb": "1640636606436326247",
-      "address": "1508 BUTLER AVE #315_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/1640636606436326247",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1508-Butler-Ave-315_Tybee-Island_GA_31328_M69171-97132",
+      "key": "1bf43d1830ef2aa71dbf0cc8",
+      "airbnb": "1124594519201402540",
+      "address": "2 VILLAGE PL #B_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1124594519201402540",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/2-Village-Pl-B_Tybee-Island_GA_31328_M60581-65188",
       "verified": false,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
-      "score": 25.45891501750653,
-      "inliers": 111,
-      "discovered_unix": 1795069223.5620592,
+      "score": 35.58977295747246,
+      "inliers": 146,
+      "discovered_unix": 1795069276.508309,
       "photos": [
         [
-          "assets/d9cd3797f6ffc6a99caa274d501a1336.jpg",
-          "assets/5bd25b0587ec05f7349d1ff520a2c9b2.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "3b42db5bc3c3d7b8e413842d",
-      "airbnb": "1587156845042685471",
-      "address": "505 LAKESIDE BLVD_PORT WENTWORTH_31407",
-      "airbnb_url": "https://www.airbnb.com/rooms/1587156845042685471",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/505-Lakeside-Blvd_Port-Wentworth_GA_31407_M69478-12741",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 8.685596690709524,
-      "inliers": 65,
-      "discovered_unix": 1795069217.557512,
-      "photos": [
-        [
-          "assets/8219d7f373268392189cbc152b5c687e.jpg",
-          "assets/5fd7110fd1c075e492cab6210f92d228.jpg"
+          "assets/fcd5926732d96b46427b8f69b58cbf78.jpg",
+          "assets/86a5d5dbfb64b2d18b4329ac16da04b5.jpg"
         ]
       ]
     },
@@ -2679,10 +2699,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1804,
-    "total_airbnb": 2700,
-    "airbnb_remaining": 896,
-    "eta_seconds": 26353.06511143276,
-    "updated_unix": 1795069238.3116515
+    "airbnb_checked": 1811,
+    "total_airbnb": 2698,
+    "airbnb_remaining": 887,
+    "eta_seconds": 23579.804082972663,
+    "updated_unix": 1795069327.6626685
   }
 }
