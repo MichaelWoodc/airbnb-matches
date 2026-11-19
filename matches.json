@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795061128.8729126,
-  "content_signature": "b39336662fb5705af7907b3862bb4dffceac24318624960e932edd9f20020eeb",
+  "published_unix": 1795061186.3491423,
+  "content_signature": "c091b2aae56a1103138c0722284bf62aa51507e2657f6e82ddb5b7baaf026dc8",
   "matches": [
+    {
+      "key": "d002eb2457deb92fc7b8a81d",
+      "airbnb": "1737118661541412284",
+      "address": "UNIT 301",
+      "airbnb_url": "https://www.airbnb.com/rooms/1737118661541412284",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3-17th-Pl-301_Tybee-Island_GA_31328_M91081-54274",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 8.989692874873455,
+      "inliers": 57,
+      "discovered_unix": 1795061152.212796,
+      "photos": [
+        [
+          "assets/642f5e2cdeb9ea07128144e889e20537.jpg",
+          "assets/a6879b8d714f8a3d11d17beae141f54a.jpg"
+        ]
+      ]
+    },
     {
       "key": "2d73986d092bd5ee183b1342",
       "airbnb": "1563129915656301383",
@@ -1959,10 +1979,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1263,
+    "airbnb_checked": 1270,
     "total_airbnb": 2731,
-    "airbnb_remaining": 1468,
-    "eta_seconds": 16403.693299546532,
-    "updated_unix": 1795061125.8070598
+    "airbnb_remaining": 1461,
+    "eta_seconds": 16588.76040385694,
+    "updated_unix": 1795061178.41528
   }
 }

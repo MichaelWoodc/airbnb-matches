@@ -1,5 +1,5 @@
 {
-  "generated_unix": 1795060474.4843078,
+  "generated_unix": 1795061189.1643317,
   "source_manifest": {
     "0": {
       "url": "https://services5.arcgis.com/CEpuXecVrKGiDoOH/ArcGIS/rest/services/STR_Map_and_Parcel_WFL1/FeatureServer/0",
@@ -29,6 +29,7 @@
   },
   "records": [
     {
+      "normalized_address": "1603 LOVELL AVE",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -68,6 +69,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "121 COLD CREEK PASS",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -107,6 +109,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "110 E 38TH ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -146,6 +149,7 @@
       "classification_note": "Conflicting user-confirmed property addresses; resolve before license classification"
     },
     {
+      "normalized_address": "22 E 41ST ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -185,6 +189,7 @@
       "classification_note": "Conflicting user-confirmed property addresses; resolve before license classification"
     },
     {
+      "normalized_address": "104 LAKE SHORE BLVD",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -224,6 +229,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "212 CASSIDY WAY",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -263,6 +269,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "315 DOGWOOD CIR",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -302,6 +309,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "315 DOGWOOD CIR",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -341,6 +349,7 @@
       "classification_note": "Conflicting user-confirmed property addresses; resolve before license classification"
     },
     {
+      "normalized_address": "321 DOGWOOD CIR",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -380,6 +389,7 @@
       "classification_note": "Conflicting user-confirmed property addresses; resolve before license classification"
     },
     {
+      "normalized_address": "216 PINECREST PL",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -419,6 +429,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "1212 E 59TH ST",
       "rental_term_note": "User reports the listing currently requires stays of 30 days or longer. Savannah\u2019s short-term vacation rental certificate rule covers stays of 30 consecutive days or less. Stays longer than 30 consecutive days fall outside that rule. Confirm whether stays of exactly 30 days can be booked.",
       "rental_term_source": "https://www.savannahga.gov/2327/STVR-Regulations",
       "address_proof_url": "",
@@ -458,6 +469,7 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "normalized_address": "1415 BUTLER AVE",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -497,6 +509,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "10 NAYLOR AVE",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -536,6 +549,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "12 NAYLOR AVE",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -575,6 +589,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "12 NAYLOR AVE",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -614,6 +629,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "120 ROMMEL AVE",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -653,6 +669,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "545 GOVERNOR TREUTLEN CIR",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -692,6 +709,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "125 BIRCH CIR",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -731,6 +749,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "303 W 36TH ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -770,6 +789,7 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "normalized_address": "211 W GWINNETT ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -809,6 +829,7 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "normalized_address": "4640 SYLVAN DR",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -848,6 +869,7 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "normalized_address": "121 W 36TH ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -887,6 +909,7 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "normalized_address": "308 HOLLY HILL RD",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -926,6 +949,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "214 E POINT DR",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -965,6 +989,7 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "normalized_address": "153 BERWICK LAKES BLVD",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1004,6 +1029,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "33 PENROSE DR",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1043,6 +1069,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "4 PALMWOOD CT",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1082,6 +1109,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "14 13TH LN",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1121,6 +1149,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "8 17TH PL",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1160,6 +1189,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "27 CEDAR CREEK LN",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1199,6 +1229,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "408 SYMONS ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1238,6 +1269,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "509 W 37TH ST",
       "rental_term_note": "User reports the listing currently requires stays of 30 days or longer. Savannah\u2019s short-term vacation rental certificate rule covers stays of 30 consecutive days or less. Stays longer than 30 consecutive days fall outside that rule. Confirm whether stays of exactly 30 days can be booked.",
       "rental_term_source": "https://www.savannahga.gov/2327/STVR-Regulations",
       "address_proof_url": "",
@@ -1277,6 +1309,7 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "normalized_address": "5 17TH PL",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1316,6 +1349,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "103 CHERRY ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1355,6 +1389,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "14 10TH TER",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1394,6 +1429,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "8522 LABERTA BLVD",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1433,6 +1469,7 @@
       "classification_note": "No matching active license record in the supplied source snapshot; not an agency determination"
     },
     {
+      "normalized_address": "12 18TH TER",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1472,6 +1509,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "1415 BUTLER AVE",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1511,6 +1549,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "311 E HUNTINGDON ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1550,6 +1589,7 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "normalized_address": "311 E HUNTINGDON ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1589,6 +1629,7 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "normalized_address": "311 E HUNTINGDON ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1628,6 +1669,7 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "normalized_address": "519 TATTNALL ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1667,6 +1709,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "1404 SOLOMON AVE",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1706,6 +1749,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "206 W DUFFY ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1745,6 +1789,7 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "normalized_address": "225 W HALL ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1784,6 +1829,7 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "normalized_address": "224 E STATE ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1823,6 +1869,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "5 SALT CREEK RD",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1862,6 +1909,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "175 RICE MILL DR",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1901,6 +1949,7 @@
       "classification_note": "No matching active license record in the supplied source snapshot; not an agency determination"
     },
     {
+      "normalized_address": "1511 JONES AVE",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1940,6 +1989,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "211 SEA ISLAND DR",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -1979,6 +2029,7 @@
       "classification_note": "No matching active license record in the supplied source snapshot; not an agency determination"
     },
     {
+      "normalized_address": "1214 BAY ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2018,6 +2069,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "413 E JONES ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2057,6 +2109,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "402 SYMONS ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2096,6 +2149,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "5 LONGLEAF CIR",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2135,6 +2189,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "1415 BUTLER AVE",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2174,6 +2229,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "217 HOLLY AVE",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2213,6 +2269,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "421 E MELL ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2252,6 +2309,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "313 MANDEN RD",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2291,6 +2349,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "127 RAINDANCE RD",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2330,6 +2389,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "411 CONGRESS ST W",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2369,6 +2429,7 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "normalized_address": "233 SONOMA DR",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2408,6 +2469,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "321 DOGWOOD CIR",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2447,6 +2509,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "1704 INLET AVE",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2486,6 +2549,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "1603 LOVELL AVE",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2525,6 +2589,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "10 LOVELL AVE",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2564,6 +2629,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "35 MOONLIGHT TRL",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2603,6 +2669,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "47 KING HENRY CT",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2642,6 +2709,7 @@
       "classification_note": "No matching active license record in the supplied source snapshot; not an agency determination"
     },
     {
+      "normalized_address": "29 TAYLOR ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2681,6 +2749,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "17 N CAMPBELL AVE",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2720,6 +2789,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "40 REESE WAY",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "https://www.zillow.com/homedetails/40-Reese-Way-Savannah-GA-31419/80796415_zpid/",
@@ -2759,6 +2829,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "1608 JONES AVE",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2798,6 +2869,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "301 10TH ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2837,6 +2909,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "103 SKINNER RD",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2876,6 +2949,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "302 WENDY HILL RD",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2915,6 +2989,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "149 S CAMPBELL AVE",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2954,6 +3029,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "13 TARA MANOR DR",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -2993,6 +3069,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "3325 BANNON AVE",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3032,6 +3109,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "203 FOXBURY SQ",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3071,6 +3149,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "710 PENN WALLER RD",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3110,6 +3189,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "1111 BAY ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3149,6 +3229,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "12 SEA BREEZE LN",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3188,6 +3269,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "101 19TH ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3227,6 +3309,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "7 6TH TER",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3266,6 +3349,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "411 W CONGRESS ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3305,6 +3389,7 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "normalized_address": "2199 DOWNING AVE",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",
@@ -3344,6 +3429,7 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "normalized_address": "505 PORT ST",
       "rental_term_note": "",
       "rental_term_source": "",
       "address_proof_url": "",

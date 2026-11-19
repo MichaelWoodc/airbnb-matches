@@ -15,8 +15,117 @@ async function main(){const response=await fetch('license_audit.json'),data=awai
 const links=r=>`<a href="${esc(r.airbnb_url)}" target="_blank" rel="noopener">Airbnb listing</a> · <a href="${esc(r.realtor_url)}" target="_blank" rel="noopener">Realtor listing</a>`;
 function render(){const query=(document.getElementById('search')?.value||'').toLowerCase(),rows=records.filter(r=>(r.airbnb+' '+r.address+' '+r.jurisdiction).toLowerCase().includes(query));document.getElementById('rows').innerHTML=rows.map(r=>`<tr><td><a href="${esc(r.airbnb_url)}">${esc(r.airbnb)}</a><br>${esc(r.address)} ${esc(r.unit)}<br>${r.conflicting_property_matches?'Conflicting verified address matches':'Photo-verified address'}</td><td>${esc(labels[r.category])}<br>${esc(r.jurisdiction)}</td><td>${esc(r.matched_permits||'No active record matched')}<br>${esc(r.source_status)}</td><td>${esc(r.license_display)}<br>${esc(r.displayed_numbers)}</td><td>${links(r)}<br>${esc(r.classification_note)}${r.rental_term_note?'<br>'+esc(r.rental_term_note):''}</td></tr>`).join('')}
 render();if(document.getElementById('search'))document.getElementById('search').oninput=render;
-if(document.getElementById('map')){let map=L.map('map',{preferCanvas:true}).setView([32.03,-81.1],11);L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap contributors',maxZoom:19}).addTo(map);let layers={};for(const category of Object.keys(labels))layers[category]=L.layerGroup();let points=[];for(const r of records){if(r.latitude===''||r.longitude==='')continue;const lat=Number(r.latitude),lon=Number(r.longitude);if(!Number.isFinite(lat)||!Number.isFinite(lon))continue;const popup=popupContent(r);L.circleMarker([lat,lon],{radius:8,color:colors[r.category],fillColor:colors[r.category],fillOpacity:.85}).bindPopup(popup,{maxWidth:430,maxHeight:560}).addTo(layers[r.category]);if(['license_not_shown','unlicensed'].includes(r.category))points.push([lat,lon])}let registryLayers={},reviewRegistry=L.layerGroup();map.createPane('licensed-registry');map.getPane('licensed-registry').style.zIndex=390;
-try{let registry=await(await fetch('registry/licensed_locations.json')).json(),grouped=new Map(),palette={SAVANNAH:'#305eac','TYBEE ISLAND':'#8d3fa1',THUNDERBOLT:'#4c821e',UNINCORPORATED:'#166b71'};for(let r of registry.records){if(r.map_status!=='mapped')continue;let groupKey=[r.jurisdiction,r.sagis_pin||r.normalized_address,r.latitude,r.longitude,r.license_state==='review'||r.license_state==='expired_in_source'].join('|');if(!grouped.has(groupKey))grouped.set(groupKey,[]);grouped.get(groupKey).push(r)}for(let group of grouped.values()){let r=group[0],review=r.license_state==='review'||r.license_state==='expired_in_source';if(!registryLayers[r.jurisdiction])registryLayers[r.jurisdiction]=L.layerGroup();let info='<h3>'+esc(r.normalized_address||r.address)+'</h3><p><b>License list:</b> '+esc(r.jurisdiction)+'<br><b>SAGIS parcel:</b> '+esc(r.sagis_pin)+'<br><b>Mapped municipality:</b> '+esc(r.actual_jurisdiction||'unknown')+'<br>'+group.length+' source record(s)</p><p>'+group.map(x=>'<b>'+esc(x.permit||'Permit number not supplied')+'</b> · unit '+esc(x.unit||'not supplied')+'<br>'+esc(x.status)+(x.expiration?' · expires '+esc(x.expiration):'')).join('<br>')+'</p><p>'+esc(r.match_note)+'</p><a href="registry/index.html" target="_blank">All license lists and CSV downloads</a>';L.circleMarker([Number(r.latitude),Number(r.longitude)],{pane:'licensed-registry',radius:5,color:review?'#aaa':palette[r.jurisdiction],fillOpacity:.7,weight:1}).bindPopup(info,{maxWidth:400,maxHeight:450}).addTo(review?reviewRegistry:registryLayers[r.jurisdiction]);if(!review)points.push([Number(r.latitude),Number(r.longitude)])}for(let group of Object.values(registryLayers))group.addTo(map)}catch(error){console.warn('License registry not available',error)}
-let overlays={};for(let [jurisdiction,group]of Object.entries(registryLayers))overlays['License list — '+(jurisdiction==='UNINCORPORATED'?'Chatham County':jurisdiction)]=group;overlays['Source status conflicts / expired records']=reviewRegistry;for(const c of Object.keys(labels)){overlays[labels[c]]=layers[c];if(['license_not_shown','unlicensed'].includes(c))layers[c].addTo(map)}L.control.layers(null,overlays,{collapsed:false}).addTo(map);if(points.length)map.fitBounds(points,{padding:[35,35]});try{const boundaries=await(await fetch('municipalities.geojson')).json();L.geoJSON(boundaries,{interactive:false,style:f=>({color:f.properties.NAME==='UNINCORPORATED'?'#566f32':'#8394a0',weight:1,fillOpacity:0}),onEachFeature:(f,l)=>l.bindTooltip(f.properties.NAME)}).addTo(map)}catch{}}
+if(document.getElementById('map'))await renderMap(records);
 }
+
+async function renderMap(listings){
+ const map=L.map('map',{preferCanvas:true}).setView([32.03,-81.1],11);
+ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap contributors',maxZoom:19}).addTo(map);
+ const overlays={}, markers=[];
+ const group=name=>overlays[name]??=(L.layerGroup().addTo(map));
+ const link=(url,label)=>'<a href="'+esc(url)+'" target="_blank" rel="noopener">'+esc(label)+'</a>';
+ const key=(street,unit)=>JSON.stringify([street,unit||'']);
+ const licensed=r=>['licensed','source_listed'].includes(r.license_state);
+ const arcLicensed=r=>!!r.permit&&/(^|;\s*)Licensed STR($|;)/i.test(r.status);
+ const green='#168047',yellow='#ffd54d',purple='#7950a5';
+ function point(row,layer,content,ring,fill,radius){
+  if(row.latitude==null||row.longitude==null||row.latitude===''||row.longitude==='')return;
+  const coords=[Number(row.latitude),Number(row.longitude)];
+  if(!coords.every(Number.isFinite))return;
+  const marker=L.circleMarker(coords,{radius,color:ring,weight:2.5,fillColor:fill,fillOpacity:.9}).addTo(layer);
+  const entry={marker,layer,content,radius};
+  markers.push(entry);
+  marker.on('click',()=>{
+   const center=map.latLngToLayerPoint(marker.getLatLng());
+   const neighbors=markers.filter(other=>other!==entry&&map.hasLayer(other.layer)&&
+    center.distanceTo(map.latLngToLayerPoint(other.marker.getLatLng()))<=radius+other.radius);
+   const nearby=neighbors.map(other=>'<details><summary>'+esc(other.content.title)+'</summary>'+other.content.html+'</details>').join('');
+   L.popup({maxWidth:460,maxHeight:560}).setLatLng(marker.getLatLng())
+    .setContent(content.html+(nearby?'<hr><h4>Other markers here</h4>'+nearby:'')).openOn(map);
+  });
+ }
+ const [registry,sources,boundaries]=await Promise.all(['registry/licensed_locations.json','map_sources.json','municipalities.geojson'].map(async path=>{
+  const response=await fetch(path);if(!response.ok)throw Error('Map source unavailable: '+path);return response.json();
+ }));
+ const registryByAddress=new Map();
+ for(const row of registry.records){
+  const k=key(row.normalized_address,row.unit);
+  if(!registryByAddress.has(k))registryByAddress.set(k,[]);
+  registryByAddress.get(k).push(row);
+ }
+ const arcByAddress=new Map(sources.county_arcgis.map(row=>[key(row.street,row.unit),row]));
+ const flags=new Map(sources.county_likely_unlicensed.map(row=>[row.airbnb,row]));
+ const registryInfo=rows=>rows.length?'<h4>License lists</h4><ul>'+rows.map(row=>
+  '<li>'+esc(row.jurisdiction)+' · '+esc(licensed(row)?'Listed as licensed':row.license_state==='expired_in_source'?'Expired in source':'Source status requires review')+
+  ' · '+esc(row.permit||'permit number not supplied')+(row.expiration?' · expires '+esc(row.expiration):'')+
+  '<br>'+esc(row.status)+' · '+esc(row.source_file)+'</li>').join('')+'</ul>':'';
+ const arcInfo=row=>row?'<h4>Chatham County ArcGIS</h4><ul>'+row.records.map(r=>
+  '<li>'+esc(r.status||'Status not supplied')+(r.permit?' · '+esc(r.permit):'')+' · '+link(r.source_url,'Layer '+r.layer)+'</li>').join('')+'</ul>':'';
+ const flagInfo=row=>row?'<p><b>Chatham County likely-unlicensed listings:</b> This Airbnb appears on the '+link(row.source_url,'source list')+'.</p>':'';
+ const represented=new Set();
+ for(const row of listings){
+  const k=key(row.normalized_address,row.unit),arc=arcByAddress.get(k);
+  const licenseRows=(registryByAddress.get(k)||[]).filter(r=>r.jurisdiction===row.jurisdiction);
+  const isLicensed=licenseRows.some(licensed)||Boolean(row.matched_permits)||Boolean(row.jurisdiction==='UNINCORPORATED'&&arc?.records.some(arcLicensed));
+  const fill=row.license_display==='not_shown_in_saved_text'?yellow:colors[row.category];
+  point(row,group('Photo-verified Airbnb matches'),{title:'Airbnb '+row.airbnb+' · '+row.address,
+   html:popupContent(row)+flagInfo(flags.get(row.airbnb))+arcInfo(arc)+registryInfo(licenseRows)},isLicensed?green:colors[row.category],fill,8);
+  if(row.latitude!==''&&row.longitude!=='')represented.add(row.airbnb);
+ }
+ const registryGroups=new Map();
+ for(const row of registry.records){
+  if(row.map_status!=='mapped')continue;
+  const k=JSON.stringify([row.jurisdiction,row.normalized_address,row.unit,row.latitude,row.longitude]);
+  if(!registryGroups.has(k))registryGroups.set(k,[]);
+  registryGroups.get(k).push(row);
+ }
+ const registryPositions=new Set();
+ for(const rows of registryGroups.values()){
+  const row=rows[0],k=key(row.normalized_address,row.unit),arc=row.jurisdiction==='UNINCORPORATED'?arcByAddress.get(k):null;
+  if(arc)registryPositions.add(k);
+  const title=row.normalized_address+(row.unit?' · '+row.unit:'');
+  const jurisdiction=row.jurisdiction==='UNINCORPORATED'?'Chatham County':row.jurisdiction;
+  const isLicensed=rows.some(licensed)||Boolean(arc?.records.some(arcLicensed));
+  point(row,group('License list · '+jurisdiction),{title,html:'<h3>'+esc(title)+'</h3><p>Mapped jurisdiction: '+esc(row.actual_jurisdiction||'Unknown')+'</p>'+registryInfo(rows)+arcInfo(arc)+
+   '<p>'+esc(row.match_note)+'</p>'+link('registry/index.html','License lists and CSVs')},isLicensed?green:purple,'#fff',5);
+ }
+ for(const row of sources.county_arcgis){
+  const k=key(row.street,row.unit);
+  if(registryPositions.has(k))continue;
+  const title=row.street+(row.unit?' · '+row.unit:'');
+  point(row,group('Additional Chatham County ArcGIS points'),{title,html:'<h3>'+esc(title)+'</h3>'+arcInfo(row)},
+   row.records.some(arcLicensed)?green:purple,'#fff',5);
+ }
+ for(const row of sources.county_likely_unlicensed){
+  if(represented.has(row.airbnb))continue;
+  const title=row.address||'Airbnb '+row.airbnb,k=key(row.street,row.unit),arc=arcByAddress.get(k);
+  const rows=(registryByAddress.get(k)||[]).filter(r=>r.jurisdiction==='UNINCORPORATED');
+  const isLicensed=rows.some(licensed)||Boolean(arc?.records.some(arcLicensed));
+  point(row,group('Chatham County likely-unlicensed list'),{title,html:'<h3>'+esc(title)+'</h3>'+
+   '<p>Approximate listing point · '+esc(row.jurisdiction||'Jurisdiction unknown')+'</p>'+flagInfo(row)+arcInfo(arc)+registryInfo(rows)+
+   link('https://www.airbnb.com/rooms/'+row.airbnb,'Airbnb listing')},isLicensed?green:purple,'#e1c9ff',6);
+ }
+ const palette={'SAVANNAH':'#245cb0','THUNDERBOLT':'#188353','TYBEE ISLAND':'#9645a5','UNINCORPORATED':'#6e654e',
+  'POOLER':'#b64624','GARDEN CITY':'#96710e','PORT WENTWORTH':'#0b7f8e','BLOOMINGDALE':'#a04060','VERNONBURG':'#4853a3'};
+ map.createPane('jurisdiction-boundaries');
+ map.getPane('jurisdiction-boundaries').style.zIndex=350;
+ map.getPane('jurisdiction-boundaries').style.pointerEvents='none';
+ const outlines=L.geoJSON(boundaries,{pane:'jurisdiction-boundaries',interactive:false,
+  style:feature=>({color:palette[feature.properties.NAME]||'#687280',weight:2,opacity:.8,fillOpacity:.09})}).addTo(map);
+ overlays['Jurisdiction boundaries (SAGIS)']=outlines;
+ L.control.layers(null,overlays,{collapsed:true}).addTo(map);
+ const legend=L.control({position:'bottomleft'});
+ legend.onAdd=()=>{
+  const box=L.DomUtil.create('div','map-legend');
+  box.innerHTML='<div><span style="border-color:'+green+'"></span> Listed as licensed</div>'+
+   '<div><span style="background:'+yellow+'"></span> License absent from saved Airbnb text</div>'+
+   '<div><span style="background:#e1c9ff"></span> Chatham County likely-unlicensed list</div>'+
+   '<details><summary>Jurisdiction colors</summary>'+Object.entries(palette).map(([name,color])=>
+    '<div><span style="border-color:'+color+';border-radius:2px"></span> '+esc(name)+'</div>').join('')+'</details>';
+  L.DomEvent.disableClickPropagation(box);
+  return box;
+ };
+ legend.addTo(map);
+}
+
 main().catch(e=>document.getElementById('summary').textContent=e.message);
