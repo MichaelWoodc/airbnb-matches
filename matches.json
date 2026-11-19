@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795072900.1150527,
-  "content_signature": "f55396a37d50ac7696bf0c52d137b55515f90cf344ec4f103dd0ba6a6da7f4c5",
+  "published_unix": 1795073417.874045,
+  "content_signature": "b91e43acf7fa8ed3b2707bd9d32713638a5e3c292e658d7de5986ce81949b44d",
   "matches": [
     {
       "key": "32ecb7b1525152c31474b811",
@@ -2758,6 +2758,66 @@
       ]
     },
     {
+      "key": "2d916bdb94bc92dfb11687fd",
+      "airbnb": "40551630",
+      "address": "544 E LIBERTY ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/40551630",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/544-E-Liberty-St_Savannah_GA_31401_M50458-03088",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 24.32237884317956,
+      "inliers": 140,
+      "discovered_unix": 1795073359.9728186,
+      "photos": [
+        [
+          "assets/6572b8ddeeb0acc1bd8bf13a2b7ccf83.jpg",
+          "assets/7e47f9f478b8fcb90dedd3f8e3983a21.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "4c1ba4fdecd94e5f0ba82493",
+      "airbnb": "1660291145432196952",
+      "address": "4 Horne Pl_Port Wentworth_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1660291145432196952",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/4-Horne-Pl_Port-Wentworth_GA_31407_M56440-35435",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 29.44478037990475,
+      "inliers": 145,
+      "discovered_unix": 1795073344.6486433,
+      "photos": [
+        [
+          "assets/4c883593722c9a89e6150cde45c4936b.jpg",
+          "assets/8be86d20c23161c4be0f844e3f855486.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "6971d9214ac1c2505a92726a",
+      "airbnb": "1586492262628500178",
+      "address": "221 SOMERSBY BLVD_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1586492262628500178",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/221-Somersby-Blvd_Pooler_GA_31322_M69174-69580",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 63.923425850306934,
+      "inliers": 205,
+      "discovered_unix": 1795073335.7340927,
+      "photos": [
+        [
+          "assets/7d9950561e7869b86358244812292217.jpg",
+          "assets/5a096a10755bfb4b83a23bb38cf80864.jpg"
+        ]
+      ]
+    },
+    {
       "key": "bfccc70bb79ede4a2869dc26",
       "airbnb": "1623273875495311901",
       "address": "239 CHATHAM AVE_POOLER_31322",
@@ -2859,10 +2919,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1980,
+    "airbnb_checked": 1995,
     "total_airbnb": 2690,
-    "airbnb_remaining": 710,
-    "eta_seconds": 28940.39164046852,
-    "updated_unix": 1795072888.3072274
+    "airbnb_remaining": 695,
+    "eta_seconds": 30924.108582516106,
+    "updated_unix": 1795073406.1972864
   }
 }
