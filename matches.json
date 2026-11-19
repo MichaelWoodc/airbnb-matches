@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795065125.3332078,
-  "content_signature": "f581ca7f7f4ce6d463aeb9d0ac368c638ca13015319ba839f8aa01d07ac6542e",
+  "published_unix": 1795065499.4093568,
+  "content_signature": "b1d5b774bc83750f671ae2a53d97f8d59e2cebef3ee97b08ce6b17151018ce5b",
   "matches": [
     {
       "key": "4aef33f87a156cd084a95260",
@@ -2098,6 +2098,26 @@
       ]
     },
     {
+      "key": "470b71d27daf66c9f301c57c",
+      "airbnb": "1159501632699043017",
+      "address": "324 E BRYAN ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1159501632699043017",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/324-E-Bryan-St_Savannah_GA_31401_M57334-91367",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 35.55655121649228,
+      "inliers": 147,
+      "discovered_unix": 1795065432.744316,
+      "photos": [
+        [
+          "assets/74e3d23680086c8d8570db7e41d3c0b3.jpg",
+          "assets/eb57f5c7061f55f962c4d435f64c4367.jpg"
+        ]
+      ]
+    },
+    {
       "key": "75dd3a4fd9e0a711d794b2d0",
       "airbnb": "1507962551505561571",
       "address": "16 13TH LN_TYBEE ISLAND_31328",
@@ -2299,10 +2319,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1602,
+    "airbnb_checked": 1622,
     "total_airbnb": 2723,
-    "airbnb_remaining": 1121,
-    "eta_seconds": 13899.823873310674,
-    "updated_unix": 1795065114.2950037
+    "airbnb_remaining": 1101,
+    "eta_seconds": 16655.822605702342,
+    "updated_unix": 1795065487.3530273
   }
 }
