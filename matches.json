@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795064965.3866987,
-  "content_signature": "a1d440ded25903462add98a700b22e10a85d3eae1d74cde40035c28eca5ded86",
+  "published_unix": 1795065044.7291112,
+  "content_signature": "6b2c5eb29042453c1d1c256cbe04fbbecaa4bda1226308b3de700512ed86d177",
   "matches": [
     {
       "key": "4aef33f87a156cd084a95260",
@@ -2098,6 +2098,26 @@
       ]
     },
     {
+      "key": "50ca0deaa29ac633cb51fd15",
+      "airbnb": "1519665016204832894",
+      "address": "13 WALTHOUR CV_SAVANNAH_31410",
+      "airbnb_url": "https://www.airbnb.com/rooms/1519665016204832894",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/13-Walthour-Cv_Savannah_GA_31410_M57379-17913",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 29.36136428397528,
+      "inliers": 149,
+      "discovered_unix": 1795065003.6889904,
+      "photos": [
+        [
+          "assets/c48bdf36b55c883b8a4d66e0befbaa60.jpg",
+          "assets/e0d25f0c7138c4d7b5680ba2df02f803.jpg"
+        ]
+      ]
+    },
+    {
       "key": "84c907e0d07d3d9c3c8d3cca",
       "airbnb": "54003806",
       "address": "1017 LOVELL AVE_TYBEE ISLAND_31328",
@@ -2239,10 +2259,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1587,
+    "airbnb_checked": 1595,
     "total_airbnb": 2723,
-    "airbnb_remaining": 1136,
-    "eta_seconds": 16491.310346019513,
-    "updated_unix": 1795064953.6403491
+    "airbnb_remaining": 1128,
+    "eta_seconds": 15811.530352300528,
+    "updated_unix": 1795065025.709673
   }
 }
