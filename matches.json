@@ -1,14 +1,54 @@
 {
-  "published_unix": 1795055348.493983,
-  "content_signature": "96878b2adabf5c43bf453752a30f3472efc953b8bc97259442dfde63848fceb0",
+  "published_unix": 1795055551.1456542,
+  "content_signature": "f5fc153f595b1ee190c0e824b7e5f152d5b9a6fd3c1bfd7f3852d570bec4ddb4",
   "matches": [
+    {
+      "key": "14e184a7313dc87b4e72d348",
+      "airbnb": "550772505969020234",
+      "address": "3 JAYMEE LN_SAVANNAH_31406",
+      "airbnb_url": "https://www.airbnb.com/rooms/550772505969020234",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3-Jaymee-Ln_Savannah_GA_31406_M68551-50869",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 13.172993992031547,
+      "inliers": 87,
+      "discovered_unix": 1795055539.6894152,
+      "photos": [
+        [
+          "assets/1c387bb4af17974eaf3ee3f29952d842.jpg",
+          "assets/de9bee320e00a28a2c987e806edf1ff1.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "064ee119fd705731fc18f6e0",
+      "airbnb": "1558411040706460019",
+      "address": "102 E LIBERTY ST #607_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1558411040706460019",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/102-E-Liberty-St-Apt-607_Savannah_GA_31401_M59327-55999",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 41.523854473155566,
+      "inliers": 167,
+      "discovered_unix": 1795055468.8920133,
+      "photos": [
+        [
+          "assets/c6ae90b46dd90aceb6d7212d69fb39ef.jpg",
+          "assets/2c264684fa3901e8486dda24e6129fb7.jpg"
+        ]
+      ]
+    },
     {
       "key": "fc374a7208905a9f93826db8",
       "airbnb": "1471099635987066622",
       "address": "102 E LIBERTY ST #607_SAVANNAH_31401",
       "airbnb_url": "https://www.airbnb.com/rooms/1471099635987066622",
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/102-E-Liberty-St-Apt-607_Savannah_GA_31401_M59327-55999",
-      "verified": false,
+      "verified": true,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
@@ -28,7 +68,7 @@
       "address": "102 E LIBERTY ST #607_SAVANNAH_31401",
       "airbnb_url": "https://www.airbnb.com/rooms/1471096060022681572",
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/102-E-Liberty-St-Apt-607_Savannah_GA_31401_M59327-55999",
-      "verified": false,
+      "verified": true,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
@@ -1741,10 +1781,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 713,
-    "total_airbnb": 2741,
-    "airbnb_remaining": 2028,
-    "eta_seconds": 16580.068317101926,
-    "updated_unix": 1795055334.0330532
+    "airbnb_checked": 733,
+    "total_airbnb": 2739,
+    "airbnb_remaining": 2006,
+    "eta_seconds": 20773.89928701946,
+    "updated_unix": 1795055542.6481092
   }
 }
