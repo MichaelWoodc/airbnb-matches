@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795120444.3236935,
-  "content_signature": "09c4283b6511d3b9f3b72ff7763e72f4ce880ad39633f6b7b9f3775253da1c3f",
+  "published_unix": 1795120531.4820127,
+  "content_signature": "5c1f52cf157f0f9c71b0e52c58501b1296b9da1c39914ffe2732e99b2e192022",
   "matches": [
     {
       "key": "f97126371a201e63275e9525",
@@ -3278,6 +3278,26 @@
       ]
     },
     {
+      "key": "5475133214a9f04b2763a1b8",
+      "airbnb": "1135117482693691047",
+      "address": "UNIT B",
+      "airbnb_url": "https://www.airbnb.com/rooms/1135117482693691047",
+      "realtor_url": "https://www.realtor.com/rentals/details/201-E-Duffy-St-Apt-B_Savannah_GA_31401_M69972-93902",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue follow-up"
+      ],
+      "score": 19.89570349309701,
+      "inliers": 104,
+      "discovered_unix": 1795120484.4595196,
+      "photos": [
+        [
+          "assets/7b0e9664bbfbbed70cfe48476034f786.jpg",
+          "assets/81e033151ad93bb3a8fe208505e2b7d1.jpg"
+        ]
+      ]
+    },
+    {
       "key": "45172c01ffb4950130a418ba",
       "airbnb": "44196068",
       "address": "158 AQUINNAH DR_POOLER_31322",
@@ -3520,10 +3540,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1507,
+    "airbnb_checked": 1526,
     "total_airbnb": 2030,
-    "airbnb_remaining": 523,
-    "eta_seconds": 3019.64543276417,
-    "updated_unix": 1795120430.9832067
+    "airbnb_remaining": 504,
+    "eta_seconds": 2799.4911796024867,
+    "updated_unix": 1795120517.7530513
   }
 }
