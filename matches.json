@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795060040.8690014,
-  "content_signature": "67da45f2a7a84db61bfc51dca48634090ad4996dca70631c89a44ab554ba48b2",
+  "published_unix": 1795060114.2346303,
+  "content_signature": "6ebee42e184691ba765c9bd546c1f6f3a11319298bd756d0acceff070e7816b2",
   "matches": [
+    {
+      "key": "5d33a90d866a9c9b4aaabd76",
+      "airbnb": "1095471167424152872",
+      "address": "411 W CONGRESS ST #1_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1095471167424152872",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/411-W-Congress-St-Apt-1_Savannah_GA_31401_M61973-63787",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 8.134780177105826,
+      "inliers": 63,
+      "discovered_unix": 1795060037.7261915,
+      "photos": [
+        [
+          "assets/b7ff225dfc9a19c3e4934be9a816196b.jpg",
+          "assets/4d4db4adf1f9ea9f01c7ea5a392e13e1.jpg"
+        ]
+      ]
+    },
     {
       "key": "d366adb891487a5750c4924d",
       "airbnb": "1721978963600351913",
@@ -1845,10 +1865,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1157,
+    "airbnb_checked": 1170,
     "total_airbnb": 2735,
-    "airbnb_remaining": 1578,
-    "eta_seconds": 17374.035694774317,
-    "updated_unix": 1795060024.3334882
+    "airbnb_remaining": 1565,
+    "eta_seconds": 17380.855824971684,
+    "updated_unix": 1795060107.6987374
   }
 }
