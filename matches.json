@@ -1,7 +1,24 @@
 {
-  "published_unix": 1795123604.0958586,
-  "content_signature": "7cbd17090ecf9b0caeae6be813472e4d50fcac5c4c11f5e4ca95c8a381adede3",
+  "published_unix": 1795123673.7944145,
+  "content_signature": "ccea026380b9ee67b0bdd061283e11051f6efc7a97e186166e0f3e6d4a76e7a3",
   "matches": [
+    {
+      "key": "d99c8a7cb438d17a742cc23b",
+      "airbnb": "1706923303195424455",
+      "address": "121 LEGENDS RD_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1706923303195424455",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/121-Legends-Rd_Pooler_GA_31322_M60705-12811",
+      "verified": true,
+      "score": 111.49998834598998,
+      "inliers": 249,
+      "discovered_unix": 1795123380.3348835,
+      "photos": [
+        [
+          "assets/ffff8f865a342fcfb65540217e16ae4d.jpg",
+          "assets/8ccc0f2e84076b20f0b7142a84d2c02b.jpg"
+        ]
+      ]
+    },
     {
       "key": "f97126371a201e63275e9525",
       "airbnb": "1245789335495266847",
@@ -2810,57 +2827,6 @@
       ]
     },
     {
-      "key": "3b041a86fd7009d6b93deeac",
-      "airbnb": "1573249032536055396",
-      "address": "602 W 35th St_Savannah_31415",
-      "airbnb_url": "https://www.airbnb.com/rooms/1573249032536055396",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/602-W-35th-St_Savannah_GA_31415_M60636-67617",
-      "verified": false,
-      "score": 21.062637003836866,
-      "inliers": 93,
-      "discovered_unix": 1795123563.2998729,
-      "photos": [
-        [
-          "assets/1e314bcedbc401718c6dc5ff5f40e933.jpg",
-          "assets/c4cb1584d1a4907ba28baf279c3077c7.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "f2d196a0b1416da36f77c824",
-      "airbnb": "774660357541973639",
-      "address": "5 ANGEL OAKS DR_SAVANNAH_31410",
-      "airbnb_url": "https://www.airbnb.com/rooms/774660357541973639",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/5-Angel-Oaks-Dr_Savannah_GA_31410_M57248-74833",
-      "verified": false,
-      "score": 16.397584110917453,
-      "inliers": 81,
-      "discovered_unix": 1795123452.9780293,
-      "photos": [
-        [
-          "assets/e72cf7ca1db8c646da47f05dcfbcc00b.jpg",
-          "assets/f483ea8ba1eb19fc1ab6c53ecbb916ee.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "d99c8a7cb438d17a742cc23b",
-      "airbnb": "1706923303195424455",
-      "address": "121 LEGENDS RD_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/1706923303195424455",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/121-Legends-Rd_Pooler_GA_31322_M60705-12811",
-      "verified": false,
-      "score": 111.49998834598998,
-      "inliers": 249,
-      "discovered_unix": 1795123380.3348835,
-      "photos": [
-        [
-          "assets/ffff8f865a342fcfb65540217e16ae4d.jpg",
-          "assets/8ccc0f2e84076b20f0b7142a84d2c02b.jpg"
-        ]
-      ]
-    },
-    {
       "key": "0aa883ccbc5ac600b1cc0a56",
       "airbnb": "1213023680560422571",
       "address": "UNIT B",
@@ -3151,10 +3117,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1860,
-    "total_airbnb": 2030,
-    "airbnb_remaining": 170,
-    "eta_seconds": 2285.0291009338534,
-    "updated_unix": 1795123595.6642947
+    "airbnb_checked": 1863,
+    "total_airbnb": 2029,
+    "airbnb_remaining": 166,
+    "eta_seconds": 2370.2269230862053,
+    "updated_unix": 1795123671.5029466
   }
 }
