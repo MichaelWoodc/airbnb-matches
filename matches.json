@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795072739.8380501,
-  "content_signature": "1619c45d17e58821d7a8f2966f90443b517d71ad2d8eca92248abe523ae222ca",
+  "published_unix": 1795072900.1150527,
+  "content_signature": "f55396a37d50ac7696bf0c52d137b55515f90cf344ec4f103dd0ba6a6da7f4c5",
   "matches": [
     {
       "key": "32ecb7b1525152c31474b811",
@@ -2758,6 +2758,26 @@
       ]
     },
     {
+      "key": "bfccc70bb79ede4a2869dc26",
+      "airbnb": "1623273875495311901",
+      "address": "239 CHATHAM AVE_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1623273875495311901",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/239-Chatham-Ave_Pooler_GA_31322_M65893-91566",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 70.18558953968508,
+      "inliers": 202,
+      "discovered_unix": 1795072832.712409,
+      "photos": [
+        [
+          "assets/5d689c48908a7a6639d21b45ae321a51.jpg",
+          "assets/a364dd1fca502ffa24a690ae1237deea.jpg"
+        ]
+      ]
+    },
+    {
       "key": "2bca7b3f489553b4c54cc333",
       "airbnb": "1751482998448630040",
       "address": "UNIT 301",
@@ -2839,10 +2859,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1977,
+    "airbnb_checked": 1980,
     "total_airbnb": 2690,
-    "airbnb_remaining": 713,
-    "eta_seconds": 26810.47765337691,
-    "updated_unix": 1795072727.9358244
+    "airbnb_remaining": 710,
+    "eta_seconds": 28940.39164046852,
+    "updated_unix": 1795072888.3072274
   }
 }
