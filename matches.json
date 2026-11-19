@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795074030.8827984,
-  "content_signature": "d1b6ceae1d97d23fadfa81784857d497c75bceabf6b3dad973c862ddde9fcfaf",
+  "published_unix": 1795074271.6406388,
+  "content_signature": "27cc9aaa23698eeae4c1a7e6a5c00770bd23425b5c19079cd29ecf752fa1934e",
   "matches": [
     {
       "key": "4c1ba4fdecd94e5f0ba82493",
@@ -2818,6 +2818,46 @@
       ]
     },
     {
+      "key": "10541fac69c42b730ed29ccd",
+      "airbnb": "1742805177432785403",
+      "address": "509 W 38TH ST_SAVANNAH_31415",
+      "airbnb_url": "https://www.airbnb.com/rooms/1742805177432785403",
+      "realtor_url": "https://www.realtor.com/rentals/details/509-W-38th-St_Savannah_GA_31415_M68162-51216",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 8.326615112192174,
+      "inliers": 49,
+      "discovered_unix": 1795074251.4010332,
+      "photos": [
+        [
+          "assets/a31634681090e77ecc31afe42bdfb5f1.jpg",
+          "assets/b604dd57c8f806485a3ec76b0ba61ee7.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "2ee5c2397f2b18a7bbf11ff0",
+      "airbnb": "1624986930457358209",
+      "address": "496 FLAT ROCK TRCE_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1624986930457358209",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/496-Flat-Rock-Trce_Port-Wentworth_GA_31407_M90236-82575",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 34.75657923698858,
+      "inliers": 113,
+      "discovered_unix": 1795074232.2942524,
+      "photos": [
+        [
+          "assets/5bf575cfb7cdd3ae0ef2429ad2ec7fa4.jpg",
+          "assets/e457c85b4954c42baf0b0aed4beda71e.jpg"
+        ]
+      ]
+    },
+    {
       "key": "7d6013ca091827c75d4872c4",
       "airbnb": "39951523",
       "address": "504 E 38TH ST_SAVANNAH_31401",
@@ -2959,10 +2999,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2017,
+    "airbnb_checked": 2019,
     "total_airbnb": 2687,
-    "airbnb_remaining": 670,
-    "eta_seconds": 24816.312531354473,
-    "updated_unix": 1795074018.1601741
+    "airbnb_remaining": 668,
+    "eta_seconds": 27717.388674911188,
+    "updated_unix": 1795074256.3112147
   }
 }
