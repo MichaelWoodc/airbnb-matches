@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795060186.839325,
-  "content_signature": "3aae76160c6215e5134f7eb3c6e2c181c03a6045c14fcf1251f2ffdfed0058b7",
+  "published_unix": 1795060333.9115198,
+  "content_signature": "8c41e07208dfa79cdf7f03d4f17b6c9587b290a51e40ac87db7a7a5551d62386",
   "matches": [
+    {
+      "key": "bde50841b57923f66b3b4668",
+      "airbnb": "1016084392688688419",
+      "address": "505 PORT ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1016084392688688419",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/505-Port-St_Savannah_GA_31401_M92604-06448",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 36.91515509209148,
+      "inliers": 122,
+      "discovered_unix": 1795060263.5980158,
+      "photos": [
+        [
+          "assets/b85d5b8924c4df1a66800ba68573ff31.jpg",
+          "assets/bbabf348dc8727aa760c9b5f60b147bc.jpg"
+        ]
+      ]
+    },
     {
       "key": "43246a16af8610ea9396e61c",
       "airbnb": "649295630343075780",
@@ -853,7 +873,13 @@
       "score": null,
       "inliers": null,
       "discovered_unix": 0,
-      "photos": []
+      "selected_listing_photos": true,
+      "photos": [
+        [
+          "assets/549030d0db50f09cec721133628e9111.jpg",
+          "assets/6fc1cc27b3f666d7b68139f26ea5814a.jpg"
+        ]
+      ]
     },
     {
       "key": "a782b0abe0da9ad5d55ab9c5",
@@ -869,7 +895,13 @@
       "score": null,
       "inliers": null,
       "discovered_unix": 0,
-      "photos": []
+      "selected_listing_photos": true,
+      "photos": [
+        [
+          "assets/72d6a09c8d170b8edd9e328042e62003.jpg",
+          "assets/62352ac3d15e5ab9cbbfd11f672abbbe.jpg"
+        ]
+      ]
     },
     {
       "key": "b5d235ab49d259543f667886",
@@ -909,7 +941,17 @@
       "score": null,
       "inliers": null,
       "discovered_unix": 0,
-      "photos": []
+      "selected_listing_photos": true,
+      "photos": [
+        [
+          "assets/ef448edcc12d80400f479c2fe8c9837a.jpg",
+          "assets/f8ef271dd806215f36d60932471d17f4.jpg"
+        ],
+        [
+          "assets/0928cc5d11d8b26fb1bfc0c2eed348f9.jpg",
+          "assets/20268b939c8198f680ace254f4491533.jpg"
+        ]
+      ]
     },
     {
       "key": "914aa30f202f370e612c6f3a",
@@ -996,14 +1038,15 @@
       "score": null,
       "inliers": null,
       "discovered_unix": 0,
+      "selected_listing_photos": true,
       "photos": [
         [
-          "assets/4a5b735bab82955a410a5649a8ae3054.jpg",
-          "assets/acccf51828de6ecd29faebc5a37c38e1.jpg"
+          "assets/a2edcdf0efff4bee00a4a695c2237fa8.jpg",
+          "assets/1c346cdea75c085d6eef6433b7dcb01a.jpg"
         ],
         [
-          "assets/4a5b735bab82955a410a5649a8ae3054.jpg",
-          "assets/24a61ad661acef3982ccb08766ab2585.jpg"
+          "assets/149f4b6b9934b2aa3333052f68f5dfc2.jpg",
+          "assets/54d46c92a2700da1619eb98f3e73ac00.jpg"
         ]
       ]
     },
@@ -1020,10 +1063,11 @@
       "score": null,
       "inliers": null,
       "discovered_unix": 0,
+      "selected_listing_photos": true,
       "photos": [
         [
-          "assets/9a77299f2e946b96b7282d07bd48dce0.jpg",
-          "assets/742049c923226d5052f5bd637871565c.jpg"
+          "assets/763e2ef34296733c5edfe699620449f1.jpg",
+          "assets/ff0af93b2cfc03b7b20eb1f899433c5b.jpg"
         ]
       ]
     },
@@ -1673,7 +1717,17 @@
       "score": null,
       "inliers": null,
       "discovered_unix": 0,
-      "photos": []
+      "selected_listing_photos": true,
+      "photos": [
+        [
+          "assets/0442047074fd2af0174ce36eca1c840b.jpg",
+          "assets/e27531302c5c9aa20453b6597510db7d.jpg"
+        ],
+        [
+          "assets/fc548760b72de73bfac3e914a9d8642a.jpg",
+          "assets/a6588bdedaa9a655c6a707c1d25aaae3.jpg"
+        ]
+      ]
     },
     {
       "key": "ef30f5732c5527d141062de8",
@@ -1885,10 +1939,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1174,
+    "airbnb_checked": 1183,
     "total_airbnb": 2735,
-    "airbnb_remaining": 1561,
-    "eta_seconds": 17762.35342468534,
-    "updated_unix": 1795060175.233508
+    "airbnb_remaining": 1552,
+    "eta_seconds": 21463.367475470717,
+    "updated_unix": 1795060327.8267455
   }
 }
