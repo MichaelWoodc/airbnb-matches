@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795063074.8959298,
-  "content_signature": "08616198dd25292e20f0b1f11977602290ce2e895a6a8e2bd18163405dc3568c",
+  "published_unix": 1795063148.0512547,
+  "content_signature": "b37c83b2e8df751fd4e3e1dd9a61dda921cee32bfd0483a680d7c56533c3aa47",
   "matches": [
+    {
+      "key": "89d192e1c4ad4616d05213c8",
+      "airbnb": "17026442",
+      "address": "6 13TH PL_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/17026442",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/6-13th-Pl_Tybee-Island_GA_31328_M65625-74821",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 89.02552526805604,
+      "inliers": 224,
+      "discovered_unix": 1795063080.5876741,
+      "photos": [
+        [
+          "assets/c0908480ae613cbb8103604324f0a525.jpg",
+          "assets/cecb7e4c5e8367b21d32d8ef276af838.jpg"
+        ]
+      ]
+    },
     {
       "key": "2f42f77990ae8b1c1541d843",
       "airbnb": "1556837970166553256",
@@ -2099,10 +2119,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1444,
+    "airbnb_checked": 1450,
     "total_airbnb": 2727,
-    "airbnb_remaining": 1283,
-    "eta_seconds": 17632.984006390278,
-    "updated_unix": 1795063065.1453714
+    "airbnb_remaining": 1277,
+    "eta_seconds": 16929.886430385162,
+    "updated_unix": 1795063133.6602614
   }
 }
