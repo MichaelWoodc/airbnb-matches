@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795064509.4998713,
-  "content_signature": "c7bc289d0cf4ce286195045597708831f2fb227975b1807296488fdda91f4d6a",
+  "published_unix": 1795064592.6851323,
+  "content_signature": "a0a83c6d24465b5bbf1ce98f3fb500f6e21ab13391bb9ab8042752d3946768e7",
   "matches": [
     {
       "key": "4aef33f87a156cd084a95260",
@@ -2098,6 +2098,26 @@
       ]
     },
     {
+      "key": "223e6b4dbcc3e8a227b64d96",
+      "airbnb": "1503126807270924185",
+      "address": "UNIT 10",
+      "airbnb_url": "https://www.airbnb.com/rooms/1503126807270924185",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1615-Strand-St-Unit-10_Tybee-Island_GA_31328_M65369-71315",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 87.41213983987286,
+      "inliers": 180,
+      "discovered_unix": 1795064582.5226395,
+      "photos": [
+        [
+          "assets/b33ad349ace3cd96371a4b9aac9f114f.jpg",
+          "assets/6abd802deb6d2612b4f1c605d7dd40d9.jpg"
+        ]
+      ]
+    },
+    {
       "key": "fdfb4645f54fc67b5a29fda8",
       "airbnb": "10267190",
       "address": "7 14th St_Tybee Island_31328 -- 7-14th-St_Tybee-Island_GA_31328_M52204-50737-566a8dc3b93c",
@@ -2199,10 +2219,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1554,
+    "airbnb_checked": 1558,
     "total_airbnb": 2723,
-    "airbnb_remaining": 1169,
-    "eta_seconds": 18314.706370421816,
-    "updated_unix": 1795064491.8702328
+    "airbnb_remaining": 1165,
+    "eta_seconds": 17903.87937207611,
+    "updated_unix": 1795064582.0763671
   }
 }
