@@ -3596,5 +3596,5 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     }
   ],
-  "note": "Only explicitly user-confirmed property matches are categorized. Unlicensed means no matching record in the referenced sources; it is a review flag, not a legal finding. Other municipalities remain outside this report scope."
+  "note": "Only explicitly user-confirmed property matches are categorized. Unlicensed means no matching record in the referenced sources; it is a review flag, not a legal finding. The audit checks Savannah, Tybee Island, Thunderbolt, and unincorporated Chatham County sources."
 }
