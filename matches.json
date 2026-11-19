@@ -1,7 +1,47 @@
 {
-  "published_unix": 1795066030.0078623,
-  "content_signature": "c35a08b4f4e9eecd2961675993ad46231b148394452733cd2f3f05d417b35127",
+  "published_unix": 1795066191.555174,
+  "content_signature": "abb60023d018e3bad2fe00cf1f391c5b3217202380b9c88b17a2d26cc57aff13",
   "matches": [
+    {
+      "key": "cdc101745762eff2acade876",
+      "airbnb": "1309564710039750739",
+      "address": "5 Driiftwood Ct_Tybee Island_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1309564710039750739",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/5-Driiftwood-Ct_Tybee-Island_GA_31328_M58618-66423",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 79.08294199269844,
+      "inliers": 229,
+      "discovered_unix": 1795066008.0841403,
+      "photos": [
+        [
+          "assets/483be7bf449ffc3ddb57a29b5e95b430.jpg",
+          "assets/4fc42468b196b2d97ab3bdf5790cd5a2.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "015f9c8003fbfcc1fde39f3a",
+      "airbnb": "1503089280701821273",
+      "address": "8623 E CREIGHTON PL_SAVANNAH_31406",
+      "airbnb_url": "https://www.airbnb.com/rooms/1503089280701821273",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/8623-E-Creighton-Pl_Savannah_GA_31406_M68007-42593",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 143.1351368579828,
+      "inliers": 291,
+      "discovered_unix": 1795065977.6840758,
+      "photos": [
+        [
+          "assets/3ee2f02cf7ad16eb8536d988d49c6c59.jpg",
+          "assets/4bdc08653cc586633f33b1310108e19a.jpg"
+        ]
+      ]
+    },
     {
       "key": "4aef33f87a156cd084a95260",
       "airbnb": "37914293",
@@ -2098,46 +2138,6 @@
       ]
     },
     {
-      "key": "cdc101745762eff2acade876",
-      "airbnb": "1309564710039750739",
-      "address": "5 Driiftwood Ct_Tybee Island_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/1309564710039750739",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/5-Driiftwood-Ct_Tybee-Island_GA_31328_M58618-66423",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 79.08294199269844,
-      "inliers": 229,
-      "discovered_unix": 1795066008.0841403,
-      "photos": [
-        [
-          "assets/483be7bf449ffc3ddb57a29b5e95b430.jpg",
-          "assets/4fc42468b196b2d97ab3bdf5790cd5a2.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "015f9c8003fbfcc1fde39f3a",
-      "airbnb": "1503089280701821273",
-      "address": "8623 E CREIGHTON PL_SAVANNAH_31406",
-      "airbnb_url": "https://www.airbnb.com/rooms/1503089280701821273",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/8623-E-Creighton-Pl_Savannah_GA_31406_M68007-42593",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 143.1351368579828,
-      "inliers": 291,
-      "discovered_unix": 1795065977.6840758,
-      "photos": [
-        [
-          "assets/3ee2f02cf7ad16eb8536d988d49c6c59.jpg",
-          "assets/4bdc08653cc586633f33b1310108e19a.jpg"
-        ]
-      ]
-    },
-    {
       "key": "49187e4fbb98a572cd27f6cc",
       "airbnb": "1653110710424906883",
       "address": "UNIT 1",
@@ -2419,10 +2419,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1656,
-    "total_airbnb": 2723,
-    "airbnb_remaining": 1067,
-    "eta_seconds": 16319.902946632734,
-    "updated_unix": 1795066019.5016553
+    "airbnb_checked": 1666,
+    "total_airbnb": 2721,
+    "airbnb_remaining": 1055,
+    "eta_seconds": 14775.963357395054,
+    "updated_unix": 1795066177.8153214
   }
 }
