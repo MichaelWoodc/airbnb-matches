@@ -1,5 +1,5 @@
 {
-  "generated_unix": 1795058112.5601342,
+  "generated_unix": 1795058747.5781674,
   "source_manifest": {
     "0": {
       "url": "https://services5.arcgis.com/CEpuXecVrKGiDoOH/ArcGIS/rest/services/STR_Map_and_Parcel_WFL1/FeatureServer/0",
@@ -29,6 +29,8 @@
   },
   "records": [
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/a6493526af03bc172a47b725.html",
@@ -66,6 +68,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/fd1a88e93ba32d2b828a8390.html",
@@ -103,6 +107,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/11b10429596ed60f0e5475d8.html",
@@ -140,6 +146,8 @@
       "classification_note": "Conflicting user-confirmed property addresses; resolve before license classification"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/8a8373689ac85bdda048e094.html",
@@ -177,6 +185,8 @@
       "classification_note": "Conflicting user-confirmed property addresses; resolve before license classification"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/415dde2ee71bac5d1e511a49.html",
@@ -214,6 +224,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/85945ad8ea9c2b224c32adc3.html",
@@ -251,6 +263,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/a95fa719a1a01dad4a6720f6.html",
@@ -288,6 +302,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/012d2491abdec9c5e434d4a8.html",
@@ -325,6 +341,8 @@
       "classification_note": "Conflicting user-confirmed property addresses; resolve before license classification"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/08f95ee4465ea91ec960f145.html",
@@ -362,6 +380,8 @@
       "classification_note": "Conflicting user-confirmed property addresses; resolve before license classification"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/593defac0013faa5ff972572.html",
@@ -399,6 +419,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "User reports the listing currently requires stays of 30 days or longer. Savannah\u2019s short-term vacation rental certificate rule covers stays of 30 consecutive days or less. Stays longer than 30 consecutive days fall outside that rule. Confirm whether stays of exactly 30 days can be booked.",
+      "rental_term_source": "https://www.savannahga.gov/2327/STVR-Regulations",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/5b5749074ceb29c07a33618f.html",
@@ -436,6 +458,8 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/b2811012be8b4caa5db5c574.html",
@@ -473,6 +497,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/a29b026b6f76c27505faac78.html",
@@ -510,6 +536,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/1bb6170d24a3e8136fdbfafe.html",
@@ -547,6 +575,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/4512bbbf9f41a32d9817d606.html",
@@ -584,6 +614,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/00fef20f5c14f5406ba07410.html",
@@ -621,6 +653,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/e1095148b21811caedf96d38.html",
@@ -658,6 +692,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/a782b0abe0da9ad5d55ab9c5.html",
@@ -695,6 +731,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/b5d235ab49d259543f667886.html",
@@ -732,6 +770,8 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/b462cd08de054175c89c57d3.html",
@@ -769,6 +809,8 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/914aa30f202f370e612c6f3a.html",
@@ -806,6 +848,8 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/dd9ef34b1969221175d3a9f2.html",
@@ -843,6 +887,8 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/d2c33d06ffb0cecffa4c0677.html",
@@ -880,6 +926,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/3172df99183bc304d4815d97.html",
@@ -917,6 +965,8 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/84a12b3036be37d0b5602e15.html",
@@ -954,6 +1004,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/85cfb8d4e585a61ae7431598.html",
@@ -991,6 +1043,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/0365ea69a6733c14d66273b5.html",
@@ -1028,6 +1082,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/000229dc29e32616b761b657.html",
@@ -1065,6 +1121,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/aa3ef885f53d2e41cb021a05.html",
@@ -1102,6 +1160,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/9f68fe0bbfe83a10f2059d7c.html",
@@ -1139,6 +1199,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/5fb0d22c95743cb94169f7df.html",
@@ -1176,6 +1238,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/9bbbc0797bb12b1e08e207b7.html",
@@ -1213,6 +1277,8 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/5d2122675857800f3786a9e0.html",
@@ -1250,6 +1316,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/eb0a82641a14a45348369f9a.html",
@@ -1287,6 +1355,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/ffb2e2296b9fbdc401df6320.html",
@@ -1324,6 +1394,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/af7e9fbf1bf83600d3aaf646.html",
@@ -1361,6 +1433,8 @@
       "classification_note": "No matching active license record in the supplied source snapshot; not an agency determination"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/c90881728d7d5695dee8f59a.html",
@@ -1398,6 +1472,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/ae685d15d4f041eca96c48b3.html",
@@ -1435,6 +1511,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/c1cbb03238d6e178ab6e9fd2.html",
@@ -1472,6 +1550,8 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/ce2a007d7b380cc101dd8463.html",
@@ -1509,6 +1589,8 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/439c81e382935c31adfd142f.html",
@@ -1546,6 +1628,8 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/8d931d0e7250c20dbdde3dcb.html",
@@ -1583,6 +1667,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/f2adbddd41f82b3112997416.html",
@@ -1620,6 +1706,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/30124c44e44b2f4518c278aa.html",
@@ -1657,6 +1745,8 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/d1a6f7ea6acbf088ef9a05af.html",
@@ -1694,6 +1784,8 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/b4c69d88ff95ca0e6cb6d73f.html",
@@ -1731,6 +1823,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/e3a270f40cf20afde6cddb39.html",
@@ -1768,6 +1862,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/61e1e831a8b8ce776818fafc.html",
@@ -1805,6 +1901,8 @@
       "classification_note": "No matching active license record in the supplied source snapshot; not an agency determination"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/0136ddda2b34a2d2fcacdc74.html",
@@ -1842,6 +1940,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/2f0ba2a6b0dcb6161272b13b.html",
@@ -1879,6 +1979,8 @@
       "classification_note": "No matching active license record in the supplied source snapshot; not an agency determination"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/0e6c24ddcdb8ecbeea34f884.html",
@@ -1916,6 +2018,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/c4aaee420e2d24841d08338a.html",
@@ -1953,6 +2057,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/611b804192a662392012fb2b.html",
@@ -1990,6 +2096,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/20d88288e7d3a4d4d9c6f420.html",
@@ -2027,6 +2135,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/2d9b952a8451dbeac35bf34b.html",
@@ -2064,6 +2174,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/d4d02a569b872792826285ec.html",
@@ -2101,6 +2213,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/b3b2cb2a7f343bc0c217c19e.html",
@@ -2138,6 +2252,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/ef30f5732c5527d141062de8.html",
@@ -2175,6 +2291,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/8d450ce00a2d4b1a4b90b711.html",
@@ -2212,6 +2330,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/8440cf80f69a3a0afe81e050.html",
@@ -2249,6 +2369,8 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/49ed78fdfc75825c3c9e85fd.html",
@@ -2286,6 +2408,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/520ae02c284b2aab8282c8cb.html",
@@ -2323,6 +2447,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/ecb52ea61af1cc9b34218565.html",
@@ -2360,6 +2486,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/0095874746af3e1d5dec877f.html",
@@ -2397,6 +2525,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/0bb8d10f17a2f224c87344ce.html",
@@ -2434,6 +2564,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/37e70e6c9318dc64af2e61bf.html",
@@ -2471,6 +2603,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/402829f9fe574b70d24825ce.html",
@@ -2508,6 +2642,8 @@
       "classification_note": "No matching active license record in the supplied source snapshot; not an agency determination"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/37011092b61ad505537d95b9.html",
@@ -2545,6 +2681,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/b044c600a80ec85c25453cff.html",
@@ -2582,6 +2720,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "https://www.zillow.com/homedetails/40-Reese-Way-Savannah-GA-31419/80796415_zpid/",
       "address_correction_note": "User corrected research address to 40 Reese Way using Zillow. Side-by-side photos are for manual review; automatic fit has not been recomputed for this correction.",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/40ce05e9d1fe0e5b90710692.html",
@@ -2619,6 +2759,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/a96afec3ec6d231b5af54e6d.html",
@@ -2656,6 +2798,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/a1d11782da95cdde53b5ac23.html",
@@ -2693,6 +2837,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/0d2de2f9574bc0701f6526ba.html",
@@ -2730,6 +2876,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/c069a6b350f364d6fcc5fe74.html",
@@ -2767,6 +2915,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/83d05deb7e7aed7613d96306.html",
@@ -2804,6 +2954,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/cf756b4ea5230a403d8621d6.html",
@@ -2841,6 +2993,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/cd2547e5d05d87eb5685140d.html",
@@ -2878,6 +3032,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/5668ca026c04ec389e688091.html",
@@ -2915,6 +3071,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/9361524adf64a9a4b1298e9b.html",
@@ -2952,6 +3110,8 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "rental_term_note": "",
+      "rental_term_source": "",
       "address_proof_url": "",
       "address_correction_note": "",
       "photo_match_evidence": "https://michaelwoodc.github.io/airbnb-matches/licenses/evidence/84992d90ed4625a25c901faf.html",
