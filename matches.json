@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795074456.4621732,
-  "content_signature": "249ca7563f8bb47e5b2d03b49c6c89fc5e9eee9b025ca40217a4f97f50556e5d",
+  "published_unix": 1795074547.300521,
+  "content_signature": "2168ca2f7187bf4f8f8d6a14c6dfec994c54110bdc25bf1f864042302a5d14e8",
   "matches": [
     {
       "key": "7d6013ca091827c75d4872c4",
@@ -2858,46 +2858,6 @@
       ]
     },
     {
-      "key": "f327bfcb75d9247b49f531dd",
-      "airbnb": "1170939982231878458",
-      "address": "302 E Waldburg St_Savannah_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/1170939982231878458",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/302-E-Waldburg-St_Savannah_GA_31401_M69101-53869",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 7.194486587519038,
-      "inliers": 48,
-      "discovered_unix": 1795073996.7962682,
-      "photos": [
-        [
-          "assets/ca7ae89dbb89af21b8185b72c564fc46.jpg",
-          "assets/a31a7a6a8cce27a823fbcc666031df64.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "8513e1d410f87aa4983bb0c8",
-      "airbnb": "778318952725936457",
-      "address": "24 ROSEBERRY CIR_PORT WENTWORTH_31407",
-      "airbnb_url": "https://www.airbnb.com/rooms/778318952725936457",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/24-Roseberry-Cir_Port-Wentworth_GA_31407_M61574-04393",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 16.649534415273344,
-      "inliers": 71,
-      "discovered_unix": 1795073983.0000105,
-      "photos": [
-        [
-          "assets/4eaabd157d052f8ad4006a22cd9525ca.jpg",
-          "assets/97709fc78906818a5724a7840f846654.jpg"
-        ]
-      ]
-    },
-    {
       "key": "2bca7b3f489553b4c54cc333",
       "airbnb": "1751482998448630040",
       "address": "UNIT 301",
@@ -2979,10 +2939,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2019,
+    "airbnb_checked": 2024,
     "total_airbnb": 2686,
-    "airbnb_remaining": 667,
-    "eta_seconds": 29975.739526257224,
-    "updated_unix": 1795074442.9633298
+    "airbnb_remaining": 662,
+    "eta_seconds": 26028.153708847203,
+    "updated_unix": 1795074535.926046
   }
 }
