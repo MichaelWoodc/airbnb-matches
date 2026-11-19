@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795118513.5721772,
-  "content_signature": "d1a8d1e8f6ace41e2ec329bb57a3b63b630d243211f9887200622a2aef750aff",
+  "published_unix": 1795118598.8168652,
+  "content_signature": "0515c3520b18d6afd24165d891d3ffca1ffed5fc178ed5eb047702716c406f88",
   "matches": [
     {
       "key": "b73d5a1b688a6a52b6db5259",
@@ -3278,26 +3278,6 @@
       ]
     },
     {
-      "key": "31d066e34696824a417b6c46",
-      "airbnb": "1445002592648041413",
-      "address": "110 BERWICK LAKES BLVD_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/1445002592648041413",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/110-Berwick-Lakes-Blvd_Pooler_GA_31322_M63511-47400",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue follow-up"
-      ],
-      "score": 8.879375683346726,
-      "inliers": 48,
-      "discovered_unix": 1795118381.6674042,
-      "photos": [
-        [
-          "assets/154cde5adcefca791852932053fc813e.jpg",
-          "assets/5ced923a2ab1d4ae45ba7aacdb94a422.jpg"
-        ]
-      ]
-    },
-    {
       "key": "eb299b79689d1966b9282f41",
       "airbnb": "1213238104231607111",
       "address": "UNIT 2D",
@@ -3639,10 +3619,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 987,
+    "airbnb_checked": 1016,
     "total_airbnb": 2032,
-    "airbnb_remaining": 1045,
-    "eta_seconds": 2920.7435498675522,
-    "updated_unix": 1795118495.3949327
+    "airbnb_remaining": 1016,
+    "eta_seconds": 3057.4572765194644,
+    "updated_unix": 1795118583.2568188
   }
 }
