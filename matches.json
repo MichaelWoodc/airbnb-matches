@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795079289.6176913,
-  "content_signature": "d584642599ddd23f0c6ea4167c8ff7b5d34ac875a0ee7932a26a5b29d9a3173d",
+  "published_unix": 1795079530.4830608,
+  "content_signature": "0c3b140eac53e9a5d6540287bb93641cf1b7fe92d24dbe2a52b26226d13187ae",
   "matches": [
     {
       "key": "46bbd7f09dbd7a3e3e0ccf06",
@@ -2998,6 +2998,26 @@
       ]
     },
     {
+      "key": "57bcf19635e7987b0ffe50b8",
+      "airbnb": "1583570111217517171",
+      "address": "806 ROBIN DR_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1583570111217517171",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/806-Robin-Dr_Pooler_GA_31322_M68978-29513",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 70.9115849586717,
+      "inliers": 194,
+      "discovered_unix": 1795079476.9325383,
+      "photos": [
+        [
+          "assets/36f6789d6c6f827dd5ea5b9288b19b16.jpg",
+          "assets/5378cfc0b1f0eef98ef52cc130b68dee.jpg"
+        ]
+      ]
+    },
+    {
       "key": "33d29a43430d0ab54af67695",
       "airbnb": "32810756",
       "address": "415 E HULL ST_SAVANNAH_31401",
@@ -3359,10 +3379,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2137,
+    "airbnb_checked": 2147,
     "total_airbnb": 2678,
-    "airbnb_remaining": 541,
-    "eta_seconds": 17469.667558178608,
-    "updated_unix": 1795079276.7433662
+    "airbnb_remaining": 531,
+    "eta_seconds": 15506.39594310157,
+    "updated_unix": 1795079516.7927139
   }
 }
