@@ -1,7 +1,47 @@
 {
-  "published_unix": 1795068820.540391,
-  "content_signature": "c96c7728e2a918a529fdc7c2d94c74e9901102e85e8d27845cba90290ad6be93",
+  "published_unix": 1795068910.5678866,
+  "content_signature": "b83bd6d3e2f03860bf938550e7a75be2f16b10a970aa4098dbb3725170290b35",
   "matches": [
+    {
+      "key": "b0ae69390821b39bffd3299a",
+      "airbnb": "1655335896944843984",
+      "address": "7 CEDAR CV_SAVANNAH_31410",
+      "airbnb_url": "https://www.airbnb.com/rooms/1655335896944843984",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/7-Cedar-Cv_Savannah_GA_31410_M57190-98612",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 16.509301664819745,
+      "inliers": 83,
+      "discovered_unix": 1795068696.2418828,
+      "photos": [
+        [
+          "assets/31164a4393dfa53aeed7b208cb4f7e23.jpg",
+          "assets/d831eff3c68d99a346438e2de1a9be7f.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "676a89f2a928762bdd0b850d",
+      "airbnb": "895577613821653123",
+      "address": "141 AQUINNAH DR_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/895577613821653123",
+      "realtor_url": "https://www.realtor.com/rentals/details/141-Aquinnah-Dr_Pooler_GA_31322_M51192-96816",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 17.606272243512162,
+      "inliers": 93,
+      "discovered_unix": 1795068672.7629006,
+      "photos": [
+        [
+          "assets/f5e18e7570edc411e3b6c4e8a1f02591.jpg",
+          "assets/d4cb67135b077cfb7193bb3feeae03ca.jpg"
+        ]
+      ]
+    },
     {
       "key": "eec542aa430b48cc70a44f0e",
       "airbnb": "1439942573704952163",
@@ -2518,46 +2558,6 @@
       ]
     },
     {
-      "key": "b0ae69390821b39bffd3299a",
-      "airbnb": "1655335896944843984",
-      "address": "7 CEDAR CV_SAVANNAH_31410",
-      "airbnb_url": "https://www.airbnb.com/rooms/1655335896944843984",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/7-Cedar-Cv_Savannah_GA_31410_M57190-98612",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 16.509301664819745,
-      "inliers": 83,
-      "discovered_unix": 1795068696.2418828,
-      "photos": [
-        [
-          "assets/31164a4393dfa53aeed7b208cb4f7e23.jpg",
-          "assets/d831eff3c68d99a346438e2de1a9be7f.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "676a89f2a928762bdd0b850d",
-      "airbnb": "895577613821653123",
-      "address": "141 AQUINNAH DR_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/895577613821653123",
-      "realtor_url": "https://www.realtor.com/rentals/details/141-Aquinnah-Dr_Pooler_GA_31322_M51192-96816",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 17.606272243512162,
-      "inliers": 93,
-      "discovered_unix": 1795068672.7629006,
-      "photos": [
-        [
-          "assets/f5e18e7570edc411e3b6c4e8a1f02591.jpg",
-          "assets/d4cb67135b077cfb7193bb3feeae03ca.jpg"
-        ]
-      ]
-    },
-    {
       "key": "b707fff13eebb8496ccee075",
       "airbnb": "929118044034442797",
       "address": "104 Butler Ave_Tybee Island_31328 -- 104-Butler-Ave_Tybee-Island_GA_31328_M62277-64572-efabbdf09c59",
@@ -2659,10 +2659,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1801,
-    "total_airbnb": 2703,
-    "airbnb_remaining": 902,
-    "eta_seconds": 19300.539579070344,
-    "updated_unix": 1795068808.7430317
+    "airbnb_checked": 1800,
+    "total_airbnb": 2701,
+    "airbnb_remaining": 901,
+    "eta_seconds": 20335.77973533163,
+    "updated_unix": 1795068897.997981
   }
 }
