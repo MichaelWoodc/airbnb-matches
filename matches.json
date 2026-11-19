@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795117021.9252758,
-  "content_signature": "634295a43be7dfd03a38c1ff9a2563d7203d5981a5788168fbe33beb5e7afe93",
+  "published_unix": 1795117101.4306176,
+  "content_signature": "8913d01cbffa8a37cc46d4449538675d7e4d6d20f392c1eb9e46fc6680318f6e",
   "matches": [
+    {
+      "key": "503a6bf8d82e1fbc432e0c21",
+      "airbnb": "1737117846901687324",
+      "address": "5 SANDY SHOALS PASS_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1737117846901687324",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/5-Sandy-Shoals-Pass_Port-Wentworth_GA_31407_M62670-41653",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 54.77883653211268,
+      "inliers": 147,
+      "discovered_unix": 1795081503.9100468,
+      "photos": [
+        [
+          "assets/e087482c3f964d271042836683c3e44d.jpg",
+          "assets/adb8251677f78e5d42a0c08ec00a4ca7.jpg"
+        ]
+      ]
+    },
     {
       "key": "b73d5a1b688a6a52b6db5259",
       "airbnb": "1696783109839497109",
@@ -3258,26 +3278,6 @@
       ]
     },
     {
-      "key": "503a6bf8d82e1fbc432e0c21",
-      "airbnb": "1737117846901687324",
-      "address": "5 SANDY SHOALS PASS_PORT WENTWORTH_31407",
-      "airbnb_url": "https://www.airbnb.com/rooms/1737117846901687324",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/5-Sandy-Shoals-Pass_Port-Wentworth_GA_31407_M62670-41653",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 54.77883653211268,
-      "inliers": 147,
-      "discovered_unix": 1795081503.9100468,
-      "photos": [
-        [
-          "assets/e087482c3f964d271042836683c3e44d.jpg",
-          "assets/adb8251677f78e5d42a0c08ec00a4ca7.jpg"
-        ]
-      ]
-    },
-    {
       "key": "be88c373a33d70cb5800ce1a",
       "airbnb": "1541441702416475464",
       "address": "216 W HUNTINGDON ST_SAVANNAH_31401",
@@ -3479,10 +3479,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2666,
-    "total_airbnb": 2666,
+    "airbnb_checked": 2665,
+    "total_airbnb": 2665,
     "airbnb_remaining": 0,
     "eta_seconds": null,
-    "updated_unix": 1795117008.635442
+    "updated_unix": 1795117087.7712533
   }
 }
