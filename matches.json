@@ -1,7 +1,31 @@
 {
-  "published_unix": 1795047262.9911432,
-  "content_signature": "453d3fadc131b067e90e477425005a6bb53f856fedbb7acbd8370a3c40680306",
+  "published_unix": 1795048275.043996,
+  "content_signature": "6585a9ef57c2188edffc6189a7f2769597a41c5ab7a199a49b706b878e02bd42",
   "matches": [
+    {
+      "key": "40ce05e9d1fe0e5b90710692",
+      "airbnb": "812402910015645334",
+      "address": "40 Reese Way",
+      "airbnb_url": "https://www.airbnb.com/rooms/812402910015645334",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/40-Reese-Way_Savannah_GA_31419_M61575-77059",
+      "verified": true,
+      "methods": [
+        "User-corrected research address"
+      ],
+      "score": null,
+      "inliers": null,
+      "discovered_unix": 1795048197.1476843,
+      "photos": [
+        [
+          "assets/48828d11ceb647fe176ccd9f8cba5ef7.jpg",
+          "assets/196841355c83a1e0081a8cd69a30a22c.jpg"
+        ],
+        [
+          "assets/5c681e88ad47186876acca2032d98494.jpg",
+          "assets/7005432d7aff4dfea263f6f16b16e0e8.jpg"
+        ]
+      ]
+    },
     {
       "key": "37011092b61ad505537d95b9",
       "airbnb": "52492275",
@@ -1396,26 +1420,6 @@
       ]
     },
     {
-      "key": "1c93a9e5b06f1f005f86297d",
-      "airbnb": "812402910015645334",
-      "address": "97 REESE WAY_SAVANNAH_31419",
-      "airbnb_url": "https://www.airbnb.com/rooms/812402910015645334",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/97-Reese-Way_Savannah_GA_31419_M56433-56912",
-      "verified": true,
-      "methods": [
-        "Earlier direct-photo matching"
-      ],
-      "score": null,
-      "inliers": null,
-      "discovered_unix": 0,
-      "photos": [
-        [
-          "assets/5f6fdbbada07d77e3bb83d7acaa1ade7.jpg",
-          "assets/1613aa103d9cabf3ae84ed7bf5d0d5f9.jpg"
-        ]
-      ]
-    },
-    {
       "key": "8440cf80f69a3a0afe81e050",
       "airbnb": "816728783862780882",
       "address": "UNIT 4",
@@ -1581,10 +1585,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 547,
-    "total_airbnb": 3631,
-    "airbnb_remaining": 3084,
-    "eta_seconds": 113728.50891191133,
-    "updated_unix": 1795047252.9230416
+    "airbnb_checked": 551,
+    "total_airbnb": 3579,
+    "airbnb_remaining": 3028,
+    "eta_seconds": 131339.93280527543,
+    "updated_unix": 1795048263.283599
   }
 }
