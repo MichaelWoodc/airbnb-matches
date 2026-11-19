@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795064592.6851323,
-  "content_signature": "a0a83c6d24465b5bbf1ce98f3fb500f6e21ab13391bb9ab8042752d3946768e7",
+  "published_unix": 1795064965.3866987,
+  "content_signature": "a1d440ded25903462add98a700b22e10a85d3eae1d74cde40035c28eca5ded86",
   "matches": [
     {
       "key": "4aef33f87a156cd084a95260",
@@ -2098,6 +2098,26 @@
       ]
     },
     {
+      "key": "84c907e0d07d3d9c3c8d3cca",
+      "airbnb": "54003806",
+      "address": "1017 LOVELL AVE_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/54003806",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1017-Lovell-Ave_Tybee-Island_GA_31328_M60117-58084",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 29.855524427711224,
+      "inliers": 140,
+      "discovered_unix": 1795064889.2118142,
+      "photos": [
+        [
+          "assets/f28df71d95847c9e090f2c85bc277837.jpg",
+          "assets/22fa1783478023a01d1789c57dc82921.jpg"
+        ]
+      ]
+    },
+    {
       "key": "223e6b4dbcc3e8a227b64d96",
       "airbnb": "1503126807270924185",
       "address": "UNIT 10",
@@ -2219,10 +2239,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1558,
+    "airbnb_checked": 1587,
     "total_airbnb": 2723,
-    "airbnb_remaining": 1165,
-    "eta_seconds": 17903.87937207611,
-    "updated_unix": 1795064582.0763671
+    "airbnb_remaining": 1136,
+    "eta_seconds": 16491.310346019513,
+    "updated_unix": 1795064953.6403491
   }
 }
