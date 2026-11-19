@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795119610.687482,
-  "content_signature": "dfabb8fbc6aab77b222f9be736b6de8f736949c531e6f38e8e795356ce3e06d8",
+  "published_unix": 1795119703.4039893,
+  "content_signature": "858ceee16f0dfb03c6dd1a3b6967c977e6c1ad52b55bf9abf9aca918baa6302b",
   "matches": [
     {
       "key": "f97126371a201e63275e9525",
@@ -3278,6 +3278,26 @@
       ]
     },
     {
+      "key": "f70dfdf11ccef93f82db9bcf",
+      "airbnb": "1743959553014093798",
+      "address": "UNIT C",
+      "airbnb_url": "https://www.airbnb.com/rooms/1743959553014093798",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/501-E-Charlton-St-Apt-C_Savannah_GA_31401_M50240-40541",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue follow-up"
+      ],
+      "score": 10.673812542246386,
+      "inliers": 56,
+      "discovered_unix": 1795119625.1309192,
+      "photos": [
+        [
+          "assets/035893d686be9e9df4d7f4f6a1a22659.jpg",
+          "assets/2c68821c839c0f630184310599e12cf0.jpg"
+        ]
+      ]
+    },
+    {
       "key": "bae20fb95ed0f72044ba71c1",
       "airbnb": "1255875828286024532",
       "address": "703 2ND AVE_TYBEE ISLAND_31328",
@@ -3520,10 +3540,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1323,
+    "airbnb_checked": 1350,
     "total_airbnb": 2030,
-    "airbnb_remaining": 707,
-    "eta_seconds": 2558.4182981082367,
-    "updated_unix": 1795119596.9391813
+    "airbnb_remaining": 680,
+    "eta_seconds": 2607.4117936893385,
+    "updated_unix": 1795119701.6330295
   }
 }
