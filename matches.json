@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795054868.4116879,
-  "content_signature": "deba1ff27222e9332ab84a2a48f1d6b90df048cad02835608fdddd7b8d519554",
+  "published_unix": 1795055007.5697043,
+  "content_signature": "be847d4e4e90c82ea3dd12a8663675bc598f8b584cd9757333c23a210f08f144",
   "matches": [
+    {
+      "key": "83d05deb7e7aed7613d96306",
+      "airbnb": "1554548018188270041",
+      "address": "UNIT B",
+      "airbnb_url": "https://www.airbnb.com/rooms/1554548018188270041",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/149-S-Campbell-Ave-Apt-B_Tybee-Island_GA_31328_M52787-15503",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 14.778852281255833,
+      "inliers": 92,
+      "discovered_unix": 1795054965.9136627,
+      "photos": [
+        [
+          "assets/44d99285293b17d4650af6da2a1d3354.jpg",
+          "assets/12415af0b6e92da543f4ea2fd4b3b294.jpg"
+        ]
+      ]
+    },
     {
       "key": "cd2547e5d05d87eb5685140d",
       "airbnb": "1555799270410659446",
@@ -1641,10 +1661,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 657,
+    "airbnb_checked": 677,
     "total_airbnb": 2744,
-    "airbnb_remaining": 2087,
-    "eta_seconds": 10906.813665341359,
-    "updated_unix": 1795054854.8171568
+    "airbnb_remaining": 2067,
+    "eta_seconds": 13448.930533428582,
+    "updated_unix": 1795054998.875365
   }
 }
