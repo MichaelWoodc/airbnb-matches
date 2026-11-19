@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795078962.6230233,
-  "content_signature": "91f02d5fbfc3e296521c939002563a94ca84f4512329dfabbad4d8db930dcc03",
+  "published_unix": 1795079124.8261461,
+  "content_signature": "ac62e73b56ccb1029c86e771590cfabf7b227b2d11e5548c85bb5333de7c9ae1",
   "matches": [
     {
       "key": "46bbd7f09dbd7a3e3e0ccf06",
@@ -2998,6 +2998,26 @@
       ]
     },
     {
+      "key": "260678f5a7e568f870f935f2",
+      "airbnb": "1024557334155049664",
+      "address": "501 E 34TH ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1024557334155049664",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/501-E-34th-St_Savannah_GA_31401_M66375-49313",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 19.77753270629038,
+      "inliers": 111,
+      "discovered_unix": 1795079073.5890157,
+      "photos": [
+        [
+          "assets/806c2be02f0c0d3172f73eaf5e1e816d.jpg",
+          "assets/e49e86f7c8f6d8e34b80ee7e9e168328.jpg"
+        ]
+      ]
+    },
+    {
       "key": "9d625a75aa49d19a5151da62",
       "airbnb": "1039981723043243595",
       "address": "117 OBERLIN RD_GARDEN CITY_31408",
@@ -3319,10 +3339,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2123,
+    "airbnb_checked": 2133,
     "total_airbnb": 2678,
-    "airbnb_remaining": 555,
-    "eta_seconds": 19822.095319251624,
-    "updated_unix": 1795078943.353552
+    "airbnb_remaining": 545,
+    "eta_seconds": 17150.423494407107,
+    "updated_unix": 1795079110.3758214
   }
 }
