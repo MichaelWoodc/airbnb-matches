@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795061325.4460962,
-  "content_signature": "1f8a3b7a5018542d99e11fcb89452b1b15eb7273b3d1b7ae217ad98ca1b4cd84",
+  "published_unix": 1795061399.3084803,
+  "content_signature": "fe3c125bf5c92702c57d66f4bdd9b566c903735fc971431456464c102142e28a",
   "matches": [
+    {
+      "key": "0c44d0b4430d0cb57246a06c",
+      "airbnb": "1570698024804705654",
+      "address": "14 E 41ST ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1570698024804705654",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/14-E-41st-St_Savannah_GA_31401_M51498-81516",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 9.80751822280036,
+      "inliers": 83,
+      "discovered_unix": 1795061378.3329034,
+      "photos": [
+        [
+          "assets/2e8506dd9ade240e78bf0d96d992edb3.jpg",
+          "assets/bef616eb082d3ee893a3f973f4216a11.jpg"
+        ]
+      ]
+    },
     {
       "key": "d002eb2457deb92fc7b8a81d",
       "airbnb": "1737118661541412284",
@@ -1979,10 +1999,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1281,
+    "airbnb_checked": 1286,
     "total_airbnb": 2730,
-    "airbnb_remaining": 1449,
-    "eta_seconds": 13243.088086264474,
-    "updated_unix": 1795061317.5409355
+    "airbnb_remaining": 1444,
+    "eta_seconds": 14353.153692420648,
+    "updated_unix": 1795061385.9730704
   }
 }
