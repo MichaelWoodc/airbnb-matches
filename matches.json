@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795118690.3479176,
-  "content_signature": "1c9fa5d3db7560c80e7db4f6982aaaa7048ffefffbc0b4adbb1c6e30980606ae",
+  "published_unix": 1795118797.0782707,
+  "content_signature": "a6a8f8d9c2a1a10e12e5de345ad45b8ef0d946b1d21ceeeccda6480824f244a3",
   "matches": [
     {
       "key": "b73d5a1b688a6a52b6db5259",
@@ -3238,6 +3238,26 @@
       ]
     },
     {
+      "key": "f97126371a201e63275e9525",
+      "airbnb": "1245789335495266847",
+      "address": "1325 E 69TH ST_SAVANNAH_31404",
+      "airbnb_url": "https://www.airbnb.com/rooms/1245789335495266847",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1325-E-69th-St_Savannah_GA_31404_M61445-21322",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue follow-up"
+      ],
+      "score": 105.9015777217641,
+      "inliers": 212,
+      "discovered_unix": 1795118680.102983,
+      "photos": [
+        [
+          "assets/1db57120a1faff3f2329fe7237ed17a4.jpg",
+          "assets/854d39bf2740e9162f167953002cda50.jpg"
+        ]
+      ]
+    },
+    {
       "key": "a9bf06a9add773799b0816a3",
       "airbnb": "1244458403795084365",
       "address": "169 AQUINNAH DR_POOLER_31322",
@@ -3314,26 +3334,6 @@
         [
           "assets/ef5b64ff0256c4dae1d9b8c292a81991.jpg",
           "assets/ab56ad355ed8acb381791136217dd2f1.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "b7183012569c63868be42bd9",
-      "airbnb": "724554925831356219",
-      "address": "1323 WHITFIELD PARK DR_SAVANNAH_31406",
-      "airbnb_url": "https://www.airbnb.com/rooms/724554925831356219",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1323-Whitfield-Park-Dr_Savannah_GA_31406_M50662-62459",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue follow-up"
-      ],
-      "score": 7.21756817199224,
-      "inliers": 55,
-      "discovered_unix": 1795117909.78261,
-      "photos": [
-        [
-          "assets/9fa05245ec670b2c0e9ef32b89cd477f.jpg",
-          "assets/4b2d2a92637dbc6c5d175baf3083560c.jpg"
         ]
       ]
     },
@@ -3599,10 +3599,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1048,
-    "total_airbnb": 2032,
-    "airbnb_remaining": 984,
-    "eta_seconds": 3104.4053798208433,
-    "updated_unix": 1795118687.6811051
+    "airbnb_checked": 1087,
+    "total_airbnb": 2031,
+    "airbnb_remaining": 944,
+    "eta_seconds": 2718.3847074703294,
+    "updated_unix": 1795118792.7320998
   }
 }
