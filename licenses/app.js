@@ -56,7 +56,7 @@ async function renderMap(listings){
     .setContent(content.html+(nearby?'<hr><h4>Other markers here</h4>'+nearby:'')).openOn(map);
   });
  }
- const [registry,sources,boundaries,parcels]=await Promise.all(['registry/licensed_locations.json','map_sources.json','municipalities.geojson','licensed_parcels.geojson'].map(async path=>{
+ const [registry,sources,boundaries,parcels,outsideOverlay]=await Promise.all(['registry/licensed_locations.json','map_sources.json','municipalities.geojson','licensed_parcels.geojson','savannah_outside_stvr_overlay.geojson'].map(async path=>{
   const response=await fetch(path);if(!response.ok)throw Error('Map source unavailable: '+path);return response.json();
  }));
  const registryById=new Map(registry.records.map(row=>[row.source_id,row]));
@@ -136,6 +136,14 @@ async function renderMap(listings){
  const outlines=L.geoJSON(boundaries,{pane:'jurisdiction-boundaries',renderer:L.svg({pane:'jurisdiction-boundaries'}),interactive:false,
   style:feature=>({color:palette[feature.properties.NAME]||'#687280',weight:2,opacity:.8,fillOpacity:.09})}).addTo(map);
  overlays['Jurisdiction boundaries (SAGIS)']=outlines;
+ map.createPane('savannah-stvr-zoning');
+ const zoningPane=map.getPane('savannah-stvr-zoning');
+ zoningPane.style.zIndex=360;
+ zoningPane.style.pointerEvents='none';
+ overlays['Savannah outside the STVR overlay']=L.geoJSON(outsideOverlay,{
+  pane:'savannah-stvr-zoning',renderer:L.svg({pane:'savannah-stvr-zoning'}),interactive:false,
+  style:{stroke:false,fillColor:'#efc42b',fillOpacity:.23}
+ }).addTo(map);
  map.createPane('licensed-parcels');
  map.getPane('licensed-parcels').style.zIndex=370;
  const parcelRenderer=L.canvas({pane:'licensed-parcels'});
@@ -152,6 +160,7 @@ async function renderMap(listings){
  legend.onAdd=()=>{
   const box=L.DomUtil.create('div','map-legend');
   box.innerHTML='<div><span style="background:#a3dbb1;border-color:#08713b;border-radius:2px"></span> Licensed parcel</div>'+
+   '<div><span style="background:#f6e7a2;border-color:#bd9212;border-radius:2px"></span> Savannah outside STVR overlay</div>'+
    '<div><span class="reported-legend"></span> Complaint reported</div>'+
    '<div><span class="removed-legend"></span> Listing reported removed</div>'+
    '<div><span style="border-color:'+green+'"></span> Listed as licensed</div>'+
