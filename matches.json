@@ -1,7 +1,45 @@
 {
-  "published_unix": 1795128190.1899536,
-  "content_signature": "3a6e5dad5ca56883ae9f0eed8b3a82035d7b5564ab6276e053f89cbe3d35c856",
+  "published_unix": 1795132267.3439639,
+  "content_signature": "43a29487a7274675b54b5ced6031511944ab9f997272c4908feeaf29caf3ebf0",
   "matches": [
+    {
+      "key": "3f91aea979ffdbd185130ece",
+      "airbnb": "699910823067750108",
+      "address": "452 Altamaha St",
+      "airbnb_url": "https://www.airbnb.com/rooms/699910823067750108",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/452-Altamaha-St_Savannah_GA_31401_M93900-12707",
+      "verified": true,
+      "score": null,
+      "inliers": null,
+      "discovered_unix": 1795132244.1646566,
+      "photos": [
+        [
+          "assets/8a0b1b0892bc721c1bc2f2401705d735.jpg",
+          "assets/94c9c7f32a3f76bca264f3d088b449ee.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "ee5338c214413f49e7c87631",
+      "airbnb": "596590113878015820",
+      "address": "236 SONOMA DR_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/596590113878015820",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/236-Sonoma-Dr_Pooler_GA_31322_M92009-99836",
+      "verified": true,
+      "score": 67.51303119260642,
+      "inliers": 340,
+      "discovered_unix": 1795131953.256316,
+      "photos": [
+        [
+          "assets/ca5436fb189acd48087836e933aeb2af.jpg",
+          "assets/97e8198c908e8e423eea046d5ba1ee2b.jpg"
+        ],
+        [
+          "assets/35be5f92ce06acf62be8bafd25f30c9a.jpg",
+          "assets/0354b9a4f5aa29e7883c971684793ed6.jpg"
+        ]
+      ]
+    },
     {
       "key": "8de114dd9e5ed14c5c020ed1",
       "airbnb": "1407198241484860464",
@@ -3067,9 +3105,9 @@
   ],
   "progress": {
     "airbnb_checked": 2026,
-    "total_airbnb": 2027,
-    "airbnb_remaining": 1,
-    "eta_seconds": 35.55204155493756,
-    "updated_unix": 1795128172.0037158
+    "total_airbnb": 2026,
+    "airbnb_remaining": 0,
+    "eta_seconds": null,
+    "updated_unix": 1795132246.7390969
   }
 }
