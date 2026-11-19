@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795057038.3500535,
-  "content_signature": "2d12a832db0c016eec252f777f8b4801e6a8a5a65c65f6f7d961981ab91b512b",
+  "published_unix": 1795057102.4575796,
+  "content_signature": "75b4cb05556dbc98c418877f55ce9ec97e89e09d0edc2f08cac0092ca03540d9",
   "matches": [
     {
       "key": "9361524adf64a9a4b1298e9b",
@@ -201,93 +201,13 @@
           "assets/2c264684fa3901e8486dda24e6129fb7.jpg"
         ]
       ]
-    },
-    {
-      "key": "cf756b4ea5230a403d8621d6",
-      "airbnb": "1527908669890523241",
-      "address": "13 TARA MANOR DR_SAVANNAH_31406",
-      "airbnb_url": "https://www.airbnb.com/rooms/1527908669890523241",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/13-Tara-Manor-Dr_Savannah_GA_31406_M67679-85829",
-      "verified": true,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 32.42325519334493,
-      "inliers": 125,
-      "discovered_unix": 1795055180.6667993,
-      "photos": [
-        [
-          "assets/ac2376b7ab35ce387459eaf907620c61.jpg",
-          "assets/c95ad81d1154eeaba0eeaccad350b45b.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "c069a6b350f364d6fcc5fe74",
-      "airbnb": "42621247",
-      "address": "302 WENDY HILL RD_SAVANNAH_31410",
-      "airbnb_url": "https://www.airbnb.com/rooms/42621247",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/302-Wendy-Hill-Rd_Savannah_GA_31410_M60115-24463",
-      "verified": true,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 67.02857399930431,
-      "inliers": 181,
-      "discovered_unix": 1795055169.9143934,
-      "photos": [
-        [
-          "assets/83efa307e613c608d2885a56ddfd294e.jpg",
-          "assets/0a3f0083961e80c9c8f55bf03cca2dd4.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "83d05deb7e7aed7613d96306",
-      "airbnb": "1554548018188270041",
-      "address": "UNIT B",
-      "airbnb_url": "https://www.airbnb.com/rooms/1554548018188270041",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/149-S-Campbell-Ave-Apt-B_Tybee-Island_GA_31328_M52787-15503",
-      "verified": true,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 14.778852281255833,
-      "inliers": 92,
-      "discovered_unix": 1795054965.9136627,
-      "photos": [
-        [
-          "assets/44d99285293b17d4650af6da2a1d3354.jpg",
-          "assets/12415af0b6e92da543f4ea2fd4b3b294.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "cd2547e5d05d87eb5685140d",
-      "airbnb": "1555799270410659446",
-      "address": "3325 Bannon Ave_Savannah_31404",
-      "airbnb_url": "https://www.airbnb.com/rooms/1555799270410659446",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3325-Bannon-Dr_Savannah_GA_31404_M63145-17975",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 20.45078144272304,
-      "inliers": 92,
-      "discovered_unix": 1795054797.162908,
-      "photos": [
-        [
-          "assets/ebd73a9f88c60da57269d0bac3735e01.jpg",
-          "assets/592dc4ec63ff9bd08030809d9c0c38a8.jpg"
-        ]
-      ]
     }
   ],
   "progress": {
-    "airbnb_checked": 900,
-    "total_airbnb": 2741,
-    "airbnb_remaining": 1841,
-    "eta_seconds": 18512.9681895801,
-    "updated_unix": 1795057022.8181381
+    "airbnb_checked": 904,
+    "total_airbnb": 2740,
+    "airbnb_remaining": 1836,
+    "eta_seconds": 18537.918362325552,
+    "updated_unix": 1795057088.818735
   }
 }
