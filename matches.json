@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795117485.9022553,
-  "content_signature": "7ee2a21de043e7ceab62399d56565bac53c28850076c3ed8cfe0d3ba12f882bf",
+  "published_unix": 1795117595.7300189,
+  "content_signature": "cdd7cc3deaa3775d0ed4812c16f9517e6b38d32c1337ecbbed9974de65a92f5f",
   "matches": [
     {
       "key": "b73d5a1b688a6a52b6db5259",
@@ -3238,6 +3238,26 @@
       ]
     },
     {
+      "key": "584a43ee61265c2fb1e95fa6",
+      "airbnb": "1263713354495392521",
+      "address": "2123 HART AVE_SAVANNAH_31405",
+      "airbnb_url": "https://www.airbnb.com/rooms/1263713354495392521",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/2123-Hart-Ave_Savannah_GA_31405_M53974-07624",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue follow-up"
+      ],
+      "score": 7.829561055615883,
+      "inliers": 36,
+      "discovered_unix": 1795117520.394574,
+      "photos": [
+        [
+          "assets/15bba895eb48d54f6dc281e74281eee6.jpg",
+          "assets/0b3bb1a8e2ef93aca40b262dec6ba8b5.jpg"
+        ]
+      ]
+    },
+    {
       "key": "9191aa43d15ea7c2accd66c9",
       "airbnb": "47314445",
       "address": "1 BARRINGTON CT_POOLER_31322",
@@ -3459,10 +3479,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 423,
-    "total_airbnb": 2030,
-    "airbnb_remaining": 1607,
-    "eta_seconds": 1533.2121236762223,
-    "updated_unix": 1795117474.085666
+    "airbnb_checked": 508,
+    "total_airbnb": 2032,
+    "airbnb_remaining": 1524,
+    "eta_seconds": 1758.0051236249963,
+    "updated_unix": 1795117593.137013
   }
 }
