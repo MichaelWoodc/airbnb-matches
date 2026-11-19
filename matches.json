@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795054132.616167,
-  "content_signature": "fcdc4174b2f9906be8a0e218de5587f43cd4ffe6182e0cb6dcb5644fcd8a2a44",
+  "published_unix": 1795054213.127614,
+  "content_signature": "bad8d49031ebce7e5efa19905d35c2d7bd4bffea21d1ea43195fd1552a6a977c",
   "matches": [
+    {
+      "key": "451bbbee033dad6a8a8e768d",
+      "airbnb": "1008583598206861190",
+      "address": "524 POINTE NORTH DR_SAVANNAH_31410",
+      "airbnb_url": "https://www.airbnb.com/rooms/1008583598206861190",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/524-Pointe-North-Dr_Savannah_GA_31410_M56864-90913",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 8.906519640832515,
+      "inliers": 62,
+      "discovered_unix": 1795054128.30781,
+      "photos": [
+        [
+          "assets/ab63c2f8cca6c29ee5d95a10136d7fc0.jpg",
+          "assets/175a05fa2faf85ca512af24f38f61dd1.jpg"
+        ]
+      ]
+    },
     {
       "key": "37011092b61ad505537d95b9",
       "airbnb": "52492275",
@@ -1561,10 +1581,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 666,
-    "total_airbnb": 3161,
-    "airbnb_remaining": 2495,
-    "eta_seconds": 19268.48039211059,
-    "updated_unix": 1795054118.8337321
+    "airbnb_checked": 662,
+    "total_airbnb": 3105,
+    "airbnb_remaining": 2443,
+    "eta_seconds": 13935.468604530608,
+    "updated_unix": 1795054199.1351447
   }
 }
