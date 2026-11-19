@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795079698.636106,
-  "content_signature": "048f305520fce2f935e1d9f07095a5f66b2107f27c55ba5b79c3468341eda7fd",
+  "published_unix": 1795080085.4235063,
+  "content_signature": "bcdf0531a2e4a93cfec0d45d8383ae9d3620e9bfb5d56d2cb9b432c0ddc96d99",
   "matches": [
     {
       "key": "46bbd7f09dbd7a3e3e0ccf06",
@@ -2998,6 +2998,26 @@
       ]
     },
     {
+      "key": "8be2f1433059517916e2bfee",
+      "airbnb": "19245762",
+      "address": "402 E MCDONOUGH ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/19245762",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/402-E-McDonough-St_Savannah_GA_31401_M50284-49449",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 12.87370910791443,
+      "inliers": 77,
+      "discovered_unix": 1795080049.7088575,
+      "photos": [
+        [
+          "assets/57740e181ed4e738756d133256f6dc02.jpg",
+          "assets/ab3ebf6a02c204e65c224653ec29ff78.jpg"
+        ]
+      ]
+    },
+    {
       "key": "28d44255980865e1255b2373",
       "airbnb": "1300951385551209633",
       "address": "16 SANDY SHOALS PASS_PORT WENTWORTH_31407",
@@ -3419,10 +3439,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2157,
+    "airbnb_checked": 2163,
     "total_airbnb": 2678,
-    "airbnb_remaining": 521,
-    "eta_seconds": 15873.98146179744,
-    "updated_unix": 1795079683.991387
+    "airbnb_remaining": 515,
+    "eta_seconds": 14714.79337998799,
+    "updated_unix": 1795080071.8526783
   }
 }
