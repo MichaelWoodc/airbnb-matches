@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795075883.7123516,
-  "content_signature": "77076bda20e0320cd0207d9bd7e396d508f9092708f43c22139aed93bd1c4fb5",
+  "published_unix": 1795075961.5093277,
+  "content_signature": "baa7ffbf62a75122a676a8612715256c89861de70658cce7b7ee72620e5a6c00",
   "matches": [
     {
       "key": "807c9d16556b83b6a4f179df",
@@ -2858,6 +2858,46 @@
       ]
     },
     {
+      "key": "408c14b90cb80598f7133aec",
+      "airbnb": "680421328729132855",
+      "address": "1230 WESTON WAY_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/680421328729132855",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1230-Weston-Way_Pooler_GA_31322_M67672-00676",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 64.5187180849831,
+      "inliers": 161,
+      "discovered_unix": 1795075908.9647636,
+      "photos": [
+        [
+          "assets/19dd2304fd65c486fcba4e275cb77b8c.jpg",
+          "assets/200338644b14d9b62c691ef9979282a9.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "651f190ce4625ff85a775aa5",
+      "airbnb": "19860923",
+      "address": "443 TATTNALL ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/19860923",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/443-Tattnall-St_Savannah_GA_31401_M58181-96854",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 7.712795202301004,
+      "inliers": 47,
+      "discovered_unix": 1795075877.7257168,
+      "photos": [
+        [
+          "assets/d01a2de43e26d7558e3882a20d94ee41.jpg",
+          "assets/1724377ebb82be629e22c0979cfdcd94.jpg"
+        ]
+      ]
+    },
+    {
       "key": "a23a16283db4478c4e614e6c",
       "airbnb": "723302262223122340",
       "address": "85 TILLER WAY_PORT WENTWORTH_31407",
@@ -2979,10 +3019,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2055,
+    "airbnb_checked": 2058,
     "total_airbnb": 2685,
-    "airbnb_remaining": 630,
-    "eta_seconds": 28883.15079689026,
-    "updated_unix": 1795075870.6695309
+    "airbnb_remaining": 627,
+    "eta_seconds": 28018.724085608308,
+    "updated_unix": 1795075943.3101184
   }
 }
