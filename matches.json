@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795116695.6370013,
-  "content_signature": "cffb71a594942be322db6f513d784cba1e9a0f8528eb46a8ef539b0f03b7b8ae",
+  "published_unix": 1795116774.6419687,
+  "content_signature": "e9d59166d161e61c6d4fbde324f0bd5c7ded1f1243a1e27177579693ab5cd5e4",
   "matches": [
     {
       "key": "b73d5a1b688a6a52b6db5259",
@@ -139,6 +139,66 @@
         [
           "assets/36f6789d6c6f827dd5ea5b9288b19b16.jpg",
           "assets/5378cfc0b1f0eef98ef52cc130b68dee.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "260678f5a7e568f870f935f2",
+      "airbnb": "1024557334155049664",
+      "address": "501 E 34TH ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1024557334155049664",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/501-E-34th-St_Savannah_GA_31401_M66375-49313",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 19.77753270629038,
+      "inliers": 111,
+      "discovered_unix": 1795079073.5890157,
+      "photos": [
+        [
+          "assets/806c2be02f0c0d3172f73eaf5e1e816d.jpg",
+          "assets/e49e86f7c8f6d8e34b80ee7e9e168328.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "9d625a75aa49d19a5151da62",
+      "airbnb": "1039981723043243595",
+      "address": "117 OBERLIN RD_GARDEN CITY_31408",
+      "airbnb_url": "https://www.airbnb.com/rooms/1039981723043243595",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/117-Oberlin-Rd_Garden-City_GA_31408_M65984-84456",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 33.030542689887305,
+      "inliers": 124,
+      "discovered_unix": 1795078943.0780392,
+      "photos": [
+        [
+          "assets/043caf637c8a0aca8aaad791d2c7e2ff.jpg",
+          "assets/7f8b08fa7b711186a1c493da40e6f8fd.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "ef342a4ee71b9ab4b43b3ba7",
+      "airbnb": "1142738573948733961",
+      "address": "411 E PARK AVE_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1142738573948733961",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/411-E-Park-Ave_Savannah_GA_31401_M58346-44065",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 26.304572964843295,
+      "inliers": 128,
+      "discovered_unix": 1795078855.1950746,
+      "photos": [
+        [
+          "assets/5af57e27052c0265b242a80142330a5d.jpg",
+          "assets/537b1472766f9e88497b295e03db5a6a.jpg"
         ]
       ]
     },
@@ -3178,86 +3238,6 @@
       ]
     },
     {
-      "key": "33d29a43430d0ab54af67695",
-      "airbnb": "32810756",
-      "address": "415 E HULL ST_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/32810756",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/415-E-Hull-St_Savannah_GA_31401_M61555-62069",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 31.67806587541183,
-      "inliers": 127,
-      "discovered_unix": 1795079246.5633633,
-      "photos": [
-        [
-          "assets/0a31e12476503e5b4bef78698c7fa4ff.jpg",
-          "assets/6ac170b3a25f76441a211bddc5c12594.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "260678f5a7e568f870f935f2",
-      "airbnb": "1024557334155049664",
-      "address": "501 E 34TH ST_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/1024557334155049664",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/501-E-34th-St_Savannah_GA_31401_M66375-49313",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 19.77753270629038,
-      "inliers": 111,
-      "discovered_unix": 1795079073.5890157,
-      "photos": [
-        [
-          "assets/806c2be02f0c0d3172f73eaf5e1e816d.jpg",
-          "assets/e49e86f7c8f6d8e34b80ee7e9e168328.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "9d625a75aa49d19a5151da62",
-      "airbnb": "1039981723043243595",
-      "address": "117 OBERLIN RD_GARDEN CITY_31408",
-      "airbnb_url": "https://www.airbnb.com/rooms/1039981723043243595",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/117-Oberlin-Rd_Garden-City_GA_31408_M65984-84456",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 33.030542689887305,
-      "inliers": 124,
-      "discovered_unix": 1795078943.0780392,
-      "photos": [
-        [
-          "assets/043caf637c8a0aca8aaad791d2c7e2ff.jpg",
-          "assets/7f8b08fa7b711186a1c493da40e6f8fd.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "ef342a4ee71b9ab4b43b3ba7",
-      "airbnb": "1142738573948733961",
-      "address": "411 E PARK AVE_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/1142738573948733961",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/411-E-Park-Ave_Savannah_GA_31401_M58346-44065",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 26.304572964843295,
-      "inliers": 128,
-      "discovered_unix": 1795078855.1950746,
-      "photos": [
-        [
-          "assets/5af57e27052c0265b242a80142330a5d.jpg",
-          "assets/537b1472766f9e88497b295e03db5a6a.jpg"
-        ]
-      ]
-    },
-    {
       "key": "be88c373a33d70cb5800ce1a",
       "airbnb": "1541441702416475464",
       "address": "216 W HUNTINGDON ST_SAVANNAH_31401",
@@ -3539,10 +3519,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2671,
-    "total_airbnb": 2671,
+    "airbnb_checked": 2668,
+    "total_airbnb": 2668,
     "airbnb_remaining": 0,
     "eta_seconds": null,
-    "updated_unix": 1795116682.2256317
+    "updated_unix": 1795116758.4228885
   }
 }
