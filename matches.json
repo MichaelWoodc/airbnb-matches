@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795116868.96355,
-  "content_signature": "de47c28d0e7642312cd737442625b784db6b92845928b9f04fcd3f3f5b3a5c62",
+  "published_unix": 1795116945.4394956,
+  "content_signature": "f0511e13cdffc483a65c2489951a9cda495a1aac78c7a3047f1aa2098f691d41",
   "matches": [
     {
       "key": "b73d5a1b688a6a52b6db5259",
@@ -3278,46 +3278,6 @@
       ]
     },
     {
-      "key": "9378d82ba4a81b51ee17eb82",
-      "airbnb": "1394237111785684659",
-      "address": "231 DURHAM PARK WAY_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/1394237111785684659",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/231-Durham-Park-Way_Pooler_GA_31322_M66059-11781",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 34.50241600921828,
-      "inliers": 130,
-      "discovered_unix": 1795077862.5747287,
-      "photos": [
-        [
-          "assets/c12a8b3267dd418f4c99d1360b9531e8.jpg",
-          "assets/0596f0deef284a55d8bbb9e4e0542011.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "8f40d10705a5a66fb85231dd",
-      "airbnb": "47121456",
-      "address": "208 BRIGHTON WOODS DR_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/47121456",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/208-Brighton-Woods-Dr_Pooler_GA_31322_M67228-58576",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 11.063087877153874,
-      "inliers": 75,
-      "discovered_unix": 1795077648.225674,
-      "photos": [
-        [
-          "assets/46e429bfee2fedf92f8f196c6f86eeab.jpg",
-          "assets/673129f6eee028f98c3e44e9cf5a4fe5.jpg"
-        ]
-      ]
-    },
-    {
       "key": "56b4c7113370fd6110081d12",
       "airbnb": "50024796",
       "address": "447 PRICE ST_SAVANNAH_31401",
@@ -3374,6 +3334,26 @@
         [
           "assets/459d38fa489cceedbbd54d343ad5f1d1.jpg",
           "assets/ef22fcf6399ffe2aca999446e8f31048.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "9378d82ba4a81b51ee17eb82",
+      "airbnb": "1394237111785684659",
+      "address": "231 DURHAM PARK WAY_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1394237111785684659",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/231-Durham-Park-Way_Pooler_GA_31322_M66059-11781",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 34.50241600921828,
+      "inliers": 130,
+      "discovered_unix": 1795077862.5747287,
+      "photos": [
+        [
+          "assets/c12a8b3267dd418f4c99d1360b9531e8.jpg",
+          "assets/0596f0deef284a55d8bbb9e4e0542011.jpg"
         ]
       ]
     },
@@ -3523,6 +3503,6 @@
     "total_airbnb": 2666,
     "airbnb_remaining": 0,
     "eta_seconds": null,
-    "updated_unix": 1795116855.4715652
+    "updated_unix": 1795116931.8269362
   }
 }
