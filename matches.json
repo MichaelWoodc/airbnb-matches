@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795118993.6155512,
-  "content_signature": "c3fcd8ec5ff93ad4bb5557a1938950f6aea11b3f585cdd8a39f2006c0d2085a1",
+  "published_unix": 1795119098.9997478,
+  "content_signature": "42f88a82f6476049953485bff8b45929f240a07d5f9382c0044c3623002fc98a",
   "matches": [
+    {
+      "key": "f97126371a201e63275e9525",
+      "airbnb": "1245789335495266847",
+      "address": "1325 E 69TH ST_SAVANNAH_31404",
+      "airbnb_url": "https://www.airbnb.com/rooms/1245789335495266847",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1325-E-69th-St_Savannah_GA_31404_M61445-21322",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue follow-up"
+      ],
+      "score": 105.9015777217641,
+      "inliers": 212,
+      "discovered_unix": 1795118680.102983,
+      "photos": [
+        [
+          "assets/1db57120a1faff3f2329fe7237ed17a4.jpg",
+          "assets/854d39bf2740e9162f167953002cda50.jpg"
+        ]
+      ]
+    },
     {
       "key": "3e67a827abd7f574454ca7ab",
       "airbnb": "52634400",
@@ -3258,42 +3278,22 @@
       ]
     },
     {
-      "key": "f97126371a201e63275e9525",
-      "airbnb": "1245789335495266847",
-      "address": "1325 E 69TH ST_SAVANNAH_31404",
-      "airbnb_url": "https://www.airbnb.com/rooms/1245789335495266847",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1325-E-69th-St_Savannah_GA_31404_M61445-21322",
+      "key": "429ad7a437d78ae72afcfb8a",
+      "airbnb": "25895744",
+      "address": "10 Waterside Way_Tybee Island_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/25895744",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/10-Waterside-Walk_Tybee-Island_GA_31328_M96886-76041",
       "verified": false,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue follow-up"
       ],
-      "score": 105.9015777217641,
-      "inliers": 212,
-      "discovered_unix": 1795118680.102983,
+      "score": 7.137302214342967,
+      "inliers": 57,
+      "discovered_unix": 1795119051.3603532,
       "photos": [
         [
-          "assets/1db57120a1faff3f2329fe7237ed17a4.jpg",
-          "assets/854d39bf2740e9162f167953002cda50.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "b9fb4dad5cb86500c136856b",
-      "airbnb": "53459098",
-      "address": "UNIT H",
-      "airbnb_url": "https://www.airbnb.com/rooms/53459098",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/501-E-Charlton-St-Apt-H_Savannah_GA_31401_M55154-73466",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue follow-up"
-      ],
-      "score": 7.147930194092594,
-      "inliers": 58,
-      "discovered_unix": 1795118421.6844041,
-      "photos": [
-        [
-          "assets/d186aa74431083d1e27458787a8fd7b9.jpg",
-          "assets/027a7400dade5d30c9ae9a24fb1855c0.jpg"
+          "assets/a12e7f2cc974ed1220852ab85a5f923d.jpg",
+          "assets/fee389769b8fb18aad02c3a92b578296.jpg"
         ]
       ]
     },
@@ -3519,10 +3519,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1138,
+    "airbnb_checked": 1174,
     "total_airbnb": 2030,
-    "airbnb_remaining": 892,
-    "eta_seconds": 3436.0350085667205,
-    "updated_unix": 1795118987.3469653
+    "airbnb_remaining": 856,
+    "eta_seconds": 2589.1228116483107,
+    "updated_unix": 1795119092.0423071
   }
 }
