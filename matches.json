@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795073941.177957,
-  "content_signature": "f4eb0890b91c4f87639bb6951f5b2c0751f724c2884b72798ea524695ee8073c",
+  "published_unix": 1795074030.8827984,
+  "content_signature": "d1b6ceae1d97d23fadfa81784857d497c75bceabf6b3dad973c862ddde9fcfaf",
   "matches": [
     {
       "key": "4c1ba4fdecd94e5f0ba82493",
@@ -2818,22 +2818,62 @@
       ]
     },
     {
-      "key": "2d916bdb94bc92dfb11687fd",
-      "airbnb": "40551630",
-      "address": "544 E LIBERTY ST_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/40551630",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/544-E-Liberty-St_Savannah_GA_31401_M50458-03088",
+      "key": "7d6013ca091827c75d4872c4",
+      "airbnb": "39951523",
+      "address": "504 E 38TH ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/39951523",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/504-E-38th-St_Savannah_GA_31401_M60212-96241",
       "verified": false,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
-      "score": 24.32237884317956,
-      "inliers": 140,
-      "discovered_unix": 1795073359.9728186,
+      "score": 8.779738762376038,
+      "inliers": 48,
+      "discovered_unix": 1795074009.7659748,
       "photos": [
         [
-          "assets/6572b8ddeeb0acc1bd8bf13a2b7ccf83.jpg",
-          "assets/7e47f9f478b8fcb90dedd3f8e3983a21.jpg"
+          "assets/d988df4af98ccc790aa262fe06e2d141.jpg",
+          "assets/e718bd78a54e84eb68621897a37b9445.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "f327bfcb75d9247b49f531dd",
+      "airbnb": "1170939982231878458",
+      "address": "302 E Waldburg St_Savannah_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1170939982231878458",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/302-E-Waldburg-St_Savannah_GA_31401_M69101-53869",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 7.194486587519038,
+      "inliers": 48,
+      "discovered_unix": 1795073996.7962682,
+      "photos": [
+        [
+          "assets/ca7ae89dbb89af21b8185b72c564fc46.jpg",
+          "assets/a31a7a6a8cce27a823fbcc666031df64.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "8513e1d410f87aa4983bb0c8",
+      "airbnb": "778318952725936457",
+      "address": "24 ROSEBERRY CIR_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/778318952725936457",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/24-Roseberry-Cir_Port-Wentworth_GA_31407_M61574-04393",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 16.649534415273344,
+      "inliers": 71,
+      "discovered_unix": 1795073983.0000105,
+      "photos": [
+        [
+          "assets/4eaabd157d052f8ad4006a22cd9525ca.jpg",
+          "assets/97709fc78906818a5724a7840f846654.jpg"
         ]
       ]
     },
@@ -2919,10 +2959,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2010,
+    "airbnb_checked": 2017,
     "total_airbnb": 2687,
-    "airbnb_remaining": 677,
-    "eta_seconds": 24611.393792006435,
-    "updated_unix": 1795073927.052003
+    "airbnb_remaining": 670,
+    "eta_seconds": 24816.312531354473,
+    "updated_unix": 1795074018.1601741
   }
 }
