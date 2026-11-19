@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795070607.863401,
-  "content_signature": "75874dec7292a920ed6540b6ea5e44967eb5a4b87b2acfed8c273c3270113378",
+  "published_unix": 1795071056.64189,
+  "content_signature": "4cb9890dd09965b95be104ac27e5219f40edd2e988048d588e4c2c1250b28757",
   "matches": [
     {
       "key": "9f77121335901492fec65856",
@@ -2678,6 +2678,26 @@
       ]
     },
     {
+      "key": "3c71312c156c6edd8b96d515",
+      "airbnb": "1421146420496557487",
+      "address": "12 HAYDENS CT_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1421146420496557487",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/12-Haydens-Ct_Pooler_GA_31322_M67645-96432",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 130.44267466417463,
+      "inliers": 287,
+      "discovered_unix": 1795071020.1076918,
+      "photos": [
+        [
+          "assets/2ef98a07b35b140de916f5504884de68.jpg",
+          "assets/2e9899e26f1c5ad12ba744c738137472.jpg"
+        ]
+      ]
+    },
+    {
       "key": "2bca7b3f489553b4c54cc333",
       "airbnb": "1751482998448630040",
       "address": "UNIT 301",
@@ -2759,10 +2779,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1924,
+    "airbnb_checked": 1932,
     "total_airbnb": 2694,
-    "airbnb_remaining": 770,
-    "eta_seconds": 9270.894736562457,
-    "updated_unix": 1795070596.5109153
+    "airbnb_remaining": 762,
+    "eta_seconds": 15853.849585620725,
+    "updated_unix": 1795071044.7902887
   }
 }
