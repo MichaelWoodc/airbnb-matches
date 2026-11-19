@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795065044.7291112,
-  "content_signature": "6b2c5eb29042453c1d1c256cbe04fbbecaa4bda1226308b3de700512ed86d177",
+  "published_unix": 1795065125.3332078,
+  "content_signature": "f581ca7f7f4ce6d463aeb9d0ac368c638ca13015319ba839f8aa01d07ac6542e",
   "matches": [
     {
       "key": "4aef33f87a156cd084a95260",
@@ -2098,6 +2098,46 @@
       ]
     },
     {
+      "key": "75dd3a4fd9e0a711d794b2d0",
+      "airbnb": "1507962551505561571",
+      "address": "16 13TH LN_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1507962551505561571",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/16-13th-Ln_Tybee-Island_GA_31328_M50625-82607",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 30.375986717782933,
+      "inliers": 164,
+      "discovered_unix": 1795065050.964704,
+      "photos": [
+        [
+          "assets/0d26931319b8923831fd58da595d79dd.jpg",
+          "assets/2faafdbbf6ec855a958e52532d666629.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "8c7faed63e15de7bb93efbd0",
+      "airbnb": "965259339836751418",
+      "address": "216 W HUNTINGDON ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/965259339836751418",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/216-W-Huntingdon-St_Savannah_GA_31401_M50297-84756",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 9.462959495352967,
+      "inliers": 60,
+      "discovered_unix": 1795065035.3689978,
+      "photos": [
+        [
+          "assets/ed597ba0cbb52191574b806120ca8f62.jpg",
+          "assets/ef22fcf6399ffe2aca999446e8f31048.jpg"
+        ]
+      ]
+    },
+    {
       "key": "50ca0deaa29ac633cb51fd15",
       "airbnb": "1519665016204832894",
       "address": "13 WALTHOUR CV_SAVANNAH_31410",
@@ -2259,10 +2299,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1595,
+    "airbnb_checked": 1602,
     "total_airbnb": 2723,
-    "airbnb_remaining": 1128,
-    "eta_seconds": 15811.530352300528,
-    "updated_unix": 1795065025.709673
+    "airbnb_remaining": 1121,
+    "eta_seconds": 13899.823873310674,
+    "updated_unix": 1795065114.2950037
   }
 }
