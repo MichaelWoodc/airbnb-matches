@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795057756.9744158,
-  "content_signature": "e87591b635e1bc496dbd4c8ba8bb6ff5be6a2323b41682b7042c64e589ab312e",
+  "published_unix": 1795057931.057569,
+  "content_signature": "bec2457b831615c735fef5c3393a3aa318f24eb75031984e9a59006e8caa611b",
   "matches": [
     {
       "key": "2e5d40be62dc78ec7b2570df",
@@ -41,53 +41,13 @@
           "assets/9fbcc214c84d2487d5443c0891f8aa00.jpg"
         ]
       ]
-    },
-    {
-      "key": "84992d90ed4625a25c901faf",
-      "airbnb": "929139271897014504",
-      "address": "1111 BAY ST #B_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/929139271897014504",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1111-Bay-St-Unit-B_Tybee-Island_GA_31328_M52756-75685",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 139.87017942591208,
-      "inliers": 295,
-      "discovered_unix": 1795057352.1832225,
-      "photos": [
-        [
-          "assets/dd930368d51cedd85441c0e0dffaccdd.jpg",
-          "assets/b410da7b846eb76757c29dc92db4605c.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "9361524adf64a9a4b1298e9b",
-      "airbnb": "1126038065684347591",
-      "address": "710 PENN WALLER RD_SAVANNAH_31410",
-      "airbnb_url": "https://www.airbnb.com/rooms/1126038065684347591",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/710-Penn-Waller-Rd_Savannah_GA_31410_M53731-21602",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 28.719188118936305,
-      "inliers": 131,
-      "discovered_unix": 1795056925.9601393,
-      "photos": [
-        [
-          "assets/db3e7ba63a5554432faefa182c7772f8.jpg",
-          "assets/ac6a34db2926f749f326922b4a56d997.jpg"
-        ]
-      ]
     }
   ],
   "progress": {
-    "airbnb_checked": 947,
-    "total_airbnb": 2739,
-    "airbnb_remaining": 1792,
-    "eta_seconds": 26754.44327218192,
-    "updated_unix": 1795057749.545061
+    "airbnb_checked": 959,
+    "total_airbnb": 2737,
+    "airbnb_remaining": 1778,
+    "eta_seconds": 25461.442652225494,
+    "updated_unix": 1795057914.1972528
   }
 }
