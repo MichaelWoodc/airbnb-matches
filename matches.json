@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795057360.0944035,
-  "content_signature": "eeeb37a133540f4c1c456a3a4a76bced3551bdd0e29a59ab3ff55c3176957309",
+  "published_unix": 1795057562.9735053,
+  "content_signature": "aec3d5d88206dd1e6ef6c696ac9feb6e88dcb755273b5ace6b887cfcbe4d331d",
   "matches": [
     {
       "key": "84992d90ed4625a25c901faf",
@@ -143,26 +143,6 @@
       ]
     },
     {
-      "key": "14e184a7313dc87b4e72d348",
-      "airbnb": "550772505969020234",
-      "address": "3 JAYMEE LN_SAVANNAH_31406",
-      "airbnb_url": "https://www.airbnb.com/rooms/550772505969020234",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3-Jaymee-Ln_Savannah_GA_31406_M68551-50869",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 13.172993992031547,
-      "inliers": 87,
-      "discovered_unix": 1795055539.6894152,
-      "photos": [
-        [
-          "assets/1c387bb4af17974eaf3ee3f29952d842.jpg",
-          "assets/de9bee320e00a28a2c987e806edf1ff1.jpg"
-        ]
-      ]
-    },
-    {
       "key": "064ee119fd705731fc18f6e0",
       "airbnb": "1558411040706460019",
       "address": "102 E LIBERTY ST #607_SAVANNAH_31401",
@@ -184,10 +164,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 923,
+    "airbnb_checked": 938,
     "total_airbnb": 2740,
-    "airbnb_remaining": 1817,
-    "eta_seconds": 23427.880017358428,
-    "updated_unix": 1795057352.9325922
+    "airbnb_remaining": 1802,
+    "eta_seconds": 21888.824297204308,
+    "updated_unix": 1795057550.8079631
   }
 }
