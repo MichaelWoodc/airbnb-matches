@@ -1,14 +1,34 @@
 {
-  "published_unix": 1795054732.3312492,
-  "content_signature": "498d19fc53e0a79812b533fbdc9059004fd8c4cc5112762b79cca962d9087800",
+  "published_unix": 1795054868.4116879,
+  "content_signature": "deba1ff27222e9332ab84a2a48f1d6b90df048cad02835608fdddd7b8d519554",
   "matches": [
+    {
+      "key": "cd2547e5d05d87eb5685140d",
+      "airbnb": "1555799270410659446",
+      "address": "3325 Bannon Ave_Savannah_31404",
+      "airbnb_url": "https://www.airbnb.com/rooms/1555799270410659446",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3325-Bannon-Dr_Savannah_GA_31404_M63145-17975",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 20.45078144272304,
+      "inliers": 92,
+      "discovered_unix": 1795054797.162908,
+      "photos": [
+        [
+          "assets/ebd73a9f88c60da57269d0bac3735e01.jpg",
+          "assets/592dc4ec63ff9bd08030809d9c0c38a8.jpg"
+        ]
+      ]
+    },
     {
       "key": "0d2de2f9574bc0701f6526ba",
       "airbnb": "689886009976821667",
       "address": "103 SKINNER RD_POOLER_31322",
       "airbnb_url": "https://www.airbnb.com/rooms/689886009976821667",
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/103-Skinner-Rd_Pooler_GA_31322_M56182-07996",
-      "verified": false,
+      "verified": true,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
@@ -1621,10 +1641,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 638,
-    "total_airbnb": 2745,
-    "airbnb_remaining": 2107,
-    "eta_seconds": 14238.78960108757,
-    "updated_unix": 1795054726.129088
+    "airbnb_checked": 657,
+    "total_airbnb": 2744,
+    "airbnb_remaining": 2087,
+    "eta_seconds": 10906.813665341359,
+    "updated_unix": 1795054854.8171568
   }
 }
