@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795066360.4986072,
-  "content_signature": "06f423fd276edbc60550060cab09f98b62915fd89f5519cdb7818c6dd50f2085",
+  "published_unix": 1795066440.3761907,
+  "content_signature": "b685133eca6015ee32930625260f19d898615809c870ce43da2bb4a88cba0da4",
   "matches": [
     {
       "key": "cdc101745762eff2acade876",
@@ -2218,26 +2218,6 @@
       ]
     },
     {
-      "key": "8c7faed63e15de7bb93efbd0",
-      "airbnb": "965259339836751418",
-      "address": "216 W HUNTINGDON ST_SAVANNAH_31401",
-      "airbnb_url": "https://www.airbnb.com/rooms/965259339836751418",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/216-W-Huntingdon-St_Savannah_GA_31401_M50297-84756",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 9.462959495352967,
-      "inliers": 60,
-      "discovered_unix": 1795065035.3689978,
-      "photos": [
-        [
-          "assets/ed597ba0cbb52191574b806120ca8f62.jpg",
-          "assets/ef22fcf6399ffe2aca999446e8f31048.jpg"
-        ]
-      ]
-    },
-    {
       "key": "50ca0deaa29ac633cb51fd15",
       "airbnb": "1519665016204832894",
       "address": "13 WALTHOUR CV_SAVANNAH_31410",
@@ -2399,10 +2379,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1673,
+    "airbnb_checked": 1675,
     "total_airbnb": 2718,
-    "airbnb_remaining": 1045,
-    "eta_seconds": 16726.523091184852,
-    "updated_unix": 1795066357.7725365
+    "airbnb_remaining": 1043,
+    "eta_seconds": 18668.819059610367,
+    "updated_unix": 1795066429.3867989
   }
 }
