@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795077962.3385816,
-  "content_signature": "1090cace87792e7b3c2b497b61ae4fea6b052ee0bdc2a34c309a91cb061a1cc8",
+  "published_unix": 1795078882.5366662,
+  "content_signature": "c3d064332c9f4b3ff15f9adf30c86cba574be0600c060be2c5d30f1f939367a0",
   "matches": [
     {
       "key": "46bbd7f09dbd7a3e3e0ccf06",
@@ -2998,6 +2998,46 @@
       ]
     },
     {
+      "key": "ef342a4ee71b9ab4b43b3ba7",
+      "airbnb": "1142738573948733961",
+      "address": "411 E PARK AVE_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1142738573948733961",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/411-E-Park-Ave_Savannah_GA_31401_M58346-44065",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 26.304572964843295,
+      "inliers": 128,
+      "discovered_unix": 1795078855.1950746,
+      "photos": [
+        [
+          "assets/5af57e27052c0265b242a80142330a5d.jpg",
+          "assets/537b1472766f9e88497b295e03db5a6a.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "be88c373a33d70cb5800ce1a",
+      "airbnb": "1541441702416475464",
+      "address": "216 W HUNTINGDON ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1541441702416475464",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/216-W-Huntingdon-St_Savannah_GA_31401_M50297-84756",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 24.22275205131689,
+      "inliers": 100,
+      "discovered_unix": 1795078845.237551,
+      "photos": [
+        [
+          "assets/459d38fa489cceedbbd54d343ad5f1d1.jpg",
+          "assets/ef22fcf6399ffe2aca999446e8f31048.jpg"
+        ]
+      ]
+    },
+    {
       "key": "9a6efc104e0ef707e9771953",
       "airbnb": "1445002813066764840",
       "address": "121 CHATHAM VILLA DR_GARDEN CITY_31408",
@@ -3259,10 +3299,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2094,
+    "airbnb_checked": 2119,
     "total_airbnb": 2678,
-    "airbnb_remaining": 584,
-    "eta_seconds": 29455.606549983124,
-    "updated_unix": 1795077948.2280576
+    "airbnb_remaining": 559,
+    "eta_seconds": 26562.582265761434,
+    "updated_unix": 1795078868.2437358
   }
 }
