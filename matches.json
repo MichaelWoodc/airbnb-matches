@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795068311.9789128,
-  "content_signature": "5e5192611c986a59b9fd1cc509a6751c10965cc5844c2caee79e0d6ac87ec7c1",
+  "published_unix": 1795068401.6638288,
+  "content_signature": "f86ad5048970ed4e2a873b45872f6760851706429b982b34b7a4f5a36f0afe45",
   "matches": [
     {
       "key": "939ed2cb08035aa00035a96e",
@@ -2418,6 +2418,26 @@
       ]
     },
     {
+      "key": "1fab73175d620e419f560726",
+      "airbnb": "862546695010142428",
+      "address": "3 15TH ST #112_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/862546695010142428",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/3-15th-St-112_Tybee-Island_GA_31328_M68692-26786",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 23.699241624998745,
+      "inliers": 108,
+      "discovered_unix": 1795068298.1481705,
+      "photos": [
+        [
+          "assets/98aab4d11593c6521f658fa3e672adf8.jpg",
+          "assets/252302b697934c9e0d8c4e7af2796a11.jpg"
+        ]
+      ]
+    },
+    {
       "key": "2bca7b3f489553b4c54cc333",
       "airbnb": "1751482998448630040",
       "address": "UNIT 301",
@@ -2503,6 +2523,6 @@
     "total_airbnb": 2707,
     "airbnb_remaining": 926,
     "eta_seconds": 16306.520503170637,
-    "updated_unix": 1795068300.2044942
+    "updated_unix": 1795068390.6973321
   }
 }
