@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795123779.938227,
-  "content_signature": "a1a7e22cc1a49617f29cce62f8e7972576faed4f9e8a2b2fffa220d7c8fecea8",
+  "published_unix": 1795123867.3432336,
+  "content_signature": "cc1478a5bff5c19cd7f0b9df1dff51a1cfc835f63efda9ec73c564ed0e8dc746",
   "matches": [
     {
       "key": "d99c8a7cb438d17a742cc23b",
@@ -2844,23 +2844,6 @@
       ]
     },
     {
-      "key": "cb3a8135c66d92f6191acce3",
-      "airbnb": "1609853086401984308",
-      "address": "14 ANGEL OAKS DR_SAVANNAH_31410",
-      "airbnb_url": "https://www.airbnb.com/rooms/1609853086401984308",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/14-Angel-Oaks-Dr_Savannah_GA_31410_M58041-76759",
-      "verified": false,
-      "score": 7.21196716454862,
-      "inliers": 54,
-      "discovered_unix": 1795122980.4137046,
-      "photos": [
-        [
-          "assets/514a620c68ef383b05eb7ab353a763f8.jpg",
-          "assets/1e27d3921e7e0d1dbed98974e651b187.jpg"
-        ]
-      ]
-    },
-    {
       "key": "45172c01ffb4950130a418ba",
       "airbnb": "44196068",
       "address": "158 AQUINNAH DR_POOLER_31322",
@@ -3066,10 +3049,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1865,
+    "airbnb_checked": 1870,
     "total_airbnb": 2028,
-    "airbnb_remaining": 163,
-    "eta_seconds": 2528.548958647008,
-    "updated_unix": 1795123763.2955208
+    "airbnb_remaining": 158,
+    "eta_seconds": 2583.87528862272,
+    "updated_unix": 1795123853.441026
   }
 }
