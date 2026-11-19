@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795118897.8980703,
-  "content_signature": "b6820498bf71bc1d674ee82268503f5e63a21986af4a5560ef56e96aad63df45",
+  "published_unix": 1795118993.6155512,
+  "content_signature": "c3fcd8ec5ff93ad4bb5557a1938950f6aea11b3f585cdd8a39f2006c0d2085a1",
   "matches": [
     {
       "key": "3e67a827abd7f574454ca7ab",
@@ -3278,26 +3278,6 @@
       ]
     },
     {
-      "key": "a9bf06a9add773799b0816a3",
-      "airbnb": "1244458403795084365",
-      "address": "169 AQUINNAH DR_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/1244458403795084365",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/169-Aquinnah-Dr_Pooler_GA_31322_M66098-56835",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue follow-up"
-      ],
-      "score": 9.532851622945994,
-      "inliers": 37,
-      "discovered_unix": 1795118461.442779,
-      "photos": [
-        [
-          "assets/ee9b6b5f728c4a4bffe01b8c9769c5e0.jpg",
-          "assets/bc4bc83b9808ae01b6c77b19e43b3e92.jpg"
-        ]
-      ]
-    },
-    {
       "key": "b9fb4dad5cb86500c136856b",
       "airbnb": "53459098",
       "address": "UNIT H",
@@ -3539,10 +3519,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1110,
-    "total_airbnb": 2031,
-    "airbnb_remaining": 921,
-    "eta_seconds": 2820.5405371675683,
-    "updated_unix": 1795118881.91186
+    "airbnb_checked": 1138,
+    "total_airbnb": 2030,
+    "airbnb_remaining": 892,
+    "eta_seconds": 3436.0350085667205,
+    "updated_unix": 1795118987.3469653
   }
 }
