@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795068059.3730404,
-  "content_signature": "8a1d91d4eef8b77fbb792a6bf32d166272cdc92d413ba17006f47ed81957b7b3",
+  "published_unix": 1795068149.3063462,
+  "content_signature": "450abe10ef477274bbfeeedebc2954d80268b8722dac4a2c6a4cca7526074a0b",
   "matches": [
+    {
+      "key": "9bfe6966bba9579cd24041dc",
+      "airbnb": "1311723611678831938",
+      "address": "109 S CAMPBELL AVE_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1311723611678831938",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/109-S-Campbell-Ave_Tybee-Island_GA_31328_M65582-74504",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 96.65195647166601,
+      "inliers": 254,
+      "discovered_unix": 1795068039.581831,
+      "photos": [
+        [
+          "assets/5e6c22ba385c2d4ab633a27a8e49d7f5.jpg",
+          "assets/588c44fd0b8dc6cf5bb39bf7dba7180b.jpg"
+        ]
+      ]
+    },
     {
       "key": "33cfffe440f3204ec4c5c177",
       "airbnb": "1263028866517832724",
@@ -39,6 +59,26 @@
         [
           "assets/e035e3663038f729465d3adf6e8cc714.jpg",
           "assets/9bb83a10a8a5d31ea431f16d414cea97.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "2490712fd9740db8b025df81",
+      "airbnb": "1025430132461051567",
+      "address": "1116 PLANTATION DR_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/1025430132461051567",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1116-Plantation-Dr_Pooler_GA_31322_M95879-11307",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 82.200903051524,
+      "inliers": 201,
+      "discovered_unix": 1795067009.3972895,
+      "photos": [
+        [
+          "assets/b4884fa5ace88ed4b0f1616084a8fe96.jpg",
+          "assets/0187add55abf7aaf1c80c7773283db20.jpg"
         ]
       ]
     },
@@ -2298,22 +2338,22 @@
       ]
     },
     {
-      "key": "9bfe6966bba9579cd24041dc",
-      "airbnb": "1311723611678831938",
-      "address": "109 S CAMPBELL AVE_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/1311723611678831938",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/109-S-Campbell-Ave_Tybee-Island_GA_31328_M65582-74504",
+      "key": "939ed2cb08035aa00035a96e",
+      "airbnb": "616887263750949740",
+      "address": "12 COTTINGHAM WAY_POOLER_31322",
+      "airbnb_url": "https://www.airbnb.com/rooms/616887263750949740",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/12-Cottingham-Way_Pooler_GA_31322_M68153-03976",
       "verified": false,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
-      "score": 96.65195647166601,
-      "inliers": 254,
-      "discovered_unix": 1795068039.581831,
+      "score": 18.46004901305336,
+      "inliers": 119,
+      "discovered_unix": 1795068076.2952285,
       "photos": [
         [
-          "assets/5e6c22ba385c2d4ab633a27a8e49d7f5.jpg",
-          "assets/588c44fd0b8dc6cf5bb39bf7dba7180b.jpg"
+          "assets/03f9595cb9a18bde4264dc16fd5d0d02.jpg",
+          "assets/2245d201bc2fe649e400b5699d5c9005.jpg"
         ]
       ]
     },
@@ -2394,46 +2434,6 @@
         [
           "assets/6310de579d27bbafa04874a07deed846.jpg",
           "assets/54c8f6ca08b310e503138748bf2c46a0.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "c6b13ea7185940b9ecd48f2e",
-      "airbnb": "1291594004608644268",
-      "address": "143 AQUINNAH DR_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/1291594004608644268",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/143-Aquinnah-Dr_Pooler_GA_31322_M57516-72041",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 13.670495654971113,
-      "inliers": 68,
-      "discovered_unix": 1795067399.359241,
-      "photos": [
-        [
-          "assets/74e23d2de58334946e8a2df3018a555e.jpg",
-          "assets/9ca4f00879f8918c10ab3e0c3f777854.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "2490712fd9740db8b025df81",
-      "airbnb": "1025430132461051567",
-      "address": "1116 PLANTATION DR_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/1025430132461051567",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1116-Plantation-Dr_Pooler_GA_31322_M95879-11307",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 82.200903051524,
-      "inliers": 201,
-      "discovered_unix": 1795067009.3972895,
-      "photos": [
-        [
-          "assets/b4884fa5ace88ed4b0f1616084a8fe96.jpg",
-          "assets/0187add55abf7aaf1c80c7773283db20.jpg"
         ]
       ]
     },
@@ -2519,10 +2519,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1768,
-    "total_airbnb": 2713,
-    "airbnb_remaining": 945,
-    "eta_seconds": 19365.956933498383,
-    "updated_unix": 1795068048.0940597
+    "airbnb_checked": 1769,
+    "total_airbnb": 2711,
+    "airbnb_remaining": 942,
+    "eta_seconds": 20677.376116772088,
+    "updated_unix": 1795068137.4556863
   }
 }
