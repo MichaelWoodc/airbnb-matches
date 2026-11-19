@@ -1,27 +1,7 @@
 {
-  "published_unix": 1795062149.7547507,
-  "content_signature": "0df7803f56a729c9a552f39d63936bff837098b8818aeab7047c1974e3f277e1",
+  "published_unix": 1795062353.0343277,
+  "content_signature": "5b2e5d533528917f8920703e0d96a769ba4741b115f88fd62da30a8e271b2e77",
   "matches": [
-    {
-      "key": "0796e3e96b01a4d3140bbd41",
-      "airbnb": "1255875828286024532",
-      "address": "609 JONES AVE_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/1255875828286024532",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/609-Jones-Ave_Tybee-Island_GA_31328_M64548-79183",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 20.190909368631086,
-      "inliers": 94,
-      "discovered_unix": 1795062016.8620315,
-      "photos": [
-        [
-          "assets/a40ce39a31d757a3b6388dd4a65cd69f.jpg",
-          "assets/4e8ff67564aedcb031022e0a83ccdd66.jpg"
-        ]
-      ]
-    },
     {
       "key": "598c921077077f592b11a75f",
       "airbnb": "1432625123983051251",
@@ -2059,10 +2039,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1370,
+    "airbnb_checked": 1388,
     "total_airbnb": 2728,
-    "airbnb_remaining": 1358,
-    "eta_seconds": 12740.466406890324,
-    "updated_unix": 1795062133.9511297
+    "airbnb_remaining": 1340,
+    "eta_seconds": 13002.709010182594,
+    "updated_unix": 1795062341.8286114
   }
 }
