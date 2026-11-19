@@ -1,7 +1,47 @@
 {
-  "published_unix": 1795067530.805068,
-  "content_signature": "22886769fb25f00976f0945c626ecb555fc625ea2eede82661f49cda978745bb",
+  "published_unix": 1795067970.7771528,
+  "content_signature": "99b4b9059ef1ef91fa02547210cb29c8b4a5e4904c7e31855a92d73fd2b6d2d8",
   "matches": [
+    {
+      "key": "33cfffe440f3204ec4c5c177",
+      "airbnb": "1263028866517832724",
+      "address": "1714 CHATHAM AVE_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1263028866517832724",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1714-Chatham-Ave_Tybee-Island_GA_31328_M61707-46458",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 48.21803455915022,
+      "inliers": 168,
+      "discovered_unix": 1795067490.2472131,
+      "photos": [
+        [
+          "assets/ca2c0652a06f2f1d71806707596818b9.jpg",
+          "assets/d4e631a4fca7fd0208ff10606d71762b.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "985641a413dc8504018fb7f4",
+      "airbnb": "975169295697576457",
+      "address": "17 LIGHTHOUSE LN_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/975169295697576457",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/17-Lighthouse-Ln_Tybee-Island_GA_31328_M65679-33170",
+      "verified": true,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 16.171177318921714,
+      "inliers": 65,
+      "discovered_unix": 1795067485.2787917,
+      "photos": [
+        [
+          "assets/e035e3663038f729465d3adf6e8cc714.jpg",
+          "assets/9bb83a10a8a5d31ea431f16d414cea97.jpg"
+        ]
+      ]
+    },
     {
       "key": "cdc101745762eff2acade876",
       "airbnb": "1309564710039750739",
@@ -2258,42 +2298,22 @@
       ]
     },
     {
-      "key": "33cfffe440f3204ec4c5c177",
-      "airbnb": "1263028866517832724",
-      "address": "1714 CHATHAM AVE_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/1263028866517832724",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1714-Chatham-Ave_Tybee-Island_GA_31328_M61707-46458",
+      "key": "6482fb82a50a2e5f3d3e1a64",
+      "airbnb": "1510281895888945906",
+      "address": "116 BREVARD CT_SAVANNAH_31410",
+      "airbnb_url": "https://www.airbnb.com/rooms/1510281895888945906",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/116-Brevard-Ct_Savannah_GA_31410_M55361-60100",
       "verified": false,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
-      "score": 48.21803455915022,
-      "inliers": 168,
-      "discovered_unix": 1795067490.2472131,
+      "score": 63.51745763125838,
+      "inliers": 208,
+      "discovered_unix": 1795067926.059191,
       "photos": [
         [
-          "assets/ca2c0652a06f2f1d71806707596818b9.jpg",
-          "assets/d4e631a4fca7fd0208ff10606d71762b.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "985641a413dc8504018fb7f4",
-      "airbnb": "975169295697576457",
-      "address": "17 LIGHTHOUSE LN_TYBEE ISLAND_31328",
-      "airbnb_url": "https://www.airbnb.com/rooms/975169295697576457",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/17-Lighthouse-Ln_Tybee-Island_GA_31328_M65679-33170",
-      "verified": false,
-      "methods": [
-        "DINOv2 / SigLIP2 / LightGlue"
-      ],
-      "score": 16.171177318921714,
-      "inliers": 65,
-      "discovered_unix": 1795067485.2787917,
-      "photos": [
-        [
-          "assets/e035e3663038f729465d3adf6e8cc714.jpg",
-          "assets/9bb83a10a8a5d31ea431f16d414cea97.jpg"
+          "assets/6310de579d27bbafa04874a07deed846.jpg",
+          "assets/54c8f6ca08b310e503138748bf2c46a0.jpg"
         ]
       ]
     },
@@ -2419,10 +2439,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1740,
-    "total_airbnb": 2715,
-    "airbnb_remaining": 975,
-    "eta_seconds": 17487.479816042647,
-    "updated_unix": 1795067520.238966
+    "airbnb_checked": 1761,
+    "total_airbnb": 2713,
+    "airbnb_remaining": 952,
+    "eta_seconds": 20716.2964289529,
+    "updated_unix": 1795067958.771958
   }
 }
