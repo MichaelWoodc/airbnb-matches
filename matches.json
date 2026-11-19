@@ -1,7 +1,27 @@
 {
-  "published_unix": 1795063810.5310102,
-  "content_signature": "44a581c2742d9c86012e6da5e310212bbc5740fd4832792746d4342e94db4549",
+  "published_unix": 1795064107.7823546,
+  "content_signature": "f9c17c9bf448812bc061b5a945536cafdafec8b58d24239e45b0f6af3d699365",
   "matches": [
+    {
+      "key": "2f06b050285f27cd2bb06adb",
+      "airbnb": "1263029328543981466",
+      "address": "10 ANDERSON CT_TYBEE ISLAND_31328",
+      "airbnb_url": "https://www.airbnb.com/rooms/1263029328543981466",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/10-Anderson-Ct_Tybee-Island_GA_31328_M58820-46344",
+      "verified": false,
+      "methods": [
+        "DINOv2 / SigLIP2 / LightGlue"
+      ],
+      "score": 12.756509398773485,
+      "inliers": 60,
+      "discovered_unix": 1795064071.8347037,
+      "photos": [
+        [
+          "assets/a70671bffca9812e13c68ed2833245b4.jpg",
+          "assets/3fccd4510ffd96594b3ab98262620089.jpg"
+        ]
+      ]
+    },
     {
       "key": "075023d963b1826ddeda8be1",
       "airbnb": "53724619",
@@ -2119,10 +2139,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 1509,
+    "airbnb_checked": 1529,
     "total_airbnb": 2725,
-    "airbnb_remaining": 1216,
-    "eta_seconds": 14118.807088112346,
-    "updated_unix": 1795063796.672409
+    "airbnb_remaining": 1196,
+    "eta_seconds": 15398.050343902742,
+    "updated_unix": 1795064095.7169452
   }
 }
