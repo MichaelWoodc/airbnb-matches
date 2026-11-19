@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795046756.3845932,
-  "content_signature": "10a9af220bdc6a7f600b39cb4196832bf6588101b3d5b463a7f488b1e66dc7bb",
+  "published_unix": 1795047262.9911432,
+  "content_signature": "453d3fadc131b067e90e477425005a6bb53f856fedbb7acbd8370a3c40680306",
   "matches": [
     {
       "key": "37011092b61ad505537d95b9",
@@ -8,7 +8,7 @@
       "address": "29 TAYLOR ST_TYBEE ISLAND_31328",
       "airbnb_url": "https://www.airbnb.com/rooms/52492275",
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/29-Taylor-St_Tybee-Island_GA_31328_M54910-51006",
-      "verified": false,
+      "verified": true,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
@@ -28,7 +28,7 @@
       "address": "17 N CAMPBELL AVE_TYBEE ISLAND_31328",
       "airbnb_url": "https://www.airbnb.com/rooms/30556637",
       "realtor_url": "https://www.realtor.com/realestateandhomes-detail/17-N-Campbell-Ave_Tybee-Island_GA_31328_M51243-24935",
-      "verified": false,
+      "verified": true,
       "methods": [
         "DINOv2 / SigLIP2 / LightGlue"
       ],
@@ -1581,10 +1581,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 534,
+    "airbnb_checked": 547,
     "total_airbnb": 3631,
-    "airbnb_remaining": 3097,
-    "eta_seconds": 105303.5777853995,
-    "updated_unix": 1795046752.030905
+    "airbnb_remaining": 3084,
+    "eta_seconds": 113728.50891191133,
+    "updated_unix": 1795047252.9230416
   }
 }
