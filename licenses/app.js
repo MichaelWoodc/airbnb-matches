@@ -40,11 +40,50 @@ async function renderMap(listings){
  const key=(street,unit)=>JSON.stringify([street,unit||'']);
  const licensed=r=>['licensed','source_listed'].includes(r.license_state);
  const arcLicensed=r=>!!r.permit&&/(^|;\s*)Licensed STR($|;)/i.test(r.status);
- const popupOptions=()=>{
-  const size=map.getSize();
-  return {minWidth:0,maxWidth:Math.min(460,size.x-96),maxHeight:Math.min(300,size.y-100),
-   autoPan:true,keepInView:true,autoPanPadding:[24,24]};
+ const mapElement=map.getContainer();
+ const popupPadding=12;
+ function visibleMapBounds(){
+  const bounds=mapElement.getBoundingClientRect();
+  return {
+   left:Math.max(0,bounds.left),top:Math.max(0,bounds.top),
+   right:Math.min(document.documentElement.clientWidth,bounds.right),
+   bottom:Math.min(document.documentElement.clientHeight,bounds.bottom)
+  };
+ }
+ const popupOptions=()=> {
+  const bounds=visibleMapBounds();
+  return {minWidth:0,maxWidth:Math.max(40,Math.min(460,bounds.right-bounds.left-72)),
+   maxHeight:Math.max(40,Math.min(300,bounds.bottom-bounds.top-72)),autoPan:false};
  };
+ let openPopup=null;
+ let fittingPopup=false;
+ map.on('popupopen',({popup})=>{
+  openPopup=popup;
+  fittingPopup=true;
+  let bounds=visibleMapBounds();
+  if(bounds.bottom-bounds.top<160){
+   mapElement.scrollIntoView({block:'center',inline:'nearest'});
+   bounds=visibleMapBounds();
+  }
+  L.setOptions(popup,popupOptions());
+  popup.update();
+  const card=popup.getElement().getBoundingClientRect();
+  const shift=(start,end,min,max)=>start<min?start-min:end>max?end-max:0;
+  const dx=shift(card.left,card.right,bounds.left+popupPadding,bounds.right-popupPadding);
+  const dy=shift(card.top,card.bottom,bounds.top+popupPadding,bounds.bottom-popupPadding);
+  if(dx||dy)map.panBy([dx,dy],{animate:false});
+  fittingPopup=false;
+ });
+ map.on('popupclose',({popup})=>{
+  if(openPopup===popup)openPopup=null;
+ });
+ map.on('moveend',()=>{
+  if(!openPopup||fittingPopup)return;
+  const card=openPopup.getElement().getBoundingClientRect();
+  const bounds=visibleMapBounds();
+  if(card.right<=bounds.left||card.left>=bounds.right||card.bottom<=bounds.top||card.top>=bounds.bottom)
+   map.closePopup(openPopup);
+ });
  const green='#168047',yellow='#ffd54d',purple='#7950a5';
  const skullIcon=()=>L.divIcon({className:'removed-marker',iconSize:[22,22],iconAnchor:[11,11],html:'<span style="display:block;font-size:16px;line-height:22px;text-align:center">☠️</span>'});
  function point(row,layer,content,ring,fill,radius,triangle=false){
@@ -381,7 +420,7 @@ async function renderMap(listings){
   return box;
  };
  legend.addTo(map);
- if(requestedPin){map.setView(requestedPin.getLatLng(),17);requestedPin.fire('click')}
+ if(requestedPin){map.setView(requestedPin.getLatLng(),17,{animate:false});requestedPin.fire('click')}
  return rejected;
 }
 
