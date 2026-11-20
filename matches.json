@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795207430.208896,
-  "content_signature": "e5883a70db660f91ff1ecbe4debd16134ddb348f6338b82cfbeca8433bc55ee5",
+  "published_unix": 1795210350.4412913,
+  "content_signature": "8d24894fb4f7eef2f737b6d80935144e2d957d2417bba4871542d45bc9c84fe0",
   "matches": [
     {
       "key": "1c1414c60801107b59c553a0",
@@ -1502,23 +1502,6 @@
         [
           "assets/db3e7ba63a5554432faefa182c7772f8.jpg",
           "assets/ac6a34db2926f749f326922b4a56d997.jpg"
-        ]
-      ]
-    },
-    {
-      "key": "5668ca026c04ec389e688091",
-      "airbnb": "1171101680461431674",
-      "address": "203 FOXBURY SQ_POOLER_31322",
-      "airbnb_url": "https://www.airbnb.com/rooms/1171101680461431674",
-      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/203-Foxbury-Sq_Pooler_GA_31322_M58140-32484",
-      "verified": true,
-      "score": 14.706787757007907,
-      "inliers": 73,
-      "discovered_unix": 1795055856.8357434,
-      "photos": [
-        [
-          "assets/d7f57248471a1f7b8a28335c34c7ea19.jpg",
-          "assets/57f1153d690976f069caedc2876e202b.jpg"
         ]
       ]
     },
@@ -3268,6 +3251,6 @@
     "total_airbnb": 2018,
     "airbnb_remaining": 0,
     "eta_seconds": null,
-    "updated_unix": 1795207417.975047
+    "updated_unix": 1795210334.0854368
   }
 }
