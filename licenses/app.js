@@ -118,7 +118,10 @@ async function renderMap(listings){
   marker.bindPopup(html).addTo(layer);
   if(property)marker.on('popupopen',event=>{
    const button=event.popup.getElement().querySelector('.airbnb-linked-property');
-   button?.addEventListener('click',()=>propertyMarkers.get(aid)?.fire('click'));
+   button?.addEventListener('click',click=>{
+    click.stopPropagation();
+    propertyMarkers.get(aid)?.fire('click');
+   });
   });
   approximateIds.add(aid);
   return marker;
