@@ -203,9 +203,13 @@ async function renderMap(listings){
  map.createPane('jurisdiction-boundaries');
  map.getPane('jurisdiction-boundaries').style.zIndex=350;
  map.getPane('jurisdiction-boundaries').style.pointerEvents='none';
- const outlines=L.geoJSON(boundaries,{pane:'jurisdiction-boundaries',renderer:L.svg({pane:'jurisdiction-boundaries'}),interactive:false,
-  style:feature=>({color:palette[feature.properties.NAME]||'#687280',weight:2,opacity:.8,fillOpacity:.09})}).addTo(map);
- overlays['Jurisdiction boundaries (SAGIS)']=outlines;
+ const jurisdictionFillOpacity=.28;
+ const jurisdictionAreas=L.geoJSON(boundaries,{pane:'jurisdiction-boundaries',renderer:L.svg({pane:'jurisdiction-boundaries'}),interactive:false,
+  style:feature=>{
+   const color=palette[feature.properties.NAME]||'#687280';
+   return {color,weight:2,opacity:.85,fill:true,fillColor:color,fillOpacity:jurisdictionFillOpacity};
+  }}).addTo(map);
+ overlays['Jurisdiction shading (SAGIS)']=jurisdictionAreas;
  map.createPane('savannah-stvr-zoning');
  const zoningPane=map.getPane('savannah-stvr-zoning');
  zoningPane.style.zIndex=360;
@@ -249,7 +253,7 @@ async function renderMap(listings){
    '<div><span class="mid-term-legend"></span> '+esc(midTermLabel)+'</div>'+
    '<div><span style="background:#e1c9ff"></span> Chatham County likely-unlicensed list</div>'+
    '<details><summary>Jurisdiction colors</summary>'+Object.entries(palette).map(([name,color])=>
-    '<div><span style="border-color:'+color+';border-radius:2px"></span> '+esc(name)+'</div>').join('')+'</details>';
+    '<div><span style="border-color:'+color+';background:color-mix(in srgb,'+color+' '+jurisdictionFillOpacity*100+'%,transparent);border-radius:2px"></span> '+esc(name)+'</div>').join('')+'</details>';
   L.DomEvent.disableClickPropagation(box);
   return box;
  };
