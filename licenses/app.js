@@ -39,8 +39,8 @@ async function renderMap(listings){
  const arcLicensed=r=>!!r.permit&&/(^|;\s*)Licensed STR($|;)/i.test(r.status);
  const popupOptions=()=>{
   const size=map.getSize();
-  return {maxWidth:Math.min(460,size.x-64),maxHeight:Math.min(300,size.y-100),
-   autoPan:true,autoPanPadding:[24,24]};
+  return {minWidth:0,maxWidth:Math.min(460,size.x-96),maxHeight:Math.min(300,size.y-100),
+   autoPan:true,keepInView:true,autoPanPadding:[24,24]};
  };
  const green='#168047',yellow='#ffd54d',purple='#7950a5';
  const skullIcon=()=>L.divIcon({className:'removed-marker',iconSize:[22,22],iconAnchor:[11,11],html:'<span style="display:block;font-size:16px;line-height:22px;text-align:center">☠️</span>'});
