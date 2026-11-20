@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795151389.8888566,
-  "content_signature": "a70546900bd659236b9b90341f77aba8932ab34fb5a0a6be5835c8346bffd834",
+  "published_unix": 1795207430.208896,
+  "content_signature": "e5883a70db660f91ff1ecbe4debd16134ddb348f6338b82cfbeca8433bc55ee5",
   "matches": [
     {
       "key": "1c1414c60801107b59c553a0",
@@ -3038,6 +3038,23 @@
       ]
     },
     {
+      "key": "b26247fdd11596fdea5d1cfb",
+      "airbnb": "1573249032536055396",
+      "address": "1116 LINCOLN ST_SAVANNAH_31401",
+      "airbnb_url": "https://www.airbnb.com/rooms/1573249032536055396",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/1116-Lincoln-St_Savannah_GA_31401_M65176-91800",
+      "verified": false,
+      "score": 7.049191094563304,
+      "inliers": 58,
+      "discovered_unix": 1795207364.7238271,
+      "photos": [
+        [
+          "assets/1e314bcedbc401718c6dc5ff5f40e933.jpg",
+          "assets/cfc757b23432287c7ca16b156e691f3f.jpg"
+        ]
+      ]
+    },
+    {
       "key": "45172c01ffb4950130a418ba",
       "airbnb": "44196068",
       "address": "158 AQUINNAH DR_POOLER_31322",
@@ -3251,6 +3268,6 @@
     "total_airbnb": 2018,
     "airbnb_remaining": 0,
     "eta_seconds": null,
-    "updated_unix": 1795151374.597422
+    "updated_unix": 1795207417.975047
   }
 }
