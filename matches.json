@@ -1,6 +1,6 @@
 {
-  "published_unix": 1795142718.2968495,
-  "content_signature": "403acb0537a16eddd60d540a69ee09ab523110d981d7a5a1f575bac8798072e6",
+  "published_unix": 1795142849.04062,
+  "content_signature": "373a4d7e972d4e53f4bafe6d492e7b6f8625666abf7042c8e1dac7e611f17721",
   "matches": [
     {
       "key": "0869326c486f9e4e0a0764a1",
@@ -16,6 +16,23 @@
         [
           "assets/214a96fdcfbbcb597e6e36d6d83b90bb.jpg",
           "assets/2f2ce41a81b63a338cc854de09593972.jpg"
+        ]
+      ]
+    },
+    {
+      "key": "65e439868002c5ac5fb66106",
+      "airbnb": "1642781364648218376",
+      "address": "130 WINDMILL LN_SAVANNAH_31419",
+      "airbnb_url": "https://www.airbnb.com/rooms/1642781364648218376",
+      "realtor_url": "https://www.realtor.com/rentals/details/130-Windmill-Ln_Savannah_GA_31419_M66063-09417",
+      "verified": true,
+      "score": 10.893192589035031,
+      "inliers": 57,
+      "discovered_unix": 1795142307.2672434,
+      "photos": [
+        [
+          "assets/b785e743d3ed11854b8f747ac4d1ad53.jpg",
+          "assets/470bf23ae9ff03313dd8fd2eee697980.jpg"
         ]
       ]
     },
@@ -3209,6 +3226,6 @@
     "total_airbnb": 2019,
     "airbnb_remaining": 0,
     "eta_seconds": null,
-    "updated_unix": 1795142708.3545954
+    "updated_unix": 1795142835.4540687
   }
 }
