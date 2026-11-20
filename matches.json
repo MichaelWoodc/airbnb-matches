@@ -1,7 +1,24 @@
 {
-  "published_unix": 1795141989.0277317,
-  "content_signature": "3776633f21c429572c35acb88db94eb6bce7ae2e5904656541bc03cf9b6f9a35",
+  "published_unix": 1795142718.2968495,
+  "content_signature": "403acb0537a16eddd60d540a69ee09ab523110d981d7a5a1f575bac8798072e6",
   "matches": [
+    {
+      "key": "0869326c486f9e4e0a0764a1",
+      "airbnb": "1547305686943318611",
+      "address": "3164 MULBERRY BLVD_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1547305686943318611",
+      "realtor_url": "https://www.realtor.com/rentals/details/3164-Mulberry-Blvd_Port-Wentworth_GA_31407_M93266-56702",
+      "verified": true,
+      "score": 18.10219129762907,
+      "inliers": 109,
+      "discovered_unix": 1795142307.2672434,
+      "photos": [
+        [
+          "assets/214a96fdcfbbcb597e6e36d6d83b90bb.jpg",
+          "assets/2f2ce41a81b63a338cc854de09593972.jpg"
+        ]
+      ]
+    },
     {
       "key": "fb9a5d170ec649b9ea25d947",
       "airbnb": "1012427673455037747",
@@ -3188,10 +3205,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2021,
-    "total_airbnb": 2021,
+    "airbnb_checked": 2019,
+    "total_airbnb": 2019,
     "airbnb_remaining": 0,
     "eta_seconds": null,
-    "updated_unix": 1795141982.4229379
+    "updated_unix": 1795142708.3545954
   }
 }
