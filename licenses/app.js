@@ -20,7 +20,12 @@ async function main(){const response=await fetch('license_audit.json'),data=awai
 const links=r=>`<a href="${esc(r.airbnb_url)}" target="_blank" rel="noopener">Airbnb listing</a> · <a href="${esc(r.realtor_url)}" target="_blank" rel="noopener">Realtor listing</a>`;
 function render(){const query=(document.getElementById('search')?.value||'').toLowerCase(),rows=records.filter(r=>(r.airbnb+' '+r.address+' '+r.jurisdiction).toLowerCase().includes(query));document.getElementById('rows').innerHTML=rows.map(r=>`<tr><td><a href="${esc(r.airbnb_url)}">${esc(r.airbnb)}</a><br>${esc(r.address)} ${esc(r.unit)}<br>${r.address_only?'User-corrected address':r.conflicting_property_matches?'Conflicting verified address matches':'Photo-verified address'}</td><td>${esc(listingStatus(r))}<br>${esc(r.jurisdiction)}</td><td>${esc(r.matched_permits||'No active record matched')}<br>${esc(r.source_status)}</td><td>${esc(r.license_display)}<br>${esc(r.displayed_numbers)}</td><td>${links(r)}<br>${esc(r.classification_note)}${r.rental_term_note?'<br>'+esc(r.rental_term_note):''}</td></tr>`).join('')}
 render();if(document.getElementById('search'))document.getElementById('search').oninput=render;
-if(document.getElementById('map'))await renderMap(records);
+if(document.getElementById('map')){
+ const rejected=await renderMap(records);
+ records=records.filter(row=>!rejected.has(row));
+ document.getElementById('summary').textContent=`${records.length} listing/property associations · refreshed ${new Date(data.generated_unix*1000).toLocaleString()}`;
+ render();
+}
 }
 
 async function renderMap(listings){
@@ -67,15 +72,32 @@ async function renderMap(listings){
   const response=await fetch(path);if(!response.ok)throw Error('Map source unavailable: '+path);return response.json();
  }));
  const scrapes=sources.airbnb_scrapes?.listings||{};
- listings=listings.map(row=>({...row,removed_reason:scrapes[row.airbnb]?.removed_reason}));
+ const propertyPoint=row=>row.latitude!==''&&row.longitude!==''&&
+  row.latitude!=null&&row.longitude!=null&&[Number(row.latitude),Number(row.longitude)].every(Number.isFinite)
+  ?[Number(row.latitude),Number(row.longitude)]:null;
+ const outOfRange=(aid,property)=>{
+  const record=scrapes[aid];
+  return Boolean(property&&record?.center&&Number.isFinite(record.radius_meters)&&
+   map.distance(record.center,property)>record.radius_meters+50);
+ };
+ const rejected=new Set(listings.filter(row=>outOfRange(row.airbnb,propertyPoint(row))));
+ const rejectedIds=new Set([...rejected].map(row=>row.airbnb));
+ listings=listings.filter(row=>!rejected.has(row))
+  .map(row=>({...row,removed_reason:scrapes[row.airbnb]?.removed_reason}));
  const geometryLayer=L.layerGroup().addTo(map);
  const scrapeLayer=L.layerGroup();
  overlays['Airbnb centers, privacy circles and property links']=geometryLayer;
  overlays['Latest scrape · additional Airbnb centers']=scrapeLayer;
  const centerColor='#2269af',centerRenderer=L.canvas({padding:.25});
+ const centerPane=map.createPane('airbnb-centers');
+ centerPane.style.zIndex=625;
+ const centerIcon=L.divIcon({className:'airbnb-center-marker',iconSize:[14,14],iconAnchor:[7,7],
+  html:'<span style="display:block;width:10px;height:10px;margin:2px;box-sizing:border-box;border:2px solid #2269af;border-radius:50%;background:#fff"></span>'});
  const approximateIds=new Set();
+ const propertyMarkers=new Map();
  function geometry(aid,record,property,layer,permitContext=''){
   if(!record?.center)return;
+  if(outOfRange(aid,property))property=null;
   const center=record.center;
   const radius=record.radius_meters;
   const radiusText=radius===null?'Privacy radius unavailable':radius===0?'Airbnb marked the location as exact':'Airbnb privacy radius: '+radius+' m';
@@ -86,14 +108,18 @@ async function renderMap(listings){
    '<br>'+esc(radiusText)+(property?'<br>Distance to linked property: '+Math.round(map.distance(center,property))+' m':'')+
    (record.rental_type?'<br>'+esc(record.rental_type):'')+(record.bedrooms!=null?'<br>Bedrooms: '+esc(record.bedrooms):'')+
    (record.occupancy!=null?'<br>Advertised capacity: '+esc(record.occupancy):'')+
-   (displayed?'<br>Displayed license numbers: '+esc(displayed):'')+'</p>'+permitContext+companyLink;
+   (displayed?'<br>Displayed license numbers: '+esc(displayed):'')+'</p>'+permitContext+companyLink+(property?' · <button type="button" class="airbnb-linked-property">Open linked property</button>':'');
   if(radius>0)L.circle(center,{radius,color:centerColor,weight:1.25,opacity:.7,fillOpacity:.07,
    interactive:false,renderer:centerRenderer}).addTo(layer);
   if(property)L.polyline([center,property],{color:centerColor,dashArray:'5 5',weight:2,opacity:.9,
    interactive:false,renderer:centerRenderer}).addTo(layer);
-  const marker=record.removed_reason?L.marker(center,{icon:skullIcon(),title:'Removed from Airbnb: '+(record.title||aid)}):
-   L.circleMarker(center,{radius:4,weight:2,color:centerColor,fillColor:'#fff',fillOpacity:1,renderer:centerRenderer});
+  const marker=L.marker(center,{pane:'airbnb-centers',icon:record.removed_reason?skullIcon():centerIcon,
+   title:(record.removed_reason?'Removed from Airbnb: ':'Airbnb location: ')+(record.title||aid)});
   marker.bindPopup(html).addTo(layer);
+  if(property)marker.on('popupopen',event=>{
+   const button=event.popup.getElement().querySelector('.airbnb-linked-property');
+   button?.addEventListener('click',()=>propertyMarkers.get(aid)?.fire('click'));
+  });
   approximateIds.add(aid);
   return marker;
  }
@@ -129,15 +155,13 @@ async function renderMap(listings){
  const flagInfo=row=>row?'<p><b>Chatham County likely-unlicensed listings:</b> This Airbnb appears on the '+link(row.source_url,'source list')+'.</p>':'';
  const represented=new Set(), mergedSourceIds=new Set(), mergedListings=new Map();
  const requestedListing=new URLSearchParams(location.search).get('airbnb');
- const propertyPoint=row=>row.latitude!==''&&row.longitude!==''&&
-  row.latitude!=null&&row.longitude!=null&&[Number(row.latitude),Number(row.longitude)].every(Number.isFinite)
-  ?[Number(row.latitude),Number(row.longitude)]:null;
  const alreadyLinked=new Set();
  let requestedPin=null;
  function listingMarker(row,content,isLicensed,groupName){
   const fill=isLicensed&&row.jurisdiction==='POOLER'?green:row.license_display==='not_shown_in_saved_text'?yellow:colors[row.category];
   const midTerm=Boolean(row.rental_term_note);
   const marker=point(row,group(groupName),content,isLicensed?green:midTerm?'#4a2069':colors[row.category],fill,8,midTerm);
+  if(marker)propertyMarkers.set(row.airbnb,marker);
   if(row.airbnb===requestedListing&&marker)requestedPin=marker;
  }
  for(const row of listings){
@@ -156,13 +180,14 @@ async function renderMap(listings){
   const parcelOnly=!direct&&!row.conflicting_property_matches&&!row.unit&&row.category==='review'&&
    distinctPermits.length===1&&permitRows.every(r=>r.unit&&pins.includes(r.sagis_pin||r.parcel_pin)&&
     r.normalized_address===row.normalized_address);
-  const licenseRows=direct?[...new Set([...exactAddress.filter(r=>licensed(r)&&(!permits.length||permits.includes(r.permit))&&
+  const candidateRows=direct?[...new Set([...exactAddress.filter(r=>licensed(r)&&(!permits.length||permits.includes(r.permit))&&
     (!pins.length||!(r.sagis_pin||r.parcel_pin)||pins.includes(r.sagis_pin||r.parcel_pin))),
     ...permitRows.filter(r=>r.unit===(row.unit||''))])]:parcelOnly?permitRows:exactAddress;
+  const licenseRows=candidateRows.filter(r=>!outOfRange(row.airbnb,propertyPoint(r)));
   const canMerge=(direct||parcelOnly)&&licenseRows.length>0;
-  const status=parcelOnly?'Licensed parcel · listing coverage unresolved':
+  const status=parcelOnly&&canMerge?'Licensed parcel · listing coverage unresolved':
    direct&&row.license_display==='unknown'?'Listed as licensed · listing display unknown':'';
-  const scoped=parcelOnly?{
+  const scoped=parcelOnly&&canMerge?{
    ...row,license_marker_status:status,classification_note:'',
    parcel_license_note:`The permit on file covers the ${licenseRows[0].unit}.${licenseRows[0].approved_capacity?' Listed capacity: '+licenseRows[0].approved_capacity+'.':''} Coverage for this Airbnb listing is unresolved.`
   }:{...row,license_marker_status:status};
@@ -197,9 +222,14 @@ async function renderMap(listings){
   }
   listingMarker(row,{title:chosen.content.title,html:chosen.content.html+(other?'<hr><h4>Other listings at this licensed address</h4>'+other:'')},
    true,'Licensed Airbnb matches');
+  if(propertyMarkers.has(chosen.row.airbnb))for(const entry of entries)propertyMarkers.set(entry.row.airbnb,propertyMarkers.get(chosen.row.airbnb));
  }
  for(const row of sources.manual_locations||[]){
-  if(represented.has(row.airbnb))continue;
+  if(represented.has(row.airbnb)||rejectedIds.has(row.airbnb))continue;
+  if(outOfRange(row.airbnb,propertyPoint(row))){
+   rejectedIds.add(row.airbnb);
+   continue;
+  }
   geometry(row.airbnb,scrapes[row.airbnb],propertyPoint(row),geometryLayer);
   alreadyLinked.add(row.airbnb);
   const records=(registryByAddress.get(key(row.street,row.unit))||[]).filter(r=>r.jurisdiction===row.jurisdiction);
@@ -209,6 +239,7 @@ async function renderMap(listings){
    airbnb_url:'https://www.airbnb.com/rooms/'+row.airbnb,
    address_correction_note:'Mapped to SAGIS parcel '+row.parcel_pin+'.'
   })+registryInfo(records)},records.some(licensed)?green:'#255b93','#c9e3ff',8);
+  if(marker)propertyMarkers.set(row.airbnb,marker);
   if(row.airbnb===requestedListing)requestedPin=marker;
  }
  const reviewedIds=new Set(listings.map(row=>row.airbnb));
@@ -216,11 +247,11 @@ async function renderMap(listings){
  for(const [aid,record] of Object.entries(scrapes)){
   if(alreadyLinked.has(aid)||approximateIds.has(aid))continue;
   const permitIds=record.pooler_permits||[];
-  const permitRows=permitIds.map(id=>registryById.get(id)).filter(Boolean);
+  const permitRows=permitIds.map(id=>registryById.get(id)).filter(r=>r&&!outOfRange(aid,propertyPoint(r)));
   if(record.removed_reason&&!permitRows.length){
    const marker=geometry(aid,record,null,group('Removed Airbnb listings'));
    if(aid===requestedListing&&marker&&!requestedPin)requestedPin=marker;
-  }else if(!reviewedIds.has(aid)&&permitRows.length===1){
+  }else if(!reviewedIds.has(aid)&&!rejectedIds.has(aid)&&permitRows.length===1){
    const permit=permitRows[0],property=propertyPoint(permit);
    const title=(record.title||'Airbnb '+aid)+' · '+permit.address;
    const permitContext='<p>Linked by displayed permit number to '+esc(permit.address)+'.</p>'+registryInfo(permitRows);
@@ -230,8 +261,9 @@ async function renderMap(listings){
     link('https://www.airbnb.com/rooms/'+aid,'Airbnb listing');
    const marker=property?point({...permit,removed_reason:record.removed_reason},group('Pooler · displayed permit matches'),{title,html},
     licensed(permit)?green:purple,licensed(permit)?green:'#fff',7):centerMarker;
+   if(property&&marker)propertyMarkers.set(aid,marker);
    if(aid===requestedListing&&marker)requestedPin=marker;
-  }else if(reviewedIds.has(aid)||countyFlagged.has(aid)||permitRows.length){
+  }else if(reviewedIds.has(aid)||rejectedIds.has(aid)||countyFlagged.has(aid)||permitRows.length){
    const candidateText=permitRows.length>1?'<p>Multiple Pooler permit matches need review.</p>'+registryInfo(permitRows):'';
    const marker=geometry(aid,record,null,geometryLayer,candidateText);
    if(aid===requestedListing&&marker&&!requestedPin)requestedPin=marker;
@@ -340,6 +372,7 @@ async function renderMap(listings){
  };
  legend.addTo(map);
  if(requestedPin){map.setView(requestedPin.getLatLng(),17);requestedPin.fire('click')}
+ return rejected;
 }
 
 main().catch(e=>document.getElementById('summary').textContent=e.message);
