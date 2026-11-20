@@ -1,5 +1,5 @@
 {
-  "generated_unix": 1795143625.766412,
+  "generated_unix": 1795147645.4319026,
   "source_manifest": {
     "0": {
       "url": "https://services5.arcgis.com/CEpuXecVrKGiDoOH/ArcGIS/rest/services/STR_Map_and_Parcel_WFL1/FeatureServer/0",
@@ -8196,7 +8196,7 @@
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
-      "removed_on": "",
+      "removed_on": "2026-11-19",
       "reported_on": "",
       "report_note": "",
       "normalized_address": "130 WINDMILL LN",
