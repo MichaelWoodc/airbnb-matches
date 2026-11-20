@@ -3,6 +3,9 @@ const labels={license_not_shown:'Licensed address — license not shown',unlicen
 const midTermLabel='Mid-term rental · conditional STVR exemption';
 const midTermColor='#7939a8';
 const listingStatus=r=>r.rental_term_note?midTermLabel:r.license_marker_status||labels[r.category];
+const privacyRadiusText=radius=>!Number.isFinite(radius)?'Unavailable':
+ radius===0?'0 m (Airbnb marks this location as exact)':radius+' m';
+const privacyRadiusField=radius=>'<b>Airbnb privacy radius:</b> '+esc(privacyRadiusText(radius));
 function popupContent(r){
  const value=x=>x===undefined||x===null||x===''?'Not recorded':esc(x);
  const reportBase='https://docs.google.com/forms/d/e/1FAIpQLSf0UzTMk7k2NIsRYuNL54MmFjRmVHlXTXGVMsBnyUZYjNoJzA/viewform';
@@ -14,7 +17,7 @@ function popupContent(r){
  const status=listingStatus(r);
  const capacity=r.advertised_over_capacity>0?`<p><b>Advertised over listed capacity by ${esc(r.advertised_over_capacity)}</b><br>Airbnb advertises ${esc(r.advertised_capacity)} guests. ${r.combined_license_capacity?`The unit permits list ${esc(r.combined_license_capacity)} combined.<br>${r.capacity_permits.map(p=>`Unit ${esc(p.unit)} · ${esc(p.permit)} · ${esc(p.capacity)}`).join('<br>')}`:`The permit limit is ${esc(r.legal_limit)} guests.`}</p>`:'';
 
- return `<section class="listing-popup"><h3>${esc(r.listing_title||'Airbnb '+r.airbnb)}</h3><div>${value(r.rental_type)}</div><p><b>${addressLabel}:</b> ${esc(r.address)} ${esc(r.unit)}<br><b>Host:</b> ${value(r.host_name)}<br><b>Advertised capacity:</b> ${value(r.advertised_capacity)}<br><b>Bedrooms:</b> ${value(r.bedrooms)}<br><b>Legal limit:</b> ${r.legal_limit?esc(r.legal_limit)+' (license record)':'Not established'}</p><p class="popup-status" style="border-color:${r.rental_term_note?midTermColor:colors[r.category]}">${esc(status)}${r.reported_on?' · Reported':''}${r.removed_on||r.removed_reason?' · Removed':''}</p>${capacity}${r.removed_reason?`<p><b>☠️ Removed:</b> ${esc(r.removed_reason)}</p>`:r.removed_on?`<p><b>Removed:</b> Listing reported removed from Airbnb (${esc(r.removed_on)}).</p>`:''}${r.reported_on?`<p><b>Reported:</b> ${esc(r.report_note||'Complaint submitted, per reviewer')} (${esc(r.reported_on)}).</p>`:''}<p><b>Licensing jurisdiction:</b> ${esc(r.jurisdiction)}<br>${esc(r.category==='outside_scope'?'No local license list in this audit':r.matched_permits||((r.licensed_exact_unit||r.licensed_parcel_association)?'Listed as licensed · permit number not supplied':'No matching active license record'))}</p>${r.rental_term_note?`<p><b>Rental term:</b> ${esc(r.rental_term_note)} ${button(r.rental_term_source,'Savannah STVR rules')}</p>`:''}${r.license_unit_evidence?`<p><b>Licensed unit:</b> ${esc(r.license_unit_evidence)} ${button(r.license_unit_source,r.license_unit_source_label||'Rental operator listing')}</p>`:''}${r.parcel_license_note?`<p><b>Permit scope:</b> ${esc(r.parcel_license_note)}</p>`:''}${r.licensed_parcel_association?`<p><b>License basis:</b> ${esc(r.license_match_basis)}. Presumed parcel-level coverage.</p>`:''}<p><b>Address proof:</b><br>${r.address_correction_note?esc(r.address_correction_note):'User-confirmed photo match to the Realtor property. This is the research address, not an exact address disclosed by Airbnb.'}</p><div class="popup-actions">${r.realtor_url?button(r.realtor_url,r.address_only?'Realtor property listing':'Supporting evidence 1 — Realtor listing'):''}${r.address_proof_url?button(r.address_proof_url,r.address_only?'Address evidence — Google Maps':'Address correction — Zillow'):''}${r.photo_match_evidence?button(r.photo_match_evidence,'Supporting evidence 2 — Photo match'):''}${button(r.airbnb_url,'View listing')}</div><div class="popup-actions secondary-actions">${button(report(),'Report address info','secondary')}${button(report(r.matched_permits||''),'Report license info','secondary')}${button(dead,'Report dead listing','secondary')}${button(complaint,'Submit a complaint','secondary')}</div>${r.rental_term_note?'':`<small>${esc(r.classification_note)}</small>`}</section>`;
+ return `<section class="listing-popup"><h3>${esc(r.listing_title||'Airbnb '+r.airbnb)}</h3><div>${value(r.rental_type)}</div><p><b>${addressLabel}:</b> ${esc(r.address)} ${esc(r.unit)}<br><b>Host:</b> ${value(r.host_name)}<br><b>Advertised capacity:</b> ${value(r.advertised_capacity)}<br><b>Bedrooms:</b> ${value(r.bedrooms)}<br>${privacyRadiusField(r.privacy_radius_meters)}<br><b>Legal limit:</b> ${r.legal_limit?esc(r.legal_limit)+' (license record)':'Not established'}</p><p class="popup-status" style="border-color:${r.rental_term_note?midTermColor:colors[r.category]}">${esc(status)}${r.reported_on?' · Reported':''}${r.removed_on||r.removed_reason?' · Removed':''}</p>${capacity}${r.removed_reason?`<p><b>☠️ Removed:</b> ${esc(r.removed_reason)}</p>`:r.removed_on?`<p><b>Removed:</b> Listing reported removed from Airbnb (${esc(r.removed_on)}).</p>`:''}${r.reported_on?`<p><b>Reported:</b> ${esc(r.report_note||'Complaint submitted, per reviewer')} (${esc(r.reported_on)}).</p>`:''}<p><b>Licensing jurisdiction:</b> ${esc(r.jurisdiction)}<br>${esc(r.category==='outside_scope'?'No local license list in this audit':r.matched_permits||((r.licensed_exact_unit||r.licensed_parcel_association)?'Listed as licensed · permit number not supplied':'No matching active license record'))}</p>${r.rental_term_note?`<p><b>Rental term:</b> ${esc(r.rental_term_note)} ${button(r.rental_term_source,'Savannah STVR rules')}</p>`:''}${r.license_unit_evidence?`<p><b>Licensed unit:</b> ${esc(r.license_unit_evidence)} ${button(r.license_unit_source,r.license_unit_source_label||'Rental operator listing')}</p>`:''}${r.parcel_license_note?`<p><b>Permit scope:</b> ${esc(r.parcel_license_note)}</p>`:''}${r.licensed_parcel_association?`<p><b>License basis:</b> ${esc(r.license_match_basis)}. Presumed parcel-level coverage.</p>`:''}<p><b>Address proof:</b><br>${r.address_correction_note?esc(r.address_correction_note):'User-confirmed photo match to the Realtor property. This is the research address, not an exact address disclosed by Airbnb.'}</p><div class="popup-actions">${r.realtor_url?button(r.realtor_url,r.address_only?'Realtor property listing':'Supporting evidence 1 — Realtor listing'):''}${r.address_proof_url?button(r.address_proof_url,r.address_only?'Address evidence — Google Maps':'Address correction — Zillow'):''}${r.photo_match_evidence?button(r.photo_match_evidence,'Supporting evidence 2 — Photo match'):''}${button(r.airbnb_url,'View listing')}</div><div class="popup-actions secondary-actions">${button(report(),'Report address info','secondary')}${button(report(r.matched_permits||''),'Report license info','secondary')}${button(dead,'Report dead listing','secondary')}${button(complaint,'Submit a complaint','secondary')}</div>${r.rental_term_note?'':`<small>${esc(r.classification_note)}</small>`}</section>`;
 }
 async function main(){const response=await fetch('license_audit.json'),data=await response.json();const selected=document.body.dataset.category||'all';let records=data.records.filter(r=>selected==='all'||r.category===selected);document.getElementById('summary').textContent=`${records.length} user-confirmed listing/property associations · refreshed ${new Date(data.generated_unix*1000).toLocaleString()}`;
 const links=r=>`<a href="${esc(r.airbnb_url)}" target="_blank" rel="noopener">Airbnb listing</a> · <a href="${esc(r.realtor_url)}" target="_blank" rel="noopener">Realtor listing</a>`;
@@ -88,7 +91,8 @@ async function renderMap(listings){
  const rejected=new Set(listings.filter(row=>outOfRange(row.airbnb,propertyPoint(row))));
  const rejectedIds=new Set([...rejected].map(row=>row.airbnb));
  listings=listings.filter(row=>!rejected.has(row))
-  .map(row=>({...row,removed_reason:scrapes[row.airbnb]?.removed_reason}));
+  .map(row=>({...row,removed_reason:scrapes[row.airbnb]?.removed_reason,
+   privacy_radius_meters:scrapes[row.airbnb]?.radius_meters}));
  const geometryLayer=L.layerGroup().addTo(map);
  const scrapeLayer=L.layerGroup();
  overlays['Airbnb centers, privacy circles and property links']=geometryLayer;
@@ -105,12 +109,11 @@ async function renderMap(listings){
   if(outOfRange(aid,property))property=null;
   const center=record.center;
   const radius=record.radius_meters;
-  const radiusText=radius===null?'Privacy radius unavailable':radius===0?'Airbnb marked the location as exact':'Airbnb privacy radius: '+radius+' m';
   const companyLink=link('https://www.airbnb.com/rooms/'+aid,'Airbnb listing');
   const displayed=(record.displayed_numbers||[]).join(', ');
   const html='<h3>'+esc(record.title||'Airbnb '+aid)+'</h3><p>'+esc(record.center_source)+
    (record.removed_reason?'<br><b>☠️ Removed from Airbnb</b> · '+esc(record.removed_reason):'')+
-   '<br>'+esc(radiusText)+(property?'<br>Distance to linked property: '+Math.round(map.distance(center,property))+' m':'')+
+   '<br>'+privacyRadiusField(radius)+(property?'<br>Distance to linked property: '+Math.round(map.distance(center,property))+' m':'')+
    (record.rental_type?'<br>'+esc(record.rental_type):'')+(record.bedrooms!=null?'<br>Bedrooms: '+esc(record.bedrooms):'')+
    (record.occupancy!=null?'<br>Advertised capacity: '+esc(record.occupancy):'')+
    (displayed?'<br>Displayed license numbers: '+esc(displayed):'')+'</p>'+permitContext+companyLink;
@@ -239,7 +242,8 @@ async function renderMap(listings){
   alreadyLinked.add(row.airbnb);
   const records=(registryByAddress.get(key(row.street,row.unit))||[]).filter(r=>r.jurisdiction===row.jurisdiction);
   const title='Airbnb '+row.airbnb+' · '+row.address;
-  const current={...row,removed_reason:scrapes[row.airbnb]?.removed_reason};
+  const current={...row,removed_reason:scrapes[row.airbnb]?.removed_reason,
+   privacy_radius_meters:scrapes[row.airbnb]?.radius_meters};
   const marker=point(current,group('Research address matches'),{title,html:popupContent({
    ...current,listing_title:row.title,address_label:'Research address',category:'review',
    airbnb_url:'https://www.airbnb.com/rooms/'+row.airbnb,
@@ -263,7 +267,7 @@ async function renderMap(listings){
    const permitContext='<p>Linked by displayed permit number to '+esc(permit.address)+'.</p>'+registryInfo(permitRows);
    const centerMarker=geometry(aid,record,property,geometryLayer,permitContext);
    const html='<h3>'+esc(title)+'</h3><p>Airbnb displayed '+esc(record.displayed_numbers.join(', '))+
-    '. Linked by permit number to the Pooler register.</p>'+registryInfo(permitRows)+
+    '. Linked by permit number to the Pooler register.<br>'+privacyRadiusField(record.radius_meters)+'</p>'+registryInfo(permitRows)+
     link('https://www.airbnb.com/rooms/'+aid,'Airbnb listing');
    const marker=property?point({...permit,removed_reason:record.removed_reason},group('Pooler · displayed permit matches'),{title,html},
     licensed(permit)?green:purple,licensed(permit)?green:'#fff',7):centerMarker;
