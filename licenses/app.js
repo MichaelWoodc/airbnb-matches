@@ -55,6 +55,7 @@ async function renderMap(listings){
    L.popup({maxWidth:460,maxHeight:300}).setLatLng(marker.getLatLng())
     .setContent(content.html+(nearby?'<hr><h4>Other markers here</h4>'+nearby:'')).openOn(map);
   });
+  return marker;
  }
  const [registry,sources,boundaries,parcels,outsideOverlay]=await Promise.all(['registry/licensed_locations.json','map_sources.json','municipalities.geojson','licensed_parcels.geojson','savannah_outside_stvr_overlay.geojson'].map(async path=>{
   const response=await fetch(path);if(!response.ok)throw Error('Map source unavailable: '+path);return response.json();
@@ -94,6 +95,22 @@ async function renderMap(listings){
   point(row,group(midTerm?'Reported mid-term rentals':'Photo-verified Airbnb matches'),{title:'Airbnb '+row.airbnb+' · '+row.address,
    html:popupContent(row)+flagInfo(flags.get(row.airbnb))+arcInfo(arc)+registryInfo(licenseRows)},isLicensed?green:midTerm?'#4a2069':colors[row.category],fill,8,midTerm);
   if(row.latitude!==''&&row.longitude!=='')represented.add(row.airbnb);
+ }
+ const requestedListing=new URLSearchParams(location.search).get('airbnb');
+ let requestedPin=null;
+ for(const row of sources.manual_locations||[]){
+  if(represented.has(row.airbnb))continue;
+  const records=(registryByAddress.get(key(row.street,row.unit))||[]).filter(r=>r.jurisdiction===row.jurisdiction);
+  const title='Airbnb '+row.airbnb+' · '+row.address;
+  const marker=point(row,group('User-provided research locations'),{title,html:
+   '<h3>'+esc(row.title||title)+'</h3><p><b>User-provided research address:</b> '+esc(row.address)+'</p>'+
+   '<p><b>Jurisdiction:</b> '+esc(row.jurisdiction)+'<br><b>SAGIS parcel:</b> '+esc(row.parcel_pin)+'</p>'+
+   '<p>Marker placed inside the parcel. Listing address association was supplied by the reviewer.</p>'+
+   (records.length?registryInfo(records):'<p>Listing license status unresolved.</p>')+
+   link('https://www.airbnb.com/rooms/'+row.airbnb,'View Airbnb listing')+' · '+
+   link('https://savannahga.gov/1322/Maps-Property-Search-SAGIS','SAGIS parcel search')},
+   records.some(licensed)?green:'#255b93','#c9e3ff',8);
+  if(row.airbnb===requestedListing)requestedPin=marker;
  }
  const registryGroups=new Map();
  for(const row of registry.records){
@@ -183,6 +200,7 @@ async function renderMap(listings){
   return box;
  };
  legend.addTo(map);
+ if(requestedPin){map.setView(requestedPin.getLatLng(),17);requestedPin.fire('click')}
 }
 
 main().catch(e=>document.getElementById('summary').textContent=e.message);
