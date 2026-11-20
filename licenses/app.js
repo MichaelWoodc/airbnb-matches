@@ -17,7 +17,7 @@ function popupContent(r){
  const status=listingStatus(r);
  const capacity=r.advertised_over_capacity>0?`<p><b>Advertised over listed capacity by ${esc(r.advertised_over_capacity)}</b><br>Airbnb advertises ${esc(r.advertised_capacity)} guests. ${r.combined_license_capacity?`The unit permits list ${esc(r.combined_license_capacity)} combined.<br>${r.capacity_permits.map(p=>`Unit ${esc(p.unit)} · ${esc(p.permit)} · ${esc(p.capacity)}`).join('<br>')}`:`The permit limit is ${esc(r.legal_limit)} guests.`}</p>`:'';
 
- return `<section class="listing-popup"><h3>${esc(r.listing_title||'Airbnb '+r.airbnb)}</h3><div>${value(r.rental_type)}</div><p><b>${addressLabel}:</b> ${esc(r.address)} ${esc(r.unit)}<br><b>Host:</b> ${value(r.host_name)}<br><b>Advertised capacity:</b> ${value(r.advertised_capacity)}<br><b>Bedrooms:</b> ${value(r.bedrooms)}<br>${privacyRadiusField(r.privacy_radius_meters)}<br><b>Legal limit:</b> ${r.legal_limit?esc(r.legal_limit)+' (license record)':'Not established'}</p><p class="popup-status" style="border-color:${r.rental_term_note?midTermColor:colors[r.category]}">${esc(status)}${r.reported_on?' · Reported':''}${r.removed_on||r.removed_reason?' · Removed':''}</p>${capacity}${r.removed_reason?`<p><b>☠️ Removed:</b> ${esc(r.removed_reason)}</p>`:r.removed_on?`<p><b>Removed:</b> Listing reported removed from Airbnb (${esc(r.removed_on)}).</p>`:''}${r.reported_on?`<p><b>Reported:</b> ${esc(r.report_note||'Complaint submitted, per reviewer')} (${esc(r.reported_on)}).</p>`:''}<p><b>Licensing jurisdiction:</b> ${esc(r.jurisdiction)}<br>${esc(r.category==='outside_scope'?'No local license list in this audit':r.matched_permits||((r.licensed_exact_unit||r.licensed_parcel_association)?'Listed as licensed · permit number not supplied':'No matching active license record'))}</p>${r.rental_term_note?`<p><b>Rental term:</b> ${esc(r.rental_term_note)} ${button(r.rental_term_source,'Savannah STVR rules')}</p>`:''}${r.license_unit_evidence?`<p><b>Licensed unit:</b> ${esc(r.license_unit_evidence)} ${button(r.license_unit_source,r.license_unit_source_label||'Rental operator listing')}</p>`:''}${r.parcel_license_note?`<p><b>Permit scope:</b> ${esc(r.parcel_license_note)}</p>`:''}${r.licensed_parcel_association?`<p><b>License basis:</b> ${esc(r.license_match_basis)}. Presumed parcel-level coverage.</p>`:''}<p><b>Address proof:</b><br>${r.address_correction_note?esc(r.address_correction_note):'User-confirmed photo match to the Realtor property. This is the research address, not an exact address disclosed by Airbnb.'}</p><div class="popup-actions">${r.realtor_url?button(r.realtor_url,r.address_only?'Realtor property listing':'Supporting evidence 1 — Realtor listing'):''}${r.address_proof_url?button(r.address_proof_url,r.address_only?'Address evidence — Google Maps':'Address correction — Zillow'):''}${r.photo_match_evidence?button(r.photo_match_evidence,'Supporting evidence 2 — Photo match'):''}${button(r.airbnb_url,'View listing')}</div><div class="popup-actions secondary-actions">${button(report(),'Report address info','secondary')}${button(report(r.matched_permits||''),'Report license info','secondary')}${button(dead,'Report dead listing','secondary')}${button(complaint,'Submit a complaint','secondary')}</div>${r.rental_term_note?'':`<small>${esc(r.classification_note)}</small>`}</section>`;
+ return `<section class="listing-popup"><h3>${esc(r.listing_title||'Airbnb '+r.airbnb)}</h3><div>${value(r.rental_type)}</div><p><b>${addressLabel}:</b> ${esc(r.address)} ${esc(r.unit)}<br><b>Host:</b> ${value(r.host_name)}<br><b>Advertised capacity:</b> ${value(r.advertised_capacity)}<br><b>Bedrooms:</b> ${value(r.bedrooms)}<br>${privacyRadiusField(r.privacy_radius_meters)}<br><b>Legal limit:</b> ${r.legal_limit?esc(r.legal_limit)+' (license record)':'Not established'}</p><p class="popup-status" style="border-color:${r.rental_term_note?midTermColor:colors[r.category]}">${esc(status)}${r.reported_on?' · Reported':''}${r.removed_on||r.removed_reason?' · Removed':''}</p>${capacity}${r.removed_reason?`<p><b>☠️ Removed:</b> ${esc(r.removed_reason)}</p>`:r.removed_on?`<p><b>Removed:</b> Listing reported removed from Airbnb (${esc(r.removed_on)}).</p>`:''}${r.reported_on?`<p><b>Reported:</b> ${esc(r.report_note||'Complaint submitted, per reviewer')} (${esc(r.reported_on)}).</p>`:''}<p><b>Licensing jurisdiction:</b> ${esc(r.jurisdiction)}<br>${esc(r.category==='outside_scope'?'No local license list in this audit':r.matched_permits||((r.licensed_exact_unit||r.licensed_parcel_association)?'Listed as licensed · permit number not supplied':'No matching active license record'))}</p>${r.rental_term_note?`<p><b>Rental term:</b> ${esc(r.rental_term_note)} ${button(r.rental_term_source,'Savannah STVR rules')}</p>`:''}${r.license_unit_evidence?`<p><b>Licensed unit:</b> ${esc(r.license_unit_evidence)} ${button(r.license_unit_source,r.license_unit_source_label||'Rental operator listing')}</p>`:''}${r.parcel_license_note?`<p><b>Permit scope:</b> ${esc(r.parcel_license_note)}</p>`:''}${r.licensed_parcel_association?`<p><b>License basis:</b> ${esc(r.license_match_basis)}. Presumed parcel-level coverage.</p>`:''}<p><b>Address proof:</b><br>${r.address_correction_note?esc(r.address_correction_note):'User-confirmed photo match to the Realtor property. This is the research address, not an exact address disclosed by Airbnb.'}</p><div class="popup-actions">${r.realtor_url?button(r.realtor_url,r.address_only?'Realtor property listing':'Supporting evidence 1 — Realtor listing'):''}${r.address_proof_url?button(r.address_proof_url,r.address_only?'Address evidence — Google Maps':'Address correction — Zillow'):''}${r.photo_match_evidence?button(r.photo_match_evidence,'Supporting evidence 2 — Photo match'):''}${r.report_pdf?button(r.report_pdf,r.report_receipt_only?'View submission receipt (PDF)':'View complaint and receipt (PDF)'):''}${button(r.airbnb_url,'View listing')}</div><div class="popup-actions secondary-actions">${button(report(),'Report address info','secondary')}${button(report(r.matched_permits||''),'Report license info','secondary')}${button(dead,'Report dead listing','secondary')}${button(complaint,'Submit a complaint','secondary')}</div>${r.rental_term_note?'':`<small>${esc(r.classification_note)}</small>`}</section>`;
 }
 async function main(){const response=await fetch('license_audit.json'),data=await response.json();const selected=document.body.dataset.category||'all';let records=data.records.filter(r=>selected==='all'||r.category===selected);document.getElementById('summary').textContent=`${records.length} user-confirmed listing/property associations · refreshed ${new Date(data.generated_unix*1000).toLocaleString()}`;
 const links=r=>`<a href="${esc(r.airbnb_url)}" target="_blank" rel="noopener">Airbnb listing</a> · <a href="${esc(r.realtor_url)}" target="_blank" rel="noopener">Realtor listing</a>`;
@@ -89,6 +89,8 @@ async function renderMap(listings){
   });
  });
  const green='#168047',yellow='#ffd54d',purple='#7950a5';
+ const reportSlash='<path d="M4 4 L18 18" stroke="#c81724" stroke-width="3.2"/>';
+ const renderMarker=content=>`<svg viewBox="0 0 22 22" width="22" height="22" aria-hidden="true">${content}</svg>`;
  const skullIcon=()=>L.divIcon({className:'removed-marker',iconSize:[22,22],iconAnchor:[11,11],html:'<span style="display:block;font-size:16px;line-height:22px;text-align:center">☠️</span>'});
  function point(row,layer,content,ring,fill,radius,triangle=false){
   if(row.latitude==null||row.longitude==null||row.latitude===''||row.longitude==='')return;
@@ -101,11 +103,14 @@ async function renderMap(listings){
    :triangle
    ?`<path d="M11 2 L20 19 H2 Z" fill="${midTermColor}" stroke="${ring}" stroke-width="2"/>`
    :`<circle cx="11" cy="11" r="8" fill="${fill}" stroke="${ring}" stroke-width="2.5"/>`;
-  const slashPath=reported?'M4 4 L18 18':'';
-  const slash=slashPath&&over<=0?`<path d="${slashPath}" stroke="#fff" stroke-width="5"/><path d="${slashPath}" stroke="#c81724" stroke-width="3.2"/>`:'';
-  const marker=(triangle||reported||removed||over>0?L.marker(coords,{title:content.title,icon:removed?skullIcon():L.divIcon({
-   className:over>0?'over-capacity-marker':reported?'reported-marker':'mid-term-marker',iconSize:[22,22],iconAnchor:[11,11],
-   html:`<svg viewBox="0 0 22 22" width="22" height="22" aria-hidden="true">${iconShape}${slash}</svg>`
+  const slash=reported?reportSlash:'';
+  const marker=(triangle||reported||removed||over>0?L.marker(coords,{title:content.title,icon:removed&&!reported?skullIcon():L.divIcon({
+   className:removed?'removed-marker':over>0?'over-capacity-marker':reported?'reported-marker':'mid-term-marker',
+   iconSize:[22,22],iconAnchor:[11,11],
+   html:renderMarker(removed?'<text x="11" y="17" text-anchor="middle" font-size="16">☠️</text>'+slash:
+    over>0&&reported?'<circle cx="11" cy="11" r="9" fill="#fff" stroke="#c81724" stroke-width="2"/>'+slash+
+     `<text x="11" y="15" text-anchor="middle" fill="#181818" font-size="13" font-weight="bold">${over}</text>`:
+    iconShape+slash)
   })}):L.circleMarker(coords,{radius,color:ring,weight:2.5,fillColor:fill,fillOpacity:.9})).addTo(layer);
   const entry={marker,layer,content,radius};
   markers.push(entry);
@@ -145,6 +150,9 @@ async function renderMap(listings){
  centerPane.style.zIndex=625;
  const centerIcon=L.divIcon({className:'airbnb-center-marker',iconSize:[14,14],iconAnchor:[7,7],
   html:'<span style="display:block;width:10px;height:10px;margin:2px;box-sizing:border-box;border:2px solid #2269af;border-radius:50%;background:#fff"></span>'});
+ const reportedIds=new Set(listings.filter(row=>row.reported_on).map(row=>row.airbnb));
+ const reportedCenterIcon=L.divIcon({className:'airbnb-center-marker reported-marker',iconSize:[22,22],iconAnchor:[11,11],
+  html:renderMarker('<circle cx="11" cy="11" r="5" fill="#fff" stroke="#2269af" stroke-width="2"/>'+reportSlash)});
  const approximateIds=new Set();
  const propertyMarkers=new Map();
  function geometry(aid,record,property,layer,permitContext=''){
@@ -164,7 +172,7 @@ async function renderMap(listings){
    interactive:false,renderer:centerRenderer}).addTo(layer);
   if(property)L.polyline([center,property],{color:centerColor,dashArray:'5 5',weight:2,opacity:.9,
    interactive:false,renderer:centerRenderer}).addTo(layer);
-  const marker=L.marker(center,{pane:'airbnb-centers',icon:record.removed_reason?skullIcon():centerIcon,
+  const marker=L.marker(center,{pane:'airbnb-centers',icon:record.removed_reason?skullIcon():reportedIds.has(aid)?reportedCenterIcon:centerIcon,
    title:(record.removed_reason?'Removed from Airbnb: ':'Airbnb location: ')+(record.title||aid)});
   marker.on('click',()=>{
    const linkedMarker=property&&propertyMarkers.get(aid);
