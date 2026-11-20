@@ -208,6 +208,7 @@ async function renderMap(listings){
   if(row.airbnb===requestedListing)requestedPin=marker;
  }
  const reviewedIds=new Set(listings.map(row=>row.airbnb));
+ const countyFlagged=new Set(sources.county_likely_unlicensed.map(row=>row.airbnb));
  for(const [aid,record] of Object.entries(scrapes)){
   if(alreadyLinked.has(aid)||approximateIds.has(aid))continue;
   const permitIds=record.pooler_permits||[];
@@ -223,7 +224,7 @@ async function renderMap(listings){
    const marker=property?point(permit,group('Pooler · displayed permit matches'),{title,html},
     licensed(permit)?green:purple,licensed(permit)?green:'#fff',7):centerMarker;
    if(aid===requestedListing&&marker)requestedPin=marker;
-  }else if(reviewedIds.has(aid)||permitRows.length){
+  }else if(reviewedIds.has(aid)||countyFlagged.has(aid)||permitRows.length){
    const candidateText=permitRows.length>1?'<p>Multiple Pooler permit matches need review.</p>'+registryInfo(permitRows):'';
    const marker=geometry(aid,record,null,geometryLayer,candidateText);
    if(aid===requestedListing&&marker&&!requestedPin)requestedPin=marker;
