@@ -1,5 +1,5 @@
 {
-  "generated_unix": 1795138787.0981517,
+  "generated_unix": 1795139173.3308315,
   "source_manifest": {
     "0": {
       "url": "https://services5.arcgis.com/CEpuXecVrKGiDoOH/ArcGIS/rest/services/STR_Map_and_Parcel_WFL1/FeatureServer/0",
@@ -29,6 +29,9 @@
   },
   "records": [
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -76,6 +79,9 @@
       "classification_note": "License list coverage remains unresolved for this address and unit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -123,6 +129,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -170,6 +179,9 @@
       "classification_note": "Conflicting user-confirmed property addresses; resolve before license classification"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -217,6 +229,9 @@
       "classification_note": "Conflicting user-confirmed property addresses; resolve before license classification"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -264,6 +279,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -311,6 +329,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -358,6 +379,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -405,6 +429,9 @@
       "classification_note": "Conflicting user-confirmed property addresses; resolve before license classification"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -452,6 +479,9 @@
       "classification_note": "Conflicting user-confirmed property addresses; resolve before license classification"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -499,6 +529,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -546,6 +579,9 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -593,6 +629,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -640,6 +679,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -687,6 +729,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -734,6 +779,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -781,6 +829,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -828,6 +879,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -875,6 +929,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -922,6 +979,9 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "The rental operator\u2019s Cooper Cottage listing matches the Airbnb cottage description, and the matched Realtor photos show the cottage. The Savannah workbook identifies the licensed unit as Carriage House.",
       "license_unit_source": "https://www.southernbellevacationrentals.com/vacation-rentals/cooper-cottage",
@@ -969,6 +1029,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1016,6 +1079,9 @@
       "classification_note": "No Savannah STVR certificate was found for this address or parcel in the saved sources. The closest mapped Savannah license-list point was about 2 km away when checked on November 19, 2026. The listing\u2019s current minimum stay and current city certificate status remain unverified."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1063,6 +1129,9 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1110,6 +1179,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1157,6 +1229,9 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1204,6 +1279,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1251,6 +1329,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1298,6 +1379,9 @@
       "classification_note": "License list coverage remains unresolved for this address and unit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1345,6 +1429,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1392,6 +1479,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1439,6 +1529,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1486,6 +1579,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1533,6 +1629,9 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1580,6 +1679,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1627,6 +1729,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1674,6 +1779,9 @@
       "classification_note": "License list coverage remains unresolved for this address and unit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1721,6 +1829,9 @@
       "classification_note": "No matching active license record in the supplied source snapshot; not an agency determination"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1768,6 +1879,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1815,6 +1929,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1862,6 +1979,9 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1909,6 +2029,20 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "combined_license_capacity": 10,
+      "advertised_over_capacity": 2,
+      "capacity_permits": [
+        {
+          "permit": "SVR-02143",
+          "unit": "A",
+          "capacity": 6
+        },
+        {
+          "permit": "SVR-02144",
+          "unit": "B",
+          "capacity": 4
+        }
+      ],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -1956,6 +2090,9 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2003,6 +2140,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2050,6 +2190,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2097,6 +2240,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2144,6 +2290,9 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2191,6 +2340,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2238,6 +2390,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2285,6 +2440,9 @@
       "classification_note": "No matching active license record in the supplied source snapshot; not an agency determination"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2332,6 +2490,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2379,6 +2540,9 @@
       "classification_note": "No matching active license record in the supplied source snapshot; not an agency determination"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2426,6 +2590,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2473,6 +2640,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2520,6 +2690,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2567,6 +2740,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2614,6 +2790,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2661,6 +2840,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2708,6 +2890,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2755,6 +2940,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2802,6 +2990,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2849,6 +3040,9 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2896,6 +3090,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2943,6 +3140,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -2990,6 +3190,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3037,6 +3240,9 @@
       "classification_note": "License list coverage remains unresolved for this address and unit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3084,6 +3290,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3131,6 +3340,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3178,6 +3390,9 @@
       "classification_note": "No matching active license record in the supplied source snapshot; not an agency determination"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3225,6 +3440,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3272,6 +3490,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3319,6 +3540,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3366,6 +3590,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3413,6 +3640,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3460,6 +3690,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3507,6 +3740,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3554,6 +3790,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3601,6 +3840,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": true,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3648,6 +3890,9 @@
       "classification_note": "Presumed licensed for map screening based on the photo-verified point and the supplied parcel license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3695,6 +3940,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3742,6 +3990,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3789,6 +4040,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3836,6 +4090,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3883,6 +4140,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3930,6 +4190,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -3977,6 +4240,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4024,6 +4290,9 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4071,6 +4340,9 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4118,6 +4390,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4165,6 +4440,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4212,6 +4490,9 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4259,6 +4540,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4306,6 +4590,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4353,6 +4640,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4400,6 +4690,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4447,6 +4740,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": true,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4494,6 +4790,9 @@
       "classification_note": "Presumed licensed for map screening based on the photo-verified point and the supplied parcel license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4541,6 +4840,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4588,6 +4890,9 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4635,6 +4940,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4682,6 +4990,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4729,6 +5040,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4776,6 +5090,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4823,6 +5140,9 @@
       "classification_note": "License list coverage remains unresolved for this address and unit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4870,6 +5190,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4917,6 +5240,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -4964,6 +5290,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5011,6 +5340,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5058,6 +5390,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5105,6 +5440,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5152,6 +5490,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5199,6 +5540,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5246,6 +5590,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5293,6 +5640,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5340,6 +5690,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5387,6 +5740,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5434,6 +5790,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5481,6 +5840,9 @@
       "classification_note": "No matching active license record in the supplied source snapshot; not an agency determination"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5528,6 +5890,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5575,6 +5940,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5622,6 +5990,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5669,6 +6040,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5716,6 +6090,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5763,6 +6140,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5810,6 +6190,9 @@
       "classification_note": "Address and unit matched the Tybee Island license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5857,6 +6240,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5904,6 +6290,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5951,6 +6340,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -5998,6 +6390,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6045,6 +6440,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6092,6 +6490,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6139,6 +6540,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6186,6 +6590,9 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6233,6 +6640,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6280,6 +6690,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6327,6 +6740,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6374,6 +6790,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6421,6 +6840,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6468,6 +6890,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6515,6 +6940,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6562,6 +6990,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6609,6 +7040,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6656,6 +7090,9 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6703,6 +7140,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6750,6 +7190,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6797,6 +7240,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6844,6 +7290,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6891,6 +7340,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6938,6 +7390,9 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -6985,6 +7440,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -7032,6 +7490,9 @@
       "classification_note": "Unit/license coverage or location needs review"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -7079,6 +7540,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -7126,6 +7590,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -7173,6 +7640,9 @@
       "classification_note": "Address and unit matched the Thunderbolt license list."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -7220,6 +7690,9 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -7267,6 +7740,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -7314,6 +7790,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -7361,6 +7840,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -7408,6 +7890,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -7455,6 +7940,9 @@
       "classification_note": "Saved text inspection; live Airbnb page not re-scraped"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -7502,6 +7990,9 @@
       "classification_note": "No license list for this jurisdiction was supplied to the audit."
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
@@ -7549,6 +8040,9 @@
       "classification_note": "No active Savannah permit association established; do not infer unlicensed operation from study absence"
     },
     {
+      "combined_license_capacity": null,
+      "advertised_over_capacity": null,
+      "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
       "license_unit_source": "",
