@@ -2,7 +2,7 @@ const esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const labels={license_not_shown:'Licensed address — license not shown',unlicensed:'Potentially unlicensed — no license record found',review:'License status unresolved',outside_scope:'License list unavailable',license_shown:'License shown'},colors={license_not_shown:'#087e8b',unlicensed:'#c32d40',review:'#b88213',outside_scope:'#77818c',license_shown:'#3869af'};
 const midTermLabel='Mid-term rental · conditional STVR exemption';
 const midTermColor='#7939a8';
-const listingStatus=r=>r.rental_term_note?midTermLabel:labels[r.category];
+const listingStatus=r=>r.rental_term_note?midTermLabel:r.license_marker_status||labels[r.category];
 function popupContent(r){
  const value=x=>x===undefined||x===null||x===''?'Not recorded':esc(x);
  const reportBase='https://docs.google.com/forms/d/e/1FAIpQLSf0UzTMk7k2NIsRYuNL54MmFjRmVHlXTXGVMsBnyUZYjNoJzA/viewform';
@@ -14,7 +14,7 @@ function popupContent(r){
  const status=listingStatus(r);
  const capacity=r.advertised_over_capacity>0?`<p><b>Advertised over listed capacity by ${esc(r.advertised_over_capacity)}</b><br>Airbnb advertises ${esc(r.advertised_capacity)} guests. The two unit permits list ${esc(r.combined_license_capacity)} combined.<br>${r.capacity_permits.map(p=>`Unit ${esc(p.unit)} · ${esc(p.permit)} · ${esc(p.capacity)}`).join('<br>')}</p>`:'';
 
- return `<section class="listing-popup"><h3>${esc(r.listing_title||'Airbnb '+r.airbnb)}</h3><div>${value(r.rental_type)}</div><p><b>${addressLabel}:</b> ${esc(r.address)} ${esc(r.unit)}<br><b>Host:</b> ${value(r.host_name)}<br><b>Advertised capacity:</b> ${value(r.advertised_capacity)}<br><b>Bedrooms:</b> ${value(r.bedrooms)}<br><b>Legal limit:</b> ${r.legal_limit?esc(r.legal_limit)+' (license record)':'Not established'}</p><p class="popup-status" style="border-color:${r.rental_term_note?midTermColor:colors[r.category]}">${esc(status)}${r.reported_on?' · Reported':''}${r.removed_on?' · Removed':''}</p>${capacity}${r.removed_on?`<p><b>Removed:</b> Listing reported removed from Airbnb (${esc(r.removed_on)}).</p>`:''}${r.reported_on?`<p><b>Reported:</b> ${esc(r.report_note||'Complaint submitted, per reviewer')} (${esc(r.reported_on)}).</p>`:''}<p><b>Licensing jurisdiction:</b> ${esc(r.jurisdiction)}<br>${esc(r.category==='outside_scope'?'No local license list in this audit':r.matched_permits||((r.licensed_exact_unit||r.licensed_parcel_association)?'Listed as licensed · permit number not supplied':'No matching active license record'))}</p>${r.rental_term_note?`<p><b>Rental term:</b> ${esc(r.rental_term_note)} ${button(r.rental_term_source,'Savannah STVR rules')}</p>`:''}${r.license_unit_evidence?`<p><b>Licensed unit:</b> ${esc(r.license_unit_evidence)} ${button(r.license_unit_source,'Rental operator listing')}</p>`:''}${r.licensed_parcel_association?`<p><b>License basis:</b> ${esc(r.license_match_basis)}. Presumed parcel-level coverage.</p>`:''}<p><b>Address proof:</b><br>${r.address_correction_note?esc(r.address_correction_note):'User-confirmed photo match to the Realtor property. This is the research address, not an exact address disclosed by Airbnb.'}</p><div class="popup-actions">${r.realtor_url?button(r.realtor_url,'Supporting evidence 1 — Realtor listing'):''}${r.address_proof_url?button(r.address_proof_url,'Address correction — Zillow'):''}${r.photo_match_evidence?button(r.photo_match_evidence,'Supporting evidence 2 — Photo match'):''}${button(r.airbnb_url,'View listing')}</div><div class="popup-actions secondary-actions">${button(report(),'Report address info','secondary')}${button(report(r.matched_permits||''),'Report license info','secondary')}${button(dead,'Report dead listing','secondary')}${button(complaint,'Submit a complaint','secondary')}</div>${r.rental_term_note?'':`<small>${esc(r.classification_note)}</small>`}</section>`;
+ return `<section class="listing-popup"><h3>${esc(r.listing_title||'Airbnb '+r.airbnb)}</h3><div>${value(r.rental_type)}</div><p><b>${addressLabel}:</b> ${esc(r.address)} ${esc(r.unit)}<br><b>Host:</b> ${value(r.host_name)}<br><b>Advertised capacity:</b> ${value(r.advertised_capacity)}<br><b>Bedrooms:</b> ${value(r.bedrooms)}<br><b>Legal limit:</b> ${r.legal_limit?esc(r.legal_limit)+' (license record)':'Not established'}</p><p class="popup-status" style="border-color:${r.rental_term_note?midTermColor:colors[r.category]}">${esc(status)}${r.reported_on?' · Reported':''}${r.removed_on?' · Removed':''}</p>${capacity}${r.removed_on?`<p><b>Removed:</b> Listing reported removed from Airbnb (${esc(r.removed_on)}).</p>`:''}${r.reported_on?`<p><b>Reported:</b> ${esc(r.report_note||'Complaint submitted, per reviewer')} (${esc(r.reported_on)}).</p>`:''}<p><b>Licensing jurisdiction:</b> ${esc(r.jurisdiction)}<br>${esc(r.category==='outside_scope'?'No local license list in this audit':r.matched_permits||((r.licensed_exact_unit||r.licensed_parcel_association)?'Listed as licensed · permit number not supplied':'No matching active license record'))}</p>${r.rental_term_note?`<p><b>Rental term:</b> ${esc(r.rental_term_note)} ${button(r.rental_term_source,'Savannah STVR rules')}</p>`:''}${r.license_unit_evidence?`<p><b>Licensed unit:</b> ${esc(r.license_unit_evidence)} ${button(r.license_unit_source,r.license_unit_source_label||'Rental operator listing')}</p>`:''}${r.parcel_license_note?`<p><b>Permit scope:</b> ${esc(r.parcel_license_note)}</p>`:''}${r.licensed_parcel_association?`<p><b>License basis:</b> ${esc(r.license_match_basis)}. Presumed parcel-level coverage.</p>`:''}<p><b>Address proof:</b><br>${r.address_correction_note?esc(r.address_correction_note):'User-confirmed photo match to the Realtor property. This is the research address, not an exact address disclosed by Airbnb.'}</p><div class="popup-actions">${r.realtor_url?button(r.realtor_url,'Supporting evidence 1 — Realtor listing'):''}${r.address_proof_url?button(r.address_proof_url,'Address correction — Zillow'):''}${r.photo_match_evidence?button(r.photo_match_evidence,'Supporting evidence 2 — Photo match'):''}${button(r.airbnb_url,'View listing')}</div><div class="popup-actions secondary-actions">${button(report(),'Report address info','secondary')}${button(report(r.matched_permits||''),'Report license info','secondary')}${button(dead,'Report dead listing','secondary')}${button(complaint,'Submit a complaint','secondary')}</div>${r.rental_term_note?'':`<small>${esc(r.classification_note)}</small>`}</section>`;
 }
 async function main(){const response=await fetch('license_audit.json'),data=await response.json();const selected=document.body.dataset.category||'all';let records=data.records.filter(r=>selected==='all'||r.category===selected);document.getElementById('summary').textContent=`${records.length} user-confirmed listing/property associations · refreshed ${new Date(data.generated_unix*1000).toLocaleString()}`;
 const links=r=>`<a href="${esc(r.airbnb_url)}" target="_blank" rel="noopener">Airbnb listing</a> · <a href="${esc(r.realtor_url)}" target="_blank" rel="noopener">Realtor listing</a>`;
@@ -66,11 +66,15 @@ async function renderMap(listings){
   const response=await fetch(path);if(!response.ok)throw Error('Map source unavailable: '+path);return response.json();
  }));
  const registryById=new Map(registry.records.map(row=>[row.source_id,row]));
- const registryByAddress=new Map();
+ const registryByAddress=new Map(),registryByPermit=new Map();
  for(const row of registry.records){
   const k=key(row.normalized_address,row.unit);
   if(!registryByAddress.has(k))registryByAddress.set(k,[]);
   registryByAddress.get(k).push(row);
+  if(row.permit){
+   if(!registryByPermit.has(row.permit))registryByPermit.set(row.permit,[]);
+   registryByPermit.get(row.permit).push(row);
+  }
  }
  const arcByAddress=new Map(sources.county_arcgis.map(row=>[key(row.street,row.unit),row]));
  const flags=new Map(sources.county_likely_unlicensed.map(row=>[row.airbnb,row]));
@@ -78,31 +82,75 @@ async function renderMap(listings){
   if(!rows.length)return '';
   const entries=new Map();
   for(const row of rows){
-   const key=JSON.stringify([row.jurisdiction,row.permit,row.expiration,row.status,row.license_state,row.source_file]);
+   const key=JSON.stringify([row.jurisdiction,row.unit,row.permit,row.expiration,row.status,row.license_state,row.source_file]);
    if(!entries.has(key))entries.set(key,{row,count:0});
    entries.get(key).count++;
   }
   return '<h4>License lists</h4><ul>'+Array.from(entries.values(),({row,count})=>
    '<li>'+esc(row.jurisdiction)+' · '+esc(licensed(row)?'Listed as licensed':row.license_state==='expired_in_source'?'Expired in source':'Source status requires review')+
-   ' · '+esc(row.permit||'permit number not supplied')+(row.expiration?' · expires '+esc(row.expiration):'')+
+   ' · '+esc(row.permit||'permit number not supplied')+(row.unit?' · unit '+esc(row.unit):'')+
+  (row.approved_capacity?' · listed capacity '+esc(row.approved_capacity):'')+(row.expiration?' · expires '+esc(row.expiration):'')+
    '<br>'+esc(row.source_file)+(count>1?' · '+count+' source rows with the same listed details':'')+'</li>').join('')+'</ul>';
  }
  const arcInfo=row=>row?'<h4>Chatham County ArcGIS</h4><ul>'+row.records.map(r=>
   '<li>'+esc(r.status||'Status not supplied')+(r.permit?' · '+esc(r.permit):'')+' · '+link(r.source_url,'Layer '+r.layer)+'</li>').join('')+'</ul>':'';
  const flagInfo=row=>row?'<p><b>Chatham County likely-unlicensed listings:</b> This Airbnb appears on the '+link(row.source_url,'source list')+'.</p>':'';
- const represented=new Set();
+ const represented=new Set(), mergedSourceIds=new Set(), mergedListings=new Map();
  const requestedListing=new URLSearchParams(location.search).get('airbnb');
  let requestedPin=null;
- for(const row of listings){
-  const k=key(row.normalized_address,row.unit),arc=arcByAddress.get(k);
-  const licenseRows=(registryByAddress.get(k)||[]).filter(r=>r.jurisdiction===row.jurisdiction);
-  const isLicensed=licenseRows.some(licensed)||Boolean(row.licensed_exact_unit||row.licensed_parcel_association)||Boolean(row.jurisdiction==='UNINCORPORATED'&&arc?.records.some(arcLicensed));
+ function listingMarker(row,content,isLicensed,groupName){
   const fill=row.license_display==='not_shown_in_saved_text'?yellow:colors[row.category];
   const midTerm=Boolean(row.rental_term_note);
-  const marker=point(row,group(midTerm?'Reported mid-term rentals':'Photo-verified Airbnb matches'),{title:'Airbnb '+row.airbnb+' · '+row.address,
-   html:popupContent(row)+flagInfo(flags.get(row.airbnb))+arcInfo(arc)+registryInfo(licenseRows)},isLicensed?green:midTerm?'#4a2069':colors[row.category],fill,8,midTerm);
+  const marker=point(row,group(groupName),content,isLicensed?green:midTerm?'#4a2069':colors[row.category],fill,8,midTerm);
   if(row.airbnb===requestedListing&&marker)requestedPin=marker;
+ }
+ for(const row of listings){
+  const k=key(row.normalized_address,row.unit),arc=arcByAddress.get(k);
+  const permits=(row.matched_permits||'').split(' | ').filter(Boolean);
+  const pins=(row.assessor_pin||'').split(' | ').filter(Boolean);
+  const exactAddress=(registryByAddress.get(k)||[]).filter(r=>r.jurisdiction===row.jurisdiction);
+  const permitRows=permits.flatMap(permit=>registryByPermit.get(permit)||[]).filter(r=>
+   r.jurisdiction===row.jurisdiction&&licensed(r)&&
+   (r.normalized_address===row.normalized_address||pins.includes(r.sagis_pin||r.parcel_pin))&&
+   (!pins.length||!(r.sagis_pin||r.parcel_pin)||pins.includes(r.sagis_pin||r.parcel_pin)));
+  const direct=!row.conflicting_property_matches&&row.licensed_exact_unit;
+  const distinctPermits=[...new Set(permitRows.map(r=>r.permit))];
+  // A single unit-specific permit on the verified parcel is useful address evidence.
+  // Its coverage is only attributed to the unit named in the license record.
+  const parcelOnly=!direct&&!row.conflicting_property_matches&&!row.unit&&row.category==='review'&&
+   distinctPermits.length===1&&permitRows.every(r=>r.unit&&pins.includes(r.sagis_pin||r.parcel_pin)&&
+    r.normalized_address===row.normalized_address);
+  const licenseRows=direct?[...new Set([...exactAddress.filter(r=>licensed(r)&&(!permits.length||permits.includes(r.permit))&&
+    (!pins.length||!(r.sagis_pin||r.parcel_pin)||pins.includes(r.sagis_pin||r.parcel_pin))),
+    ...permitRows.filter(r=>r.unit===(row.unit||''))])]:parcelOnly?permitRows:exactAddress;
+  const canMerge=(direct||parcelOnly)&&licenseRows.length>0;
+  const status=parcelOnly?'Licensed parcel · listing coverage unresolved':
+   direct&&row.license_display==='unknown'?'Listed as licensed · listing display unknown':'';
+  const scoped=parcelOnly?{
+   ...row,license_marker_status:status,classification_note:'',
+   parcel_license_note:`The permit on file covers the ${licenseRows[0].unit}.${licenseRows[0].approved_capacity?' Listed capacity: '+licenseRows[0].approved_capacity+'.':''} Coverage for this Airbnb listing is unresolved.`
+  }:{...row,license_marker_status:status};
+  const content={title:'Airbnb '+row.airbnb+' · '+row.address,
+   html:popupContent(scoped)+flagInfo(flags.get(row.airbnb))+arcInfo(arc)+registryInfo(licenseRows)};
+  if(canMerge){
+   licenseRows.forEach(record=>mergedSourceIds.add(record.source_id));
+   const special=row.reported_on||row.removed_on||row.rental_term_note||row.advertised_over_capacity>0;
+   const mergeKey=JSON.stringify([licenseRows.map(r=>r.source_id).sort(),special?row.airbnb:null]);
+   if(!mergedListings.has(mergeKey))mergedListings.set(mergeKey,[]);
+   mergedListings.get(mergeKey).push({row,content,licenseRows});
+  }else{
+   const isLicensed=Boolean(row.licensed_exact_unit||row.licensed_parcel_association);
+   listingMarker(row,content,isLicensed,row.rental_term_note?'Reported mid-term rentals':'Photo-verified Airbnb matches');
+  }
   if(row.latitude!==''&&row.longitude!=='')represented.add(row.airbnb);
+ }
+ for(const entries of mergedListings.values()){
+  const chosen=entries.find(entry=>entry.row.airbnb===requestedListing)||entries[0];
+  const other=entries.filter(entry=>entry!==chosen).map(entry=>'<details><summary>'+esc(entry.content.title)+'</summary>'+entry.content.html+'</details>').join('');
+  const mapped=chosen.licenseRows.find(r=>r.map_status==='mapped');
+  const row=mapped?{...chosen.row,latitude:mapped.latitude,longitude:mapped.longitude}:chosen.row;
+  listingMarker(row,{title:chosen.content.title,html:chosen.content.html+(other?'<hr><h4>Other listings at this licensed address</h4>'+other:'')},
+   true,'Licensed Airbnb matches');
  }
  for(const row of sources.manual_locations||[]){
   if(represented.has(row.airbnb))continue;
@@ -123,9 +171,11 @@ async function renderMap(listings){
   registryGroups.get(k).push(row);
  }
  const registryPositions=new Set();
- for(const rows of registryGroups.values()){
-  const row=rows[0],k=key(row.normalized_address,row.unit),arc=row.jurisdiction==='UNINCORPORATED'?arcByAddress.get(k):null;
+ for(const grouped of registryGroups.values()){
+  const row=grouped[0],k=key(row.normalized_address,row.unit),arc=row.jurisdiction==='UNINCORPORATED'?arcByAddress.get(k):null;
   if(arc)registryPositions.add(k);
+  const rows=grouped.filter(r=>!mergedSourceIds.has(r.source_id));
+  if(!rows.length)continue;
   const title=row.normalized_address+(row.unit?' · '+row.unit:'');
   const jurisdiction=row.jurisdiction==='UNINCORPORATED'?'Chatham County':row.jurisdiction;
   const isLicensed=rows.some(licensed)||Boolean(arc?.records.some(arcLicensed));
