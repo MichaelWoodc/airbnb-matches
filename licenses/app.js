@@ -37,6 +37,11 @@ async function renderMap(listings){
  const key=(street,unit)=>JSON.stringify([street,unit||'']);
  const licensed=r=>['licensed','source_listed'].includes(r.license_state);
  const arcLicensed=r=>!!r.permit&&/(^|;\s*)Licensed STR($|;)/i.test(r.status);
+ const popupOptions=()=>{
+  const size=map.getSize();
+  return {maxWidth:Math.min(460,size.x-64),maxHeight:Math.min(300,size.y-100),
+   autoPan:true,autoPanPadding:[24,24]};
+ };
  const green='#168047',yellow='#ffd54d',purple='#7950a5';
  const skullIcon=()=>L.divIcon({className:'removed-marker',iconSize:[22,22],iconAnchor:[11,11],html:'<span style="display:block;font-size:16px;line-height:22px;text-align:center">☠️</span>'});
  function point(row,layer,content,ring,fill,radius,triangle=false){
@@ -63,7 +68,7 @@ async function renderMap(listings){
    const neighbors=markers.filter(other=>other!==entry&&map.hasLayer(other.layer)&&
     center.distanceTo(map.latLngToLayerPoint(other.marker.getLatLng()))<=radius+other.radius);
    const nearby=neighbors.map(other=>'<details><summary>'+esc(other.content.title)+'</summary>'+other.content.html+'</details>').join('');
-   L.popup({maxWidth:460,maxHeight:300}).setLatLng(marker.getLatLng())
+   L.popup(popupOptions()).setLatLng(marker.getLatLng())
     .setContent(content.html+(nearby?'<hr><h4>Other markers here</h4>'+nearby:'')).openOn(map);
   });
   return marker;
@@ -108,21 +113,18 @@ async function renderMap(listings){
    '<br>'+esc(radiusText)+(property?'<br>Distance to linked property: '+Math.round(map.distance(center,property))+' m':'')+
    (record.rental_type?'<br>'+esc(record.rental_type):'')+(record.bedrooms!=null?'<br>Bedrooms: '+esc(record.bedrooms):'')+
    (record.occupancy!=null?'<br>Advertised capacity: '+esc(record.occupancy):'')+
-   (displayed?'<br>Displayed license numbers: '+esc(displayed):'')+'</p>'+permitContext+companyLink+(property?' · <button type="button" class="airbnb-linked-property">Open linked property</button>':'');
+   (displayed?'<br>Displayed license numbers: '+esc(displayed):'')+'</p>'+permitContext+companyLink;
   if(radius>0&&!record.removed_reason)L.circle(center,{radius,color:centerColor,weight:1.25,opacity:.7,fillOpacity:.07,
    interactive:false,renderer:centerRenderer}).addTo(layer);
   if(property)L.polyline([center,property],{color:centerColor,dashArray:'5 5',weight:2,opacity:.9,
    interactive:false,renderer:centerRenderer}).addTo(layer);
   const marker=L.marker(center,{pane:'airbnb-centers',icon:record.removed_reason?skullIcon():centerIcon,
    title:(record.removed_reason?'Removed from Airbnb: ':'Airbnb location: ')+(record.title||aid)});
-  marker.bindPopup(html).addTo(layer);
-  if(property)marker.on('popupopen',event=>{
-   const button=event.popup.getElement().querySelector('.airbnb-linked-property');
-   button?.addEventListener('click',click=>{
-    click.stopPropagation();
-    propertyMarkers.get(aid)?.fire('click');
-   });
-  });
+  marker.on('click',()=>{
+   const linkedMarker=property&&propertyMarkers.get(aid);
+   if(linkedMarker)linkedMarker.fire('click');
+   else L.popup(popupOptions()).setLatLng(center).setContent(html).openOn(map);
+  }).addTo(layer);
   approximateIds.add(aid);
   return marker;
  }
@@ -353,7 +355,7 @@ async function renderMap(listings){
    const records=feature.properties.license_source_ids.map(id=>registryById.get(id)).filter(Boolean);
    const addresses=[...new Set(records.map(row=>row.normalized_address))];
    layer.bindPopup('<h3>'+esc(addresses.join(' / ')||'Licensed parcel')+'</h3><p>SAGIS parcel '+esc(feature.properties.pin)+
-    '</p>'+registryInfo(records),{maxWidth:420,maxHeight:300});
+    '</p>'+registryInfo(records),popupOptions());
   }}).addTo(map);
  L.control.layers(null,overlays,{collapsed:true}).addTo(map);
  const legend=L.control({position:'bottomleft'});
