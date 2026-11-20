@@ -1,7 +1,28 @@
 {
-  "published_unix": 1795142849.04062,
-  "content_signature": "373a4d7e972d4e53f4bafe6d492e7b6f8625666abf7042c8e1dac7e611f17721",
+  "published_unix": 1795143570.6175766,
+  "content_signature": "e471c4bf4ed1c64525db54b86867aeef784f0b79735fbc18d99049a04b4498fd",
   "matches": [
+    {
+      "key": "1c1414c60801107b59c553a0",
+      "airbnb": "1432851200788053373",
+      "address": "109 CRABAPPLE CIR_PORT WENTWORTH_31407",
+      "airbnb_url": "https://www.airbnb.com/rooms/1432851200788053373",
+      "realtor_url": "https://www.realtor.com/realestateandhomes-detail/109-Crabapple-Cir_Port-Wentworth_GA_31407_M63494-36652",
+      "verified": true,
+      "score": 35.198269797057456,
+      "inliers": 142,
+      "discovered_unix": 1795142574.331877,
+      "photos": [
+        [
+          "assets/fecb9a5ee019f822a4704142faf270cd.jpg",
+          "assets/0acfde311ac244a8e17a039403385386.jpg"
+        ],
+        [
+          "assets/db384ed57e62fa5214c185bb10b9e717.jpg",
+          "assets/e6030bccc40f6e11c6ab29b77e4f0bbf.jpg"
+        ]
+      ]
+    },
     {
       "key": "0869326c486f9e4e0a0764a1",
       "airbnb": "1547305686943318611",
@@ -3222,10 +3243,10 @@
     }
   ],
   "progress": {
-    "airbnb_checked": 2019,
-    "total_airbnb": 2019,
+    "airbnb_checked": 2018,
+    "total_airbnb": 2018,
     "airbnb_remaining": 0,
     "eta_seconds": null,
-    "updated_unix": 1795142835.4540687
+    "updated_unix": 1795143565.4346645
   }
 }
