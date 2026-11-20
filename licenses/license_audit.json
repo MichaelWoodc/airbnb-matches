@@ -1,5 +1,5 @@
 {
-  "generated_unix": 1795207471.069681,
+  "generated_unix": 1795209532.628563,
   "source_manifest": {
     "0": {
       "url": "https://services5.arcgis.com/CEpuXecVrKGiDoOH/ArcGIS/rest/services/STR_Map_and_Parcel_WFL1/FeatureServer/0",
@@ -285,7 +285,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -489,7 +489,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -846,7 +846,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -1560,7 +1560,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -2693,7 +2693,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -2744,7 +2744,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -2846,7 +2846,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -2897,7 +2897,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -2948,7 +2948,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -2999,7 +2999,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -3101,7 +3101,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -3713,7 +3713,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -3968,7 +3968,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -5345,7 +5345,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -5600,7 +5600,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -6161,7 +6161,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -6314,7 +6314,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -6416,7 +6416,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -6467,7 +6467,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -6569,7 +6569,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -6620,7 +6620,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -6722,7 +6722,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -6773,7 +6773,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -6824,7 +6824,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -6977,7 +6977,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -7079,7 +7079,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -7232,7 +7232,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -7385,7 +7385,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -7436,7 +7436,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -7844,7 +7844,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -7997,7 +7997,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",
@@ -8099,7 +8099,7 @@
     },
     {
       "combined_license_capacity": null,
-      "advertised_over_capacity": null,
+      "advertised_over_capacity": 0,
       "capacity_permits": [],
       "licensed_parcel_association": false,
       "license_unit_evidence": "",

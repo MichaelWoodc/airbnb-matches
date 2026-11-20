@@ -12,7 +12,7 @@ function popupContent(r){
  const button=(url,label,extra='')=>'<a class="popup-action '+extra+'" target="_blank" rel="noopener" href="'+esc(url)+'">'+esc(label)+'</a>';
  const addressLabel=r.address_label||(r.conflicting_property_matches?'Conflicting verified address matches':'Photo-verified address');
  const status=listingStatus(r);
- const capacity=r.advertised_over_capacity>0?`<p><b>Advertised over listed capacity by ${esc(r.advertised_over_capacity)}</b><br>Airbnb advertises ${esc(r.advertised_capacity)} guests. The two unit permits list ${esc(r.combined_license_capacity)} combined.<br>${r.capacity_permits.map(p=>`Unit ${esc(p.unit)} · ${esc(p.permit)} · ${esc(p.capacity)}`).join('<br>')}</p>`:'';
+ const capacity=r.advertised_over_capacity>0?`<p><b>Advertised over listed capacity by ${esc(r.advertised_over_capacity)}</b><br>Airbnb advertises ${esc(r.advertised_capacity)} guests. ${r.combined_license_capacity?`The unit permits list ${esc(r.combined_license_capacity)} combined.<br>${r.capacity_permits.map(p=>`Unit ${esc(p.unit)} · ${esc(p.permit)} · ${esc(p.capacity)}`).join('<br>')}`:`The permit limit is ${esc(r.legal_limit)} guests.`}</p>`:'';
 
  return `<section class="listing-popup"><h3>${esc(r.listing_title||'Airbnb '+r.airbnb)}</h3><div>${value(r.rental_type)}</div><p><b>${addressLabel}:</b> ${esc(r.address)} ${esc(r.unit)}<br><b>Host:</b> ${value(r.host_name)}<br><b>Advertised capacity:</b> ${value(r.advertised_capacity)}<br><b>Bedrooms:</b> ${value(r.bedrooms)}<br><b>Legal limit:</b> ${r.legal_limit?esc(r.legal_limit)+' (license record)':'Not established'}</p><p class="popup-status" style="border-color:${r.rental_term_note?midTermColor:colors[r.category]}">${esc(status)}${r.reported_on?' · Reported':''}${r.removed_on?' · Removed':''}</p>${capacity}${r.removed_on?`<p><b>Removed:</b> Listing reported removed from Airbnb (${esc(r.removed_on)}).</p>`:''}${r.reported_on?`<p><b>Reported:</b> ${esc(r.report_note||'Complaint submitted, per reviewer')} (${esc(r.reported_on)}).</p>`:''}<p><b>Licensing jurisdiction:</b> ${esc(r.jurisdiction)}<br>${esc(r.category==='outside_scope'?'No local license list in this audit':r.matched_permits||((r.licensed_exact_unit||r.licensed_parcel_association)?'Listed as licensed · permit number not supplied':'No matching active license record'))}</p>${r.rental_term_note?`<p><b>Rental term:</b> ${esc(r.rental_term_note)} ${button(r.rental_term_source,'Savannah STVR rules')}</p>`:''}${r.license_unit_evidence?`<p><b>Licensed unit:</b> ${esc(r.license_unit_evidence)} ${button(r.license_unit_source,r.license_unit_source_label||'Rental operator listing')}</p>`:''}${r.parcel_license_note?`<p><b>Permit scope:</b> ${esc(r.parcel_license_note)}</p>`:''}${r.licensed_parcel_association?`<p><b>License basis:</b> ${esc(r.license_match_basis)}. Presumed parcel-level coverage.</p>`:''}<p><b>Address proof:</b><br>${r.address_correction_note?esc(r.address_correction_note):'User-confirmed photo match to the Realtor property. This is the research address, not an exact address disclosed by Airbnb.'}</p><div class="popup-actions">${r.realtor_url?button(r.realtor_url,'Supporting evidence 1 — Realtor listing'):''}${r.address_proof_url?button(r.address_proof_url,'Address correction — Zillow'):''}${r.photo_match_evidence?button(r.photo_match_evidence,'Supporting evidence 2 — Photo match'):''}${button(r.airbnb_url,'View listing')}</div><div class="popup-actions secondary-actions">${button(report(),'Report address info','secondary')}${button(report(r.matched_permits||''),'Report license info','secondary')}${button(dead,'Report dead listing','secondary')}${button(complaint,'Submit a complaint','secondary')}</div>${r.rental_term_note?'':`<small>${esc(r.classification_note)}</small>`}</section>`;
 }
@@ -45,7 +45,7 @@ async function renderMap(listings){
    ?`<path d="M11 2 L20 19 H2 Z" fill="${midTermColor}" stroke="${ring}" stroke-width="2"/>`
    :`<circle cx="11" cy="11" r="8" fill="${fill}" stroke="${ring}" stroke-width="2.5"/>`;
   const slashPath=removed?'M5 5 L17 17 M17 5 L5 17':reported?'M4 4 L18 18':'';
-  const slash=slashPath?`<path d="${slashPath}" stroke="#fff" stroke-width="5"/><path d="${slashPath}" stroke="#c81724" stroke-width="3.2"/>`:'';
+  const slash=slashPath&&over<=0?`<path d="${slashPath}" stroke="#fff" stroke-width="5"/><path d="${slashPath}" stroke="#c81724" stroke-width="3.2"/>`:'';
   const marker=(triangle||reported||removed||over>0?L.marker(coords,{title:content.title,icon:L.divIcon({
    className:over>0?'over-capacity-marker':removed?'removed-marker':reported?'reported-marker':'mid-term-marker',iconSize:[22,22],iconAnchor:[11,11],
    html:`<svg viewBox="0 0 22 22" width="22" height="22" aria-hidden="true">${iconShape}${slash}</svg>`
@@ -99,7 +99,7 @@ async function renderMap(listings){
  const requestedListing=new URLSearchParams(location.search).get('airbnb');
  let requestedPin=null;
  function listingMarker(row,content,isLicensed,groupName){
-  const fill=row.license_display==='not_shown_in_saved_text'?yellow:colors[row.category];
+  const fill=isLicensed&&row.jurisdiction==='POOLER'?green:row.license_display==='not_shown_in_saved_text'?yellow:colors[row.category];
   const midTerm=Boolean(row.rental_term_note);
   const marker=point(row,group(groupName),content,isLicensed?green:midTerm?'#4a2069':colors[row.category],fill,8,midTerm);
   if(row.airbnb===requestedListing&&marker)requestedPin=marker;
@@ -180,7 +180,7 @@ async function renderMap(listings){
   const jurisdiction=row.jurisdiction==='UNINCORPORATED'?'Chatham County':row.jurisdiction;
   const isLicensed=rows.some(licensed)||Boolean(arc?.records.some(arcLicensed));
   point(row,group('License list · '+jurisdiction),{title,html:'<h3>'+esc(title)+'</h3><p>Mapped jurisdiction: '+esc(row.actual_jurisdiction||'Unknown')+'</p>'+registryInfo(rows)+arcInfo(arc)+
-   '<p>'+esc(row.match_note)+'</p>'+link('registry/index.html','License lists and CSVs')},isLicensed?green:purple,'#fff',5);
+   '<p>'+esc(row.match_note)+'</p>'+link('registry/index.html','License lists and CSVs')},isLicensed?green:purple,isLicensed&&row.jurisdiction==='POOLER'?green:'#fff',5);
  }
  for(const row of sources.county_arcgis){
   const k=key(row.street,row.unit);
@@ -241,7 +241,7 @@ async function renderMap(listings){
   const box=L.DomUtil.create('div','map-legend');
   box.innerHTML='<div><span style="background:#a3dbb1;border-color:#08713b;border-radius:2px"></span> Licensed parcel</div>'+
    '<div><span style="background:#f6e7a2;border-color:#bd9212;border-radius:2px"></span> Savannah outside STVR overlay</div>'+
-   '<div><span style="background:#c81724;border-color:#8d111b"></span> Number over combined listed capacity</div>'+
+   '<div><span style="background:#c81724;border-color:#8d111b"></span> Guests over listed capacity</div>'+
    '<div><span class="reported-legend"></span> Complaint reported</div>'+
    '<div><span class="removed-legend"></span> Listing reported removed</div>'+
    '<div><span style="border-color:'+green+'"></span> Listed as licensed</div>'+
