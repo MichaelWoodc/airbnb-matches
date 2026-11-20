@@ -38,7 +38,7 @@ async function renderMap(listings){
  const licensed=r=>['licensed','source_listed'].includes(r.license_state);
  const arcLicensed=r=>!!r.permit&&/(^|;\s*)Licensed STR($|;)/i.test(r.status);
  const green='#168047',yellow='#ffd54d',purple='#7950a5';
- const skullIcon=()=>L.divIcon({className:'removed-marker',iconSize:[22,22],iconAnchor:[11,11],html:'☠️'});
+ const skullIcon=()=>L.divIcon({className:'removed-marker',iconSize:[22,22],iconAnchor:[11,11],html:'<span style="display:block;font-size:16px;line-height:22px;text-align:center">☠️</span>'});
  function point(row,layer,content,ring,fill,radius,triangle=false){
   if(row.latitude==null||row.longitude==null||row.latitude===''||row.longitude==='')return;
   const coords=[Number(row.latitude),Number(row.longitude)];
@@ -109,7 +109,7 @@ async function renderMap(listings){
    (record.rental_type?'<br>'+esc(record.rental_type):'')+(record.bedrooms!=null?'<br>Bedrooms: '+esc(record.bedrooms):'')+
    (record.occupancy!=null?'<br>Advertised capacity: '+esc(record.occupancy):'')+
    (displayed?'<br>Displayed license numbers: '+esc(displayed):'')+'</p>'+permitContext+companyLink+(property?' · <button type="button" class="airbnb-linked-property">Open linked property</button>':'');
-  if(radius>0)L.circle(center,{radius,color:centerColor,weight:1.25,opacity:.7,fillOpacity:.07,
+  if(radius>0&&!record.removed_reason)L.circle(center,{radius,color:centerColor,weight:1.25,opacity:.7,fillOpacity:.07,
    interactive:false,renderer:centerRenderer}).addTo(layer);
   if(property)L.polyline([center,property],{color:centerColor,dashArray:'5 5',weight:2,opacity:.9,
    interactive:false,renderer:centerRenderer}).addTo(layer);
@@ -237,8 +237,9 @@ async function renderMap(listings){
   alreadyLinked.add(row.airbnb);
   const records=(registryByAddress.get(key(row.street,row.unit))||[]).filter(r=>r.jurisdiction===row.jurisdiction);
   const title='Airbnb '+row.airbnb+' · '+row.address;
-  const marker=point(row,group('Research address matches'),{title,html:popupContent({
-   ...row,listing_title:row.title,address_label:'Research address',category:'review',
+  const current={...row,removed_reason:scrapes[row.airbnb]?.removed_reason};
+  const marker=point(current,group('Research address matches'),{title,html:popupContent({
+   ...current,listing_title:row.title,address_label:'Research address',category:'review',
    airbnb_url:'https://www.airbnb.com/rooms/'+row.airbnb,
    address_correction_note:'Mapped to SAGIS parcel '+row.parcel_pin+'.'
   })+registryInfo(records)},records.some(licensed)?green:'#255b93','#c9e3ff',8);

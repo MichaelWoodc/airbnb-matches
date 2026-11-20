@@ -1,5 +1,5 @@
 {
-  "generated_unix": 1795210355.4119213,
+  "generated_unix": 1795212186.6601691,
   "source_manifest": {
     "0": {
       "url": "https://services5.arcgis.com/CEpuXecVrKGiDoOH/ArcGIS/rest/services/STR_Map_and_Parcel_WFL1/FeatureServer/0",
@@ -7327,7 +7327,7 @@
       "license_unit_evidence": "",
       "license_unit_source": "",
       "license_unit_source_label": "",
-      "removed_on": "",
+      "removed_on": "2026-11-20",
       "reported_on": "",
       "report_note": "",
       "normalized_address": "601 S SKINNER AVE",
