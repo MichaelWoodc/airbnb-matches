@@ -78,11 +78,15 @@ async function renderMap(listings){
   if(openPopup===popup)openPopup=null;
  });
  map.on('moveend',()=>{
-  if(!openPopup||fittingPopup)return;
-  const card=openPopup.getElement().getBoundingClientRect();
-  const bounds=visibleMapBounds();
-  if(card.right<=bounds.left||card.left>=bounds.right||card.bottom<=bounds.top||card.top>=bounds.bottom)
-   map.closePopup(openPopup);
+  const popup=openPopup;
+  if(!popup||fittingPopup)return;
+  requestAnimationFrame(()=>{
+   if(openPopup!==popup)return;
+   const card=popup.getElement().getBoundingClientRect();
+   const bounds=visibleMapBounds();
+   if(card.right<=bounds.left||card.left>=bounds.right||card.bottom<=bounds.top||card.top>=bounds.bottom)
+    map.closePopup(popup);
+  });
  });
  const green='#168047',yellow='#ffd54d',purple='#7950a5';
  const skullIcon=()=>L.divIcon({className:'removed-marker',iconSize:[22,22],iconAnchor:[11,11],html:'<span style="display:block;font-size:16px;line-height:22px;text-align:center">☠️</span>'});
