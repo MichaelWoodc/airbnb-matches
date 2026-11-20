@@ -65,6 +65,34 @@ async function renderMap(listings){
  const [registry,sources,boundaries,parcels,outsideOverlay]=await Promise.all(['registry/licensed_locations.json','map_sources.json','municipalities.geojson','licensed_parcels.geojson','savannah_outside_stvr_overlay.geojson'].map(async path=>{
   const response=await fetch(path);if(!response.ok)throw Error('Map source unavailable: '+path);return response.json();
  }));
+ const scrapes=sources.airbnb_scrapes?.listings||{};
+ const geometryLayer=L.layerGroup().addTo(map);
+ const scrapeLayer=L.layerGroup();
+ overlays['Airbnb centers, privacy circles and property links']=geometryLayer;
+ overlays['Latest scrape · additional Airbnb centers']=scrapeLayer;
+ const centerColor='#2269af',centerRenderer=L.canvas({padding:.25});
+ const approximateIds=new Set();
+ function geometry(aid,record,property,layer,permitContext=''){
+  if(!record?.center)return;
+  const center=record.center;
+  const radius=record.radius_meters;
+  const radiusText=radius===null?'Privacy radius unavailable':radius===0?'Airbnb marked the location as exact':'Airbnb privacy radius: '+radius+' m';
+  const companyLink=link('https://www.airbnb.com/rooms/'+aid,'Airbnb listing');
+  const displayed=(record.displayed_numbers||[]).join(', ');
+  const html='<h3>'+esc(record.title||'Airbnb '+aid)+'</h3><p>'+esc(record.center_source)+
+   '<br>'+esc(radiusText)+(property?'<br>Distance to linked property: '+Math.round(map.distance(center,property))+' m':'')+
+   (record.rental_type?'<br>'+esc(record.rental_type):'')+(record.bedrooms!=null?'<br>Bedrooms: '+esc(record.bedrooms):'')+
+   (record.occupancy!=null?'<br>Advertised capacity: '+esc(record.occupancy):'')+
+   (displayed?'<br>Displayed license numbers: '+esc(displayed):'')+'</p>'+permitContext+companyLink;
+  if(radius>0)L.circle(center,{radius,color:centerColor,weight:1.25,opacity:.7,fillOpacity:.07,
+   interactive:false,renderer:centerRenderer}).addTo(layer);
+  if(property)L.polyline([center,property],{color:centerColor,dashArray:'5 5',weight:2,opacity:.9,
+   interactive:false,renderer:centerRenderer}).addTo(layer);
+  const marker=L.circleMarker(center,{radius:4,weight:2,color:centerColor,fillColor:'#fff',fillOpacity:1,
+   renderer:centerRenderer}).bindPopup(html).addTo(layer);
+  approximateIds.add(aid);
+  return marker;
+ }
  const registryById=new Map(registry.records.map(row=>[row.source_id,row]));
  const registryByAddress=new Map(),registryByPermit=new Map();
  for(const row of registry.records){
@@ -97,6 +125,10 @@ async function renderMap(listings){
  const flagInfo=row=>row?'<p><b>Chatham County likely-unlicensed listings:</b> This Airbnb appears on the '+link(row.source_url,'source list')+'.</p>':'';
  const represented=new Set(), mergedSourceIds=new Set(), mergedListings=new Map();
  const requestedListing=new URLSearchParams(location.search).get('airbnb');
+ const propertyPoint=row=>row.latitude!==''&&row.longitude!==''&&
+  row.latitude!=null&&row.longitude!=null&&[Number(row.latitude),Number(row.longitude)].every(Number.isFinite)
+  ?[Number(row.latitude),Number(row.longitude)]:null;
+ const alreadyLinked=new Set();
  let requestedPin=null;
  function listingMarker(row,content,isLicensed,groupName){
   const fill=isLicensed&&row.jurisdiction==='POOLER'?green:row.license_display==='not_shown_in_saved_text'?yellow:colors[row.category];
@@ -130,8 +162,9 @@ async function renderMap(listings){
    ...row,license_marker_status:status,classification_note:'',
    parcel_license_note:`The permit on file covers the ${licenseRows[0].unit}.${licenseRows[0].approved_capacity?' Listed capacity: '+licenseRows[0].approved_capacity+'.':''} Coverage for this Airbnb listing is unresolved.`
   }:{...row,license_marker_status:status};
+  const displayedMatch=row.numeric_license_matches?'<p>Displayed license matched to the property record: '+esc(row.numeric_license_matches)+'</p>':'';
   const content={title:'Airbnb '+row.airbnb+' · '+row.address,
-   html:popupContent(scoped)+flagInfo(flags.get(row.airbnb))+arcInfo(arc)+registryInfo(licenseRows)};
+   html:popupContent(scoped)+displayedMatch+flagInfo(flags.get(row.airbnb))+arcInfo(arc)+registryInfo(licenseRows)};
   if(canMerge){
    licenseRows.forEach(record=>mergedSourceIds.add(record.source_id));
    const special=row.reported_on||row.removed_on||row.rental_term_note||row.advertised_over_capacity>0;
@@ -140,6 +173,10 @@ async function renderMap(listings){
    mergedListings.get(mergeKey).push({row,content,licenseRows});
   }else{
    const isLicensed=Boolean(row.licensed_exact_unit||row.licensed_parcel_association);
+   if(!row.conflicting_property_matches){
+    geometry(row.airbnb,scrapes[row.airbnb],propertyPoint(row),geometryLayer);
+    alreadyLinked.add(row.airbnb);
+   }
    listingMarker(row,content,isLicensed,row.rental_term_note?'Reported mid-term rentals':row.address_only?'Research address matches':'Photo-verified Airbnb matches');
   }
   if(row.latitude!==''&&row.longitude!=='')represented.add(row.airbnb);
@@ -149,11 +186,18 @@ async function renderMap(listings){
   const other=entries.filter(entry=>entry!==chosen).map(entry=>'<details><summary>'+esc(entry.content.title)+'</summary>'+entry.content.html+'</details>').join('');
   const mapped=chosen.licenseRows.find(r=>r.map_status==='mapped');
   const row=mapped?{...chosen.row,latitude:mapped.latitude,longitude:mapped.longitude}:chosen.row;
+  for(const entry of entries){
+   const property=entry.licenseRows.find(r=>r.map_status==='mapped')||entry.row;
+   geometry(entry.row.airbnb,scrapes[entry.row.airbnb],propertyPoint(property),geometryLayer);
+   alreadyLinked.add(entry.row.airbnb);
+  }
   listingMarker(row,{title:chosen.content.title,html:chosen.content.html+(other?'<hr><h4>Other listings at this licensed address</h4>'+other:'')},
    true,'Licensed Airbnb matches');
  }
  for(const row of sources.manual_locations||[]){
   if(represented.has(row.airbnb))continue;
+  geometry(row.airbnb,scrapes[row.airbnb],propertyPoint(row),geometryLayer);
+  alreadyLinked.add(row.airbnb);
   const records=(registryByAddress.get(key(row.street,row.unit))||[]).filter(r=>r.jurisdiction===row.jurisdiction);
   const title='Airbnb '+row.airbnb+' · '+row.address;
   const marker=point(row,group('Research address matches'),{title,html:popupContent({
@@ -162,6 +206,34 @@ async function renderMap(listings){
    address_correction_note:'Mapped to SAGIS parcel '+row.parcel_pin+'.'
   })+registryInfo(records)},records.some(licensed)?green:'#255b93','#c9e3ff',8);
   if(row.airbnb===requestedListing)requestedPin=marker;
+ }
+ const reviewedIds=new Set(listings.map(row=>row.airbnb));
+ for(const [aid,record] of Object.entries(scrapes)){
+  if(alreadyLinked.has(aid)||approximateIds.has(aid))continue;
+  const permitIds=record.pooler_permits||[];
+  const permitRows=permitIds.map(id=>registryById.get(id)).filter(Boolean);
+  if(!reviewedIds.has(aid)&&permitRows.length===1){
+   const permit=permitRows[0],property=propertyPoint(permit);
+   const title=(record.title||'Airbnb '+aid)+' · '+permit.address;
+   const permitContext='<p>Linked by displayed permit number to '+esc(permit.address)+'.</p>'+registryInfo(permitRows);
+   const centerMarker=geometry(aid,record,property,geometryLayer,permitContext);
+   const html='<h3>'+esc(title)+'</h3><p>Airbnb displayed '+esc(record.displayed_numbers.join(', '))+
+    '. Linked by permit number to the Pooler register.</p>'+registryInfo(permitRows)+
+    link('https://www.airbnb.com/rooms/'+aid,'Airbnb listing');
+   const marker=property?point(permit,group('Pooler · displayed permit matches'),{title,html},
+    licensed(permit)?green:purple,licensed(permit)?green:'#fff',7):centerMarker;
+   if(aid===requestedListing&&marker)requestedPin=marker;
+  }else if(reviewedIds.has(aid)||permitRows.length){
+   const candidateText=permitRows.length>1?'<p>Multiple Pooler permit matches need review.</p>'+registryInfo(permitRows):'';
+   const marker=geometry(aid,record,null,geometryLayer,candidateText);
+   if(aid===requestedListing&&marker&&!requestedPin)requestedPin=marker;
+  }else if(record.imported){
+   const marker=geometry(aid,record,null,scrapeLayer);
+   if(aid===requestedListing&&marker){
+    scrapeLayer.addTo(map);
+    requestedPin=marker;
+   }
+  }
  }
  const registryGroups=new Map();
  for(const row of registry.records){
@@ -251,6 +323,7 @@ async function renderMap(listings){
    '<div><span style="border-color:'+green+'"></span> Listed as licensed</div>'+
    '<div><span style="background:'+yellow+'"></span> License absent from saved Airbnb text</div>'+
    '<div><span class="mid-term-legend"></span> '+esc(midTermLabel)+'</div>'+
+   '<div><span style="background:#fff;border-color:'+centerColor+'"></span> Airbnb map center · blue circle and dashed property link where available</div>'+
    '<div><span style="background:#e1c9ff"></span> Chatham County likely-unlicensed list</div>'+
    '<details><summary>Jurisdiction colors</summary>'+Object.entries(palette).map(([name,color])=>
     '<div><span style="border-color:'+color+';background:color-mix(in srgb,'+color+' '+jurisdictionFillOpacity*100+'%,transparent);border-radius:2px"></span> '+esc(name)+'</div>').join('')+'</details>';
